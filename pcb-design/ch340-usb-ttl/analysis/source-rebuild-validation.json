@@ -1,0 +1,13 @@
+{
+  "method": "Fresh generation in isolated /tmp directory from final schematic XML, placement source, rules and current build_pcb.py, then native autoroute and DRC",
+  "source_generator_sha256": "0ac45b83ff5f9e563385f49b370d5b0344ff31f288f34f080c93aaf36d0e18f7",
+  "source_schematic_sha256": "f7e184b6b7da81b153a561caa04440ff92f284fb51682c8ced6e481b5ff195ba",
+  "native_drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "limits": "Only validates the source geometry/net-generation/routing path, not bit-identical output. Apply scripts/write_stackup.py after generation for final formal stackup; fabrication source is final delivered native PCB.",
+  "current_generator_sha256": "2f623e796c87536b9e7b37407e971a181438e9f4348bf12f3aa68e2620c073d7",
+  "post_rebuild_source_change": "Only KiCad9 3D model vector assignment fixed; independently saved native fixture confirms project-relative model path persists. Routing geometry source unchanged."
+}

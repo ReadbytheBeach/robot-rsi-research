@@ -1,0 +1,142 @@
+{
+  "analyzer_type": "spice",
+  "schema_version": "1.4.0",
+  "summary": {
+    "total": 4,
+    "total_findings": 0,
+    "pass": 3,
+    "warn": 0,
+    "fail": 0,
+    "skip": 0,
+    "info": 1,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 4
+    }
+  },
+  "findings": [],
+  "simulation_results": [
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C1"
+      ],
+      "rail": "+5V_USB",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.1,
+        "z_at_1MHz_ohms": 0.1843,
+        "z_at_100kHz_ohms": 1.5942
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.184\u03a9 at 1MHz",
+      "cir_file": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd/decoupling_C1.cir",
+      "log_file": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd/decoupling_C1.log",
+      "elapsed_s": 0.017,
+      "reference": "C1"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C2"
+      ],
+      "rail": "+5V_FUSED",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.0461,
+        "f_at_zmin_hz": 2785900.0,
+        "z_at_1MHz_ohms": 0.0547,
+        "z_at_100kHz_ohms": 0.3413
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.055\u03a9 at 1MHz",
+      "cir_file": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd/decoupling_C2.cir",
+      "log_file": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd/decoupling_C2.log",
+      "elapsed_s": 0.011,
+      "reference": "C2"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "rail": "+3V3",
+      "cap_count": 3,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.0425,
+        "f_at_zmin_hz": 3547600.0,
+        "z_at_1MHz_ohms": 0.0522,
+        "z_at_100kHz_ohms": 0.3274
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.052\u03a9 at 1MHz",
+      "cir_file": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd/decoupling_C3_C4_C5.cir",
+      "log_file": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd/decoupling_C3_C4_C5.log",
+      "elapsed_s": 0.009,
+      "reference": "C3/C4/C5"
+    },
+    {
+      "subcircuit_type": "inrush",
+      "components": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "regulator": "U2",
+      "expected": {
+        "v_target_V": 3.3,
+        "estimated_inrush_A": 0.032
+      },
+      "simulated": {
+        "i_peak_A": 0.0323,
+        "t_peak_us": 12.8,
+        "v_settled_V": 3.3
+      },
+      "delta": {
+        "v_settle_error_pct": 0.0
+      },
+      "status": "info",
+      "note": "Peak inrush 32.3mA at 13\u00b5s on the assumed soft-start; not compared against a limit",
+      "cir_file": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd/inrush_idx0.cir",
+      "log_file": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd/inrush_idx0.log",
+      "elapsed_s": 0.011,
+      "reference": "C3/C4/C5"
+    }
+  ],
+  "diagnostics": [],
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "workdir": "/workspace/pcb-design/ch340-usb-ttl/analysis/review-spice/spice_sim_r9eaf4qd",
+  "total_elapsed_s": 0.048,
+  "simulator": "/workspace/pcb-tooling/bin/ngspice",
+  "ngspice": "/workspace/pcb-tooling/bin/ngspice"
+}

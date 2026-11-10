@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "checks": {
+    "outline_mm": [
+      30.0,
+      30.0
+    ],
+    "thickness_mm": 1.0,
+    "copper_layers": 2,
+    "non_front_footprints": [],
+    "component_refs": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "D1",
+      "D2",
+      "F1",
+      "J1",
+      "J2",
+      "R1",
+      "R2",
+      "R3",
+      "TP1",
+      "TP2",
+      "TP3",
+      "TP4",
+      "U1",
+      "U2"
+    ],
+    "pin_to_pad_net_errors": [],
+    "right_angle_degree2_corners": [],
+    "excluded_terminal_junctions": [
+      {
+        "net_code": 1,
+        "layer": "F.Cu",
+        "x_mm": 70.345,
+        "y_mm": 74.675
+      },
+      {
+        "net_code": 1,
+        "layer": "F.Cu",
+        "x_mm": 69.1,
+        "y_mm": 67.075
+      },
+      {
+        "net_code": 1,
+        "layer": "F.Cu",
+        "x_mm": 59.3,
+        "y_mm": 67.375
+      },
+      {
+        "net_code": 2,
+        "layer": "F.Cu",
+        "x_mm": 53.5,
+        "y_mm": 68.175
+      },
+      {
+        "net_code": 2,
+        "layer": "F.Cu",
+        "x_mm": 55.2625,
+        "y_mm": 67.45
+      },
+      {
+        "net_code": 3,
+        "layer": "F.Cu",
+        "x_mm": 67.525,
+        "y_mm": 61.8
+      },
+      {
+        "net_code": 11,
+        "layer": "F.Cu",
+        "x_mm": 64.75,
+        "y_mm": 58.155
+      }
+    ],
+    "USB_D+_front_controlled_segment": {
+      "controlled_width_length_mm": 5.707106781186548,
+      "all_segment_length_mm": 15.34895490323255,
+      "widths_mm": [
+        0.15,
+        0.3,
+        0.75
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    "USB_D-_front_controlled_segment": {
+      "controlled_width_length_mm": 5.707106781186548,
+      "all_segment_length_mm": 16.08275245289562,
+      "widths_mm": [
+        0.15,
+        0.3,
+        0.75
+      ],
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ]
+    },
+    "J2_pinout": [
+      "+3V3",
+      "UART_TX",
+      "UART_RX",
+      "GND"
+    ],
+    "native_erc_findings": 0,
+    "native_drc_findings": 0
+  },
+  "failed_checks": [],
+  "limits": "Geometry/net consistency checks; impedance is calculated, not measured; branches and vertices inside same-net pads/via disks are terminal junctions, excluded from free-trace bend count."
+}

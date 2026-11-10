@@ -1,0 +1,342 @@
+{
+  "project": "ch340-usb-ttl",
+  "requirements": {
+    "width_mm": 30,
+    "height_mm": 30,
+    "thickness_mm": 1.0,
+    "copper_layers": 2,
+    "populated_side": "F.Cu",
+    "right_angle_tracks": false,
+    "usb_diff_ohms": 90,
+    "uart": "single 3.3V UART",
+    "connector_pinout": [
+      "3V3",
+      "TX",
+      "RX",
+      "GND"
+    ],
+    "external_3v3_budget_ma": 50
+  },
+  "root_uuid": "2ae1ca61-6ca1-4376-a81e-c5c919d4f11e",
+  "components": [
+    {
+      "ref": "J1",
+      "symbol": "Connector:USB_C_Receptacle_USB2.0_16P",
+      "value": "USB-C USB2.0",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "pins": {
+        "S1": "GND",
+        "A1": "GND",
+        "A12": "GND",
+        "B1": "GND",
+        "B12": "GND",
+        "A4": "+5V_USB",
+        "A9": "+5V_USB",
+        "B4": "+5V_USB",
+        "B9": "+5V_USB",
+        "A5": "CC1",
+        "B5": "CC2",
+        "A6": "USB_D+",
+        "B6": "USB_D+",
+        "A7": "USB_D-",
+        "B7": "USB_D-",
+        "A8": null,
+        "B8": null
+      },
+      "mpn": "USB4105-GF-A",
+      "manufacturer": "GCT",
+      "datasheet": "https://gct.co/files/drawings/usb4105.pdf",
+      "uuid": "5bed3469-af17-42f5-b475-6c2555a0c6ce",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/5bed3469-af17-42f5-b475-6c2555a0c6ce"
+    },
+    {
+      "ref": "U1",
+      "symbol": "Interface_USB:CH340C",
+      "value": "CH340C",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "pins": {
+        "1": "GND",
+        "2": "UART_TX",
+        "3": "UART_RX",
+        "4": "+3V3",
+        "5": "USB_D+",
+        "6": "USB_D-",
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": null,
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": "+3V3"
+      },
+      "mpn": "CH340C",
+      "manufacturer": "WCH",
+      "datasheet": "https://www.wch-ic.com/downloads/CH340DS1_PDF.html",
+      "uuid": "bbc5cf7f-f690-4e53-8f82-442e904610ae",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/bbc5cf7f-f690-4e53-8f82-442e904610ae"
+    },
+    {
+      "ref": "J2",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "value": "TTL 3V3 TX RX GND",
+      "footprint": "Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal",
+      "pins": {
+        "1": "+3V3",
+        "2": "UART_TX",
+        "3": "UART_RX",
+        "4": "GND"
+      },
+      "mpn": "SM04B-SURS-TF(LF)(SN)",
+      "manufacturer": "JST",
+      "datasheet": "https://www.jst-mfg.com/product/pdf/eng/eSUR.pdf",
+      "uuid": "522738bf-d5c7-427d-a9d3-9eb0869398c9",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/522738bf-d5c7-427d-a9d3-9eb0869398c9"
+    },
+    {
+      "ref": "D1",
+      "symbol": "Power_Protection:USBLC6-2SC6",
+      "value": "USBLC6-2SC6",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "pins": {
+        "1": "USB_D+",
+        "2": "GND",
+        "3": "USB_D-",
+        "4": "USB_D-",
+        "5": "+5V_USB",
+        "6": "USB_D+"
+      },
+      "mpn": "USBLC6-2SC6",
+      "manufacturer": "STMicroelectronics",
+      "datasheet": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "uuid": "78f5725d-bdbb-4389-ad4b-8fd779417ad7",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/78f5725d-bdbb-4389-ad4b-8fd779417ad7"
+    },
+    {
+      "ref": "F1",
+      "symbol": "Device:Polyfuse",
+      "value": "500mA hold",
+      "footprint": "Fuse:Fuse_1812_4532Metric",
+      "pins": {
+        "1": "+5V_USB",
+        "2": "+5V_FUSED"
+      },
+      "mpn": "MF-MSMF050-2",
+      "manufacturer": "Bourns",
+      "datasheet": "https://www.bourns.com/docs/product-datasheets/mfmsmf.pdf",
+      "uuid": "35cc5915-b737-421c-b98a-e9dd298eac83",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/35cc5915-b737-421c-b98a-e9dd298eac83"
+    },
+    {
+      "ref": "U2",
+      "symbol": "Regulator_Linear:AP2112K-3.3",
+      "value": "AP2112K-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "+5V_FUSED",
+        "2": "GND",
+        "3": "+5V_FUSED",
+        "4": null,
+        "5": "+3V3"
+      },
+      "mpn": "AP2112K-3.3TRG1",
+      "manufacturer": "Diodes Incorporated",
+      "datasheet": "https://www.diodes.com/assets/Datasheets/AP2112.pdf",
+      "uuid": "ea50398d-e707-4fd0-817e-1237e66f45a1",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/ea50398d-e707-4fd0-817e-1237e66f45a1"
+    },
+    {
+      "ref": "R1",
+      "symbol": "Device:R",
+      "value": "5.1k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CC1",
+        "2": "GND"
+      },
+      "mpn": "RC0603FR-075K1L",
+      "manufacturer": "Yageo",
+      "datasheet": "",
+      "uuid": "a7af0430-1afb-41d7-82f1-01e5ad40f3bb",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/a7af0430-1afb-41d7-82f1-01e5ad40f3bb"
+    },
+    {
+      "ref": "R2",
+      "symbol": "Device:R",
+      "value": "5.1k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CC2",
+        "2": "GND"
+      },
+      "mpn": "RC0603FR-075K1L",
+      "manufacturer": "Yageo",
+      "datasheet": "",
+      "uuid": "10e8d270-d0e1-45da-a9e5-7c7d7bfe5bab",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/10e8d270-d0e1-45da-a9e5-7c7d7bfe5bab"
+    },
+    {
+      "ref": "R3",
+      "symbol": "Device:R",
+      "value": "1k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "LED_A"
+      },
+      "mpn": "RC0603FR-071KL",
+      "manufacturer": "Yageo",
+      "datasheet": "",
+      "uuid": "1f43cca2-a2cb-460c-9e40-75787253c852",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/1f43cca2-a2cb-460c-9e40-75787253c852"
+    },
+    {
+      "ref": "D2",
+      "symbol": "Device:LED",
+      "value": "GREEN",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "LED_A"
+      },
+      "mpn": "LTST-C190KGKT",
+      "manufacturer": "Lite-On",
+      "datasheet": "",
+      "uuid": "15c7fb1e-3374-44e4-96a0-8d300c94308a",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/15c7fb1e-3374-44e4-96a0-8d300c94308a"
+    },
+    {
+      "ref": "C1",
+      "symbol": "Device:C",
+      "value": "1uF 16V",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+5V_USB",
+        "2": "GND"
+      },
+      "mpn": "C1608X7R1C105K080AC",
+      "manufacturer": "TDK",
+      "datasheet": "",
+      "uuid": "d0dab429-9c0d-4a5a-b17b-f413161c0ffe",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/d0dab429-9c0d-4a5a-b17b-f413161c0ffe"
+    },
+    {
+      "ref": "C2",
+      "symbol": "Device:C",
+      "value": "4.7uF 16V",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+5V_FUSED",
+        "2": "GND"
+      },
+      "mpn": "C1608X5R1C475K080AC",
+      "manufacturer": "TDK",
+      "datasheet": "",
+      "uuid": "d03fa1cc-c8e0-4c5d-babc-2b06164d14da",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/d03fa1cc-c8e0-4c5d-babc-2b06164d14da"
+    },
+    {
+      "ref": "C3",
+      "symbol": "Device:C",
+      "value": "4.7uF 10V",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "mpn": "C1608X5R1A475K080AC",
+      "manufacturer": "TDK",
+      "datasheet": "",
+      "uuid": "c39f5d43-d1c6-4305-963d-077fa7120b2a",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/c39f5d43-d1c6-4305-963d-077fa7120b2a"
+    },
+    {
+      "ref": "C4",
+      "symbol": "Device:C",
+      "value": "100nF 50V",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "mpn": "C1608X7R1H104K080AA",
+      "manufacturer": "TDK",
+      "datasheet": "",
+      "uuid": "50305457-499e-4837-ae99-94d637ed7bda",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/50305457-499e-4837-ae99-94d637ed7bda"
+    },
+    {
+      "ref": "C5",
+      "symbol": "Device:C",
+      "value": "100nF 50V",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "mpn": "C1608X7R1H104K080AA",
+      "manufacturer": "TDK",
+      "datasheet": "",
+      "uuid": "6c0280ea-e896-4157-a050-93b6857577b1",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/6c0280ea-e896-4157-a050-93b6857577b1"
+    },
+    {
+      "ref": "TP1",
+      "symbol": "Connector:TestPoint",
+      "value": "+3V3",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "+3V3"
+      },
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB copper",
+      "datasheet": "",
+      "uuid": "89ca7567-e109-41cc-b693-249698afdc0e",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/89ca7567-e109-41cc-b693-249698afdc0e"
+    },
+    {
+      "ref": "TP2",
+      "symbol": "Connector:TestPoint",
+      "value": "GND",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "GND"
+      },
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB copper",
+      "datasheet": "",
+      "uuid": "b288b98c-6853-4465-a89a-80204d890a47",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/b288b98c-6853-4465-a89a-80204d890a47"
+    },
+    {
+      "ref": "TP3",
+      "symbol": "Connector:TestPoint",
+      "value": "UART_TX",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "UART_TX"
+      },
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB copper",
+      "datasheet": "",
+      "uuid": "6d5df103-3a1d-4a77-92d6-db677c512df0",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/6d5df103-3a1d-4a77-92d6-db677c512df0"
+    },
+    {
+      "ref": "TP4",
+      "symbol": "Connector:TestPoint",
+      "value": "UART_RX",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "UART_RX"
+      },
+      "mpn": "PCB TEST PAD",
+      "manufacturer": "PCB copper",
+      "datasheet": "",
+      "uuid": "e05c6d81-4252-4a06-9330-08a09e9cd8eb",
+      "schematic_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e/e05c6d81-4252-4a06-9330-08a09e9cd8eb"
+    }
+  ]
+}

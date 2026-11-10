@@ -1,0 +1,223 @@
+{
+  "analyzer_type": "thermal",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "analysis/review/schematic.json",
+      "analysis/review/pcb.json"
+    ],
+    "source_hashes": {
+      "analysis/review/schematic.json": "e4e90f709d37f139a6227125b4875f832956315d75b59c741f0e732f60fff098",
+      "analysis/review/pcb.json": "f6b7a574df3cee5e1f5bb3fbceb0d42def5fa062f7b1e5075ebc5571cffb1e9a"
+    },
+    "run_id": "20261110T102010Z-511230",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "analysis/review/schematic.json",
+        "sha256": "e4e90f709d37f139a6227125b4875f832956315d75b59c741f0e732f60fff098",
+        "schema_version": "1.4.0",
+        "run_id": "20261110T102010Z-511230"
+      },
+      "pcb": {
+        "path": "analysis/review/pcb.json",
+        "sha256": "f6b7a574df3cee5e1f5bb3fbceb0d42def5fa062f7b1e5075ebc5571cffb1e9a",
+        "schema_version": "1.4.0",
+        "run_id": "20261110T102010Z-511230"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "diagnostics": [],
+  "summary": {
+    "total_findings": 2,
+    "components_assessed": 1,
+    "components_skipped": 0,
+    "active": 2,
+    "suppressed": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 2
+    },
+    "thermal_score": 100,
+    "total_board_dissipation_w": 0.083,
+    "hottest_component": {
+      "ref": "U2",
+      "tj_estimated_c": 70.8
+    },
+    "components_analyzed": 1,
+    "components_above_85c": 0,
+    "components_above_tjmax": 0,
+    "ambient_c": 50.0
+  },
+  "findings": [
+    {
+      "category": "thermal_proximity",
+      "severity": "info",
+      "rule_id": "TP-001",
+      "confidence": "deterministic",
+      "title": "MLCC C2 is 3.1mm from U2 (AP2112K-3.3) (Tj=71\u00b0C)",
+      "description": "Ceramic capacitors lose effective capacitance at elevated temperatures. X7R loses ~15% at 85\u00b0C, X5R loses ~30%.",
+      "components": [
+        "C2",
+        "U2"
+      ],
+      "recommendation": "Verify capacitor maintains adequate capacitance at the elevated temperature, or use C0G/NP0 dielectric for temperature-critical applications.",
+      "detector": "analyze_thermal",
+      "summary": "MLCC C2 is 3.1mm from U2 (AP2112K-3.3) (Tj=71\u00b0C)",
+      "nets": [],
+      "pins": [],
+      "evidence_source": "geometry",
+      "report_context": {
+        "section": "Thermal Proximity",
+        "impact": "Component reliability",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "thermal:TP-001:c2"
+    },
+    {
+      "category": "thermal_proximity",
+      "severity": "info",
+      "rule_id": "TP-001",
+      "confidence": "deterministic",
+      "title": "MLCC C3 is 3.4mm from U2 (AP2112K-3.3) (Tj=71\u00b0C)",
+      "description": "Ceramic capacitors lose effective capacitance at elevated temperatures. X7R loses ~15% at 85\u00b0C, X5R loses ~30%.",
+      "components": [
+        "C3",
+        "U2"
+      ],
+      "recommendation": "Verify capacitor maintains adequate capacitance at the elevated temperature, or use C0G/NP0 dielectric for temperature-critical applications.",
+      "detector": "analyze_thermal",
+      "summary": "MLCC C3 is 3.4mm from U2 (AP2112K-3.3) (Tj=71\u00b0C)",
+      "nets": [],
+      "pins": [],
+      "evidence_source": "geometry",
+      "report_context": {
+        "section": "Thermal Proximity",
+        "impact": "Component reliability",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "thermal:TP-001:c3"
+    }
+  ],
+  "assessments": [
+    {
+      "ref": "U2",
+      "value": "AP2112K-3.3",
+      "component_type": "ldo",
+      "pdiss_w": 0.083,
+      "pdiss_source": "(5.0V - 3.3V) \u00d7 0.049A",
+      "pdiss_confidence": "heuristic",
+      "package": "SOT-23",
+      "rtheta_ja_raw": 250.0,
+      "rtheta_ja_source": "package_table",
+      "pcb_correction": 1.0,
+      "pcb_correction_notes": [],
+      "rtheta_ja_effective": 250.0,
+      "ambient_c": 50.0,
+      "tj_estimated_c": 70.8,
+      "tj_max_c": 125.0,
+      "tj_max_source": "default_125",
+      "margin_c": 54.2,
+      "position": {
+        "x": 56.4,
+        "y": 68.4
+      },
+      "detector": "analyze_thermal",
+      "rule_id": "TH-DET",
+      "category": "thermal",
+      "severity": "info",
+      "confidence": "heuristic",
+      "evidence_source": "heuristic_rule",
+      "summary": "Thermal: U2 Tj=70.8C (margin 54.2C)",
+      "description": "Component U2 in SOT-23 package: Tj=70.8C, margin 54.2C to Tj_max (125.0C).",
+      "components": [
+        "U2"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Thermal",
+        "impact": "",
+        "standard_ref": ""
+      }
+    }
+  ],
+  "elapsed_s": 0.0,
+  "missing_info": {
+    "default_rtheta_ja": [],
+    "default_tj_max": [
+      "U2"
+    ]
+  },
+  "trust_summary": {
+    "total_findings": 2,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 2,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 2,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 2,
+      "by_severity": {
+        "error": 0,
+        "warning": 0,
+        "info": 2
+      },
+      "by_category": {
+        "thermal_proximity": 2
+      },
+      "top_issues": []
+    },
+    "reviewer": {
+      "total_findings": 0,
+      "by_category": {},
+      "top_issues": []
+    },
+    "manager": {
+      "risk_level": "none",
+      "blocker_count": 0,
+      "warning_count": 0,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "pass",
+        "pre_fab": "pass",
+        "bring_up": "pass"
+      },
+      "one_liner": "No errors or warnings \u2014 all stages ready."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261110T102010Z-511230"
+  }
+}

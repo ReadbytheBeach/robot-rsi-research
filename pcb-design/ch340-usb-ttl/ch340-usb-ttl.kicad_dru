@@ -1,0 +1,4 @@
+(version 1)
+(rule "USB neck and nominal coupled width"
+  (condition "A.NetClass == 'USB'")
+  (constraint track_width (min 0.15mm) (opt 0.75mm)))

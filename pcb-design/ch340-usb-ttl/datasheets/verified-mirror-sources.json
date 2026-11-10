@@ -1,0 +1,16 @@
+[
+  {
+    "file": "AP2112.pdf",
+    "source": "https://raw.githubusercontent.com/conol-ai/openmicrokbd/4bf5b014fef3102a13c4a204820f92d37f9ede8e/hw/v1/docs/ap2112k.pdf",
+    "mirror": "conol-ai/openmicrokbd, manufacturer PDF content",
+    "sha256": "ef8d376f2ec356e29172eb9e053819a0ebdcc576dba7fc9ab0505c568427920f",
+    "original_mirror_filename": "ap2112k.pdf"
+  },
+  {
+    "file": "USBLC6-2.pdf",
+    "source": "https://raw.githubusercontent.com/conol-ai/openmicrokbd/4bf5b014fef3102a13c4a204820f92d37f9ede8e/hw/v1/docs/usblc6-2sc6.pdf",
+    "mirror": "conol-ai/openmicrokbd, manufacturer PDF content",
+    "sha256": "bc30154f310cd631043214ed52571daefe04270587ec55072d49a23bd18b9068",
+    "original_mirror_filename": "usblc6-2sc6.pdf"
+  }
+]

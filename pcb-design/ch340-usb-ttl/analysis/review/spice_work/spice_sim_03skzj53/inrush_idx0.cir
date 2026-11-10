@@ -1,0 +1,27 @@
+* Auto-generated testbench for inrush analysis: U2 (LDO)
+* Output: 3.3V, 4.9µF total capacitance
+* Soft-start: 0.5ms ramp
+
+* Voltage source with linear ramp (soft-start) — 10us delay before ramp
+Vreg ramp 0 PWL(0 0 10u 0 510u 3.3)
+* Regulator output impedance; 0 V source in series measures the current
+Rout ramp sense 100m
+Vsense sense out DC 0
+
+* Output capacitors
+C3 out 0 4.7u
+C4 out 0 100n
+C5 out 0 100n
+
+.control
+tran 1u 1.5m
+let i_out = abs(i(Vsense))
+let i_peak = vecmax(i_out)
+let i_tgt = i_peak * 0.999
+meas tran t_peak when i_out=i_tgt rise=1
+meas tran v_settled find v(out) at=1.35m
+echo "i_peak=$&i_peak t_peak=$&t_peak v_settled=$&v_settled v_target=3.3 r_out=0.1" > inrush_idx0.out
+quit
+.endc
+
+.end

@@ -1,0 +1,9 @@
+{
+  "credential_presence": {
+    "DIGIKEY_CLIENT_ID": false,
+    "DIGIKEY_CLIENT_SECRET": false,
+    "MOUSER_SEARCH_API_KEY": false,
+    "ELEMENT14_API_KEY": false
+  },
+  "lcsc_connectivity": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+}

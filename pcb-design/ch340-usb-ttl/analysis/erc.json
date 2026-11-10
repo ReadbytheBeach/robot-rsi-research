@@ -1,0 +1,14 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-10T10:16:57+0000",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2ae1ca61-6ca1-4376-a81e-c5c919d4f11e",
+            "violations": []
+        }
+    ],
+    "source": "ch340-usb-ttl.kicad_sch"
+}

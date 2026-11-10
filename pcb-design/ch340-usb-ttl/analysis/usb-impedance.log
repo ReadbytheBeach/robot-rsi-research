@@ -1,0 +1,69 @@
+{
+  "model": "KiCad9 Kirschning/Jansen static coupled microstrip; finite copper",
+  "source_commit": "ce707d0a6c8736cbf4689560be4fee3d6a7f7f5e",
+  "sources": [
+    "https://github.com/KiCad/kicad-source-mirror/blob/ce707d0a6c8736cbf4689560be4fee3d6a7f7f5e/pcb_calculator/transline/c_microstrip.cpp",
+    "https://github.com/KiCad/kicad-source-mirror/blob/ce707d0a6c8736cbf4689560be4fee3d6a7f7f5e/pcb_calculator/transline/microstrip.cpp"
+  ],
+  "inputs_mm_except_er": {
+    "width": 0.75,
+    "gap": 0.15,
+    "height": 0.91,
+    "copper": 0.035,
+    "er": 4.2
+  },
+  "estimated_differential_ohms": 89.859112622973,
+  "target_ohms": 90,
+  "solved_width_mm": 0.746177346387165,
+  "centre_spacing_mm": 0.9,
+  "self_test": "passed",
+  "one_parameter_sensitivity_only": [
+    {
+      "changed_parameter": "er",
+      "value": 3.8,
+      "estimated_ohms": 93.53770384224109
+    },
+    {
+      "changed_parameter": "er",
+      "value": 4.6,
+      "estimated_ohms": 86.58136987169789
+    },
+    {
+      "changed_parameter": "height",
+      "value": 0.88,
+      "estimated_ohms": 89.5421754645977
+    },
+    {
+      "changed_parameter": "height",
+      "value": 0.98,
+      "estimated_ohms": 90.4990359319497
+    },
+    {
+      "changed_parameter": "width",
+      "value": 0.7,
+      "estimated_ohms": 91.76010572750587
+    },
+    {
+      "changed_parameter": "width",
+      "value": 0.8,
+      "estimated_ohms": 88.07828763893201
+    },
+    {
+      "changed_parameter": "gap",
+      "value": 0.125,
+      "estimated_ohms": 86.37033133901438
+    },
+    {
+      "changed_parameter": "gap",
+      "value": 0.175,
+      "estimated_ohms": 92.96806596085926
+    }
+  ],
+  "limitations": [
+    "No soldermask or coplanar side ground model",
+    "Infinite unbroken bottom ground plane assumed",
+    "No pad/connector/neckdown, roughness or dispersion model",
+    "Not measured, field-solved or fabrication-certified impedance"
+  ],
+  "fabrication_requirement": "90 ohm differential controlled impedance, nominal tolerance +/-10%; fabricator must confirm actual stack and geometry before production"
+}

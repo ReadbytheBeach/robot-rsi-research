@@ -1,0 +1,29 @@
+* Auto-generated testbench for decoupling analysis: +3V3 rail
+* 3 capacitor(s) in parallel, series R-L-C model
+* Model: ESR/ESL from pdn_impedance (package-based)
+
+R_esr_C3 rail n_esr_0 46.1m
+L_par_C3 n_esr_0 n_lpar_0 700p
+C3 n_lpar_0 0 4.7u
+R_esr_C4 rail n_esr_1 316.2m
+L_par_C4 n_esr_1 n_lpar_1 700p
+C4 n_lpar_1 0 100n
+R_esr_C5 rail n_esr_2 316.2m
+L_par_C5 n_esr_2 n_lpar_2 700p
+C5 n_lpar_2 0 100n
+
+* 1A AC current source into the rail node — V(rail) = Z(f)
+IAC 0 rail DC 0 AC 1
+
+.control
+ac dec 200 100 100Meg
+let z_mag = vm(rail)
+meas ac z_min min z_mag
+meas ac f_at_zmin when z_mag=z_min
+meas ac z_at_1M find vm(rail) at=1Meg
+meas ac z_at_100k find vm(rail) at=100k
+echo "z_min=$&z_min f_at_zmin=$&f_at_zmin z_at_1M=$&z_at_1M z_at_100k=$&z_at_100k n_caps=3" > decoupling_C3_C4_C5.out
+quit
+.endc
+
+.end

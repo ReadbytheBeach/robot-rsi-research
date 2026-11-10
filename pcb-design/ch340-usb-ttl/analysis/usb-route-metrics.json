@@ -1,0 +1,65 @@
+{
+  "units": "mm",
+  "constant_coupled_geometry": {
+    "width": 0.75,
+    "edge_gap": 0.15,
+    "center_spacing": 0.9,
+    "uniform_length_each_net": 5.0,
+    "start_board_local_y": 13.3,
+    "end_board_local_y": 18.3,
+    "estimated_ohms": 89.859,
+    "core_mm": 0.91,
+    "note": "Uniform microstrip estimate; connector, ESD, and pad transitions excluded."
+  },
+  "nets": {
+    "USB_D+": {
+      "all_surface_segment_length_including_branches": 15.34895490323255,
+      "length_by_width": {
+        "0.75": 5.707106781186548,
+        "0.3": 4.839129509039022,
+        "0.15": 4.802718613006979
+      }
+    },
+    "USB_D-": {
+      "all_surface_segment_length_including_branches": 16.08275245289562,
+      "length_by_width": {
+        "0.15": 5.53651616267005,
+        "0.75": 5.707106781186548,
+        "0.3": 4.839129509039022
+      }
+    }
+  },
+  "contact_paths": {
+    "A": {
+      "USB_D+": {
+        "contact": "A6",
+        "controller_pin": "5",
+        "surface_path_mm": 12.790426765808691,
+        "path_with_1mm_via_barrels_mm": 12.790426765808691
+      },
+      "USB_D-": {
+        "contact": "A7",
+        "controller_pin": "6",
+        "surface_path_mm": 13.15845267080901,
+        "path_with_1mm_via_barrels_mm": 13.15845267080901
+      },
+      "surface_skew_mm": 0.3680259050003194
+    },
+    "B": {
+      "USB_D+": {
+        "contact": "B6",
+        "controller_pin": "5",
+        "surface_path_mm": 15.348954903232551,
+        "path_with_1mm_via_barrels_mm": 15.348954903232551
+      },
+      "USB_D-": {
+        "contact": "B7",
+        "controller_pin": "6",
+        "surface_path_mm": 15.28275245289562,
+        "path_with_1mm_via_barrels_mm": 17.28275245289562
+      },
+      "surface_skew_mm": 0.06620245033693095
+    }
+  },
+  "limits": "Geometric conductor paths at pad centers, includes copper under ESD; no IC internal delay/model. All-net sum includes redundant Type-C branches and is not a unique propagation path."
+}

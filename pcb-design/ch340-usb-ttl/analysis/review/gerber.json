@@ -1,0 +1,1102 @@
+{
+  "analyzer_type": "gerber",
+  "schema_version": "1.4.0",
+  "directory": "analysis/review/fabrication-input",
+  "generator": "Pcbnew 9.0.2+dfsg-1",
+  "layer_count": 2,
+  "board_dimensions": {
+    "width_mm": 30.05,
+    "height_mm": 30.05,
+    "area_mm2": 903.0,
+    "source": "gbrjob"
+  },
+  "statistics": {
+    "gerber_files": 7,
+    "drill_files": 2,
+    "total_holes": 44,
+    "total_flashes": 315,
+    "total_draws": 3092
+  },
+  "completeness": {
+    "found_layers": [
+      "B.Cu",
+      "B.Mask",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.Paste",
+      "F.SilkS"
+    ],
+    "expected_layers": [
+      "B.Cu",
+      "B.Mask",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.Paste",
+      "F.SilkS"
+    ],
+    "missing": [],
+    "extra": [],
+    "has_pth_drill": true,
+    "has_npth_drill": true,
+    "complete": true,
+    "source": "gbrjob"
+  },
+  "alignment": {
+    "aligned": true,
+    "issues": [],
+    "layer_extents": {
+      "B.Cu": {
+        "width": 29.4,
+        "height": 29.4
+      },
+      "B.Mask": {
+        "width": 8.64,
+        "height": 4.18
+      },
+      "Edge.Cuts": {
+        "width": 30.0,
+        "height": 30.0
+      },
+      "F.Cu": {
+        "width": 29.4,
+        "height": 29.4
+      },
+      "F.Mask": {
+        "width": 24.1,
+        "height": 25.6
+      },
+      "F.Paste": {
+        "width": 20.575,
+        "height": 25.6
+      },
+      "F.SilkS": {
+        "width": 25.543,
+        "height": 27.3
+      },
+      "drill_NPTH": {
+        "width": 5.78,
+        "height": 0.0
+      },
+      "drill_PTH": {
+        "width": 27.0,
+        "height": 27.0
+      }
+    }
+  },
+  "drill_classification": {
+    "vias": {
+      "count": 38,
+      "tools": [
+        {
+          "diameter_mm": 0.25,
+          "count": 8
+        },
+        {
+          "diameter_mm": 0.3,
+          "count": 30
+        }
+      ]
+    },
+    "component_holes": {
+      "count": 6,
+      "tools": [
+        {
+          "diameter_mm": 0.6,
+          "count": 4
+        },
+        {
+          "diameter_mm": 0.65,
+          "count": 2,
+          "type": "NPTH"
+        }
+      ]
+    },
+    "mounting_holes": {
+      "count": 0,
+      "tools": []
+    },
+    "classification_method": "x2_attributes"
+  },
+  "pad_summary": {
+    "smd_apertures": 73,
+    "via_apertures": 76,
+    "heatsink_apertures": 8,
+    "tht_holes": 6,
+    "smd_source": "x2_aperture_function",
+    "smd_ratio": 0.92
+  },
+  "trace_widths": {
+    "unique_widths_mm": [
+      0.15,
+      0.2,
+      0.3,
+      0.4,
+      0.75
+    ],
+    "min_trace_mm": 0.15,
+    "max_trace_mm": 0.75,
+    "width_count": 5,
+    "min_feature_mm": 0.15
+  },
+  "component_analysis": {
+    "total_unique": 19,
+    "front_side": 19,
+    "back_side": 0,
+    "component_refs": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "D1",
+      "D2",
+      "F1",
+      "J1",
+      "J2",
+      "R1",
+      "R2",
+      "R3",
+      "TP1",
+      "TP2",
+      "TP3",
+      "TP4",
+      "U1",
+      "U2"
+    ],
+    "has_x2_data": true,
+    "pads_per_component": {
+      "C1": 2,
+      "C2": 2,
+      "C3": 2,
+      "C4": 2,
+      "C5": 2,
+      "D1": 6,
+      "D2": 2,
+      "F1": 2,
+      "J1": 22,
+      "J2": 6,
+      "R1": 2,
+      "R2": 2,
+      "R3": 2,
+      "TP1": 1,
+      "TP2": 1,
+      "TP3": 1,
+      "TP4": 1,
+      "U1": 16,
+      "U2": 5
+    },
+    "total_pads": 79
+  },
+  "net_analysis": {
+    "total_unique": 24,
+    "named_nets": 12,
+    "unnamed_nets": 12,
+    "power_nets": [],
+    "signal_nets": [
+      "/+3V3",
+      "/+5V_FUSED",
+      "/+5V_USB",
+      "/CC1",
+      "/CC2",
+      "/GND",
+      "/LED_A",
+      "/UART_RX",
+      "/UART_TX",
+      "/USB_D+",
+      "/USB_D-",
+      "N/C"
+    ],
+    "total_pins": 73
+  },
+  "gerbers": [
+    {
+      "filename": "ch340-usb-ttl-B_Cu.gbl",
+      "layer_type": "B.Cu",
+      "units": "mm",
+      "aperture_count": 8,
+      "flash_count": 42,
+      "draw_count": 538,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,9.0.2+dfsg-1",
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "ProjectId": "ch340-usb-ttl,63683334-302d-4757-9362-2d74746c2e6b,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L2,Bot",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "HeatsinkPad": 2,
+          "ViaPad": 2,
+          "Conductor": 4
+        },
+        "by_function_flashes": {
+          "HeatsinkPad": 4,
+          "ViaPad": 38,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.15,
+          0.2,
+          0.3,
+          0.4
+        ],
+        "min_feature_mm": 0.15
+      },
+      "x2_component_count": 1,
+      "x2_net_count": 5,
+      "x2_pin_count": 1
+    },
+    {
+      "filename": "ch340-usb-ttl-B_Mask.gbs",
+      "layer_type": "B.Mask",
+      "units": "mm",
+      "aperture_count": 3,
+      "flash_count": 6,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,9.0.2+dfsg-1",
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "ProjectId": "ch340-usb-ttl,63683334-302d-4757-9362-2d74746c2e6b,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Bot",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.65
+      },
+      "x2_component_count": 1,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "ch340-usb-ttl-Edge_Cuts.gm1",
+      "layer_type": "Edge.Cuts",
+      "units": "mm",
+      "aperture_count": 1,
+      "flash_count": 0,
+      "draw_count": 4,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,9.0.2+dfsg-1",
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "ProjectId": "ch340-usb-ttl,63683334-302d-4757-9362-2d74746c2e6b,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Profile,NP"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "Profile": 1
+        },
+        "by_function_flashes": {
+          "Profile": 0
+        },
+        "min_feature_mm": 0.05
+      }
+    },
+    {
+      "filename": "ch340-usb-ttl-F_Cu.gtl",
+      "layer_type": "F.Cu",
+      "units": "mm",
+      "aperture_count": 23,
+      "flash_count": 115,
+      "draw_count": 1838,
+      "region_count": 3,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,9.0.2+dfsg-1",
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "ProjectId": "ch340-usb-ttl,63683334-302d-4757-9362-2d74746c2e6b,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L1,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "SMDPad": 14,
+          "HeatsinkPad": 2,
+          "ViaPad": 2,
+          "Conductor": 5
+        },
+        "by_function_flashes": {
+          "SMDPad": 73,
+          "HeatsinkPad": 4,
+          "ViaPad": 38,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.15,
+          0.2,
+          0.3,
+          0.4,
+          0.75
+        ],
+        "min_feature_mm": 0.15
+      },
+      "x2_component_count": 19,
+      "x2_net_count": 24,
+      "x2_pin_count": 73
+    },
+    {
+      "filename": "ch340-usb-ttl-F_Mask.gts",
+      "layer_type": "F.Mask",
+      "units": "mm",
+      "aperture_count": 17,
+      "flash_count": 79,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,9.0.2+dfsg-1",
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "ProjectId": "ch340-usb-ttl,63683334-302d-4757-9362-2d74746c2e6b,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Top",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.15
+      },
+      "x2_component_count": 19,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "ch340-usb-ttl-F_Paste.gtp",
+      "layer_type": "F.Paste",
+      "units": "mm",
+      "aperture_count": 15,
+      "flash_count": 73,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,9.0.2+dfsg-1",
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "ProjectId": "ch340-usb-ttl,63683334-302d-4757-9362-2d74746c2e6b,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Paste,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.15
+      },
+      "x2_component_count": 15,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "ch340-usb-ttl-F_Silkscreen.gto",
+      "layer_type": "F.SilkS",
+      "units": "mm",
+      "aperture_count": 1,
+      "flash_count": 0,
+      "draw_count": 712,
+      "region_count": 3,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,9.0.2+dfsg-1",
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "ProjectId": "ch340-usb-ttl,63683334-302d-4757-9362-2d74746c2e6b,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.12
+      },
+      "x2_component_count": 19,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    }
+  ],
+  "drills": [
+    {
+      "filename": "ch340-usb-ttl-NPTH.drl",
+      "type": "NPTH",
+      "units": "mm",
+      "hole_count": 2,
+      "tools": {
+        "T1": {
+          "diameter_mm": 0.65,
+          "hole_count": 2,
+          "aper_function": "NonPlated,NPTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        2
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "GenerationSoftware": "Kicad,Pcbnew,9.0.2+dfsg-1",
+        "FileFunction": "NonPlated,1,2,NPTH"
+      }
+    },
+    {
+      "filename": "ch340-usb-ttl-PTH.drl",
+      "type": "PTH",
+      "units": "mm",
+      "hole_count": 42,
+      "tools": {
+        "T1": {
+          "diameter_mm": 0.25,
+          "hole_count": 8,
+          "aper_function": "Plated,PTH,ViaDrill"
+        },
+        "T2": {
+          "diameter_mm": 0.3,
+          "hole_count": 30,
+          "aper_function": "Plated,PTH,ViaDrill"
+        },
+        "T3": {
+          "diameter_mm": 0.6,
+          "hole_count": 4,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        2
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-11-10T10:35:43+00:00",
+        "GenerationSoftware": "Kicad,Pcbnew,9.0.2+dfsg-1",
+        "FileFunction": "Plated,1,2,PTH"
+      }
+    }
+  ],
+  "drill_tools": {
+    "0.65mm": {
+      "diameter_mm": 0.65,
+      "count": 2,
+      "type": "NPTH"
+    },
+    "0.25mm": {
+      "diameter_mm": 0.25,
+      "count": 8,
+      "type": "PTH"
+    },
+    "0.3mm": {
+      "diameter_mm": 0.3,
+      "count": 30,
+      "type": "PTH"
+    },
+    "0.6mm": {
+      "diameter_mm": 0.6,
+      "count": 4,
+      "type": "PTH"
+    }
+  },
+  "job_file": {
+    "generator": "Pcbnew 9.0.2+dfsg-1",
+    "vendor": "KiCad",
+    "creation_date": "2026-11-10T10:35:43+00:00",
+    "board_width_mm": 30.05,
+    "board_height_mm": 30.05,
+    "layer_count": 2,
+    "board_thickness_mm": 1.0,
+    "finish": "ENIG",
+    "project_name": "ch340-usb-ttl",
+    "design_rules": [
+      {
+        "layers": "Outer",
+        "PadToPad": 0.15,
+        "PadToTrack": 0.15,
+        "TrackToTrack": 0.15,
+        "MinLineWidth": 0.15,
+        "TrackToRegion": 0.2,
+        "RegionToRegion": 0.2
+      }
+    ],
+    "expected_files": [
+      {
+        "path": "ch340-usb-ttl-F_Cu.gtl",
+        "function": "Copper,L1,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "ch340-usb-ttl-B_Cu.gbl",
+        "function": "Copper,L2,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "ch340-usb-ttl-F_Paste.gtp",
+        "function": "SolderPaste,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "ch340-usb-ttl-F_Silkscreen.gto",
+        "function": "Legend,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "ch340-usb-ttl-F_Mask.gts",
+        "function": "SolderMask,Top",
+        "polarity": "Negative"
+      },
+      {
+        "path": "ch340-usb-ttl-B_Mask.gbs",
+        "function": "SolderMask,Bot",
+        "polarity": "Negative"
+      },
+      {
+        "path": "ch340-usb-ttl-Edge_Cuts.gm1",
+        "function": "Profile",
+        "polarity": "Positive"
+      }
+    ],
+    "stackup": [
+      {
+        "type": "Legend",
+        "name": "Top Silk Screen"
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Top Solder Paste"
+      },
+      {
+        "type": "SolderMask",
+        "name": "Top Solder Mask",
+        "thickness_mm": 0.01
+      },
+      {
+        "type": "Copper",
+        "name": "F.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "Dielectric",
+        "name": "F.Cu/B.Cu",
+        "thickness_mm": 0.91,
+        "material": "FR4"
+      },
+      {
+        "type": "Copper",
+        "name": "B.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "SolderMask",
+        "name": "Bottom Solder Mask",
+        "thickness_mm": 0.01
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Bottom Solder Paste"
+      },
+      {
+        "type": "Legend",
+        "name": "Bottom Silk Screen"
+      }
+    ]
+  },
+  "findings": [],
+  "assessments": [],
+  "summary": {
+    "total_findings": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "connectivity": [
+    {
+      "ref": "C1",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+5V_USB"
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+5V_FUSED"
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+3V3"
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "C4",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+3V3"
+    },
+    {
+      "ref": "C4",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "C5",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+3V3"
+    },
+    {
+      "ref": "C5",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/USB_D+"
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "D1",
+      "pin": "3",
+      "pin_name": "",
+      "net": "/USB_D-"
+    },
+    {
+      "ref": "D1",
+      "pin": "4",
+      "pin_name": "",
+      "net": "/USB_D-"
+    },
+    {
+      "ref": "D1",
+      "pin": "5",
+      "pin_name": "",
+      "net": "/+5V_USB"
+    },
+    {
+      "ref": "D1",
+      "pin": "6",
+      "pin_name": "",
+      "net": "/USB_D+"
+    },
+    {
+      "ref": "D2",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "D2",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/LED_A"
+    },
+    {
+      "ref": "F1",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+5V_USB"
+    },
+    {
+      "ref": "F1",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/+5V_FUSED"
+    },
+    {
+      "ref": "J1",
+      "pin": "A1",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "J1",
+      "pin": "A12",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "J1",
+      "pin": "A4",
+      "pin_name": "",
+      "net": "/+5V_USB"
+    },
+    {
+      "ref": "J1",
+      "pin": "A5",
+      "pin_name": "",
+      "net": "/CC1"
+    },
+    {
+      "ref": "J1",
+      "pin": "A6",
+      "pin_name": "",
+      "net": "/USB_D+"
+    },
+    {
+      "ref": "J1",
+      "pin": "A7",
+      "pin_name": "",
+      "net": "/USB_D-"
+    },
+    {
+      "ref": "J1",
+      "pin": "A8",
+      "pin_name": "",
+      "net": "unconnected-(J1-SBU1-PadA8)"
+    },
+    {
+      "ref": "J1",
+      "pin": "A9",
+      "pin_name": "",
+      "net": "/+5V_USB"
+    },
+    {
+      "ref": "J1",
+      "pin": "B1",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "J1",
+      "pin": "B12",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "J1",
+      "pin": "B4",
+      "pin_name": "",
+      "net": "/+5V_USB"
+    },
+    {
+      "ref": "J1",
+      "pin": "B5",
+      "pin_name": "",
+      "net": "/CC2"
+    },
+    {
+      "ref": "J1",
+      "pin": "B6",
+      "pin_name": "",
+      "net": "/USB_D+"
+    },
+    {
+      "ref": "J1",
+      "pin": "B7",
+      "pin_name": "",
+      "net": "/USB_D-"
+    },
+    {
+      "ref": "J1",
+      "pin": "B8",
+      "pin_name": "",
+      "net": "unconnected-(J1-SBU2-PadB8)"
+    },
+    {
+      "ref": "J1",
+      "pin": "B9",
+      "pin_name": "",
+      "net": "/+5V_USB"
+    },
+    {
+      "ref": "J1",
+      "pin": "S1",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+3V3"
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/UART_TX"
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "pin_name": "",
+      "net": "/UART_RX"
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "J2",
+      "pin": "MP",
+      "pin_name": "",
+      "net": "N/C"
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/CC1"
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/CC2"
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+3V3"
+    },
+    {
+      "ref": "R3",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/LED_A"
+    },
+    {
+      "ref": "TP1",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+3V3"
+    },
+    {
+      "ref": "TP2",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "TP3",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/UART_TX"
+    },
+    {
+      "ref": "TP4",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/UART_RX"
+    },
+    {
+      "ref": "U1",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "pin_name": "",
+      "net": "unconnected-(U1-~{DSR}-Pad10)"
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "pin_name": "",
+      "net": "unconnected-(U1-~{RI}-Pad11)"
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "pin_name": "",
+      "net": "unconnected-(U1-~{DCD}-Pad12)"
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "pin_name": "",
+      "net": "unconnected-(U1-~{DTR}-Pad13)"
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "pin_name": "",
+      "net": "unconnected-(U1-~{RTS}-Pad14)"
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "pin_name": "",
+      "net": "unconnected-(U1-R232-Pad15)"
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "pin_name": "",
+      "net": "/+3V3"
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/UART_TX"
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "pin_name": "",
+      "net": "/UART_RX"
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "pin_name": "",
+      "net": "/+3V3"
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "pin_name": "",
+      "net": "/USB_D+"
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "pin_name": "",
+      "net": "/USB_D-"
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "pin_name": "",
+      "net": "unconnected-(U1-NC-Pad7)"
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "pin_name": "",
+      "net": "unconnected-(U1-~{OUT}-Pad8)"
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "pin_name": "",
+      "net": "unconnected-(U1-~{CTS}-Pad9)"
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "pin_name": "",
+      "net": "/+5V_FUSED"
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "pin_name": "",
+      "net": "/GND"
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "pin_name": "",
+      "net": "/+5V_FUSED"
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "pin_name": "",
+      "net": "unconnected-(U2-NC-Pad4)"
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "pin_name": "",
+      "net": "/+3V3"
+    }
+  ],
+  "inputs": {
+    "source_files": [
+      "analysis/review/fabrication-input/ch340-usb-ttl-B_Cu.gbl",
+      "analysis/review/fabrication-input/ch340-usb-ttl-B_Mask.gbs",
+      "analysis/review/fabrication-input/ch340-usb-ttl-Edge_Cuts.gm1",
+      "analysis/review/fabrication-input/ch340-usb-ttl-F_Cu.gtl",
+      "analysis/review/fabrication-input/ch340-usb-ttl-F_Mask.gts",
+      "analysis/review/fabrication-input/ch340-usb-ttl-F_Paste.gtp",
+      "analysis/review/fabrication-input/ch340-usb-ttl-F_Silkscreen.gto",
+      "analysis/review/fabrication-input/ch340-usb-ttl-NPTH.drl",
+      "analysis/review/fabrication-input/ch340-usb-ttl-PTH.drl",
+      "analysis/review/fabrication-input/ch340-usb-ttl-job.gbrjob"
+    ],
+    "source_hashes": {
+      "analysis/review/fabrication-input/ch340-usb-ttl-B_Cu.gbl": "77214a6530c22e7f1017baec11d4351bf669abb0988ee9766b75f9bf6a771e67",
+      "analysis/review/fabrication-input/ch340-usb-ttl-B_Mask.gbs": "7082214a2d9a41efc0457a52b27d886394ab773c11a466fa50c9764fd6106d97",
+      "analysis/review/fabrication-input/ch340-usb-ttl-Edge_Cuts.gm1": "e8d632322ebbb505af5c5c5b833250957d33eee42ff3f3adec30ec3b401d5bf2",
+      "analysis/review/fabrication-input/ch340-usb-ttl-F_Cu.gtl": "b74eacab44187156ef7b742ff56cebae02300070b3af62a92a4f45c4c8b7abb5",
+      "analysis/review/fabrication-input/ch340-usb-ttl-F_Mask.gts": "5cb581f2d8fd7749011f261c637baabae6c72952f9a43e49f6b53cf557cb9022",
+      "analysis/review/fabrication-input/ch340-usb-ttl-F_Paste.gtp": "fef1083ae4d8097840995ea877d2d2d3badf76be843244ee6f078579ab68a0b8",
+      "analysis/review/fabrication-input/ch340-usb-ttl-F_Silkscreen.gto": "ea6201e985e321fb6ca0276b1b1d299acd30ae72bad2c6c788bb374e4ad5dede",
+      "analysis/review/fabrication-input/ch340-usb-ttl-NPTH.drl": "b7c16c3bc80d8625ade5a96160a4e99200cdeb5cd36735e78bfc24e5364cb29d",
+      "analysis/review/fabrication-input/ch340-usb-ttl-PTH.drl": "97f931fc91b5e491a9f224b7a58cd252f2e404e98cc3ffa44a05612f5f5cb5d6",
+      "analysis/review/fabrication-input/ch340-usb-ttl-job.gbrjob": "ca8ce972cb243bf8509daa6ec062008cf9e72b68a5947aafb62f754f26714dd3"
+    },
+    "run_id": "20261110T102010Z-511230",
+    "config_hash": null,
+    "upstream_artifacts": {}
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "diagnostics": [],
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261110T102010Z-511230"
+  }
+}

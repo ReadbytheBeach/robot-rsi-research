@@ -1,0 +1,52 @@
+{
+  "diff_version": "1.0",
+  "analyzer_type": "schematic",
+  "base_file": "analysis/review-schematic.json",
+  "head_file": "analysis/review/schematic.json",
+  "has_changes": true,
+  "summary": {
+    "total_changes": 4,
+    "added": 0,
+    "removed": 4,
+    "modified": 0,
+    "metric_changes": [
+      "statistics.unique_parts"
+    ],
+    "severity": "minor"
+  },
+  "diff": {
+    "statistics": {
+      "statistics.unique_parts": {
+        "base": 17,
+        "head": 13,
+        "delta": -4
+      }
+    },
+    "bom": {
+      "added": [],
+      "removed": [
+        {
+          "value": "+3V3",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "GND",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "UART_TX",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "UART_RX",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        }
+      ],
+      "quantity_changes": []
+    }
+  }
+}

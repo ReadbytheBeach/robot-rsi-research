@@ -1,0 +1,34 @@
+{
+  "native_netlist_required_connections": {
+    "status": "passed",
+    "errors": []
+  },
+  "power_budget": {
+    "external_3v3_mA": 50,
+    "ch340c_max_mA": 12,
+    "led_conservative_upper_mA": 3.383333333333333,
+    "ldo_iq_budget_mA": 0.1,
+    "usb_dc_total_upper_mA": 65.48333333333333,
+    "output_nominal_V": 3.3,
+    "output_1p5pct_range_V": [
+      3.2504999999999997,
+      3.3494999999999995
+    ],
+    "ch340c_3v3_allowed_range_V": [
+      3.1,
+      3.6
+    ],
+    "ldo_dissipation_at_USB5p25V_W": 0.13125897500000003,
+    "thetaJA_datasheet_C_per_W": 184,
+    "junction_rise_estimate_C": 24.151651400000006,
+    "ambient_assumption_C": 50,
+    "junction_estimate_at_ambient50_C": 74.1516514
+  },
+  "limits": [
+    "DC and first-order thermal calculations only; not measured board temperatures.",
+    "Output tolerance is the stated AP2112 accuracy basis; load/temperature/board effects need bring-up measurement.",
+    "Capacitor effective capacitance under DC bias has not been measured.",
+    "No USB suspend load gating: external 3.3V output and LED remain powered; suspend-current compliance not established.",
+    "No USB enumeration, hotplug inrush, ESD, or complete active-chip SPICE validation."
+  ]
+}

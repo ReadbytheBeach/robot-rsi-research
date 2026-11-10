@@ -1,0 +1,79 @@
+{
+  "diff_version": "1.0",
+  "analyzer_type": "emc",
+  "base_file": "analysis/review/emc-before-return-via-fix.json",
+  "head_file": "analysis/review/emc.json",
+  "has_changes": true,
+  "summary": {
+    "total_changes": 5,
+    "added": 1,
+    "removed": 3,
+    "modified": 1,
+    "metric_changes": [
+      "summary.by_severity.error",
+      "summary.by_severity.warning",
+      "summary.emc_risk_score"
+    ],
+    "severity": "major"
+  },
+  "diff": {
+    "risk_score": {
+      "base": 83.5,
+      "head": 98.5,
+      "delta": 15.0
+    },
+    "by_severity": {
+      "summary.by_severity.error": {
+        "base": 1,
+        "head": 0,
+        "delta": -1
+      },
+      "summary.by_severity.warning": {
+        "base": 2,
+        "head": 1,
+        "delta": -1
+      }
+    },
+    "findings": {
+      "new": [
+        {
+          "rule_id": "SU-001",
+          "severity": "info",
+          "title": "Adjacent signal layers: F.Cu, B.Cu",
+          "category": "stackup",
+          "nets": [],
+          "components": []
+        }
+      ],
+      "resolved": [
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "title": "Missing stitching via at layer transition: /UART_TX",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "error",
+          "title": "Missing stitching via at layer transition: /USB_D-",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "ES-002",
+          "severity": "info",
+          "title": "Single ground via near ESD device D1",
+          "category": "esd_path"
+        }
+      ],
+      "changed_severity": []
+    },
+    "per_net_scores": [
+      {
+        "net": "/UART_TX",
+        "base_score": 95.5,
+        "head_score": 98.5,
+        "delta": 3.0
+      }
+    ]
+  }
+}

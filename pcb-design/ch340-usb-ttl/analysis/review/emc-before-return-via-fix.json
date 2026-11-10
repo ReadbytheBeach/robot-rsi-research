@@ -1,0 +1,522 @@
+{
+  "analyzer_type": "emc",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "analysis/review/schematic.json",
+      "analysis/review/pcb.json"
+    ],
+    "source_hashes": {
+      "analysis/review/schematic.json": "e4e90f709d37f139a6227125b4875f832956315d75b59c741f0e732f60fff098",
+      "analysis/review/pcb.json": "8ab1a9811d197fc54b554209f8743baa457625b712b676f9db6e11fb223c0087"
+    },
+    "run_id": "20261110T102010Z-511230",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "analysis/review/schematic.json",
+        "sha256": "e4e90f709d37f139a6227125b4875f832956315d75b59c741f0e732f60fff098",
+        "schema_version": "1.4.0",
+        "run_id": "20261110T102010Z-511230"
+      },
+      "pcb": {
+        "path": "analysis/review/pcb.json",
+        "sha256": "8ab1a9811d197fc54b554209f8743baa457625b712b676f9db6e11fb223c0087",
+        "schema_version": "1.4.0",
+        "run_id": "20261110T102010Z-511230"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "diagnostics": [],
+  "summary": {
+    "total_findings": 5,
+    "categories_checked": 4,
+    "active": 5,
+    "suppressed": 0,
+    "by_severity": {
+      "error": 1,
+      "warning": 2,
+      "info": 2
+    },
+    "emc_risk_score": 83.5
+  },
+  "target_standard": "fcc-class-b",
+  "findings": [
+    {
+      "detector": "emc_ground_plane",
+      "rule_id": "GP-001",
+      "category": "ground_plane",
+      "summary": "Signal has partial reference plane gap",
+      "description": "Net /UART_TX has 93% reference plane coverage over 28.8mm of routing. Return current must detour around the gap, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "/UART_TX"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "heuristic",
+      "evidence_source": "heuristic_rule",
+      "recommendation": "Route this signal to avoid ground plane gaps, or fill the void. If a split is intentional, add a bridge capacitor across the gap.",
+      "report_context": {
+        "section": "Ground Plane",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "signal_net": "/UART_TX",
+      "coverage_pct": 93.1,
+      "trace_mm": 28.8,
+      "is_high_speed_or_clock": false,
+      "schema_era": "v3.0",
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:GP-001:/uart_tx"
+    },
+    {
+      "detector": "emc_emission_estimate",
+      "rule_id": "EE-001",
+      "category": "emission_estimate",
+      "summary": "Board cavity resonance frequencies",
+      "description": "Board (30\u00d730mm, \u03b5r=4.4) cavity resonances: (0,1) at 2382 MHz; (1,0) at 2382 MHz. PDN impedance spikes at these frequencies. Ensure adequate decoupling at and around these frequencies.",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "severity": "info",
+      "confidence": "heuristic",
+      "evidence_source": "heuristic_rule",
+      "recommendation": "Add decoupling capacitors with SRF near these frequencies.",
+      "report_context": {
+        "section": "Emission Estimate",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "schema_era": "v3.0",
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:EE-001:14ba23cdf0dc"
+    },
+    {
+      "detector": "emc_return_path",
+      "rule_id": "RP-001",
+      "category": "return_path",
+      "summary": "Missing stitching via at layer transition: /UART_TX",
+      "description": "Net /UART_TX has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "/UART_TX"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "schema_era": "v3.0",
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:/uart_tx"
+    },
+    {
+      "detector": "emc_return_path",
+      "rule_id": "RP-001",
+      "category": "return_path",
+      "summary": "Missing stitching via at layer transition: /USB_D-",
+      "description": "Net /USB_D- has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "/USB_D-"
+      ],
+      "pins": [],
+      "severity": "error",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "schema_era": "v3.0",
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:/usb_d"
+    },
+    {
+      "detector": "emc_esd_path",
+      "rule_id": "ES-002",
+      "category": "esd_path",
+      "summary": "Single ground via near ESD device D1",
+      "description": "D1 (esd_ic) has 1 ground via within 3mm. Multiple parallel vias reduce ground inductance. Two vias halve the inductance (~0.5nH \u2192 ~0.25nH).",
+      "components": [
+        "D1"
+      ],
+      "nets": [],
+      "pins": [],
+      "severity": "info",
+      "confidence": "heuristic",
+      "evidence_source": "heuristic_rule",
+      "recommendation": "Add a second ground via near D1 for lower inductance.",
+      "report_context": {
+        "section": "Esd Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "schema_era": "v3.0",
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:ES-002:d1"
+    }
+  ],
+  "assessments": [],
+  "per_net_scores": [
+    {
+      "net": "/USB_D-",
+      "score": 88.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "/UART_TX",
+      "score": 95.5,
+      "finding_count": 2,
+      "rules": [
+        "GP-001",
+        "RP-001"
+      ]
+    }
+  ],
+  "test_plan": {
+    "frequency_bands": [
+      {
+        "band": "30-88 MHz",
+        "freq_min_hz": 30000000.0,
+        "freq_max_hz": 88000000.0,
+        "risk_level": "none",
+        "source_count": 0,
+        "sources": []
+      },
+      {
+        "band": "88-216 MHz",
+        "freq_min_hz": 88000000.0,
+        "freq_max_hz": 216000000.0,
+        "risk_level": "none",
+        "source_count": 0,
+        "sources": []
+      },
+      {
+        "band": "216-960 MHz",
+        "freq_min_hz": 216000000.0,
+        "freq_max_hz": 960000000.0,
+        "risk_level": "none",
+        "source_count": 0,
+        "sources": []
+      },
+      {
+        "band": "960-40000 MHz",
+        "freq_min_hz": 960000000.0,
+        "freq_max_hz": 40000000000.0,
+        "risk_level": "none",
+        "source_count": 0,
+        "sources": []
+      }
+    ],
+    "interface_risks": [
+      {
+        "connector": "J2",
+        "value": "TTL 3V3 TX RX GND",
+        "protocol": "unknown",
+        "risk_score": 3,
+        "reasons": [
+          "General I/O"
+        ]
+      },
+      {
+        "connector": "J1",
+        "value": "USB-C USB2.0",
+        "protocol": "unknown",
+        "risk_score": 3,
+        "reasons": [
+          "General I/O"
+        ]
+      }
+    ],
+    "probe_points": []
+  },
+  "regulatory_coverage": {
+    "market": "us",
+    "applicable_standards": [
+      "FCC Part 15 Class B",
+      "FCC Part 15 Class B"
+    ],
+    "coverage_matrix": [
+      {
+        "standard": "FCC Part 15 Class B",
+        "test_type": "radiated",
+        "coverage": "minimal",
+        "checked_rules": [
+          "GP-001",
+          "EE-001"
+        ],
+        "total_applicable_rules": 23,
+        "note": "Design rule checks identify common radiation sources. Cannot predict absolute emission levels."
+      },
+      {
+        "standard": "FCC Part 15 Class B",
+        "test_type": "conducted",
+        "coverage": "indirect",
+        "checked_rules": [],
+        "total_applicable_rules": 4,
+        "note": "Switching harmonic analysis and decoupling checks. EMI filter verification not yet implemented."
+      }
+    ]
+  },
+  "category_summary": {
+    "ground_plane": {
+      "count": 1,
+      "max_severity": "warning",
+      "severities": {
+        "error": 0,
+        "warning": 1,
+        "info": 0
+      },
+      "suppressed_count": 0
+    },
+    "emission_estimate": {
+      "count": 1,
+      "max_severity": "info",
+      "severities": {
+        "error": 0,
+        "warning": 0,
+        "info": 1
+      },
+      "suppressed_count": 0
+    },
+    "return_path": {
+      "count": 2,
+      "max_severity": "error",
+      "severities": {
+        "error": 1,
+        "warning": 1,
+        "info": 0
+      },
+      "suppressed_count": 0
+    },
+    "esd_path": {
+      "count": 1,
+      "max_severity": "info",
+      "severities": {
+        "error": 0,
+        "warning": 0,
+        "info": 1
+      },
+      "suppressed_count": 0
+    }
+  },
+  "board_info": {
+    "board_width_mm": 30.0,
+    "board_height_mm": 30.0,
+    "layer_count": 2,
+    "footprint_count": 19,
+    "via_count": 34,
+    "has_stackup": false,
+    "total_components": 19,
+    "total_nets": 23
+  },
+  "elapsed_s": 0.017,
+  "audience_summary": {
+    "designer": {
+      "total_findings": 5,
+      "by_severity": {
+        "error": 1,
+        "warning": 2,
+        "info": 2
+      },
+      "by_category": {
+        "ground_plane": 1,
+        "emission_estimate": 1,
+        "return_path": 2,
+        "esd_path": 1
+      },
+      "top_issues": [
+        {
+          "detector": "emc_return_path",
+          "rule_id": "RP-001",
+          "category": "return_path",
+          "summary": "Missing stitching via at layer transition: /USB_D-",
+          "description": "Net /USB_D- has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+          "components": [],
+          "nets": [
+            "/USB_D-"
+          ],
+          "pins": [],
+          "severity": "error",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "schema_era": "v3.0",
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "layout"
+          ],
+          "finding_id": "emc:RP-001:/usb_d"
+        },
+        {
+          "detector": "emc_ground_plane",
+          "rule_id": "GP-001",
+          "category": "ground_plane",
+          "summary": "Signal has partial reference plane gap",
+          "description": "Net /UART_TX has 93% reference plane coverage over 28.8mm of routing. Return current must detour around the gap, creating a loop antenna.",
+          "components": [],
+          "nets": [
+            "/UART_TX"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "heuristic",
+          "evidence_source": "heuristic_rule",
+          "recommendation": "Route this signal to avoid ground plane gaps, or fill the void. If a split is intentional, add a bridge capacitor across the gap.",
+          "report_context": {
+            "section": "Ground Plane",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "signal_net": "/UART_TX",
+          "coverage_pct": 93.1,
+          "trace_mm": 28.8,
+          "is_high_speed_or_clock": false,
+          "schema_era": "v3.0",
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "layout"
+          ],
+          "finding_id": "emc:GP-001:/uart_tx"
+        },
+        {
+          "detector": "emc_return_path",
+          "rule_id": "RP-001",
+          "category": "return_path",
+          "summary": "Missing stitching via at layer transition: /UART_TX",
+          "description": "Net /UART_TX has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+          "components": [],
+          "nets": [
+            "/UART_TX"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "schema_era": "v3.0",
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "layout"
+          ],
+          "finding_id": "emc:RP-001:/uart_tx"
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 3,
+      "by_category": {
+        "ground_plane": 1,
+        "return_path": 2
+      },
+      "top_issues": [
+        {
+          "rule_id": "RP-001",
+          "severity": "error",
+          "summary": "Missing stitching via at layer transition: /USB_D-",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "GP-001",
+          "severity": "warning",
+          "summary": "Signal has partial reference plane gap",
+          "recommendation": "Route this signal to avoid ground plane gaps, or fill the void. If a split is intentional, add a bridge capacitor across the gap.",
+          "category": "ground_plane"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: /UART_TX",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "moderate",
+      "blocker_count": 1,
+      "warning_count": 2,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "needs_work",
+        "pre_fab": "pass",
+        "bring_up": "pass"
+      },
+      "one_liner": "1 error, 2 warnings across 2 categories. Layout stage has blockers."
+    }
+  },
+  "trust_summary": {
+    "total_findings": 5,
+    "trust_level": "low",
+    "by_confidence": {
+      "deterministic": 2,
+      "heuristic": 3,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 2,
+      "heuristic_rule": 3,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261110T102010Z-511230"
+  }
+}

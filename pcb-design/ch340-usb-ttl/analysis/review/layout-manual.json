@@ -1,0 +1,1158 @@
+{
+  "status": "passed",
+  "source_sha256": {
+    "ch340-usb-ttl.kicad_sch": "f7e184b6b7da81b153a561caa04440ff92f284fb51682c8ced6e481b5ff195ba",
+    "ch340-usb-ttl.net": "d698fbe3cc9e7e33c5d53e302b9981b52f44b58f48ce6cdcee57035aa2713187",
+    "ch340-usb-ttl.kicad_pcb": "9ac74752e29d6ac9b059adce91488045cf2fb2edac3b8ee5d9ea079dbe92c84f"
+  },
+  "native_xml_component_count": 19,
+  "pcb_footprint_count": 19,
+  "per_component": [
+    {
+      "reference": "C1",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "+5V_USB",
+          "actual": "+5V_USB",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "C2",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "+5V_FUSED",
+          "actual": "+5V_FUSED",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "C3",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "C4",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "C5",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "D1",
+      "checked_pad_count": 6,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "5",
+          "expected": "+5V_USB",
+          "actual": "+5V_USB",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "1",
+          "expected": "USB_D+",
+          "actual": "USB_D+",
+          "matches": true
+        },
+        {
+          "pin": "6",
+          "expected": "USB_D+",
+          "actual": "USB_D+",
+          "matches": true
+        },
+        {
+          "pin": "3",
+          "expected": "USB_D-",
+          "actual": "USB_D-",
+          "matches": true
+        },
+        {
+          "pin": "4",
+          "expected": "USB_D-",
+          "actual": "USB_D-",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "D2",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "LED_A",
+          "actual": "LED_A",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "F1",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "2",
+          "expected": "+5V_FUSED",
+          "actual": "+5V_FUSED",
+          "matches": true
+        },
+        {
+          "pin": "1",
+          "expected": "+5V_USB",
+          "actual": "+5V_USB",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "J1",
+      "checked_pad_count": 20,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "A4",
+          "expected": "+5V_USB",
+          "actual": "+5V_USB",
+          "matches": true
+        },
+        {
+          "pin": "A9",
+          "expected": "+5V_USB",
+          "actual": "+5V_USB",
+          "matches": true
+        },
+        {
+          "pin": "B4",
+          "expected": "+5V_USB",
+          "actual": "+5V_USB",
+          "matches": true
+        },
+        {
+          "pin": "B9",
+          "expected": "+5V_USB",
+          "actual": "+5V_USB",
+          "matches": true
+        },
+        {
+          "pin": "A5",
+          "expected": "CC1",
+          "actual": "CC1",
+          "matches": true
+        },
+        {
+          "pin": "B5",
+          "expected": "CC2",
+          "actual": "CC2",
+          "matches": true
+        },
+        {
+          "pin": "A1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "A12",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "B1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "B12",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "S1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "S1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "S1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "S1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "A6",
+          "expected": "USB_D+",
+          "actual": "USB_D+",
+          "matches": true
+        },
+        {
+          "pin": "B6",
+          "expected": "USB_D+",
+          "actual": "USB_D+",
+          "matches": true
+        },
+        {
+          "pin": "A7",
+          "expected": "USB_D-",
+          "actual": "USB_D-",
+          "matches": true
+        },
+        {
+          "pin": "B7",
+          "expected": "USB_D-",
+          "actual": "USB_D-",
+          "matches": true
+        },
+        {
+          "pin": "A8",
+          "expected": "unconnected-(J1-SBU1-PadA8)",
+          "actual": "unconnected-(J1-SBU1-PadA8)",
+          "matches": true
+        },
+        {
+          "pin": "B8",
+          "expected": "unconnected-(J1-SBU2-PadB8)",
+          "actual": "unconnected-(J1-SBU2-PadB8)",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "J2",
+      "checked_pad_count": 4,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        },
+        {
+          "pin": "4",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "3",
+          "expected": "UART_RX",
+          "actual": "UART_RX",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "UART_TX",
+          "actual": "UART_TX",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "R1",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "CC1",
+          "actual": "CC1",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "R2",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "CC2",
+          "actual": "CC2",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "R3",
+      "checked_pad_count": 2,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "LED_A",
+          "actual": "LED_A",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "TP1",
+      "checked_pad_count": 1,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "TP2",
+      "checked_pad_count": 1,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "TP3",
+      "checked_pad_count": 1,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "UART_TX",
+          "actual": "UART_TX",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "TP4",
+      "checked_pad_count": 1,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "1",
+          "expected": "UART_RX",
+          "actual": "UART_RX",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "U1",
+      "checked_pad_count": 16,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "16",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        },
+        {
+          "pin": "4",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        },
+        {
+          "pin": "1",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "3",
+          "expected": "UART_RX",
+          "actual": "UART_RX",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "UART_TX",
+          "actual": "UART_TX",
+          "matches": true
+        },
+        {
+          "pin": "5",
+          "expected": "USB_D+",
+          "actual": "USB_D+",
+          "matches": true
+        },
+        {
+          "pin": "6",
+          "expected": "USB_D-",
+          "actual": "USB_D-",
+          "matches": true
+        },
+        {
+          "pin": "7",
+          "expected": "unconnected-(U1-NC-Pad7)",
+          "actual": "unconnected-(U1-NC-Pad7)",
+          "matches": true
+        },
+        {
+          "pin": "15",
+          "expected": "unconnected-(U1-R232-Pad15)",
+          "actual": "unconnected-(U1-R232-Pad15)",
+          "matches": true
+        },
+        {
+          "pin": "9",
+          "expected": "unconnected-(U1-~{CTS}-Pad9)",
+          "actual": "unconnected-(U1-~{CTS}-Pad9)",
+          "matches": true
+        },
+        {
+          "pin": "12",
+          "expected": "unconnected-(U1-~{DCD}-Pad12)",
+          "actual": "unconnected-(U1-~{DCD}-Pad12)",
+          "matches": true
+        },
+        {
+          "pin": "10",
+          "expected": "unconnected-(U1-~{DSR}-Pad10)",
+          "actual": "unconnected-(U1-~{DSR}-Pad10)",
+          "matches": true
+        },
+        {
+          "pin": "13",
+          "expected": "unconnected-(U1-~{DTR}-Pad13)",
+          "actual": "unconnected-(U1-~{DTR}-Pad13)",
+          "matches": true
+        },
+        {
+          "pin": "8",
+          "expected": "unconnected-(U1-~{OUT}-Pad8)",
+          "actual": "unconnected-(U1-~{OUT}-Pad8)",
+          "matches": true
+        },
+        {
+          "pin": "11",
+          "expected": "unconnected-(U1-~{RI}-Pad11)",
+          "actual": "unconnected-(U1-~{RI}-Pad11)",
+          "matches": true
+        },
+        {
+          "pin": "14",
+          "expected": "unconnected-(U1-~{RTS}-Pad14)",
+          "actual": "unconnected-(U1-~{RTS}-Pad14)",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "reference": "U2",
+      "checked_pad_count": 5,
+      "all_match": true,
+      "pads": [
+        {
+          "pin": "5",
+          "expected": "+3V3",
+          "actual": "+3V3",
+          "matches": true
+        },
+        {
+          "pin": "1",
+          "expected": "+5V_FUSED",
+          "actual": "+5V_FUSED",
+          "matches": true
+        },
+        {
+          "pin": "3",
+          "expected": "+5V_FUSED",
+          "actual": "+5V_FUSED",
+          "matches": true
+        },
+        {
+          "pin": "2",
+          "expected": "GND",
+          "actual": "GND",
+          "matches": true
+        },
+        {
+          "pin": "4",
+          "expected": "unconnected-(U2-NC-Pad4)",
+          "actual": "unconnected-(U2-NC-Pad4)",
+          "matches": true
+        }
+      ]
+    }
+  ],
+  "pin_net_errors": [],
+  "decoupling_pad_distances": [
+    {
+      "purpose": "CH340C VCC bypass",
+      "from": [
+        "C4",
+        1
+      ],
+      "to": [
+        "U1",
+        16
+      ],
+      "straight_pad_distance_mm": 1.7458593872359873
+    },
+    {
+      "purpose": "CH340C V3 bypass",
+      "from": [
+        "C5",
+        1
+      ],
+      "to": [
+        "U1",
+        4
+      ],
+      "straight_pad_distance_mm": 3.6880516536512804
+    },
+    {
+      "purpose": "LDO input",
+      "from": [
+        "C2",
+        1
+      ],
+      "to": [
+        "U2",
+        1
+      ],
+      "straight_pad_distance_mm": 1.905788878653667
+    },
+    {
+      "purpose": "LDO output",
+      "from": [
+        "C3",
+        1
+      ],
+      "to": [
+        "U2",
+        5
+      ],
+      "straight_pad_distance_mm": 1.7640950654658567
+    },
+    {
+      "purpose": "ESD VBUS bypass",
+      "from": [
+        "C1",
+        1
+      ],
+      "to": [
+        "D1",
+        5
+      ],
+      "straight_pad_distance_mm": 2.8956755757510275
+    }
+  ],
+  "usb_geometry": {
+    "USB_D+": {
+      "all_copper_segment_length_mm": 15.34895490323255,
+      "nominal_0p75_width_length_mm": 5.707106781186548,
+      "widths_mm": [
+        0.15,
+        0.3,
+        0.75
+      ],
+      "signal_via_count": 0,
+      "segments": [
+        {
+          "start_mm": [
+            65.58,
+            62.8
+          ],
+          "end_mm": [
+            65.08,
+            63.3
+          ],
+          "width_mm": 0.75,
+          "length_mm": 0.7071067811865476,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.58,
+            59.4625
+          ],
+          "end_mm": [
+            65.58,
+            61.7375
+          ],
+          "width_mm": 0.3,
+          "length_mm": 2.275,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.25,
+            57.355
+          ],
+          "end_mm": [
+            64.25,
+            56.7
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.655,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.265,
+            68.485
+          ],
+          "end_mm": [
+            65.265,
+            69.725
+          ],
+          "width_mm": 0.3,
+          "length_mm": 1.24,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.58,
+            61.7375
+          ],
+          "end_mm": [
+            65.58,
+            62.8
+          ],
+          "width_mm": 0.3,
+          "length_mm": 1.0625,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.95,
+            56.4
+          ],
+          "end_mm": [
+            65.25,
+            56.7
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.42426406871192857,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.25,
+            56.7
+          ],
+          "end_mm": [
+            64.55,
+            56.4
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.42426406871192857,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.25,
+            58.0
+          ],
+          "end_mm": [
+            65.58,
+            58.33
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.46669047558312143,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.25,
+            56.7
+          ],
+          "end_mm": [
+            65.25,
+            57.355
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.655,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.58,
+            58.33
+          ],
+          "end_mm": [
+            65.58,
+            59.4625
+          ],
+          "width_mm": 0.15,
+          "length_mm": 1.1325,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.55,
+            56.4
+          ],
+          "end_mm": [
+            64.95,
+            56.4
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.4,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.08,
+            68.3
+          ],
+          "end_mm": [
+            65.265,
+            68.485
+          ],
+          "width_mm": 0.3,
+          "length_mm": 0.2616295090390226,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.08,
+            63.3
+          ],
+          "end_mm": [
+            65.08,
+            68.3
+          ],
+          "width_mm": 0.75,
+          "length_mm": 5.0,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.25,
+            57.355
+          ],
+          "end_mm": [
+            65.25,
+            58.0
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.645,
+          "layer": "F.Cu"
+        }
+      ]
+    },
+    "USB_D-": {
+      "all_copper_segment_length_mm": 16.08275245289562,
+      "nominal_0p75_width_length_mm": 5.707106781186548,
+      "widths_mm": [
+        0.15,
+        0.3,
+        0.75
+      ],
+      "signal_via_count": 2,
+      "segments": [
+        {
+          "start_mm": [
+            64.75,
+            58.155
+          ],
+          "end_mm": [
+            64.644999,
+            58.155
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.105001,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            63.68,
+            62.8
+          ],
+          "end_mm": [
+            64.18,
+            63.3
+          ],
+          "width_mm": 0.75,
+          "length_mm": 0.7071067811865476,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.75,
+            57.95
+          ],
+          "end_mm": [
+            66.25,
+            58.45
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.7071067811865476,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            63.68,
+            61.7375
+          ],
+          "end_mm": [
+            63.68,
+            62.8
+          ],
+          "width_mm": 0.3,
+          "length_mm": 1.0625,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.75,
+            57.355
+          ],
+          "end_mm": [
+            64.75,
+            58.155
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.8,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            63.68,
+            59.4625
+          ],
+          "end_mm": [
+            63.68,
+            61.7375
+          ],
+          "width_mm": 0.3,
+          "length_mm": 2.275,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            63.995,
+            68.485
+          ],
+          "end_mm": [
+            63.995,
+            69.725
+          ],
+          "width_mm": 0.3,
+          "length_mm": 1.24,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.644999,
+            58.155
+          ],
+          "end_mm": [
+            63.68,
+            59.12
+          ],
+          "width_mm": 0.15,
+          "length_mm": 1.3647153805834389,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.18,
+            63.3
+          ],
+          "end_mm": [
+            64.18,
+            68.3
+          ],
+          "width_mm": 0.75,
+          "length_mm": 5.0,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            63.68,
+            59.12
+          ],
+          "end_mm": [
+            63.68,
+            59.4625
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.3425,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.18,
+            68.3
+          ],
+          "end_mm": [
+            63.995,
+            68.485
+          ],
+          "width_mm": 0.3,
+          "length_mm": 0.2616295090390226,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            65.75,
+            57.355
+          ],
+          "end_mm": [
+            65.75,
+            57.95
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.595,
+          "layer": "F.Cu"
+        },
+        {
+          "start_mm": [
+            64.75,
+            58.155
+          ],
+          "end_mm": [
+            65.955,
+            58.155
+          ],
+          "width_mm": 0.15,
+          "length_mm": 1.205,
+          "layer": "B.Cu"
+        },
+        {
+          "start_mm": [
+            65.955,
+            58.155
+          ],
+          "end_mm": [
+            66.25,
+            58.45
+          ],
+          "width_mm": 0.15,
+          "length_mm": 0.41719300090006306,
+          "layer": "B.Cu"
+        }
+      ]
+    }
+  },
+  "uniform_trunk_bottom_ground_sampling": {
+    "step_mm": 0.1,
+    "samples": 918,
+    "uncovered_samples": [],
+    "scope": "5mm uniform vertical trunk at x64.18/65.08; discrete samples under copper and intervening gap"
+  },
+  "signal_via_ground_distances": [
+    {
+      "net": "+3V3",
+      "xy_mm": [
+        69.1,
+        68.1
+      ],
+      "nearest_ground_via_mm": 2.4030501451280624
+    },
+    {
+      "net": "+3V3",
+      "xy_mm": [
+        66.535,
+        68.2
+      ],
+      "nearest_ground_via_mm": 4.563973049876613
+    },
+    {
+      "net": "+3V3",
+      "xy_mm": [
+        54.1,
+        71.5
+      ],
+      "nearest_ground_via_mm": 1.5150672889347243
+    },
+    {
+      "net": "+3V3",
+      "xy_mm": [
+        58.7,
+        68.4
+      ],
+      "nearest_ground_via_mm": 2.3375000000000057
+    },
+    {
+      "net": "+5V_USB",
+      "xy_mm": [
+        64.629999,
+        62.6
+      ],
+      "nearest_ground_via_mm": 2.00000000000025
+    },
+    {
+      "net": "+5V_USB",
+      "xy_mm": [
+        62.4475,
+        60.1773
+      ],
+      "nearest_ground_via_mm": 2.2230568008937577
+    },
+    {
+      "net": "+5V_USB",
+      "xy_mm": [
+        67.3233,
+        60.2581
+      ],
+      "nearest_ground_via_mm": 1.1430041557229806
+    },
+    {
+      "net": "+5V_USB",
+      "xy_mm": [
+        68.1,
+        60.7
+      ],
+      "nearest_ground_via_mm": 1.9798989873223312
+    },
+    {
+      "net": "UART_TX",
+      "xy_mm": [
+        55.5132,
+        72.5545
+      ],
+      "nearest_ground_via_mm": 0.7600369596276184
+    },
+    {
+      "net": "UART_TX",
+      "xy_mm": [
+        70.0206,
+        71.5949
+      ],
+      "nearest_ground_via_mm": 0.7864543025503735
+    },
+    {
+      "net": "USB_D-",
+      "xy_mm": [
+        64.75,
+        58.155
+      ],
+      "nearest_ground_via_mm": 0.9874841770884223
+    },
+    {
+      "net": "USB_D-",
+      "xy_mm": [
+        66.25,
+        58.45
+      ],
+      "nearest_ground_via_mm": 0.9617692030835635
+    }
+  ],
+  "limits": [
+    "XML-to-pad consistency does not independently validate connector manufacturer dimensions.",
+    "Pad distances are straight-line placement distances, not complete routed loop geometry.",
+    "USB total copper includes Type-C duplicate-pin branches and is not one end-to-end path.",
+    "A 0.75mm segment width alone does not verify pair gap, return plane or impedance."
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "checked_date": "2026-11-10",
+  "source_project": "https://gitlab.com/kicad/libraries/kicad-packages3D",
+  "github_moved_notice": "https://github.com/KiCad/kicad-packages3D",
+  "tag": "9.0.2",
+  "commit": "52c1fa2ebb96a20df158c59a357b93343b5fa271",
+  "license": "CC-BY-SA-4.0 with KiCad design-output exception; preserve per-model authors/notices",
+  "models": [
+    {
+      "footprints": [
+        "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+      ],
+      "refs": [
+        "J1"
+      ],
+      "model_path": "Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step",
+      "status": "downloaded",
+      "bytes": 1059856,
+      "sha256": "6338ce740fa231c2d3dcc6384e0576994a47240a312a21413cb85d76990a69a0"
+    },
+    {
+      "footprints": [
+        "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+      ],
+      "refs": [
+        "U1"
+      ],
+      "model_path": "Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step",
+      "status": "downloaded",
+      "bytes": 448354,
+      "sha256": "367909b9fba0fc6e5f8ddfd494d69d39e1abbd361f14de92a0594a200138f1fc"
+    },
+    {
+      "footprints": [
+        "Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal"
+      ],
+      "refs": [
+        "J2"
+      ],
+      "model_path": "Connector_JST.3dshapes/JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/Connector_JST.3dshapes/JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal.step",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "footprints": [
+        "Package_TO_SOT_SMD:SOT-23-6"
+      ],
+      "refs": [
+        "D1"
+      ],
+      "model_path": "Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "status": "downloaded",
+      "bytes": 199168,
+      "sha256": "9491de18305b16fe125ee3d603109a29edd837d50d22305b6f929886492ce755"
+    },
+    {
+      "footprints": [
+        "Fuse:Fuse_1812_4532Metric"
+      ],
+      "refs": [
+        "F1"
+      ],
+      "model_path": "Fuse.3dshapes/Fuse_1812_4532Metric.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/Fuse.3dshapes/Fuse_1812_4532Metric.step",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "footprints": [
+        "Package_TO_SOT_SMD:SOT-23-5"
+      ],
+      "refs": [
+        "U2"
+      ],
+      "model_path": "Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "status": "downloaded",
+      "bytes": 174941,
+      "sha256": "3b70f1b6dd947543fda90b947f91f2e2804766c39b78e56c87f1448dfd575ed8"
+    },
+    {
+      "footprints": [
+        "Resistor_SMD:R_0603_1608Metric"
+      ],
+      "refs": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "model_path": "Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "status": "downloaded",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "footprints": [
+        "LED_SMD:LED_0603_1608Metric"
+      ],
+      "refs": [
+        "D2"
+      ],
+      "model_path": "LED_SMD.3dshapes/LED_0603_1608Metric.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+      "status": "downloaded",
+      "bytes": 77068,
+      "sha256": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d"
+    },
+    {
+      "footprints": [
+        "Capacitor_SMD:C_0603_1608Metric"
+      ],
+      "refs": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "model_path": "Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/52c1fa2ebb96a20df158c59a357b93343b5fa271/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "status": "downloaded",
+      "bytes": 43450,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    }
+  ],
+  "omitted": [
+    {
+      "ref": "TP1",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "reason": "Native footprint has no 3D model (bare copper test pad)"
+    },
+    {
+      "ref": "TP2",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "reason": "Native footprint has no 3D model (bare copper test pad)"
+    },
+    {
+      "ref": "TP3",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "reason": "Native footprint has no 3D model (bare copper test pad)"
+    },
+    {
+      "ref": "TP4",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "reason": "Native footprint has no 3D model (bare copper test pad)"
+    }
+  ],
+  "known_missing": [
+    {
+      "refs": [
+        "J2"
+      ],
+      "model_path": "Connector_JST.3dshapes/JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal.step",
+      "reason": "Not in 9.0.2 release; exact STEP/WRL paths also not available at current upstream master afa6aab16f43a736cd062b8c853863e753653921. No substitute geometry created."
+    },
+    {
+      "refs": [
+        "F1"
+      ],
+      "model_path": "Fuse.3dshapes/Fuse_1812_4532Metric.step",
+      "reason": "Not in 9.0.2 release; exact STEP/WRL paths also not available at current upstream master afa6aab16f43a736cd062b8c853863e753653921. No substitute geometry created."
+    }
+  ]
+}

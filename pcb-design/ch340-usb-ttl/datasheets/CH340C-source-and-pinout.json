@@ -1,0 +1,108 @@
+{
+  "title": "WCH CH340 Datasheet (I), English v3A",
+  "official_repository": "https://github.com/openwch/ch34x",
+  "source_commit": "57b906d53a0ba95ea93fac8b75a752fbf43f548c",
+  "archive_url": "https://github.com/openwch/ch34x/blob/57b906d53a0ba95ea93fac8b75a752fbf43f548c/CH34XDS_EN.zip",
+  "archive_member": "CH340DS1_EN_3A_211224.pdf",
+  "pdf_sha256": "53489d1870f6923d79c549f96eb1200c2a152547ed988f755aace19c7a03bcf1",
+  "verified": "Read official vendor PDF extracted from vendor GitHub archive; WCH website direct blocked by environment policy.",
+  "selected_device": "CH340C SOP16 3.9mm width 1.27mm pitch",
+  "pins": [
+    {
+      "number": 1,
+      "name": "GND",
+      "electrical_type": "power_in",
+      "recommended_connection": "GND"
+    },
+    {
+      "number": 2,
+      "name": "TXD",
+      "electrical_type": "output",
+      "recommended_connection": "UART_TX"
+    },
+    {
+      "number": 3,
+      "name": "RXD",
+      "electrical_type": "input",
+      "recommended_connection": "UART_RX"
+    },
+    {
+      "number": 4,
+      "name": "V3",
+      "electrical_type": "power_in",
+      "recommended_connection": "+3V3 (3.3V supply mode requires V3 tied VCC)"
+    },
+    {
+      "number": 5,
+      "name": "UD+",
+      "electrical_type": "bidirectional",
+      "recommended_connection": "USB_D+"
+    },
+    {
+      "number": 6,
+      "name": "UD-",
+      "electrical_type": "bidirectional",
+      "recommended_connection": "USB_D-"
+    },
+    {
+      "number": 7,
+      "name": "NC",
+      "electrical_type": "no_connect",
+      "recommended_connection": "MUST float"
+    },
+    {
+      "number": 8,
+      "name": "OUT#",
+      "electrical_type": "output",
+      "recommended_connection": "unused float; optional 2ndDTR for some batches"
+    },
+    {
+      "number": 9,
+      "name": "CTS#",
+      "electrical_type": "input",
+      "recommended_connection": "unused float"
+    },
+    {
+      "number": 10,
+      "name": "DSR#",
+      "electrical_type": "input",
+      "recommended_connection": "unused float"
+    },
+    {
+      "number": 11,
+      "name": "RI#",
+      "electrical_type": "input",
+      "recommended_connection": "unused float"
+    },
+    {
+      "number": 12,
+      "name": "DCD#",
+      "electrical_type": "input",
+      "recommended_connection": "unused float"
+    },
+    {
+      "number": 13,
+      "name": "DTR#",
+      "electrical_type": "output",
+      "recommended_connection": "unused float"
+    },
+    {
+      "number": 14,
+      "name": "RTS#",
+      "electrical_type": "output",
+      "recommended_connection": "unused float"
+    },
+    {
+      "number": 15,
+      "name": "R232",
+      "electrical_type": "input",
+      "recommended_connection": "unused float: internal pulldown means normal TTL"
+    },
+    {
+      "number": 16,
+      "name": "VCC",
+      "electrical_type": "power_in",
+      "recommended_connection": "+3V3"
+    }
+  ]
+}

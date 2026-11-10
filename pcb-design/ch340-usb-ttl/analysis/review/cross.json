@@ -1,0 +1,227 @@
+{
+  "analyzer_type": "cross_analysis",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "analysis/review/schematic.json",
+      "analysis/review/pcb.json"
+    ],
+    "source_hashes": {
+      "analysis/review/schematic.json": "e4e90f709d37f139a6227125b4875f832956315d75b59c741f0e732f60fff098",
+      "analysis/review/pcb.json": "f6b7a574df3cee5e1f5bb3fbceb0d42def5fa062f7b1e5075ebc5571cffb1e9a"
+    },
+    "run_id": "20261110T102010Z-511230",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "analysis/review/schematic.json",
+        "sha256": "e4e90f709d37f139a6227125b4875f832956315d75b59c741f0e732f60fff098",
+        "schema_version": "1.4.0",
+        "run_id": "20261110T102010Z-511230"
+      },
+      "pcb": {
+        "path": "analysis/review/pcb.json",
+        "sha256": "f6b7a574df3cee5e1f5bb3fbceb0d42def5fa062f7b1e5075ebc5571cffb1e9a",
+        "schema_version": "1.4.0",
+        "run_id": "20261110T102010Z-511230"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "diagnostics": [],
+  "elapsed_s": 0.007,
+  "summary": {
+    "total_findings": 1,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 1
+    }
+  },
+  "findings": [
+    {
+      "detector": "check_esd_coverage_gaps",
+      "rule_id": "EG-001",
+      "category": "esd_protection",
+      "summary": "Connector J1: 4 unprotected signal pin(s)",
+      "description": "External connector J1 (USB-C USB2.0) has 4 unprotected signal net(s): CC1, __unnamed_0, CC2, __unnamed_1.",
+      "components": [
+        "J1"
+      ],
+      "nets": [
+        "CC1",
+        "__unnamed_0",
+        "CC2",
+        "__unnamed_1"
+      ],
+      "pins": [],
+      "severity": "info",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add TVS or ESD clamp diodes on unprotected external nets.",
+      "fix_params": {
+        "type": "add_protection",
+        "components": [
+          {
+            "type": "tvs_diode",
+            "nets": [
+              "CC1",
+              "__unnamed_0",
+              "CC2",
+              "__unnamed_1"
+            ]
+          }
+        ],
+        "basis": "IEC 61000-4-2 requires ESD protection on accessible pins"
+      },
+      "report_context": {
+        "section": "Esd Protection",
+        "impact": "ESD damage on unprotected pins",
+        "standard_ref": "IEC 61000-4-2"
+      },
+      "schema_era": "v3.0",
+      "finding_id": "cross_analysis:EG-001:j1",
+      "stages": [
+        "pre_fab"
+      ]
+    }
+  ],
+  "assessments": [],
+  "checks_run": [
+    {
+      "check": "CC-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 2,
+      "findings": 0
+    },
+    {
+      "check": "EG-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 2,
+      "findings": 1
+    },
+    {
+      "check": "DA-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 3,
+      "findings": 0
+    },
+    {
+      "check": "XV-001..003",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 19,
+      "findings": 0
+    },
+    {
+      "check": "XV-004",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "NR-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 125,
+      "findings": 0
+    },
+    {
+      "check": "RP-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 125,
+      "findings": 0
+    },
+    {
+      "check": "TW-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 2,
+      "findings": 0
+    },
+    {
+      "check": "PS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 23,
+      "findings": 0
+    },
+    {
+      "check": "VS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 38,
+      "findings": 0
+    },
+    {
+      "check": "DP-005",
+      "ran": false,
+      "reason_skipped": "no differential pairs classified in schematic net_classifications",
+      "items_examined": 0,
+      "findings": 0
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 1,
+    "trust_level": "low",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 1,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 1,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 1,
+      "by_severity": {
+        "error": 0,
+        "warning": 0,
+        "info": 1
+      },
+      "by_category": {
+        "esd_protection": 1
+      },
+      "top_issues": []
+    },
+    "reviewer": {
+      "total_findings": 0,
+      "by_category": {},
+      "top_issues": []
+    },
+    "manager": {
+      "risk_level": "none",
+      "blocker_count": 0,
+      "warning_count": 0,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "pass",
+        "pre_fab": "pass",
+        "bring_up": "pass"
+      },
+      "one_liner": "No errors or warnings \u2014 all stages ready."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261110T102010Z-511230"
+  }
+}

@@ -1,0 +1,30 @@
+=== stdout ===
+
+Note: No compatibility mode selected!
+
+
+Circuit: * auto-generated testbench for inrush analysis: u2 (ldo)
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+ramp                                         0
+sense                                        0
+out                                          0
+vsense#branch                                0
+vreg#branch                                  0
+
+
+No. of Data Rows : 1518
+t_peak              =  1.281657e-05
+v_settled           =  3.300000e+00
+ngspice-44.2 done
+
+=== stderr ===
+

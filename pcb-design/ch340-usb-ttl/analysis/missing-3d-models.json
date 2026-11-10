@@ -1,0 +1,10 @@
+[
+  {
+    "ref": "F1",
+    "model": "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+  },
+  {
+    "ref": "J2",
+    "model": "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal.step"
+  }
+]

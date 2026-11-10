@@ -1,0 +1,118 @@
+{
+  "source_board_sha256": "9ac74752e29d6ac9b059adce91488045cf2fb2edac3b8ee5d9ea079dbe92c84f",
+  "origin": "Shared KiCad auxiliary origin at board-local (0,0); native export axis conventions are retained",
+  "commands": [
+    [
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,B.Cu,F.Paste,F.Silkscreen,F.Mask,B.Mask,Edge.Cuts",
+      "--use-drill-file-origin",
+      "--output",
+      "/workspace/pcb-design/ch340-usb-ttl/exports/gerbers/",
+      "/workspace/pcb-design/ch340-usb-ttl/ch340-usb-ttl.kicad_pcb"
+    ],
+    [
+      "pcb",
+      "export",
+      "drill",
+      "--format",
+      "excellon",
+      "--drill-origin",
+      "plot",
+      "--excellon-units",
+      "mm",
+      "--excellon-separate-th",
+      "--generate-map",
+      "--map-format",
+      "svg",
+      "--output",
+      "/workspace/pcb-design/ch340-usb-ttl/exports/drill/",
+      "/workspace/pcb-design/ch340-usb-ttl/ch340-usb-ttl.kicad_pcb"
+    ],
+    [
+      "pcb",
+      "export",
+      "pos",
+      "--side",
+      "front",
+      "--format",
+      "csv",
+      "--units",
+      "mm",
+      "--use-drill-file-origin",
+      "--exclude-dnp",
+      "--output",
+      "/workspace/pcb-design/ch340-usb-ttl/exports/ch340-usb-ttl-top-pos.csv",
+      "/workspace/pcb-design/ch340-usb-ttl/ch340-usb-ttl.kicad_pcb"
+    ]
+  ],
+  "files": [
+    {
+      "path": "exports/gerbers/ch340-usb-ttl-B_Cu.gbl",
+      "bytes": 15200,
+      "sha256": "77214a6530c22e7f1017baec11d4351bf669abb0988ee9766b75f9bf6a771e67"
+    },
+    {
+      "path": "exports/gerbers/ch340-usb-ttl-B_Mask.gbs",
+      "bytes": 730,
+      "sha256": "7082214a2d9a41efc0457a52b27d886394ab773c11a466fa50c9764fd6106d97"
+    },
+    {
+      "path": "exports/gerbers/ch340-usb-ttl-Edge_Cuts.gm1",
+      "bytes": 632,
+      "sha256": "e8d632322ebbb505af5c5c5b833250957d33eee42ff3f3adec30ec3b401d5bf2"
+    },
+    {
+      "path": "exports/gerbers/ch340-usb-ttl-F_Cu.gtl",
+      "bytes": 54961,
+      "sha256": "b74eacab44187156ef7b742ff56cebae02300070b3af62a92a4f45c4c8b7abb5"
+    },
+    {
+      "path": "exports/gerbers/ch340-usb-ttl-F_Mask.gts",
+      "bytes": 4789,
+      "sha256": "5cb581f2d8fd7749011f261c637baabae6c72952f9a43e49f6b53cf557cb9022"
+    },
+    {
+      "path": "exports/gerbers/ch340-usb-ttl-F_Paste.gtp",
+      "bytes": 4512,
+      "sha256": "fef1083ae4d8097840995ea877d2d2d3badf76be843244ee6f078579ab68a0b8"
+    },
+    {
+      "path": "exports/gerbers/ch340-usb-ttl-F_Silkscreen.gto",
+      "bytes": 34373,
+      "sha256": "ea6201e985e321fb6ca0276b1b1d299acd30ae72bad2c6c788bb374e4ad5dede"
+    },
+    {
+      "path": "exports/gerbers/ch340-usb-ttl-job.gbrjob",
+      "bytes": 2633,
+      "sha256": "ca8ce972cb243bf8509daa6ec062008cf9e72b68a5947aafb62f754f26714dd3"
+    },
+    {
+      "path": "exports/drill/ch340-usb-ttl-NPTH-drl_map.svg",
+      "bytes": 26430,
+      "sha256": "2a3256c1d9b5ba8255e65b073e616c8bcfead472491016952b6eb8a52538b5a9"
+    },
+    {
+      "path": "exports/drill/ch340-usb-ttl-NPTH.drl",
+      "bytes": 373,
+      "sha256": "b7c16c3bc80d8625ade5a96160a4e99200cdeb5cd36735e78bfc24e5364cb29d"
+    },
+    {
+      "path": "exports/drill/ch340-usb-ttl-PTH-drl_map.svg",
+      "bytes": 61612,
+      "sha256": "ab69ba2e55917fb130afd098abd3ae3a45fa060aa478973a9bb9b1262c24b9f4"
+    },
+    {
+      "path": "exports/drill/ch340-usb-ttl-PTH.drl",
+      "bytes": 1061,
+      "sha256": "97f931fc91b5e491a9f224b7a58cd252f2e404e98cc3ffa44a05612f5f5cb5d6"
+    },
+    {
+      "path": "exports/ch340-usb-ttl-top-pos.csv",
+      "bytes": 1165,
+      "sha256": "ccd3abaa7d98e511032ce9481948322052fdde00cc66ab6abb37667fac8c7cb8"
+    }
+  ]
+}

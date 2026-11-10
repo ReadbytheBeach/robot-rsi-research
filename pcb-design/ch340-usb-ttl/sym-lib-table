@@ -1,0 +1,4 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "CH340_USB_TTL")(type "KiCad")(uri "${KIPRJMOD}/CH340_USB_TTL.kicad_sym")(options "")(descr "CH340C configured for external 3.3V supply"))
+)

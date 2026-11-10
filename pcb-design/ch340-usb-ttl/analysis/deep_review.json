@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "produced_for_run_id": "review",
+  "produced_at": "2026-11-10T10:36:07.496903+00:00",
+  "findings": [
+    {
+      "detector": "deep_review",
+      "category": "decoupling",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "LDO\u8f93\u5165\u8f93\u51fa\u90094.7uF X5R\uff0c\u4ecd\u9700\u6ce8\u610f\u6709\u6548\u5bb9\u503c\u3002",
+      "description": "\u6807\u79f04.7uF\u7559\u6709\u4f59\u91cf\uff1b\u8be5\u6761\u4e0d\u7b49\u4e8e\u53d6\u5f97\u4e86TDK DC-bias\u66f2\u7ebf\u6216\u5b9e\u6d4b\u3002",
+      "evidence": {
+        "components": [
+          "U2",
+          "C2",
+          "C3"
+        ],
+        "datasheet": [
+          {
+            "mpn": "AP2112K-3.3TRG1",
+            "page": 2,
+            "quote": "It is recommended to use X7R or X5R dielectric capacitor if 1.0\u00b5F ceramic capacitor is selected as input/output capacitors."
+          }
+        ]
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U2",
+        "C2",
+        "C3"
+      ],
+      "finding_id": "deep_review:54d813afc6f1"
+    },
+    {
+      "detector": "deep_review",
+      "category": "pins",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "\u672a\u7528CH340C I/O\u60ac\u7a7a\uff0cOUT#\u7b2c8\u811a\u4fee\u6b63\u540e\u4e0d\u8fde\u63a5\u3002",
+      "description": "7/8/9/10/11/12/13/14/15\u4ec5\u4e3a\u539f\u751f\u5bfc\u51fa\u7684\u5355\u70b9unconnected\u7f51\u7edc\uff1b\u672a\u63a5\u5b9e\u8d28\u4fe1\u53f7\u6216\u7535\u6e90\u3002",
+      "evidence": {
+        "components": [
+          "U1"
+        ],
+        "datasheet": [
+          {
+            "mpn": "CH340C",
+            "page": 4,
+            "quote": "Unused I/O pins of CH340 should be suspended."
+          }
+        ]
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1"
+      ],
+      "finding_id": "deep_review:470a78b94176"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "AP2112\u7684EN\u8fde\u63a5VIN\uff0c\u8f93\u51fa\u63a5+3V3\u3002",
+      "description": "U2.1\u4e0eU2.3\u63a5/+5V_FUSED\uff1bU2.2\u63a5GND\uff1bU2.4\u60ac\u7a7a\uff1bU2.5\u63a5+3V3\u3002",
+      "evidence": {
+        "components": [
+          "U2"
+        ],
+        "datasheet": [
+          {
+            "mpn": "AP2112K-3.3TRG1",
+            "page": 2,
+            "quote": "Chip Enable, H \u2013 normal work, L \u2013 shutdown output"
+          }
+        ]
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U2"
+      ],
+      "finding_id": "deep_review:57f43d04256e"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "CH340C\u91c7\u75283.3V\u4f9b\u7535\u6a21\u5f0f\uff0cV3\u4e0eVCC\u540c\u63a5+3V3\u3002",
+      "description": "\u539f\u751f\u7f51\u8868U1.4\u4e0eU1.16\u540c\u63a5/+3V3\uff0cC4/C5\u4e3a100nF\u65c1\u8def\u3002",
+      "evidence": {
+        "components": [
+          "U1"
+        ],
+        "datasheet": [
+          {
+            "mpn": "CH340C",
+            "page": 4,
+            "quote": "connects V3 with VCC, both powered with 3.3V power supply"
+          }
+        ]
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1"
+      ],
+      "finding_id": "deep_review:c6a2c7d0a380"
+    },
+    {
+      "detector": "deep_review",
+      "category": "protection",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "USBLC6-2\u5305\u542bVBUS\u94b3\u4f4d\uff0cUC-002\u81ea\u52a8\u544a\u8b66\u9700\u4eba\u5de5\u964d\u7ea7\u3002",
+      "description": "D1.5\u63a5USB\u539f\u59cbVBUS\uff0cD1.2\u63a5\u5730\uff1b\u540c\u65f6\u4fdd\u62a4D+/D-\u3002\u7cfb\u7edf\u7ea7ESD\u8010\u53d7\u672a\u5b9e\u6d4b\u3002",
+      "evidence": {
+        "components": [
+          "D1",
+          "J1"
+        ],
+        "datasheet": [
+          {
+            "mpn": "USBLC6-2SC6",
+            "page": 1,
+            "quote": "ESD protection of VBUS"
+          }
+        ]
+      },
+      "evidence_checked": "full",
+      "components": [
+        "D1",
+        "J1"
+      ],
+      "finding_id": "deep_review:d11dce4632c4"
+    },
+    {
+      "detector": "deep_review",
+      "category": "signal_integrity",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "90ohm\u662f\u6307\u5b9a\u53e0\u5c42\u7684\u8ba1\u7b97\u76ee\u6807\uff0c\u91cf\u4ea7\u524d\u4ecd\u9700\u677f\u5382\u786e\u8ba4\u3002",
+      "description": "0.75mm\u5bbd\u30010.15mm\u95f4\u8ddd\u3001h0.91mm\u3001er4.2\u300135um\u94dc\u7684\u5747\u5300\u6bb5\u4f30\u7b97\uff1b\u4e0d\u542b\u771f\u5b9e\u963b\u710a\u3001\u6750\u6599\u6279\u6b21\u548c\u710a\u76d8\u77ed\u9888\u90e8\u3002",
+      "evidence": {
+        "components": [
+          "J1",
+          "U1",
+          "D1"
+        ],
+        "computation": {
+          "description": "KiCad\u8026\u5408\u5fae\u5e26\u6a21\u578b\u8ba1\u7b97",
+          "script": "scripts/usb_impedance.py",
+          "result": "Nominal uniform-trunk differential impedance about 89.859 ohm; actual fabrication stackup and whole-path impedance not measured."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "J1",
+        "U1",
+        "D1"
+      ],
+      "finding_id": "deep_review:808a8720cffc"
+    },
+    {
+      "detector": "deep_review",
+      "category": "thermal",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "\u5916\u4f9b50mA\u4e0b\u4fdd\u5b88USB\u76f4\u6d41\u9884\u7b97\u7ea665.48mA\uff0cLDO\u8017\u6563\u7ea60.131W\u3002",
+      "description": "\u8ba1\u5165CH340C12mA\u3001\u5ffd\u7565LED\u6b63\u5411\u538b\u964d\u7684\u7535\u6d41\u4e0a\u754c\u30010.1mA\u9759\u6001\u9884\u7b97\u3002",
+      "evidence": {
+        "components": [
+          "U1",
+          "U2",
+          "D2",
+          "R3"
+        ],
+        "computation": {
+          "description": "\u539f\u751f\u7f51\u8868\u5173\u952e\u8fde\u63a5\u4e0e\u76f4\u6d41\uff0f\u4e00\u9636\u70ed\u9884\u7b97",
+          "script": "analysis/review_electrical_checks.py",
+          "result": "USB upper 65.4833mA; Pd 0.131259W; thetaJA184C/W; rise24.1517C."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U1",
+        "U2",
+        "D2",
+        "R3"
+      ],
+      "finding_id": "deep_review:5227c98accb5"
+    }
+  ],
+  "quarantined": []
+}
