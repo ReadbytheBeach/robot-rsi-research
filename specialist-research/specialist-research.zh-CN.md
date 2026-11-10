@@ -19,6 +19,7 @@ Specialist 将人手上的操作示范转为机器人可学习的数据：人使
 | 因子图怎样改善轨迹一致性 | 第 6 节及 [world_trajectory.py](examples/world_trajectory.py) |
 | 如何评价毫米级精度 | 第 7 节 |
 | 如何运行官方流程及本报告示例 | 第 8–9 节 |
+| README 的数据层、时间索引与训练样本怎样理解 | [数据管线详细导读](specialist-data-pipeline.zh-CN.md) |
 | 哪些已经开源，哪些仍未核实 | 第 10 节 |
 
 ## 2. 硬件结构：一种操作几何，两种使用方式
@@ -325,6 +326,8 @@ $X$ 是待估变量，$r_i$ 是观测残差，$\Sigma_i$ 是噪声协方差，$\
 6. 增加速度、延长录制，再检查时间偏差与世界轨迹误差的关系。
 
 ## 8. 官方数据管线：从 `.insv` 到状态层
+
+本节提供命令速览。关于 capture／session／layer、各 `.rrd` 的区别、`row` 与图像真实时间，以及 state 怎样形成 observation／action，参见新增的[数据重建 README 详细导读](specialist-data-pipeline.zh-CN.md)。
 
 以下是源码 README 中的命令形式，需要在**官方 specialist 仓库**执行，不能在本调研目录直接运行：
 
