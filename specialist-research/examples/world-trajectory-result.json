@@ -1,0 +1,21 @@
+{
+  "synthetic_only": true,
+  "seed": 7,
+  "camera_model": "calibrated pinhole; NOT raw Specialist MEI/fisheye",
+  "motion_factor": "noisy relative pose; NOT raw IMU integration",
+  "world_scale": "fixed 0.12 m tag; no truth alignment or scale fitting",
+  "trajectory_frame": "camera origin; W_T_G = W_T_C @ C_T_G for gripper",
+  "initialization": "synthetic truth perturbed; NOT a real pose initializer",
+  "self_test": "passed",
+  "initial": {
+    "translation_rmse_mm": 52.532004571156925,
+    "rotation_rmse_deg": 4.496351239040725,
+    "clean_corner_reprojection_rmse_px": 35.13851996570908
+  },
+  "optimized": {
+    "translation_rmse_mm": 11.736054691983616,
+    "rotation_rmse_deg": 0.9870275631861136,
+    "clean_corner_reprojection_rmse_px": 0.4946951288929416
+  },
+  "function_evaluations": 31
+}
