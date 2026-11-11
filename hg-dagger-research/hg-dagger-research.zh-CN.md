@@ -18,7 +18,7 @@
 | HG-DAgger PDF | <https://arxiv.org/pdf/1810.02890> | 实现前核对算法、采样、风险估计与评测协议 |
 | DAgger 背景论文 | <https://proceedings.mlr.press/v15/ross11a.html> | 理解数据聚合与模仿学习的状态分布偏移；本次未全文复核 |
 | 一份 dVRK 接管实现说明 | [固定提交的 README](https://github.com/Nicole880906/HG-DAgger/blob/83743c359c599fe88b44242c4138bfd3bf9e8d99/README.md) | 本次读取了 README；为独立项目，不视为 HG-DAgger 官方代码，也未运行或验证其训练结果 |
-| 本仓库训练 Harness 方案 | [如何让一次实验的结果能成为下一次实验的输入](../如何让一次实验的结果能成为下一次实验的输入.md) | 对接任务约定、实验记忆、预算、候选评测与基线更新 |
+| 本仓库训练 Harness 方案 | [如何让一次实验的结果能成为下一次实验的输入](../training-harness-research/training-harness-research.zh-CN.md) | 对接任务约定、实验记忆、预算、候选评测与基线更新 |
 
 以下公式、事件字段、数据审核和发布流程均为解释性定义或本文的工程建议，不是对原论文完整算法的逐式转录。本文将 HG-DAgger 核心思路与新增工程设计分别说明。
 
