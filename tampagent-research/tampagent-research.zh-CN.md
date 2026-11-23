@@ -1,4 +1,30 @@
+---
+document_id: "RSI-017"
+title_zh: "TAMPAgent 中文调研与机器人 RSI 研究方案"
+title_en: "TAMPAgent: A Research Review and Robot RSI Study Proposal"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-05"
+indexed_on: "2026-11-23"
+---
+
 # TAMPAgent 中文调研与机器人 RSI 研究方案
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 约束执行反馈如何转成可迁移技能，怎样区分任务重试与递归自我改进？
+
+- [FACT] [AS_OF:2026-11-05] 所检视 TAMPAgent 仓库是静态项目网站，公开手册与部分记录，但 Paper、arXiv 和 Code 入口仍标 soon，未提供可运行机器人系统；公开手册描述了按步骤检查证据、授予执行许可和确认动作结果的接口。
+- [AUTHOR_REPORT] [AS_OF:2026-11-05] 项目页报告九项厨房任务总体成功率77%，对比CaP的57%和GaP的61%；这些作者报告的仿真统计不含T9跨尝试记忆实验，也不是本次独立复现或真实机器人总体成功率。
+- [PROPOSAL] 建议固定基础模型、执行检查器与评价器，对比无记忆、文字记忆、结构化检索、技能学习和改进器更新；当前公开证据支持执行与重试分析，尚未证明持久能力积累或递归自我改进。
+
+**适用边界：** 仅调研项目网站、手册、部分记录与相关仓库，没有完整论文或系统实现，也未运行机器人实验或独立复现。
+
+**相关文档：** [RSI-004 CaPtain 与 Physical Critic：中文技术调研](../captain-research/captain-research.zh-CN.md)；[RSI-009 PEAR 与 Robot RSI 中文技术调研](../pear-research/pear-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期：2026-11-05（新加坡时间）。本报告根据用户提供的截图定位项目，并阅读公开项目页、其内嵌智能体手册与相关工作官方仓库。未运行机器人实验，也未获得完整论文或系统实现。
 

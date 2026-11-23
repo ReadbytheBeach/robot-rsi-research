@@ -1,4 +1,28 @@
+---
+document_id: "RSI-001"
+title_zh: "AI Mechanical Design：MicroDuck STEP 试运行"
+title_en: "AI Mechanical Design: MicroDuck STEP CAD Trial Plan"
+language: "zh-CN"
+kind: "design_proposal"
+evidence_as_of: "2026-11-09"
+indexed_on: "2026-11-23"
+---
+
 # AI Mechanical Design：MicroDuck STEP 试运行
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 怎样验收 MicroDuck STEP 模型经 FreeCAD 与 MCP 读取、编辑和往返的完整流程？
+
+- [PROPOSAL] 以 MicroDuck 躯干底板设计 P0/P1 工具链验收，覆盖 STEP 导入、几何回读、受控参数化切除、FCStd 保存重开和 STEP 导出回读。
+- [LOCAL_RESULT] [AS_OF:2026-11-09] 前次尝试因云端执行环境不可用而中断；本文仅修订流程，输入复核、FreeCAD、MCP、几何编辑及文件往返均未执行。
+- [DISCUSSION] 工具链验收与结构优化、制造公差及实物合格分别判断；第三方逆向 STEP 的几何信息不能替代官方 CAD 或实物核对。
+
+**适用边界：** 未执行的 CAD 工具链验收草稿，不包含结构优化、强度认证、制造交付或 DGX Spark ARM64 本机兼容性验证结果。
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 - 日期：2026-11-09（新加坡时间）。
 - 目标平台：DGX Spark，Linux ARM64。

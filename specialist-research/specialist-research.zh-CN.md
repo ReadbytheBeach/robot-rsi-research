@@ -1,4 +1,30 @@
+---
+document_id: "RSI-015"
+title_zh: "Specialist Gripper 中文调研：硬件、双手同步与世界坐标轨迹重建"
+title_en: "Specialist Gripper: Hardware, Bimanual Synchronization, and World-Frame Trajectory Reconstruction"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-10"
+indexed_on: "2026-11-23"
+---
+
 # Specialist Gripper 中文调研：硬件、双手同步与世界坐标轨迹重建
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 如何用匹配的夹爪硬件与多传感器重建获得可追溯的双手操作示范？
+
+- [FACT] [AS_OF:2026-11-10] Specialist采用手持版采集示范、匹配几何与相机位置的驱动版执行；公开数据代码将视频、IMU、音频和标记约束整理为米制位姿与开度，系统介绍采用行为克隆路线。
+- [LOCAL_RESULT] [AS_OF:2026-11-10] 独立教学代码仅在合成数据上复跑：音频四项自检通过，seed 7合成轨迹相机位置RMSE从52.532 mm降至11.736 mm；这不证明官方重建或硬件精度，也没有真实IMU预积分和完整GTSAM图复现。
+- [DISCUSSION] 毫米级误差报道未取得论文与原始真值复核，低重投影误差也不能替代世界坐标精度；完整训练、权重和部分组件发布仍有缺口，本报告没有完成官方CUDA管线或真机复现。
+
+**适用边界：** 已读官方源码与手册并运行独立NumPy／SciPy教学合成自检，未取得真实.insv、动捕真值或实物，未运行完整官方CUDA重建、策略训练或真机控制。
+
+**相关文档：** [RSI-014 Specialist 数据重建 README 导读：管线、数据层与训练样本](specialist-data-pipeline.zh-CN.md)；[RSI-006 HG-DAgger 中文调研与人工接管证据链方案](../hg-dagger-research/hg-dagger-research.zh-CN.md)；[RSI-016 SuperMimic 中文调研](../supermimic-research/supermimic-research.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 - 调研日期：2026-11-10（新加坡时间）。
 - 对象：UC Berkeley Specialist 手持／驱动式夹爪，以及官方数据重建代码。

@@ -1,4 +1,30 @@
+---
+document_id: "RSI-006"
+title_zh: "HG-DAgger 中文调研与人工接管证据链方案"
+title_en: "HG-DAgger and a Traceable Human Intervention Evidence Pipeline"
+language: "zh-CN"
+kind: "design_proposal"
+evidence_as_of: "2026-11-11"
+indexed_on: "2026-11-23"
+---
+
 # HG-DAgger 中文调研与人工接管证据链方案
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 如何把人工接管转化为可追溯的训练输入，并验证后续策略真正减少人工依赖？
+
+- [DISCUSSION] HG-DAgger 的核心价值是在当前策略访问的困难状态中获取专家纠正；未发生接管的动作不能自动视为正确，人工救回当前任务也不等于策略已经改善。
+- [PROPOSAL] 提出接管事件包、逐帧控制来源、时序对齐、专家标签掩码与数据审核，并将硬件、标定和环境干预分流到对应工程实验。
+- [PROPOSAL] 以固定保留场景比较初始行为克隆、追加完整示范和纠正聚合，联合衡量无帮助成功率、任务质量、人工时间与旧能力回归，再决定候选版本是否接纳。
+
+**适用边界：** 方法说明与新增工程方案；未取得原论文全文，仅读取一份独立实现的 README，未执行 HG-DAgger 训练、机器人接管或新旧策略对照实验。
+
+**相关文档：** [RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)；[RSI-009 PEAR 与 Robot RSI 中文技术调研](../pear-research/pear-research.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 - 日期：2026-11-11（新加坡时间）。
 - 文档性质：HG-DAgger 核心思路说明，以及与机器人训练 Harness、独立验收和版本管理结合的工程方案。

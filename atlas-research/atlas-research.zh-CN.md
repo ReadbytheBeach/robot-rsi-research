@@ -1,4 +1,30 @@
+---
+document_id: "RSI-003"
+title_zh: "ATLAS 与 SOMA 对 Robot RSI 的价值：中文技术调研"
+title_en: "ATLAS and SOMA for Robot RSI: Video Demonstrations and Online Execution Correction"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-19"
+indexed_on: "2026-11-23"
+---
+
 # ATLAS 与 SOMA 对 Robot RSI 的价值：中文技术调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 怎样把视频示范、现场执行修正与独立验收衔接为可保留的 Robot RSI 改进？
+
+- [AUTHOR_REPORT] [AS_OF:2026-11-19] ATLAS 作者展示了组合视频任务说明、预训练全身跟踪器和会话内在线修正的系统，并报告真机与仿真任务中后续尝试的表现改善。
+- [DISCUSSION] SOMA 提供参考动作，ATLAS 利用已有底层能力调整现场执行；现有材料没有在同一 MicroDuck、任务和预算下比较二者，会话内改善也不能直接证明跨会话能力积累。
+- [PROPOSAL] 基于仓库商铺通道仿真基线提出扰动后精准停车实验，比较固定控制、固定标定和在线修正，并分别验收适应速度与冻结修正的跨场景复用。
+
+**适用边界：** 文献调研结合仓库既有仿真记录；新增停车实验尚未运行，所读公开材料未提供 ATLAS 的 MicroDuck 实验或可直接运行的完整官方实现。
+
+**相关文档：** [RSI-013 NVIDIA SOMA Retargeter：人体动作到 MicroDuck 策略的技术调研](../soma-retargeter-research/soma-retargeter-research.zh-CN.md)；[RSI-005 GMR 人体动作重定向与 MicroDuck 参考轨迹验收：中文技术调研](../gmr-research/gmr-research.zh-CN.md)；[RSI-010 MicroDuck 在电子维修店交错通道中的训练与双引擎盲测](../ropedia-xperience-2/MicroDuck%E5%95%86%E9%93%BA%E4%BA%A4%E9%94%99%E9%80%9A%E9%81%93%E8%AE%AD%E7%BB%83%E4%B8%8E%E5%8F%8C%E5%BC%95%E6%93%8E%E7%9B%B2%E6%B5%8B%E6%80%BB%E7%BB%93_20261119_093806.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期为 2026 年 11 月 19 日（新加坡时间）。研究对象为 ATLAS 单次视频示范、NVIDIA SOMA Retargeter 及其在 MicroDuck 上的应用。
 

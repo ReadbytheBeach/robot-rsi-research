@@ -1,4 +1,30 @@
+---
+document_id: "RSI-012"
+title_zh: "NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研"
+title_en: "NVIDIA SimReady Central and Simulation Assets for Robot RSI"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-22"
+indexed_on: "2026-11-23"
+---
+
 # NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 如何把可复用仿真资产转为有版本、可复现且能回应真实失败的机器人练习？
+
+- [FACT] [AS_OF:2026-11-22] SimReady Central连接供应商自行保存的资产数据集，是发现与复用入口；资产描述质量、碰撞、材料和摩擦等属性，物理计算由运行时执行，具体能力、profile和许可证需逐项检查。
+- [USER_CONTEXT] MicroDuck具备嘴部拾取能力是用户提供的应用前提；正文未据此假定嘴部尺寸、夹持力、自由度或载荷，也未声称资产或策略已完成适配。
+- [PROPOSAL] 建议保留资产修订、物性覆盖、运行时和任务证据，将识别、静止拾取、携物移动与障碍搬运分阶段验证，再以同预算对照固定、随机和失败驱动课程；这些实验尚未运行。
+
+**适用边界：** 已核对官方与合作方资料，但未下载完整资产库、运行验证工具或测量具体资产物性，MicroDuck课程和资产选择实验均属设计。
+
+**相关文档：** [RSI-002 Antigravity Robotics Plugin 与机器人仿真自我改进中文调研](../antigravity-robotics-plugin-research/antigravity-robotics-plugin-research.zh-CN.md)；[RSI-009 PEAR 与 Robot RSI 中文技术调研](../pear-research/pear-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期：2026-11-22（新加坡时间）。对象来自用户提供的“SimReady Central、3000+ 带物理引擎的 3D 资产”截图，并结合 MicroDuck 的视觉、避障、嘴部拾取和搬运需求分析应用方式。
 

@@ -1,4 +1,28 @@
+---
+document_id: "RSI-008"
+title_zh: "CH340C Type-C 转 3.3V TTL 转接板"
+title_en: "CH340C USB Type-C to 3.3V TTL Adapter Board"
+language: "zh-CN"
+kind: "hardware_project"
+evidence_as_of: null
+indexed_on: "2026-11-23"
+---
+
 # CH340C Type-C 转 3.3V TTL 转接板
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 这块 Type-C 转 3.3V TTL 板提供哪些工程产物，投板和首板验证还缺什么？
+
+- [FACT] 入口说明了 30×30 mm 双层转接板的 CH340C、AP2112K 和四针 TTL 接口，并链接 KiCad 工程、原理图、Gerber、BOM、设计审查与首板测试资料。
+- [LOCAL_RESULT] 原文记录原生 ERC/DRC、未连接及原理图/PCB 一致性检查均为零；差分阻抗为名义计算结果，投板前仍需板厂按实际叠层确认。
+- [DISCUSSION] 尚未进行实物枚举、回环、负载、EMC/ESD 或阻抗测量；部分精确机械模型缺失，3.3V 外供预算也不构成独立电子限流保护。
+
+**适用边界：** 硬件工程入口与文中记录的设计检查范围，缺少明确日期；未报告实物功能、负载、EMC/ESD 或阻抗实测验证。
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 30×30mm、双层、成品板厚 1.0mm、全部元件在顶面，普通自由走线使用斜线／45°转角。使用 CH340C 内部时钟，USB 5V 经 AP2112K 稳压为 3.3V。
 

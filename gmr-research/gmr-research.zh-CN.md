@@ -1,4 +1,30 @@
+---
+document_id: "RSI-005"
+title_zh: "GMR 人体动作重定向与 MicroDuck 参考轨迹验收：中文技术调研"
+title_en: "GMR Human Motion Retargeting and MicroDuck Reference Trajectory Validation"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-20"
+indexed_on: "2026-11-23"
+---
+
 # GMR 人体动作重定向与 MicroDuck 参考轨迹验收：中文技术调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 如何判断动作重定向生成的参考轨迹是否导致下游跟踪失败或动作失真？
+
+- [AUTHOR_REPORT] [AS_OF:2026-11-20] 论文在相同 BeyondMimic 训练流程下比较 G1 的多种重定向参考，报告完成率随动作与参考方法显著变化；GMR 也存在参考异常和起始帧敏感的案例。
+- [DISCUSSION] 完成整段动作、跟踪精度和参考对人体原动作的忠实度应分别判断；G1 仿真子集结果不足以推出 GMR 在 MicroDuck、真机或物体交互任务上的优劣。
+- [PROPOSAL] 建议对齐人体原动作、机器人参考和实际轨迹，先检查滑移、穿地、关节尖峰与首帧过渡，再固定其他条件比较 GMR 与 SOMA。
+
+**适用边界：** 以论文原文、项目页与官方实现为资料的调研；定量证据来自作者的 G1 仿真，本文未运行训练、仿真或实机实验。
+
+**相关文档：** [RSI-013 NVIDIA SOMA Retargeter：人体动作到 MicroDuck 策略的技术调研](../soma-retargeter-research/soma-retargeter-research.zh-CN.md)；[RSI-003 ATLAS 与 SOMA 对 Robot RSI 的价值：中文技术调研](../atlas-research/atlas-research.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期为 2026 年 11 月 20 日（新加坡时间）。研究对象为斯坦福大学论文 *Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking*（arXiv:2510.02252v1）。
 

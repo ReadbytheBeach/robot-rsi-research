@@ -1,4 +1,30 @@
+---
+document_id: "RSI-004"
+title_zh: "CaPtain 与 Physical Critic：中文技术调研"
+title_en: "CaPtain and Physical Critic: Post-Training Code-as-Policy Robot Agents"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-05"
+indexed_on: "2026-11-23"
+---
+
 # CaPtain 与 Physical Critic：中文技术调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 物理状态 critic 如何帮助代码机器人策略学习，现有改进证据的边界是什么？
+
+- [FACT] [AS_OF:2026-11-05] 固定版本代码提供基于预训练 Qwen3.5-4B 的 SFT/RL 流程；训练期 Physical Critic 用特权物理状态估计成功概率并分配模型请求级信用，部署策略通过 Harness 调用已有低层能力。
+- [AUTHOR_REPORT] [AS_OF:2026-11-05] 作者报告 RL 后多项基准成绩提升，但跨后端结果涉及不同输入、动作接口和运行预算；真实机器人驱动与适配检查点不在本次公开发布范围内。
+- [DISCUSSION] 参数学习证据不等于递归改进证据；需通过匹配奖励工程、早停和交互预算的消融，分离 critic、执行约束反馈及自适应改进流程的贡献。
+
+**适用边界：** 核查固定版本仓库文档、critic 源码和 Harness 协议；未读论文 PDF 全文，未运行训练或机器人评测，未下载验证模型权重。
+
+**相关文档：** [RSI-017 TAMPAgent 中文调研与机器人 RSI 研究方案](../tampagent-research/tampagent-research.zh-CN.md)；[RSI-009 PEAR 与 Robot RSI 中文技术调研](../pear-research/pear-research.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期：2026-11-05（新加坡时间）。对象来自用户提供的“港中文 MMLab / CaPtain / Physical Critic”截图。
 

@@ -1,4 +1,30 @@
+---
+document_id: "RSI-002"
+title_zh: "Antigravity Robotics Plugin 与机器人仿真自我改进中文调研"
+title_en: "Antigravity Robotics Plugin and Robot Simulation Self-Improvement"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-22"
+indexed_on: "2026-11-23"
+---
+
 # Antigravity Robotics Plugin 与机器人仿真自我改进中文调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** Antigravity 的场景、审计、训练与评测工具怎样支持可验证的机器人改进闭环？
+
+- [FACT] [AS_OF:2026-11-22] 所检视固定版本提供 MuJoCo 场景制作、物理审计、控制器评测、失败分叉和 RL 训练工作流；其中 gauntlet 评分路径的真机 success 为 None，有明确的日志信息范围限制。
+- [DISCUSSION] 医院 PPE 补货截图与发布者提示词高度匹配，但缺少对应任务工件与日志，画面不足以证明训练成功、真机迁移或持续自我改进。
+- [PROPOSAL] 针对用户描述的 MicroDuck 嘴部拾取能力，提出先验证原地夹取放置，再研究携物与避障，并以固定评价器、预算匹配和旧能力回归比较改进流程。
+
+**适用边界：** 核查公告、提示词及固定版本源码，未取得截图医院任务代码，未运行插件、RL 训练或真机实验；MicroDuck 部分为待实施方案。
+
+**相关文档：** [RSI-012 NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研](../simready-central-research/simready-central-research.zh-CN.md)；[RSI-009 PEAR 与 Robot RSI 中文技术调研](../pear-research/pear-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期：2026-11-22（新加坡时间）。对象来自用户提供的医院走廊、Stretch 3 为 PPE 抽屉补货的三视角截图，并结合 MicroDuck 嘴部可作为拾取末端的应用设想。
 

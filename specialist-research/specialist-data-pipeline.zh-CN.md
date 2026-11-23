@@ -1,4 +1,30 @@
+---
+document_id: "RSI-014"
+title_zh: "Specialist 数据重建 README 导读：管线、数据层与训练样本"
+title_en: "A Guide to Specialist Data Reconstruction: Pipeline, Data Layers, and Training Samples"
+language: "zh-CN"
+kind: "technical_guide"
+evidence_as_of: "2026-11-10"
+indexed_on: "2026-11-23"
+---
+
 # Specialist 数据重建 README 导读：管线、数据层与训练样本
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** Specialist的原始录制如何逐层变成时序与坐标约定明确的训练样本？
+
+- [FACT] [AS_OF:2026-11-10] 导读依固定版本README与源码区分.insv、base、estimate、viz、state和catalog：state依赖base与estimate，viz不提供动作标签，catalog负责索引；策略训练器仍需单独实现。
+- [FACT] [AS_OF:2026-11-10] 状态层记录夹爪base-tag位姿与开度，100 Hz状态网格不意味着100 Hz新图像；row、capture_row和真实video_time具有不同含义，相机slot也不能直接当作固定左右手身份。
+- [DISCUSSION] 训练器还需规定相对坐标、历史与未来窗口、归一化和部署时信息可用性；文中数值为教学示意，官方读取示例只核对接口与语法，未执行真实.rrd读取或完整CUDA重建。
+
+**适用边界：** 范围为固定源码导读和教学示意，没有真实.insv或.rrd读取、官方CUDA重建及行为克隆训练；相关已运行教学示例仅在合成数据上验证。
+
+**相关文档：** [RSI-015 Specialist Gripper 中文调研：硬件、双手同步与世界坐标轨迹重建](specialist-research.zh-CN.md)；[RSI-006 HG-DAgger 中文调研与人工接管证据链方案](../hg-dagger-research/hg-dagger-research.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 - 日期：2026-11-10（新加坡时间）。
 - 来源版本：官方 `specialist` 提交 `da29719cdbaa366df0599984068ad4553d9cc86d`。

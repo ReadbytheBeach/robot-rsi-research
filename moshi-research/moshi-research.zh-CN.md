@@ -1,4 +1,30 @@
+---
+document_id: "RSI-007"
+title_zh: "Moshi 全双工语音与 Robot RSI 人工纠偏：中文技术调研"
+title_en: "Moshi Full-Duplex Speech and Human Verbal Corrections for Robot RSI"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-21"
+indexed_on: "2026-11-23"
+---
+
 # Moshi 全双工语音与 Robot RSI 人工纠偏：中文技术调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 机器人边执行边说话时，怎样确认用户插话已被听取、接受并落实到动作？
+
+- [FACT] [AS_OF:2026-11-21] Moshi 在同一时间轴表示用户与模型两路语音，可以在自身说话时继续接收用户插话；官方 Moshiko 模型卡标注英语，模型本身不提供工具调用。
+- [AUTHOR_REPORT] [AS_OF:2026-11-21] Kyutai 报告 NVIDIA L4 上最低约 200 毫秒的流式延迟；第三方明确打断场景中报告平均 1.16 秒停止说话、回应新意图比例为 50%，这些指标各有计时或行为定义。
+- [PROPOSAL] 提出 MicroDuck 低速转向仿真对照，分别记录让出话轮、正确指令接受和实际改向，并用附和场景检查误停，英文与中文指令单独统计。
+
+**适用边界：** 核对论文、官方实现、模型卡与第三方评测，未运行 MicroDuck 语音控制实验；公开语音延迟不能替代机器人端到端纠偏延迟。
+
+**相关文档：** [RSI-006 HG-DAgger 中文调研与人工接管证据链方案](../hg-dagger-research/hg-dagger-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期：2026-11-21（新加坡时间）。研究对象为 Kyutai 的 Moshi，以及它在 MicroDuck 执行任务时接收口头纠正的可行性。
 

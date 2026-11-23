@@ -1,0 +1,968 @@
+{
+  "schema_version": 1,
+  "repository": "ReadbytheBeach/robot-rsi-research",
+  "primary_language": "zh-CN",
+  "updated_on": "2026-11-23",
+  "reference_format": "https://github.com/ReadbytheBeach/thousand-brains",
+  "categories": [
+    {
+      "id": "learning_loop",
+      "title_zh": "学习闭环与反馈",
+      "title_en": "Learning Loops and Feedback"
+    },
+    {
+      "id": "simulation",
+      "title_zh": "仿真资产 场景与实验",
+      "title_en": "Simulation Assets, Scenes, and Experiments"
+    },
+    {
+      "id": "motion",
+      "title_zh": "动作参考与控制",
+      "title_en": "Motion References and Control"
+    },
+    {
+      "id": "data_interaction",
+      "title_zh": "示范数据与语言交互",
+      "title_en": "Demonstration Data and Language Interaction"
+    },
+    {
+      "id": "hardware",
+      "title_zh": "机械与电子工程",
+      "title_en": "Mechanical and Electronic Engineering"
+    }
+  ],
+  "kinds": {
+    "research_report": {
+      "title_zh": "技术调研",
+      "title_en": "Research review"
+    },
+    "design_proposal": {
+      "title_zh": "设计方案",
+      "title_en": "Design proposal"
+    },
+    "experiment_report": {
+      "title_zh": "实验记录",
+      "title_en": "Experiment report"
+    },
+    "technical_guide": {
+      "title_zh": "技术导读",
+      "title_en": "Technical guide"
+    },
+    "hardware_project": {
+      "title_zh": "硬件入口",
+      "title_en": "Hardware project"
+    }
+  },
+  "evidence_tags": {
+    "FACT": {
+      "title_zh": "来源事实",
+      "description_zh": "可核查的项目、文档或源码事实，不自动表示本项目运行通过。"
+    },
+    "AUTHOR_REPORT": {
+      "title_zh": "外部报告",
+      "description_zh": "项目作者、论文作者、独立复现者或外部评测方报告的结果，保留归属和条件。"
+    },
+    "AUTHOR_HYPOTHESIS": {
+      "title_zh": "作者假说",
+      "description_zh": "原作者提出的假说，不升级为已验证结论。"
+    },
+    "LOCAL_RESULT": {
+      "title_zh": "本地记录",
+      "description_zh": "仓库记录的本地实验、失败尝试、工具检查或合成数据结果，保留实际范围。"
+    },
+    "DISCUSSION": {
+      "title_zh": "分析推断",
+      "description_zh": "调研中的解释、推断或类比。"
+    },
+    "PROPOSAL": {
+      "title_zh": "设计建议",
+      "description_zh": "待实施或验证的设计与实验建议。"
+    },
+    "USER_CONTEXT": {
+      "title_zh": "用户前提",
+      "description_zh": "用户提供的应用条件，不据此补造未知规格。"
+    }
+  },
+  "reading_routes": [
+    {
+      "title_zh": "理解机器人学习闭环",
+      "title_en": "Understand the robot learning loop",
+      "document_ids": [
+        "RSI-018",
+        "RSI-009",
+        "RSI-004",
+        "RSI-006",
+        "RSI-017",
+        "RSI-003"
+      ]
+    },
+    {
+      "title_zh": "构建 MicroDuck 场景与嘴部操作实验",
+      "title_en": "Build MicroDuck scene and mouth-manipulation experiments",
+      "document_ids": [
+        "RSI-002",
+        "RSI-012",
+        "RSI-011",
+        "RSI-010"
+      ]
+    },
+    {
+      "title_zh": "检查动作参考与跟踪控制",
+      "title_en": "Inspect motion references and tracking control",
+      "document_ids": [
+        "RSI-013",
+        "RSI-005",
+        "RSI-016"
+      ]
+    },
+    {
+      "title_zh": "连接示范数据与口头纠正",
+      "title_en": "Connect demonstration data and verbal corrections",
+      "document_ids": [
+        "RSI-015",
+        "RSI-014",
+        "RSI-007",
+        "RSI-006"
+      ]
+    },
+    {
+      "title_zh": "进入机械与电子工程资料",
+      "title_en": "Explore mechanical and electronic engineering",
+      "document_ids": [
+        "RSI-001",
+        "RSI-008"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "RSI-001",
+      "path": "ai-mechanical-design-research/ai-mechanical-design-research.zh-CN.md",
+      "title_zh": "AI Mechanical Design：MicroDuck STEP 试运行",
+      "title_en": "AI Mechanical Design: MicroDuck STEP CAD Trial Plan",
+      "kind": "design_proposal",
+      "category": "hardware",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-09",
+      "topics_zh": [
+        "CAD 自动化",
+        "FreeCAD 与 MCP",
+        "STEP 往返",
+        "参数化几何编辑",
+        "DGX Spark ARM64"
+      ],
+      "topics_en": [
+        "CAD automation",
+        "FreeCAD and MCP",
+        "STEP round-trip validation",
+        "parametric geometry editing",
+        "DGX Spark ARM64"
+      ],
+      "question_zh": "怎样验收 MicroDuck STEP 模型经 FreeCAD 与 MCP 读取、编辑和往返的完整流程？",
+      "reading_summary": [
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "以 MicroDuck 躯干底板设计 P0/P1 工具链验收，覆盖 STEP 导入、几何回读、受控参数化切除、FCStd 保存重开和 STEP 导出回读。"
+        },
+        {
+          "tag": "LOCAL_RESULT",
+          "text_zh": "前次尝试因云端执行环境不可用而中断；本文仅修订流程，输入复核、FreeCAD、MCP、几何编辑及文件往返均未执行。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "工具链验收与结构优化、制造公差及实物合格分别判断；第三方逆向 STEP 的几何信息不能替代官方 CAD 或实物核对。"
+        }
+      ],
+      "scope_zh": "未执行的 CAD 工具链验收草稿，不包含结构优化、强度认证、制造交付或 DGX Spark ARM64 本机兼容性验证结果。",
+      "indexed_on": "2026-11-23",
+      "related_ids": []
+    },
+    {
+      "document_id": "RSI-002",
+      "path": "antigravity-robotics-plugin-research/antigravity-robotics-plugin-research.zh-CN.md",
+      "title_zh": "Antigravity Robotics Plugin 与机器人仿真自我改进中文调研",
+      "title_en": "Antigravity Robotics Plugin and Robot Simulation Self-Improvement",
+      "kind": "research_report",
+      "category": "simulation",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-22",
+      "topics_zh": [
+        "仿真场景生成",
+        "物理资产审计",
+        "强化学习工作流",
+        "控制器迭代",
+        "独立评价器",
+        "MicroDuck 移动操作"
+      ],
+      "topics_en": [
+        "simulation scene generation",
+        "physical asset auditing",
+        "reinforcement learning workflows",
+        "controller iteration",
+        "independent evaluators",
+        "MicroDuck mobile manipulation"
+      ],
+      "question_zh": "Antigravity 的场景、审计、训练与评测工具怎样支持可验证的机器人改进闭环？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "所检视固定版本提供 MuJoCo 场景制作、物理审计、控制器评测、失败分叉和 RL 训练工作流；其中 gauntlet 评分路径的真机 success 为 None，有明确的日志信息范围限制。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "医院 PPE 补货截图与发布者提示词高度匹配，但缺少对应任务工件与日志，画面不足以证明训练成功、真机迁移或持续自我改进。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "针对用户描述的 MicroDuck 嘴部拾取能力，提出先验证原地夹取放置，再研究携物与避障，并以固定评价器、预算匹配和旧能力回归比较改进流程。"
+        }
+      ],
+      "scope_zh": "核查公告、提示词及固定版本源码，未取得截图医院任务代码，未运行插件、RL 训练或真机实验；MicroDuck 部分为待实施方案。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-012",
+        "RSI-009",
+        "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-003",
+      "path": "atlas-research/atlas-research.zh-CN.md",
+      "title_zh": "ATLAS 与 SOMA 对 Robot RSI 的价值：中文技术调研",
+      "title_en": "ATLAS and SOMA for Robot RSI: Video Demonstrations and Online Execution Correction",
+      "kind": "research_report",
+      "category": "learning_loop",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-19",
+      "topics_zh": [
+        "视频示范",
+        "全身动作跟踪",
+        "在线执行修正",
+        "会话内适应",
+        "动作重定向",
+        "MicroDuck 精准停车"
+      ],
+      "topics_en": [
+        "video demonstrations",
+        "whole-body motion tracking",
+        "online execution correction",
+        "within-session adaptation",
+        "motion retargeting",
+        "MicroDuck precision parking"
+      ],
+      "question_zh": "怎样把视频示范、现场执行修正与独立验收衔接为可保留的 Robot RSI 改进？",
+      "reading_summary": [
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "ATLAS 作者展示了组合视频任务说明、预训练全身跟踪器和会话内在线修正的系统，并报告真机与仿真任务中后续尝试的表现改善。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "SOMA 提供参考动作，ATLAS 利用已有底层能力调整现场执行；现有材料没有在同一 MicroDuck、任务和预算下比较二者，会话内改善也不能直接证明跨会话能力积累。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "基于仓库商铺通道仿真基线提出扰动后精准停车实验，比较固定控制、固定标定和在线修正，并分别验收适应速度与冻结修正的跨场景复用。"
+        }
+      ],
+      "scope_zh": "文献调研结合仓库既有仿真记录；新增停车实验尚未运行，所读公开材料未提供 ATLAS 的 MicroDuck 实验或可直接运行的完整官方实现。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-013",
+        "RSI-005",
+        "RSI-010"
+      ]
+    },
+    {
+      "document_id": "RSI-004",
+      "path": "captain-research/captain-research.zh-CN.md",
+      "title_zh": "CaPtain 与 Physical Critic：中文技术调研",
+      "title_en": "CaPtain and Physical Critic: Post-Training Code-as-Policy Robot Agents",
+      "kind": "research_report",
+      "category": "learning_loop",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-05",
+      "topics_zh": [
+        "代码机器人策略",
+        "监督微调与强化学习",
+        "物理状态价值函数",
+        "请求级信用分配",
+        "自主结束判断",
+        "评测协议可比性"
+      ],
+      "topics_en": [
+        "code-as-policy robot agents",
+        "supervised fine-tuning and reinforcement learning",
+        "physical-state value functions",
+        "request-level credit assignment",
+        "autonomous completion judgment",
+        "evaluation protocol comparability"
+      ],
+      "question_zh": "物理状态 critic 如何帮助代码机器人策略学习，现有改进证据的边界是什么？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "固定版本代码提供基于预训练 Qwen3.5-4B 的 SFT/RL 流程；训练期 Physical Critic 用特权物理状态估计成功概率并分配模型请求级信用，部署策略通过 Harness 调用已有低层能力。"
+        },
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "作者报告 RL 后多项基准成绩提升，但跨后端结果涉及不同输入、动作接口和运行预算；真实机器人驱动与适配检查点不在本次公开发布范围内。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "参数学习证据不等于递归改进证据；需通过匹配奖励工程、早停和交互预算的消融，分离 critic、执行约束反馈及自适应改进流程的贡献。"
+        }
+      ],
+      "scope_zh": "核查固定版本仓库文档、critic 源码和 Harness 协议；未读论文 PDF 全文，未运行训练或机器人评测，未下载验证模型权重。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-017",
+        "RSI-009"
+      ]
+    },
+    {
+      "document_id": "RSI-005",
+      "path": "gmr-research/gmr-research.zh-CN.md",
+      "title_zh": "GMR 人体动作重定向与 MicroDuck 参考轨迹验收：中文技术调研",
+      "title_en": "GMR Human Motion Retargeting and MicroDuck Reference Trajectory Validation",
+      "kind": "research_report",
+      "category": "motion",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-20",
+      "topics_zh": [
+        "人体动作重定向",
+        "两阶段逆运动学",
+        "参考轨迹质量",
+        "跨引擎动作跟踪",
+        "起始帧过渡",
+        "MicroDuck 动作验收"
+      ],
+      "topics_en": [
+        "human motion retargeting",
+        "two-stage inverse kinematics",
+        "reference trajectory quality",
+        "cross-engine motion tracking",
+        "initial-frame transitions",
+        "MicroDuck motion validation"
+      ],
+      "question_zh": "如何判断动作重定向生成的参考轨迹是否导致下游跟踪失败或动作失真？",
+      "reading_summary": [
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "论文在相同 BeyondMimic 训练流程下比较 G1 的多种重定向参考，报告完成率随动作与参考方法显著变化；GMR 也存在参考异常和起始帧敏感的案例。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "完成整段动作、跟踪精度和参考对人体原动作的忠实度应分别判断；G1 仿真子集结果不足以推出 GMR 在 MicroDuck、真机或物体交互任务上的优劣。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "建议对齐人体原动作、机器人参考和实际轨迹，先检查滑移、穿地、关节尖峰与首帧过渡，再固定其他条件比较 GMR 与 SOMA。"
+        }
+      ],
+      "scope_zh": "以论文原文、项目页与官方实现为资料的调研；定量证据来自作者的 G1 仿真，本文未运行训练、仿真或实机实验。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-013",
+        "RSI-003"
+      ]
+    },
+    {
+      "document_id": "RSI-006",
+      "path": "hg-dagger-research/hg-dagger-research.zh-CN.md",
+      "title_zh": "HG-DAgger 中文调研与人工接管证据链方案",
+      "title_en": "HG-DAgger and a Traceable Human Intervention Evidence Pipeline",
+      "kind": "design_proposal",
+      "category": "learning_loop",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-11",
+      "topics_zh": [
+        "人工门控模仿学习",
+        "专家纠正数据聚合",
+        "控制权与动作对齐",
+        "接管事件记录",
+        "独立策略验收",
+        "人工成本"
+      ],
+      "topics_en": [
+        "human-gated imitation learning",
+        "expert correction data aggregation",
+        "control authority and action alignment",
+        "intervention event logging",
+        "independent policy evaluation",
+        "human effort costs"
+      ],
+      "question_zh": "如何把人工接管转化为可追溯的训练输入，并验证后续策略真正减少人工依赖？",
+      "reading_summary": [
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "HG-DAgger 的核心价值是在当前策略访问的困难状态中获取专家纠正；未发生接管的动作不能自动视为正确，人工救回当前任务也不等于策略已经改善。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "提出接管事件包、逐帧控制来源、时序对齐、专家标签掩码与数据审核，并将硬件、标定和环境干预分流到对应工程实验。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "以固定保留场景比较初始行为克隆、追加完整示范和纠正聚合，联合衡量无帮助成功率、任务质量、人工时间与旧能力回归，再决定候选版本是否接纳。"
+        }
+      ],
+      "scope_zh": "方法说明与新增工程方案；未取得原论文全文，仅读取一份独立实现的 README，未执行 HG-DAgger 训练、机器人接管或新旧策略对照实验。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-018",
+        "RSI-009"
+      ]
+    },
+    {
+      "document_id": "RSI-007",
+      "path": "moshi-research/moshi-research.zh-CN.md",
+      "title_zh": "Moshi 全双工语音与 Robot RSI 人工纠偏：中文技术调研",
+      "title_en": "Moshi Full-Duplex Speech and Human Verbal Corrections for Robot RSI",
+      "kind": "research_report",
+      "category": "data_interaction",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-21",
+      "topics_zh": [
+        "全双工语音",
+        "重叠语音与打断",
+        "延迟计时口径",
+        "口头意图纠正",
+        "机器人命令回执",
+        "MicroDuck 转向验收"
+      ],
+      "topics_en": [
+        "full-duplex speech",
+        "overlapping speech and interruptions",
+        "latency measurement definitions",
+        "verbal intent corrections",
+        "robot command acknowledgments",
+        "MicroDuck turning validation"
+      ],
+      "question_zh": "机器人边执行边说话时，怎样确认用户插话已被听取、接受并落实到动作？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "Moshi 在同一时间轴表示用户与模型两路语音，可以在自身说话时继续接收用户插话；官方 Moshiko 模型卡标注英语，模型本身不提供工具调用。"
+        },
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "Kyutai 报告 NVIDIA L4 上最低约 200 毫秒的流式延迟；第三方明确打断场景中报告平均 1.16 秒停止说话、回应新意图比例为 50%，这些指标各有计时或行为定义。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "提出 MicroDuck 低速转向仿真对照，分别记录让出话轮、正确指令接受和实际改向，并用附和场景检查误停，英文与中文指令单独统计。"
+        }
+      ],
+      "scope_zh": "核对论文、官方实现、模型卡与第三方评测，未运行 MicroDuck 语音控制实验；公开语音延迟不能替代机器人端到端纠偏延迟。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-006",
+        "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-008",
+      "path": "pcb-design/README.md",
+      "title_zh": "CH340C Type-C 转 3.3V TTL 转接板",
+      "title_en": "CH340C USB Type-C to 3.3V TTL Adapter Board",
+      "kind": "hardware_project",
+      "category": "hardware",
+      "language": "zh-CN",
+      "evidence_as_of": null,
+      "topics_zh": [
+        "USB 转 TTL",
+        "CH340C 与 AP2112K",
+        "KiCad 工程",
+        "PCB 设计检查",
+        "差分阻抗",
+        "首板验证"
+      ],
+      "topics_en": [
+        "USB-to-TTL conversion",
+        "CH340C and AP2112K",
+        "KiCad project",
+        "PCB design checks",
+        "differential impedance",
+        "board bring-up validation"
+      ],
+      "question_zh": "这块 Type-C 转 3.3V TTL 板提供哪些工程产物，投板和首板验证还缺什么？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "入口说明了 30×30 mm 双层转接板的 CH340C、AP2112K 和四针 TTL 接口，并链接 KiCad 工程、原理图、Gerber、BOM、设计审查与首板测试资料。"
+        },
+        {
+          "tag": "LOCAL_RESULT",
+          "text_zh": "原文记录原生 ERC/DRC、未连接及原理图/PCB 一致性检查均为零；差分阻抗为名义计算结果，投板前仍需板厂按实际叠层确认。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "尚未进行实物枚举、回环、负载、EMC/ESD 或阻抗测量；部分精确机械模型缺失，3.3V 外供预算也不构成独立电子限流保护。"
+        }
+      ],
+      "scope_zh": "硬件工程入口与文中记录的设计检查范围，缺少明确日期；未报告实物功能、负载、EMC/ESD 或阻抗实测验证。",
+      "indexed_on": "2026-11-23",
+      "related_ids": []
+    },
+    {
+      "document_id": "RSI-009",
+      "path": "pear-research/pear-research.zh-CN.md",
+      "title_zh": "PEAR 与 Robot RSI 中文技术调研",
+      "title_en": "PEAR and Robot RSI: Simulation Reinforcement Learning and Real-World Feedback Loops",
+      "kind": "research_report",
+      "category": "learning_loop",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-16",
+      "topics_zh": [
+        "仿真强化学习",
+        "推理模型后训练",
+        "仿真到真实迁移",
+        "真实失败反馈",
+        "学习效率与运行效率",
+        "预算匹配的 RSI 评测"
+      ],
+      "topics_en": [
+        "simulation reinforcement learning",
+        "reasoning-model post-training",
+        "sim-to-real transfer",
+        "real-world failure feedback",
+        "learning and operational efficiency",
+        "budget-matched RSI evaluation"
+      ],
+      "question_zh": "怎样将 PEAR 的仿真训练内循环连接到真实反馈驱动、可独立验证的持续改进外循环？",
+      "reading_summary": [
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "作者报告通用推理模型经仿真强化学习获得操作能力，并在双臂 YAM 上对已在仿真中训练的两类任务取得部分仿真到真实迁移；成绩受任务、检查点、精度与推理预算条件限制。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "PEAR 主要覆盖仿真策略训练内循环，未展示完整真实反馈外循环或隔离出的递归增益；单卡量化推理速度也不能与 BF16 成功率合并为同一已验证部署效果。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "提出从真实失败证据出发检验原因、选择学习载体、生成相关变体，再以留出任务和旧能力回归验收，并在匹配资源预算下比较自适应与固定改进流程。"
+        }
+      ],
+      "scope_zh": "基于论文、博客及固定版本代码文档的调研与研究规划；未运行训练、下载验证权重或进行真机复现，文中实验指标来自作者报告。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-004",
+        "RSI-018",
+        "RSI-006"
+      ]
+    },
+    {
+      "document_id": "RSI-010",
+      "path": "ropedia-xperience-2/MicroDuck商铺交错通道训练与双引擎盲测总结_20261119_093806.md",
+      "title_zh": "MicroDuck 在电子维修店交错通道中的训练与双引擎盲测",
+      "title_en": "MicroDuck Slalom Control Tuning and Dual-Engine Blind Testing in an Electronics Repair Shop",
+      "kind": "experiment_report",
+      "category": "simulation",
+      "language": "zh-CN",
+      "evidence_as_of": null,
+      "topics_zh": [
+        "上层路线跟踪",
+        "双引擎仿真验收",
+        "留出种子盲测",
+        "横向运动控制",
+        "简化场景几何"
+      ],
+      "topics_en": [
+        "High-level route tracking",
+        "Dual-engine simulation evaluation",
+        "Held-out-seed blind testing",
+        "Lateral motion control",
+        "Simplified scene geometry"
+      ],
+      "question_zh": "沿用同一底层步态网络，如何提升交错窄通道中的跨引擎绕障与停稳表现？",
+      "reading_summary": [
+        {
+          "tag": "LOCAL_RESULT",
+          "text_zh": "本地记录沿用同一份14关节步态网络 alpha_walking.onnx，仅搜索和修改上层路线跟踪及关节目标处理；冻结新版在MuJoCo与原生CPU PhysX的160个配对盲测种子中联合完成160/160，迁入基线为0/160。这是双引擎仿真控制调优结果，不是新RL策略训练结果。"
+        },
+        {
+          "tag": "LOCAL_RESULT",
+          "text_zh": "实验依据Ropedia场景描述搭建四种简化布局，原始OBJ下载为0字节；评分覆盖已知地图与登记扰动，控制器直接读取仿真位姿，实机试验次数为零。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "新版完成率与用时改善伴随停车误差增大；原始扫描几何、定位误差和真实店面部署仍需另行验证。"
+        }
+      ],
+      "scope_zh": "证据仅覆盖四种简化已知布局、登记扰动和直接读取位姿的MuJoCo／CPU PhysX仿真；正文给出控制器冻结时间，未明确盲测完成或报告日期，也没有实机结果。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-011",
+        "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-011",
+      "path": "ropedia-xperience-2/ropedia-xperience-2.zh-CN.md",
+      "title_zh": "Ropedia Xperience 2 × MicroDuck 训练方案：从真实场景到跨引擎验收",
+      "title_en": "Ropedia Xperience 2 and MicroDuck: A Training Plan from Real Scenes to Cross-Engine Evaluation",
+      "kind": "design_proposal",
+      "category": "simulation",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-18",
+      "topics_zh": [
+        "真实场景扫描",
+        "场景与录制配准",
+        "MicroDuck行走避障",
+        "域随机化",
+        "跨引擎验收"
+      ],
+      "topics_en": [
+        "Real-world scene scans",
+        "Scene-recording registration",
+        "MicroDuck locomotion and obstacle avoidance",
+        "Domain randomization",
+        "Cross-engine evaluation"
+      ],
+      "question_zh": "如何把Ropedia真实空间几何变成MicroDuck可训练且可独立验收的行走避障任务？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "公开数据卡将场景扫描与任务录制作为不同资产，首批文件尚未包含二者配准；配准工具依赖已处理的输入，不负责重建原始扫描或生成人体动作。扫描也不提供MicroDuck所需的接触和执行器标定。"
+        },
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "论文报告1,589份保留扫描、4,230段人类第一视角任务录制、74项任务定义和131小时采集；这些统计对象不同，不能将扫描件数直接解释为完整可交互仿真房间数。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "建议先构造真实布局中的短程行走、转向、绕障和停稳任务，分离训练与留出条件，以MuJoCo训练、Isaac／PhysX验收，再做小规模实机验证；本文未下载数据、搭建环境或启动训练。"
+        }
+      ],
+      "scope_zh": "范围为公开资料调研与未运行的训练方案，没有数据下载、策略训练、仿真或实机实验，验收阈值尚待项目基准确定。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-010",
+        "RSI-012",
+        "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-012",
+      "path": "simready-central-research/simready-central-research.zh-CN.md",
+      "title_zh": "NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研",
+      "title_en": "NVIDIA SimReady Central and Simulation Assets for Robot RSI",
+      "kind": "research_report",
+      "category": "simulation",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-22",
+      "topics_zh": [
+        "仿真资产索引",
+        "OpenUSD物理属性",
+        "能力配置与验证",
+        "资产版本审计",
+        "失败驱动课程"
+      ],
+      "topics_en": [
+        "Simulation asset indexing",
+        "OpenUSD physics attributes",
+        "Capability profiles and validation",
+        "Asset version auditing",
+        "Failure-driven curricula"
+      ],
+      "question_zh": "如何把可复用仿真资产转为有版本、可复现且能回应真实失败的机器人练习？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "SimReady Central连接供应商自行保存的资产数据集，是发现与复用入口；资产描述质量、碰撞、材料和摩擦等属性，物理计算由运行时执行，具体能力、profile和许可证需逐项检查。"
+        },
+        {
+          "tag": "USER_CONTEXT",
+          "text_zh": "MicroDuck具备嘴部拾取能力是用户提供的应用前提；正文未据此假定嘴部尺寸、夹持力、自由度或载荷，也未声称资产或策略已完成适配。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "建议保留资产修订、物性覆盖、运行时和任务证据，将识别、静止拾取、携物移动与障碍搬运分阶段验证，再以同预算对照固定、随机和失败驱动课程；这些实验尚未运行。"
+        }
+      ],
+      "scope_zh": "已核对官方与合作方资料，但未下载完整资产库、运行验证工具或测量具体资产物性，MicroDuck课程和资产选择实验均属设计。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-002",
+        "RSI-009",
+        "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-013",
+      "path": "soma-retargeter-research/soma-retargeter-research.zh-CN.md",
+      "title_zh": "NVIDIA SOMA Retargeter：人体动作到 MicroDuck 策略的技术调研",
+      "title_en": "NVIDIA SOMA Retargeter: From Human Motion References to MicroDuck Policies",
+      "kind": "research_report",
+      "category": "motion",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-19",
+      "topics_zh": [
+        "人体动作重定向",
+        "逆运动学",
+        "参考轨迹",
+        "MicroDuck动作跟踪",
+        "动力学验收"
+      ],
+      "topics_en": [
+        "Human motion retargeting",
+        "Inverse kinematics",
+        "Reference trajectories",
+        "MicroDuck motion tracking",
+        "Dynamic feasibility evaluation"
+      ],
+      "question_zh": "SOMA如何为MicroDuck生成动作参考，参考动作又如何经独立训练成为可执行策略？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "SOMA Retargeter把兼容人体骨架的BVH动作通过机器人映射、IK和后处理转为根部位姿与关节角CSV；它输出运动学参考，不直接输出低层电机命令或已验证控制策略。"
+        },
+        {
+          "tag": "FACT",
+          "text_zh": "项目支持通过Robot Configurator导入URDF或MJCF建立自定义机器人配置；正文核对时列出的五种内置机器人不含MicroDuck，MicroDuck示例的策略训练是下游物理仿真阶段。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "建议先映射MicroDuck躯干和腿部、检查足部接触及限位，再接入动作跟踪训练并保留执行器建模、域随机化与独立验收；本报告未安装工具、生成轨迹或训练策略。"
+        }
+      ],
+      "scope_zh": "仅完成官方资料与接口调研及最小实验设计，没有MicroDuck端到端重定向、仿真跟踪或实机复现。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-005",
+        "RSI-016"
+      ]
+    },
+    {
+      "document_id": "RSI-014",
+      "path": "specialist-research/specialist-data-pipeline.zh-CN.md",
+      "title_zh": "Specialist 数据重建 README 导读：管线、数据层与训练样本",
+      "title_en": "A Guide to Specialist Data Reconstruction: Pipeline, Data Layers, and Training Samples",
+      "kind": "technical_guide",
+      "category": "data_interaction",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-10",
+      "topics_zh": [
+        "示范数据重建",
+        "数据分层",
+        "传感器时间同步",
+        "状态与动作标签",
+        "因果观测窗口"
+      ],
+      "topics_en": [
+        "Demonstration reconstruction",
+        "Layered data products",
+        "Sensor time synchronization",
+        "State and action labels",
+        "Causal observation windows"
+      ],
+      "question_zh": "Specialist的原始录制如何逐层变成时序与坐标约定明确的训练样本？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "导读依固定版本README与源码区分.insv、base、estimate、viz、state和catalog：state依赖base与estimate，viz不提供动作标签，catalog负责索引；策略训练器仍需单独实现。"
+        },
+        {
+          "tag": "FACT",
+          "text_zh": "状态层记录夹爪base-tag位姿与开度，100 Hz状态网格不意味着100 Hz新图像；row、capture_row和真实video_time具有不同含义，相机slot也不能直接当作固定左右手身份。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "训练器还需规定相对坐标、历史与未来窗口、归一化和部署时信息可用性；文中数值为教学示意，官方读取示例只核对接口与语法，未执行真实.rrd读取或完整CUDA重建。"
+        }
+      ],
+      "scope_zh": "范围为固定源码导读和教学示意，没有真实.insv或.rrd读取、官方CUDA重建及行为克隆训练；相关已运行教学示例仅在合成数据上验证。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-015",
+        "RSI-006"
+      ]
+    },
+    {
+      "document_id": "RSI-015",
+      "path": "specialist-research/specialist-research.zh-CN.md",
+      "title_zh": "Specialist Gripper 中文调研：硬件、双手同步与世界坐标轨迹重建",
+      "title_en": "Specialist Gripper: Hardware, Bimanual Synchronization, and World-Frame Trajectory Reconstruction",
+      "kind": "research_report",
+      "category": "data_interaction",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-10",
+      "topics_zh": [
+        "手持示范夹爪",
+        "双手音频同步",
+        "视觉惯性重建",
+        "世界坐标与尺度",
+        "合成数据验证"
+      ],
+      "topics_en": [
+        "Handheld demonstration grippers",
+        "Bimanual audio synchronization",
+        "Visual-inertial reconstruction",
+        "World coordinates and scale",
+        "Synthetic-data validation"
+      ],
+      "question_zh": "如何用匹配的夹爪硬件与多传感器重建获得可追溯的双手操作示范？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "Specialist采用手持版采集示范、匹配几何与相机位置的驱动版执行；公开数据代码将视频、IMU、音频和标记约束整理为米制位姿与开度，系统介绍采用行为克隆路线。"
+        },
+        {
+          "tag": "LOCAL_RESULT",
+          "text_zh": "独立教学代码仅在合成数据上复跑：音频四项自检通过，seed 7合成轨迹相机位置RMSE从52.532 mm降至11.736 mm；这不证明官方重建或硬件精度，也没有真实IMU预积分和完整GTSAM图复现。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "毫米级误差报道未取得论文与原始真值复核，低重投影误差也不能替代世界坐标精度；完整训练、权重和部分组件发布仍有缺口，本报告没有完成官方CUDA管线或真机复现。"
+        }
+      ],
+      "scope_zh": "已读官方源码与手册并运行独立NumPy／SciPy教学合成自检，未取得真实.insv、动捕真值或实物，未运行完整官方CUDA重建、策略训练或真机控制。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-014",
+        "RSI-006",
+        "RSI-016"
+      ]
+    },
+    {
+      "document_id": "RSI-016",
+      "path": "supermimic-research/supermimic-research.zh-CN.md",
+      "title_zh": "SuperMimic 中文调研",
+      "title_en": "SuperMimic: Differentiable World Models and BPTT for Humanoid Motion Tracking",
+      "kind": "research_report",
+      "category": "motion",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-09",
+      "topics_zh": [
+        "可微世界模型",
+        "时间反向传播",
+        "人形动作跟踪",
+        "模型误差",
+        "训练效率评估"
+      ],
+      "topics_en": [
+        "Differentiable world models",
+        "Backpropagation through time",
+        "Humanoid motion tracking",
+        "Model error",
+        "Training efficiency evaluation"
+      ],
+      "question_zh": "可微世界模型如何通过时间反向传播帮助优化动作跟踪策略，其收益应怎样验证？",
+      "reading_summary": [
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "正文解释仿真采样、拟合可微动力学、在短时预测轨迹中以BPTT更新策略的交替循环；固定世界模型参数仍需保留对动作的梯度通路，物理仿真器本身不必可微。"
+        },
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "独立复现资料记录长动作漂移及其与参考锚点观测的关系；正文明确这是复现者观察，不将其归为原论文结论，也未引用未经核实的性能倍数或成功率。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "本次主要依据可访问的独立复现说明，未完整逐式审读受限的原论文；教学公式不是完整算法，模型预测误差、梯度可靠性、独立物理评测及总计算成本需要分别检查。"
+        }
+      ],
+      "scope_zh": "范围为资料整理和BPTT原理说明，未在本仓库执行训练、仿真对照或真机实验，原论文和项目站点访问受限。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-005",
+        "RSI-013",
+        "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-017",
+      "path": "tampagent-research/tampagent-research.zh-CN.md",
+      "title_zh": "TAMPAgent 中文调研与机器人 RSI 研究方案",
+      "title_en": "TAMPAgent: A Research Review and Robot RSI Study Proposal",
+      "kind": "research_report",
+      "category": "learning_loop",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-05",
+      "topics_zh": [
+        "任务与运动规划",
+        "信念空间规划",
+        "工具回执与执行许可",
+        "失败记忆",
+        "递归自我改进判据"
+      ],
+      "topics_en": [
+        "Task and motion planning",
+        "Belief-space planning",
+        "Tool receipts and execution grants",
+        "Failure memory",
+        "Criteria for recursive self-improvement"
+      ],
+      "question_zh": "约束执行反馈如何转成可迁移技能，怎样区分任务重试与递归自我改进？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "所检视 TAMPAgent 仓库是静态项目网站，公开手册与部分记录，但 Paper、arXiv 和 Code 入口仍标 soon，未提供可运行机器人系统；公开手册描述了按步骤检查证据、授予执行许可和确认动作结果的接口。"
+        },
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "项目页报告九项厨房任务总体成功率77%，对比CaP的57%和GaP的61%；这些作者报告的仿真统计不含T9跨尝试记忆实验，也不是本次独立复现或真实机器人总体成功率。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "建议固定基础模型、执行检查器与评价器，对比无记忆、文字记忆、结构化检索、技能学习和改进器更新；当前公开证据支持执行与重试分析，尚未证明持久能力积累或递归自我改进。"
+        }
+      ],
+      "scope_zh": "仅调研项目网站、手册、部分记录与相关仓库，没有完整论文或系统实现，也未运行机器人实验或独立复现。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-004",
+        "RSI-009",
+        "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-018",
+      "path": "如何让一次实验的结果能成为下一次实验的输入/如何让一次实验的结果能成为下一次实验的输入.zh-CN.md",
+      "title_zh": "如何让一次实验的结果能成为下一次实验的输入",
+      "title_en": "Turning One Experiment's Results into the Next Experiment's Inputs",
+      "kind": "design_proposal",
+      "category": "learning_loop",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-08",
+      "topics_zh": [
+        "训练Harness外循环",
+        "实验记忆",
+        "假设驱动诊断",
+        "独立评价器",
+        "预算与基线继承"
+      ],
+      "topics_en": [
+        "Training harness outer loop",
+        "Experiment memory",
+        "Hypothesis-driven diagnosis",
+        "Independent evaluator",
+        "Budgets and baseline inheritance"
+      ],
+      "question_zh": "怎样让训练结果形成可恢复、可验证且能指导下一轮动作的实验状态？",
+      "reading_summary": [
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "设计在RL训练外维护固定任务约定、一个当前问题和一个本轮假设，由协调器按证据与预算选择诊断、训练、评测、补测或暂停，让每次实验缩小下一步选择范围。"
+        },
+        {
+          "tag": "PROPOSAL",
+          "text_zh": "分开保存已接受版本与追加实验记忆，以accepted、rejected、inconclusive、invalid四类结果控制状态转移；只有固定评价器验证的候选更新基线，并记录父checkpoint、初始化方式、成本、证据范围和回退版本。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "方案以既有MicroDuck舞蹈与跨仿真记录为背景；文中状态、实验编号、预算及改善结论模板均属示意，不能作为已实现Harness或新实验结果的证据。"
+        }
+      ],
+      "scope_zh": "这是面向MicroDuck训练、策略回放与跨仿真评测的v0.1设计稿，没有声称实现所述Harness或完成新的实验。",
+      "indexed_on": "2026-11-23",
+      "related_ids": [
+        "RSI-006",
+        "RSI-009",
+        "RSI-017"
+      ]
+    }
+  ]
+}

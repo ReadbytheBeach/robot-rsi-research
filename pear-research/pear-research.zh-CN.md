@@ -1,4 +1,30 @@
+---
+document_id: "RSI-009"
+title_zh: "PEAR 与 Robot RSI 中文技术调研"
+title_en: "PEAR and Robot RSI: Simulation Reinforcement Learning and Real-World Feedback Loops"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-16"
+indexed_on: "2026-11-23"
+---
+
 # PEAR 与 Robot RSI 中文技术调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 怎样将 PEAR 的仿真训练内循环连接到真实反馈驱动、可独立验证的持续改进外循环？
+
+- [AUTHOR_REPORT] [AS_OF:2026-11-16] 作者报告通用推理模型经仿真强化学习获得操作能力，并在双臂 YAM 上对已在仿真中训练的两类任务取得部分仿真到真实迁移；成绩受任务、检查点、精度与推理预算条件限制。
+- [DISCUSSION] PEAR 主要覆盖仿真策略训练内循环，未展示完整真实反馈外循环或隔离出的递归增益；单卡量化推理速度也不能与 BF16 成功率合并为同一已验证部署效果。
+- [PROPOSAL] 提出从真实失败证据出发检验原因、选择学习载体、生成相关变体，再以留出任务和旧能力回归验收，并在匹配资源预算下比较自适应与固定改进流程。
+
+**适用边界：** 基于论文、博客及固定版本代码文档的调研与研究规划；未运行训练、下载验证权重或进行真机复现，文中实验指标来自作者报告。
+
+**相关文档：** [RSI-004 CaPtain 与 Physical Critic：中文技术调研](../captain-research/captain-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)；[RSI-006 HG-DAgger 中文调研与人工接管证据链方案](../hg-dagger-research/hg-dagger-research.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期：2026-11-16（新加坡时间）。对象为 MIT 韩松团队等发布的 PEAR，以及它对机器人递归自我改进研究的意义。
 

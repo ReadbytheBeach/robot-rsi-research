@@ -1,4 +1,30 @@
+---
+document_id: "RSI-016"
+title_zh: "SuperMimic 中文调研"
+title_en: "SuperMimic: Differentiable World Models and BPTT for Humanoid Motion Tracking"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-09"
+indexed_on: "2026-11-23"
+---
+
 # SuperMimic 中文调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 可微世界模型如何通过时间反向传播帮助优化动作跟踪策略，其收益应怎样验证？
+
+- [DISCUSSION] 正文解释仿真采样、拟合可微动力学、在短时预测轨迹中以BPTT更新策略的交替循环；固定世界模型参数仍需保留对动作的梯度通路，物理仿真器本身不必可微。
+- [AUTHOR_REPORT] [AS_OF:2026-11-09] 独立复现资料记录长动作漂移及其与参考锚点观测的关系；正文明确这是复现者观察，不将其归为原论文结论，也未引用未经核实的性能倍数或成功率。
+- [DISCUSSION] 本次主要依据可访问的独立复现说明，未完整逐式审读受限的原论文；教学公式不是完整算法，模型预测误差、梯度可靠性、独立物理评测及总计算成本需要分别检查。
+
+**适用边界：** 范围为资料整理和BPTT原理说明，未在本仓库执行训练、仿真对照或真机实验，原论文和项目站点访问受限。
+
+**相关文档：** [RSI-005 GMR 人体动作重定向与 MicroDuck 参考轨迹验收：中文技术调研](../gmr-research/gmr-research.zh-CN.md)；[RSI-013 NVIDIA SOMA Retargeter：人体动作到 MicroDuck 策略的技术调研](../soma-retargeter-research/soma-retargeter-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 - 日期：2026-11-09（新加坡时间）。
 - 文档性质：SuperMimic 方法与 BPTT 策略训练的中文调研。

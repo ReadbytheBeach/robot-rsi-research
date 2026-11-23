@@ -1,4 +1,30 @@
+---
+document_id: "RSI-011"
+title_zh: "Ropedia Xperience 2 × MicroDuck 训练方案：从真实场景到跨引擎验收"
+title_en: "Ropedia Xperience 2 and MicroDuck: A Training Plan from Real Scenes to Cross-Engine Evaluation"
+language: "zh-CN"
+kind: "design_proposal"
+evidence_as_of: "2026-11-18"
+indexed_on: "2026-11-23"
+---
+
 # Ropedia Xperience 2 × MicroDuck 训练方案：从真实场景到跨引擎验收
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** 如何把Ropedia真实空间几何变成MicroDuck可训练且可独立验收的行走避障任务？
+
+- [FACT] [AS_OF:2026-11-18] 公开数据卡将场景扫描与任务录制作为不同资产，首批文件尚未包含二者配准；配准工具依赖已处理的输入，不负责重建原始扫描或生成人体动作。扫描也不提供MicroDuck所需的接触和执行器标定。
+- [AUTHOR_REPORT] [AS_OF:2026-11-18] 论文报告1,589份保留扫描、4,230段人类第一视角任务录制、74项任务定义和131小时采集；这些统计对象不同，不能将扫描件数直接解释为完整可交互仿真房间数。
+- [PROPOSAL] 建议先构造真实布局中的短程行走、转向、绕障和停稳任务，分离训练与留出条件，以MuJoCo训练、Isaac／PhysX验收，再做小规模实机验证；本文未下载数据、搭建环境或启动训练。
+
+**适用边界：** 范围为公开资料调研与未运行的训练方案，没有数据下载、策略训练、仿真或实机实验，验收阈值尚待项目基准确定。
+
+**相关文档：** [RSI-010 MicroDuck 在电子维修店交错通道中的训练与双引擎盲测](MicroDuck%E5%95%86%E9%93%BA%E4%BA%A4%E9%94%99%E9%80%9A%E9%81%93%E8%AE%AD%E7%BB%83%E4%B8%8E%E5%8F%8C%E5%BC%95%E6%93%8E%E7%9B%B2%E6%B5%8B%E6%80%BB%E7%BB%93_20261119_093806.md)；[RSI-012 NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研](../simready-central-research/simready-central-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期：2026-11-18（新加坡时间）。对象为用户提供的 Ropedia Xperience 2 截图及其论文、官方项目页、Hugging Face 数据卡和代码仓库。
 

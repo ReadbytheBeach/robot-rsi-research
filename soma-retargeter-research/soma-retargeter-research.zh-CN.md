@@ -1,4 +1,30 @@
+---
+document_id: "RSI-013"
+title_zh: "NVIDIA SOMA Retargeter：人体动作到 MicroDuck 策略的技术调研"
+title_en: "NVIDIA SOMA Retargeter: From Human Motion References to MicroDuck Policies"
+language: "zh-CN"
+kind: "research_report"
+evidence_as_of: "2026-11-19"
+indexed_on: "2026-11-23"
+---
+
 # NVIDIA SOMA Retargeter：人体动作到 MicroDuck 策略的技术调研
+
+<!-- BEGIN GENERATED READING SUMMARY -->
+## 阅读摘要 · Reading Summary
+
+**核心问题：** SOMA如何为MicroDuck生成动作参考，参考动作又如何经独立训练成为可执行策略？
+
+- [FACT] [AS_OF:2026-11-19] SOMA Retargeter把兼容人体骨架的BVH动作通过机器人映射、IK和后处理转为根部位姿与关节角CSV；它输出运动学参考，不直接输出低层电机命令或已验证控制策略。
+- [FACT] [AS_OF:2026-11-19] 项目支持通过Robot Configurator导入URDF或MJCF建立自定义机器人配置；正文核对时列出的五种内置机器人不含MicroDuck，MicroDuck示例的策略训练是下游物理仿真阶段。
+- [PROPOSAL] 建议先映射MicroDuck躯干和腿部、检查足部接触及限位，再接入动作跟踪训练并保留执行器建模、域随机化与独立验收；本报告未安装工具、生成轨迹或训练策略。
+
+**适用边界：** 仅完成官方资料与接口调研及最小实验设计，没有MicroDuck端到端重定向、仿真跟踪或实机复现。
+
+**相关文档：** [RSI-005 GMR 人体动作重定向与 MicroDuck 参考轨迹验收：中文技术调研](../gmr-research/gmr-research.zh-CN.md)；[RSI-016 SuperMimic 中文调研](../supermimic-research/supermimic-research.zh-CN.md)
+
+[返回总目录 · Research Index](../README.md)
+<!-- END GENERATED READING SUMMARY -->
 
 调研日期：2026-11-19（新加坡时间）。对象为用户提供的 SOMA Retargeter 截图，以及 NVIDIA 官方技术博客、SOMA Retargeter 代码与配置文档、MicroDuck Isaac Lab 训练资料。
 
