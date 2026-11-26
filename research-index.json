@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repository": "ReadbytheBeach/robot-rsi-research",
   "primary_language": "zh-CN",
-  "updated_on": "2026-11-23",
+  "updated_on": "2026-11-26",
   "reference_format": "https://github.com/ReadbytheBeach/thousand-brains",
   "categories": [
     {
@@ -90,6 +90,7 @@
       "document_ids": [
         "RSI-018",
         "RSI-009",
+        "RSI-019",
         "RSI-004",
         "RSI-006",
         "RSI-017",
@@ -962,6 +963,54 @@
         "RSI-006",
         "RSI-009",
         "RSI-017"
+      ]
+    },
+    {
+      "document_id": "RSI-019",
+      "path": "lingbot-touch-research/lingbot-touch-research.zh-CN.md",
+      "title_zh": "LingBot-Touch 与 Robot RSI：触觉表征和真实接触反馈中文调研",
+      "title_en": "LingBot-Touch for Robot RSI: Tactile Representations and Real-World Contact Feedback",
+      "language": "zh-CN",
+      "kind": "research_report",
+      "category": "learning_loop",
+      "evidence_as_of": "2026-11-26",
+      "indexed_on": "2026-11-26",
+      "topics_zh": [
+        "触觉表征",
+        "异构传感器",
+        "真实接触反馈",
+        "仿真强化学习",
+        "机器人自我改进",
+        "MicroDuck 交互"
+      ],
+      "topics_en": [
+        "Tactile representations",
+        "Heterogeneous sensors",
+        "Real-world contact feedback",
+        "Simulation reinforcement learning",
+        "Robot self-improvement",
+        "MicroDuck interaction"
+      ],
+      "question_zh": "异构触觉表示怎样连接真实接触经验、仿真学习与 MicroDuck 后续交互研究？",
+      "reading_summary": [
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "LingBot-Touch 用多源真实触觉数据学习共享表示，并通过冻结编码器支持真机策略后训练和仿真强化学习；编码器迁移不等于机器人新任务零训练掌握。"
+        },
+        {
+          "tag": "FACT",
+          "text_zh": "当前公开发布包括编码器权重、推理接口与少量样例，完整预训练语料和机器人策略训练链路未随包提供；新传感器仍需量程和几何标定。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "它补充 RSI 的接触反馈表征环节；失败归因、练习选择、仿真修正及候选策略复测仍需另建，MicroDuck 夹爪、嘴／喙和头部交互留作后续研究。"
+        }
+      ],
+      "scope_zh": "依据官方项目页、固定版仓库与模型卡，以及论文正文转码；原始 PDF 未成功取得全文，实验按作者报告与阶段评分口径保存。本次没有独立复现、硬件选型、MicroDuck 适配或训练部署。",
+      "related_ids": [
+        "RSI-009",
+        "RSI-012",
+        "RSI-018"
       ]
     }
   ]

@@ -19,10 +19,11 @@ Start with the question-oriented routes below. Each indexed document has a stabl
 
 1. [RSI-018 如何让一次实验的结果能成为下一次实验的输入](%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)
 2. [RSI-009 PEAR 与 Robot RSI 中文技术调研](pear-research/pear-research.zh-CN.md)
-3. [RSI-004 CaPtain 与 Physical Critic：中文技术调研](captain-research/captain-research.zh-CN.md)
-4. [RSI-006 HG-DAgger 中文调研与人工接管证据链方案](hg-dagger-research/hg-dagger-research.zh-CN.md)
-5. [RSI-017 TAMPAgent 中文调研与机器人 RSI 研究方案](tampagent-research/tampagent-research.zh-CN.md)
-6. [RSI-003 ATLAS 与 SOMA 对 Robot RSI 的价值：中文技术调研](atlas-research/atlas-research.zh-CN.md)
+3. [RSI-019 LingBot-Touch 与 Robot RSI：触觉表征和真实接触反馈中文调研](lingbot-touch-research/lingbot-touch-research.zh-CN.md)
+4. [RSI-004 CaPtain 与 Physical Critic：中文技术调研](captain-research/captain-research.zh-CN.md)
+5. [RSI-006 HG-DAgger 中文调研与人工接管证据链方案](hg-dagger-research/hg-dagger-research.zh-CN.md)
+6. [RSI-017 TAMPAgent 中文调研与机器人 RSI 研究方案](tampagent-research/tampagent-research.zh-CN.md)
+7. [RSI-003 ATLAS 与 SOMA 对 Robot RSI 的价值：中文技术调研](atlas-research/atlas-research.zh-CN.md)
 
 ### 构建 MicroDuck 场景与嘴部操作实验 · Build MicroDuck scene and mouth-manipulation experiments
 
@@ -61,6 +62,7 @@ Start with the question-oriented routes below. Each indexed document has a stabl
 | RSI-009 | [PEAR 与 Robot RSI 中文技术调研](pear-research/pear-research.zh-CN.md) | PEAR and Robot RSI: Simulation Reinforcement Learning and Real-World Feedback Loops | 技术调研 · Research review | 2026-11-16 |
 | RSI-017 | [TAMPAgent 中文调研与机器人 RSI 研究方案](tampagent-research/tampagent-research.zh-CN.md) | TAMPAgent: A Research Review and Robot RSI Study Proposal | 技术调研 · Research review | 2026-11-05 |
 | RSI-018 | [如何让一次实验的结果能成为下一次实验的输入](%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md) | Turning One Experiment's Results into the Next Experiment's Inputs | 设计方案 · Design proposal | 2026-11-08 |
+| RSI-019 | [LingBot-Touch 与 Robot RSI：触觉表征和真实接触反馈中文调研](lingbot-touch-research/lingbot-touch-research.zh-CN.md) | LingBot-Touch for Robot RSI: Tactile Representations and Real-World Contact Feedback | 技术调研 · Research review | 2026-11-26 |
 
 ### 仿真资产 场景与实验 · Simulation Assets, Scenes, and Experiments
 
