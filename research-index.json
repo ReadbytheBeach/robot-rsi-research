@@ -114,7 +114,8 @@
       "document_ids": [
         "RSI-013",
         "RSI-005",
-        "RSI-016"
+        "RSI-016",
+        "RSI-021"
       ]
     },
     {
@@ -1054,6 +1055,54 @@
         "RSI-010",
         "RSI-012",
         "RSI-013"
+      ]
+    },
+    {
+      "document_id": "RSI-021",
+      "path": "supergpc-research/supergpc-research.zh-CN.md",
+      "title_zh": "SuperGPC 与 Robot RSI：CoLA、SuperMimic 和 Antigravity 中文调研",
+      "title_en": "SuperGPC for Robot RSI: CoLA and Comparisons with SuperMimic and Antigravity",
+      "language": "zh-CN",
+      "kind": "research_report",
+      "category": "motion",
+      "evidence_as_of": "2026-11-26",
+      "indexed_on": "2026-11-26",
+      "topics_zh": [
+        "运动策略训练",
+        "条件低秩适配",
+        "自回归运动先验",
+        "可微世界模型",
+        "实验工作流",
+        "机器人自我改进"
+      ],
+      "topics_en": [
+        "Motor policy training",
+        "Conditional low-rank adaptation",
+        "Autoregressive motion priors",
+        "Differentiable world models",
+        "Experiment workflows",
+        "Robot self-improvement"
+      ],
+      "question_zh": "SuperGPC 怎样结合 SuperMimic、离散运动先验与 CoLA，并与 Antigravity 分工支持 Robot RSI？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "SuperGPC 将 SuperMimic 式训练接入 FSQ 跟踪器，再训练自回归运动先验与条件低秩任务适配；CoLA 部署切换使用已训练权重。"
+        },
+        {
+          "tag": "AUTHOR_REPORT",
+          "text_zh": "作者报告单 RTX 5090 约 29.7 小时完成 tracker、prior 与 joystick CoLA；新旧数据、机器人及训练条件不同，且该总时长不含 get-down 训练。"
+        },
+        {
+          "tag": "DISCUSSION",
+          "text_zh": "SuperMimic 提供上游运动训练方法，SuperGPC 增加能力复用，Antigravity 组织场景、控制与实验；真实反馈回流、独立留出验收及三者集成仍需另建。"
+        }
+      ],
+      "scope_zh": "核查官方文章、固定版代码规范、模型卡及上游项目资料；结果按作者报告，当前动作评估无独立留出集，私有语料限制精确复现。本文没有运行训练、验证权重或实施 MicroDuck 迁移。",
+      "related_ids": [
+        "RSI-016",
+        "RSI-002",
+        "RSI-018"
       ]
     }
   ]

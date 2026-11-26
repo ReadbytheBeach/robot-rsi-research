@@ -38,6 +38,7 @@ Start with the question-oriented routes below. Each indexed document has a stabl
 1. [RSI-013 NVIDIA SOMA Retargeter：人体动作到 MicroDuck 策略的技术调研](soma-retargeter-research/soma-retargeter-research.zh-CN.md)
 2. [RSI-005 GMR 人体动作重定向与 MicroDuck 参考轨迹验收：中文技术调研](gmr-research/gmr-research.zh-CN.md)
 3. [RSI-016 SuperMimic 中文调研](supermimic-research/supermimic-research.zh-CN.md)
+4. [RSI-021 SuperGPC 与 Robot RSI：CoLA、SuperMimic 和 Antigravity 中文调研](supergpc-research/supergpc-research.zh-CN.md)
 
 ### 连接示范数据与口头纠正 · Connect demonstration data and verbal corrections
 
@@ -82,6 +83,7 @@ Start with the question-oriented routes below. Each indexed document has a stabl
 | RSI-005 | [GMR 人体动作重定向与 MicroDuck 参考轨迹验收：中文技术调研](gmr-research/gmr-research.zh-CN.md) | GMR Human Motion Retargeting and MicroDuck Reference Trajectory Validation | 技术调研 · Research review | 2026-11-20 |
 | RSI-013 | [NVIDIA SOMA Retargeter：人体动作到 MicroDuck 策略的技术调研](soma-retargeter-research/soma-retargeter-research.zh-CN.md) | NVIDIA SOMA Retargeter: From Human Motion References to MicroDuck Policies | 技术调研 · Research review | 2026-11-19 |
 | RSI-016 | [SuperMimic 中文调研](supermimic-research/supermimic-research.zh-CN.md) | SuperMimic: Differentiable World Models and BPTT for Humanoid Motion Tracking | 技术调研 · Research review | 2026-11-09 |
+| RSI-021 | [SuperGPC 与 Robot RSI：CoLA、SuperMimic 和 Antigravity 中文调研](supergpc-research/supergpc-research.zh-CN.md) | SuperGPC for Robot RSI: CoLA and Comparisons with SuperMimic and Antigravity | 技术调研 · Research review | 2026-11-26 |
 
 ### 示范数据与语言交互 · Demonstration Data and Language Interaction
 
