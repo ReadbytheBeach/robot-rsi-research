@@ -1,0 +1,43 @@
+{
+  "success": 324,
+  "n": 324,
+  "observed_rate": 1.0,
+  "wilson_95": [
+    0.9882825715987459,
+    0.9999999999999999
+  ],
+  "groups": {
+    "S0/0ms": {
+      "success": 54,
+      "n": 54
+    },
+    "S0/20ms": {
+      "success": 54,
+      "n": 54
+    },
+    "S1/0ms": {
+      "success": 54,
+      "n": 54
+    },
+    "S1/20ms": {
+      "success": 54,
+      "n": 54
+    },
+    "S2/0ms": {
+      "success": 54,
+      "n": 54
+    },
+    "S2/20ms": {
+      "success": 54,
+      "n": 54
+    }
+  },
+  "reasons": {
+    "success": 324
+  },
+  "scope": "MuJoCo engineering asset proxy; known-map teacher; independent full-task assessment; Ropedia scan-derived occupancy (fixed-height boxes)",
+  "pass_observed": true,
+  "geometry": "official-bom",
+  "threshold_count": 308,
+  "results_sha256": "491987064aec3276b7a64d167d792dc7f2fba0af21e9711112f33838a7334ef1"
+}

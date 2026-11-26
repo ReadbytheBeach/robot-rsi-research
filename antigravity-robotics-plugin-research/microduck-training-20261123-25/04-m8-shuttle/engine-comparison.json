@@ -1,0 +1,264 @@
+{
+  "n": 24,
+  "counts": {
+    "mujoco": 24,
+    "physx": 0,
+    "both": 0
+  },
+  "wilson_95": {
+    "mujoco": [
+      0.8620237953250198,
+      1.0
+    ],
+    "physx": [
+      1.3877787807814457e-17,
+      0.13797620467498017
+    ],
+    "both": [
+      1.3877787807814457e-17,
+      0.13797620467498017
+    ]
+  },
+  "cases": [
+    {
+      "seed": 17743000,
+      "layout": "S0",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743001,
+      "layout": "S0",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743002,
+      "layout": "S1",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "fall_tilt",
+      "native_time": 47.83
+    },
+    {
+      "seed": 17743003,
+      "layout": "S1",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743004,
+      "layout": "S2",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743005,
+      "layout": "S2",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "robot_basket",
+      "native_time": 55.0
+    },
+    {
+      "seed": 17743006,
+      "layout": "S0",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "fall_tilt",
+      "native_time": 59.44
+    },
+    {
+      "seed": 17743007,
+      "layout": "S0",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743008,
+      "layout": "S1",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "fall_tilt",
+      "native_time": 48.005
+    },
+    {
+      "seed": 17743009,
+      "layout": "S1",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743010,
+      "layout": "S2",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "no_safe_dock_trajectory",
+      "native_time": 62.58
+    },
+    {
+      "seed": 17743011,
+      "layout": "S2",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "robot_basket",
+      "native_time": 55.39
+    },
+    {
+      "seed": 17743012,
+      "layout": "S0",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "no_safe_dock_trajectory",
+      "native_time": 63.02
+    },
+    {
+      "seed": 17743013,
+      "layout": "S0",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743014,
+      "layout": "S1",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743015,
+      "layout": "S1",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743016,
+      "layout": "S2",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743017,
+      "layout": "S2",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743018,
+      "layout": "S0",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743019,
+      "layout": "S0",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743020,
+      "layout": "S1",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "navigation_timeout",
+      "native_time": 95.1
+    },
+    {
+      "seed": 17743021,
+      "layout": "S1",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "pickup_failed",
+      "native_time": 5.08
+    },
+    {
+      "seed": 17743022,
+      "layout": "S2",
+      "delay_ms": 0,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "robot_basket",
+      "native_time": 59.795
+    },
+    {
+      "seed": 17743023,
+      "layout": "S2",
+      "delay_ms": 20,
+      "mujoco": true,
+      "physx": false,
+      "mujoco_reason": "success",
+      "physx_reason": "fall_tilt",
+      "native_time": 52.26
+    }
+  ]
+}

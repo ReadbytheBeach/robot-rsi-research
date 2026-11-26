@@ -104,7 +104,8 @@
         "RSI-002",
         "RSI-012",
         "RSI-011",
-        "RSI-010"
+        "RSI-010",
+        "RSI-020"
       ]
     },
     {
@@ -223,7 +224,8 @@
       "related_ids": [
         "RSI-012",
         "RSI-009",
-        "RSI-018"
+        "RSI-018",
+        "RSI-020"
       ]
     },
     {
@@ -1011,6 +1013,47 @@
         "RSI-009",
         "RSI-012",
         "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-020",
+      "path": "antigravity-robotics-plugin-research/microduck-training-20261123-25/README.md",
+      "title_zh": "MicroDuck 六次仿真训练：从单脚承重到双螺帽归拢投篮",
+      "title_en": "Six MicroDuck Simulation Experiments: From Single-Leg Support to Gathering and Delivering Two Nuts",
+      "kind": "experiment_report",
+      "category": "simulation",
+      "language": "zh-CN",
+      "evidence_as_of": "2026-11-25",
+      "topics_zh": [
+        "单脚承重与换重",
+        "地面拾取与双件搬运",
+        "同起点失败分支",
+        "接触与质心审计"
+      ],
+      "topics_en": [
+        "Single-leg support and weight transfer",
+        "Ground pickup and dual-object transport",
+        "Paired failure replays",
+        "Contact and center-of-mass audits"
+      ],
+      "question_zh": "MicroDuck 如何从舞步换重与单件搬运，发展到先用脚归拢两颗相距 200 mm 的螺帽，再用喙一次拾取并完成投篮？",
+      "reading_summary": [
+        {
+          "tag": "LOCAL_RESULT",
+          "text_zh": "地面短瓜段三障碍投筐在 MuJoCo 的留出测试为 309/320；同起点的原生 PhysX 为 0/320，已建立的双侧接触未产生所需净抬升。"
+        },
+        {
+          "tag": "LOCAL_RESULT",
+          "text_zh": "两颗 M8 初始相距 200 mm 的一次双夹单趟搬运在 MuJoCo 完成 239/240。成功回合都用足缘归拢；唯一失败例最终同篮，但运输时碰撞体穿入超限。"
+        }
+      ],
+      "scope_zh": "六次本地仿真按任务分别计分。舞段的单拍与全身判据分列；200 mm 整屋任务使用已知地图、仿真状态和物性代理，结果仅覆盖 MuJoCo。",
+      "indexed_on": "2026-11-26",
+      "related_ids": [
+        "RSI-002",
+        "RSI-010",
+        "RSI-012",
+        "RSI-013"
       ]
     }
   ]

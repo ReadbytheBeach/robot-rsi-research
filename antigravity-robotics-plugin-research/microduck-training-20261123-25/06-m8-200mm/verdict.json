@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "successes": 239,
+  "total": 240,
+  "wilson95": [
+    0.9767799274163702,
+    0.9992641019749172
+  ],
+  "reason_counts": {
+    "success": 239,
+    "witness_dual_transport_interrupted": 1
+  },
+  "cells": {
+    "S0/0": {
+      "successes": 39,
+      "total": 40,
+      "wilson95": [
+        0.8711863103652591,
+        0.9955731684973186
+      ]
+    },
+    "S0/20": {
+      "successes": 40,
+      "total": 40,
+      "wilson95": [
+        0.9123783988027134,
+        1
+      ]
+    },
+    "S1/0": {
+      "successes": 40,
+      "total": 40,
+      "wilson95": [
+        0.9123783988027134,
+        1
+      ]
+    },
+    "S1/20": {
+      "successes": 40,
+      "total": 40,
+      "wilson95": [
+        0.9123783988027134,
+        1
+      ]
+    },
+    "S2/0": {
+      "successes": 40,
+      "total": 40,
+      "wilson95": [
+        0.9123783988027134,
+        1
+      ]
+    },
+    "S2/20": {
+      "successes": 40,
+      "total": 40,
+      "wilson95": [
+        0.9123783988027134,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "selected": "g2r0",
+  "registration_tag": "dwell2",
+  "model_file": "dynamic/dwell/g2r0.onnx",
+  "model_sha256": "754433852226407beb70bc4242bace9ff7bde7ad4350ec8b4b0faa820b4e356a",
+  "parent_model_file": "dynamic/deep-timed/g00.onnx",
+  "parent_sha256": "6721bfd0ad3da132ab0e310ddaf4c057ddd1126023d352533fe57fc429810e48",
+  "parameter_order_in_schedule": [
+    "focus",
+    "center",
+    "width",
+    "slope",
+    "pre",
+    "post",
+    "early",
+    "late"
+  ],
+  "params": [
+    0.004421008045789598,
+    -0.02893666209313807,
+    0.11470769206107455,
+    0.021777286614807212,
+    0.24766711118023685,
+    0.11366324143561964,
+    0.05987554975487544,
+    -0.01196611377650713
+  ],
+  "development_seed": 592070,
+  "dev_seeds_for_role_selection": [
+    593010,
+    593011,
+    593012
+  ],
+  "heldout_seeds": [
+    594060,
+    594061,
+    594062,
+    594063,
+    594064,
+    594065
+  ],
+  "video_seed": 594060,
+  "source_of_schedule": "dynamic/dwell.py",
+  "source_of_params": "dynamic/dwell/g2r0.json",
+  "source_of_results": "eval/blind/experiment-outcomes.json",
+  "results_sha256": "1896dee34a8508e9f773a98a950d9d19ffb0a29363c5ad3ea6c742259af4eba9"
+}

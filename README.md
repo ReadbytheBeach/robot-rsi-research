@@ -31,6 +31,7 @@ Start with the question-oriented routes below. Each indexed document has a stabl
 2. [RSI-012 NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研](simready-central-research/simready-central-research.zh-CN.md)
 3. [RSI-011 Ropedia Xperience 2 × MicroDuck 训练方案：从真实场景到跨引擎验收](ropedia-xperience-2/ropedia-xperience-2.zh-CN.md)
 4. [RSI-010 MicroDuck 在电子维修店交错通道中的训练与双引擎盲测](ropedia-xperience-2/MicroDuck%E5%95%86%E9%93%BA%E4%BA%A4%E9%94%99%E9%80%9A%E9%81%93%E8%AE%AD%E7%BB%83%E4%B8%8E%E5%8F%8C%E5%BC%95%E6%93%8E%E7%9B%B2%E6%B5%8B%E6%80%BB%E7%BB%93_20261119_093806.md)
+5. [RSI-020 MicroDuck 六次仿真训练：从单脚承重到双螺帽归拢投篮](antigravity-robotics-plugin-research/microduck-training-20261123-25/README.md)
 
 ### 检查动作参考与跟踪控制 · Inspect motion references and tracking control
 
@@ -72,6 +73,7 @@ Start with the question-oriented routes below. Each indexed document has a stabl
 | RSI-010 | [MicroDuck 在电子维修店交错通道中的训练与双引擎盲测](ropedia-xperience-2/MicroDuck%E5%95%86%E9%93%BA%E4%BA%A4%E9%94%99%E9%80%9A%E9%81%93%E8%AE%AD%E7%BB%83%E4%B8%8E%E5%8F%8C%E5%BC%95%E6%93%8E%E7%9B%B2%E6%B5%8B%E6%80%BB%E7%BB%93_20261119_093806.md) | MicroDuck Slalom Control Tuning and Dual-Engine Blind Testing in an Electronics Repair Shop | 实验记录 · Experiment report | 未注明 · Not specified |
 | RSI-011 | [Ropedia Xperience 2 × MicroDuck 训练方案：从真实场景到跨引擎验收](ropedia-xperience-2/ropedia-xperience-2.zh-CN.md) | Ropedia Xperience 2 and MicroDuck: A Training Plan from Real Scenes to Cross-Engine Evaluation | 设计方案 · Design proposal | 2026-11-18 |
 | RSI-012 | [NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研](simready-central-research/simready-central-research.zh-CN.md) | NVIDIA SimReady Central and Simulation Assets for Robot RSI | 技术调研 · Research review | 2026-11-22 |
+| RSI-020 | [MicroDuck 六次仿真训练：从单脚承重到双螺帽归拢投篮](antigravity-robotics-plugin-research/microduck-training-20261123-25/README.md) | Six MicroDuck Simulation Experiments: From Single-Leg Support to Gathering and Delivering Two Nuts | 实验记录 · Experiment report | 2026-11-25 |
 
 ### 动作参考与控制 · Motion References and Control
 

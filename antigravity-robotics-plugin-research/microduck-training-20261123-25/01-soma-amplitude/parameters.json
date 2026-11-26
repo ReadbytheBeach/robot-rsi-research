@@ -1,0 +1,110 @@
+{
+  "direct": {
+    "source": "fine/direct/frozen.json",
+    "source_sha256": "e9d0a878f7088b52797445d76cbdfc0b252360be90aa9036748d09cb7220acc6",
+    "method": "bounded CEM episodic policy search",
+    "base_sha256": "ee67f39b9496e4e5fc980c027c667f94b7efe675ee13160cbc1b4a5deedc0bf4",
+    "sha256": "69f2182ed1b8922f7a7dd2ced7d8ca22513aee1e0c9218515d066be15918f4d4",
+    "names": [
+      "tracking_error",
+      "joint_speed_s",
+      "lateral_tilt",
+      "lateral_gyro_s",
+      "prep_hip_roll_rad",
+      "landing_hip_roll_rad",
+      "left_stance_extend_rad",
+      "right_fold_rad"
+    ],
+    "bounds": [
+      0.75,
+      0.035,
+      0.45,
+      0.045,
+      0.085,
+      0.085,
+      0.09,
+      0.09
+    ],
+    "cap_rad": 0.1,
+    "seed_rng": 490190,
+    "generation_seeds": [
+      490200,
+      490201,
+      490202,
+      490203,
+      490204
+    ],
+    "confirmation_seeds": [
+      490220,
+      490221,
+      490222
+    ],
+    "search_rollouts": 150,
+    "confirmation_rollouts": 63,
+    "chosen": 4,
+    "params": [
+      0.03401955256649775,
+      -0.0341248161679223,
+      0.32907012341175096,
+      0.014000540627594482,
+      -0.006521870211540701,
+      0.047212597085098895,
+      -0.012309946119524384,
+      -0.025671437000313702
+    ]
+  },
+  "staged": {
+    "source": "fine/staged/frozen.json",
+    "source_sha256": "1843740c1f071d55245a97574e77f4162a725eec4593895cc41e85e1a3d0da67",
+    "method": "bounded CEM episodic policy search",
+    "base_sha256": "3bd8ff355d95c20d334d4076112746136bcaacbd770f9a8a6082fec9bf2932d7",
+    "sha256": "6f9fef0e3d7d4b5d4f022dfd3f2ddbd1528cb67ca6ccdf862e165fa90f443880",
+    "names": [
+      "tracking_error",
+      "joint_speed_s",
+      "lateral_tilt",
+      "lateral_gyro_s",
+      "prep_hip_roll_rad",
+      "landing_hip_roll_rad",
+      "left_stance_extend_rad",
+      "right_fold_rad"
+    ],
+    "bounds": [
+      0.75,
+      0.035,
+      0.45,
+      0.045,
+      0.085,
+      0.085,
+      0.09,
+      0.09
+    ],
+    "cap_rad": 0.1,
+    "seed_rng": 490190,
+    "generation_seeds": [
+      490200,
+      490201,
+      490202,
+      490203,
+      490204
+    ],
+    "confirmation_seeds": [
+      490220,
+      490221,
+      490222
+    ],
+    "search_rollouts": 150,
+    "confirmation_rollouts": 63,
+    "chosen": 4,
+    "params": [
+      0.14085467544435806,
+      -0.028911216872642496,
+      0.22155498143277433,
+      0.011580775479430493,
+      0.03807052319962514,
+      0.085,
+      -0.012415105958479649,
+      -0.02656210110101911
+    ]
+  }
+}

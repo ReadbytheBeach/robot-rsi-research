@@ -1,0 +1,461 @@
+{
+  "carry": {
+    "head": [
+      -0.053875890509637064,
+      -0.665635602749349,
+      -0.0031354933268147346,
+      -0.01615389916301288
+    ],
+    "pitch_comp": -0.9270271502840007,
+    "roll_comp": -0.8668450793297569,
+    "blend": 0.4865906413040736,
+    "ramp": 0.7215691914085594,
+    "pause": 0.9140951189851224,
+    "fixed": 0.8724881907003517,
+    "speed": [
+      0.5681208189972885,
+      0.5844633737900511,
+      0.46739907034590245
+    ],
+    "jaw": -1.9613252812975972,
+    "pick_seconds": 5.08,
+    "pick_x_shift": 0.0,
+    "advance_legs": 0.0,
+    "advance_head": 0.6,
+    "advance_smoothing": 0.55,
+    "turn_speed": [
+      1.0074422659078262,
+      1.0770502429354103,
+      0.8182836000386209
+    ],
+    "turn_memory": 0.8664062983694925,
+    "near_floor": 0.17217019091244867,
+    "pickup_calibration": {
+      "standoff": 0.08267941505519968,
+      "feature": "relative yaw modulo 60 degrees and measured control delay; tested with ideal pose",
+      "by_observation": {
+        "0-0": {
+          "lift_neck": 0.0658295468977729,
+          "lift_head": -0.018571130933273814,
+          "bite_degrees": -5.0,
+          "x": 0.08267941505519968,
+          "scale": 0.841727465528815,
+          "hip": -0.2534913059949874,
+          "knee": 0.36293640636999325,
+          "ankle": 0.363456975750656,
+          "neck": -0.4321927022317101,
+          "head": -0.8443163815096822,
+          "close": 0.7942672694181278,
+          "rate": 0.7297225422115381,
+          "close_span": 0.16839964712696812
+        },
+        "0-1": {
+          "lift_neck": 0.042917228266924554,
+          "lift_head": -0.002072546246986811,
+          "bite_degrees": -5.0,
+          "x": 0.08267941505519968,
+          "scale": 0.84974829475509,
+          "hip": -0.2075685775749702,
+          "knee": 0.37255250731345074,
+          "ankle": 0.35748213406881474,
+          "neck": -0.4708388205613941,
+          "head": -0.826077870453261,
+          "close": 0.8923733026199125,
+          "rate": 0.7015241938832187,
+          "close_span": 0.11953882238680004
+        },
+        "1-0": {
+          "lift_neck": 0.07048829437268586,
+          "lift_head": -0.010748563996615012,
+          "bite_degrees": -5.0,
+          "x": 0.08267941505519968,
+          "scale": 0.8612187431875693,
+          "hip": -0.21509648983055238,
+          "knee": 0.37454586162735387,
+          "ankle": 0.387673672298116,
+          "neck": -0.4573829712434755,
+          "head": -0.8429293604945858,
+          "close": 0.8043086354440303,
+          "rate": 0.7092988841155428,
+          "close_span": 0.13240898811985904
+        },
+        "1-1": {
+          "lift_neck": 0.07048829437268586,
+          "lift_head": -0.010748563996615012,
+          "bite_degrees": -5.0,
+          "x": 0.08267941505519968,
+          "scale": 0.8612187431875693,
+          "hip": -0.21509648983055238,
+          "knee": 0.37454586162735387,
+          "ankle": 0.387673672298116,
+          "neck": -0.4573829712434755,
+          "head": -0.8429293604945858,
+          "close": 0.8043086354440303,
+          "rate": 0.7092988841155428,
+          "close_span": 0.13240898811985904
+        }
+      }
+    }
+  },
+  "pick_s": 5.08,
+  "drop_x": -0.085,
+  "release_vx": -0.13,
+  "land_wait": 0.01,
+  "min_place": 0.55,
+  "margin": [
+    0.018,
+    0.025
+  ],
+  "place_ticks": 2,
+  "far_offset": [
+    -0.045,
+    0.0
+  ],
+  "far_tol": 0.065,
+  "back_m": 0.145,
+  "raise_back": true,
+  "first_only": false,
+  "stage": "all",
+  "handoff": true,
+  "handoff_opts": {
+    "preview_bite_s": 3.3,
+    "ready_x": 0.005,
+    "ready_y": 0.007,
+    "ready_yaw": 0.2,
+    "sample_stride": 4,
+    "align_limit": 30.0,
+    "depth_window": [
+      -0.0122,
+      -0.0095
+    ]
+  },
+  "release_timeout": 9.0,
+  "dock_preview": false,
+  "place_neck": -0.92,
+  "place_head": -0.86,
+  "plan_reach": true,
+  "require_plan": true,
+  "plan_stable_s": 0.75,
+  "b_departure": [],
+  "chair_clearance": 0.0,
+  "pick_calibration": null,
+  "asset_profile": "official-bom",
+  "approaches": [
+    [
+      -0.78,
+      -0.84,
+      0.112,
+      0.65,
+      0.45
+    ],
+    [
+      -1.06,
+      -0.87,
+      0.111,
+      0.65,
+      0.58
+    ],
+    [
+      -0.85,
+      -0.8,
+      0.092,
+      0.85,
+      0.3
+    ],
+    [
+      -0.94,
+      -0.82,
+      0.122,
+      0.96,
+      0.95
+    ],
+    [
+      -1.18,
+      -0.99,
+      0.105,
+      0.9,
+      0.68
+    ],
+    [
+      -0.9,
+      -1.04,
+      0.08,
+      0.43,
+      0.2
+    ],
+    [
+      -0.72,
+      -1.15,
+      0.095,
+      0.6,
+      0.18
+    ],
+    [
+      -0.94,
+      -0.75,
+      0.085,
+      0.56,
+      0.3
+    ]
+  ],
+  "dock_retries": 2,
+  "far_yaw_tol": 0.13,
+  "finish_wait": 10.0,
+  "drop_lane": 0.0,
+  "avoid_pickup_zone": true,
+  "release_profiles": [
+    [
+      -0.35,
+      -0.88,
+      -0.78,
+      0.0
+    ],
+    [
+      -0.42,
+      -1.06,
+      -0.82,
+      0.04,
+      0.12
+    ],
+    [
+      -0.38,
+      -0.78,
+      -0.62,
+      0.0,
+      0.08
+    ],
+    [
+      -0.45,
+      -1.2,
+      -1.05,
+      0.0,
+      0.2
+    ]
+  ],
+  "layouts": [
+    "S0",
+    "S1",
+    "S2"
+  ],
+  "navigation_timeout": 90.0,
+  "scan_reverse": true,
+  "fast_contacts": true,
+  "first_preview": {
+    "alternatives": [
+      {
+        "lift_neck": 0.042917228266924554,
+        "lift_head": -0.002072546246986811,
+        "bite_degrees": -5.0,
+        "x": 0.08267941505519968,
+        "scale": 0.84974829475509,
+        "hip": -0.2075685775749702,
+        "knee": 0.37255250731345074,
+        "ankle": 0.35748213406881474,
+        "neck": -0.4708388205613941,
+        "head": -0.861077870453261,
+        "close": 0.8573733026199125,
+        "rate": 0.7015241938832187,
+        "close_span": 0.11953882238680004,
+        "bite_yaw": 0.045
+      },
+      {
+        "lift_neck": 0.03672748228361566,
+        "lift_head": -0.012531383243922074,
+        "bite_degrees": -5.0,
+        "x": 0.08267941505519968,
+        "scale": 0.861629268643427,
+        "hip": -0.22985797303181316,
+        "knee": 0.3746712167131922,
+        "ankle": 0.39182110532228287,
+        "neck": -0.43636670102286806,
+        "head": -0.8285922912853991,
+        "close": 0.8242381003548929,
+        "rate": 0.6984298053473614,
+        "close_span": 0.1295829178363106
+      },
+      {
+        "lift_neck": 0.07048829437268586,
+        "lift_head": -0.010748563996615012,
+        "bite_degrees": -5.0,
+        "x": 0.08267941505519968,
+        "scale": 0.8612187431875693,
+        "hip": -0.21509648983055238,
+        "knee": 0.37454586162735387,
+        "ankle": 0.387673672298116,
+        "neck": -0.4573829712434755,
+        "head": -0.8429293604945858,
+        "close": 0.8043086354440303,
+        "rate": 0.7092988841155428,
+        "close_span": 0.13240898811985904
+      },
+      {
+        "lift_neck": 0.0658295468977729,
+        "lift_head": -0.018571130933273814,
+        "bite_degrees": -5.0,
+        "x": 0.08267941505519968,
+        "scale": 0.841727465528815,
+        "hip": -0.2534913059949874,
+        "knee": 0.36293640636999325,
+        "ankle": 0.363456975750656,
+        "neck": -0.4321927022317101,
+        "head": -0.8443163815096822,
+        "close": 0.7942672694181278,
+        "rate": 0.7297225422115381,
+        "close_span": 0.16839964712696812
+      },
+      {
+        "lift_neck": 0.07048829437268586,
+        "lift_head": -0.010748563996615012,
+        "bite_degrees": -5.0,
+        "x": 0.08267941505519968,
+        "scale": 0.8612187431875693,
+        "hip": -0.21509648983055238,
+        "knee": 0.37454586162735387,
+        "ankle": 0.387673672298116,
+        "neck": -0.4573829712434755,
+        "head": -0.8779293604945858,
+        "close": 0.7693086354440303,
+        "rate": 0.7092988841155428,
+        "close_span": 0.13240898811985904,
+        "bite_yaw": 0.14
+      },
+      {
+        "lift_neck": 0.042917228266924554,
+        "lift_head": -0.002072546246986811,
+        "bite_degrees": -5.0,
+        "x": 0.08267941505519968,
+        "scale": 0.84974829475509,
+        "hip": -0.2075685775749702,
+        "knee": 0.37255250731345074,
+        "ankle": 0.35748213406881474,
+        "neck": -0.4708388205613941,
+        "head": -0.826077870453261,
+        "close": 0.8923733026199125,
+        "rate": 0.7015241938832187,
+        "close_span": 0.11953882238680004,
+        "bite_yaw": 0.045
+      }
+    ]
+  },
+  "grip_regulator": null,
+  "pickup_retries": 0,
+  "recovery_pick_options": {
+    "align_limit": 38.0,
+    "ready_x": 0.006,
+    "ready_y": 0.007,
+    "ready_yaw": 0.2
+  },
+  "strategy": "together",
+  "gap": 0.0173,
+  "object_offset": [
+    0.0,
+    0.0
+  ],
+  "stagger": 0.0,
+  "second_pick_retries": 0,
+  "floor_xy_jitter_m": 0.001,
+  "pair_placement": {
+    "gap_range_m": [
+      0.0173,
+      0.026
+    ],
+    "stagger_range_m": [
+      -0.002,
+      0.002
+    ]
+  },
+  "gather_controller": "combined_gather",
+  "pair_align": {
+    "carry_preview_s": 160.0,
+    "limit_s": 24.0,
+    "preview_finish": true,
+    "transport_variants": false
+  },
+  "gather_options": {
+    "branches": [
+      {
+        "module": "mpc_foot",
+        "horizon": 28,
+        "turns": 80,
+        "stable_handoff": true,
+        "fast_branch": true
+      },
+      {
+        "module": "foot.mpc",
+        "steps": 110,
+        "branches": 24,
+        "stable": true,
+        "lateral_goal": true,
+        "lateral_goal_dx": 0.004
+      },
+      {
+        "module": "foot.mpc",
+        "horizon": 26,
+        "turns": 80,
+        "stable_handoff": true,
+        "fast_branch": true,
+        "steps": 100,
+        "branches": 24,
+        "stable": true
+      },
+      {
+        "module": "mpc_foot",
+        "horizon": 21,
+        "turns": 80,
+        "stable_handoff": true,
+        "fast_branch": true
+      },
+      {
+        "module": "mpc_foot",
+        "horizon": 35,
+        "turns": 80,
+        "stable_handoff": true,
+        "fast_branch": true
+      },
+      {
+        "module": "mpc_foot",
+        "horizon": 28,
+        "turns": 80,
+        "stable_handoff": true,
+        "fast_branch": true,
+        "command_gain": 0.76
+      },
+      {
+        "module": "mpc_foot",
+        "horizon": 20,
+        "turns": 80,
+        "stable_handoff": true,
+        "fast_branch": true,
+        "swap_anchor": true
+      },
+      {
+        "module": "foot.mpc",
+        "steps": 110,
+        "branches": 32,
+        "stable": true,
+        "lateral_goal": true,
+        "lateral_goal_dx": 0.007
+      },
+      {
+        "module": "mpc_foot",
+        "horizon": 24,
+        "turns": 110,
+        "stable_handoff": true,
+        "fast_branch": true,
+        "command_gain": 0.85
+      },
+      {
+        "module": "mpc_foot",
+        "horizon": 32,
+        "turns": 110,
+        "stable_handoff": true,
+        "fast_branch": true,
+        "swap_anchor": true
+      },
+      {
+        "module": "beak.paddle_safe",
+        "timeout": 150
+      }
+    ]
+  }
+}

@@ -21,7 +21,7 @@ indexed_on: "2026-11-23"
 
 **适用边界：** 核查公告、提示词及固定版本源码，未取得截图医院任务代码，未运行插件、RL 训练或真机实验；MicroDuck 部分为待实施方案。
 
-**相关文档：** [RSI-012 NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研](../simready-central-research/simready-central-research.zh-CN.md)；[RSI-009 PEAR 与 Robot RSI 中文技术调研](../pear-research/pear-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)
+**相关文档：** [RSI-012 NVIDIA SimReady Central 与机器人 RSI 仿真资产中文调研](../simready-central-research/simready-central-research.zh-CN.md)；[RSI-009 PEAR 与 Robot RSI 中文技术调研](../pear-research/pear-research.zh-CN.md)；[RSI-018 如何让一次实验的结果能成为下一次实验的输入](../%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%BB%93%E6%9E%9C%E8%83%BD%E6%88%90%E4%B8%BA%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%BE%93%E5%85%A5.zh-CN.md)；[RSI-020 MicroDuck 六次仿真训练：从单脚承重到双螺帽归拢投篮](microduck-training-20261123-25/README.md)
 
 [返回总目录 · Research Index](../README.md)
 <!-- END GENERATED READING SUMMARY -->

@@ -1,0 +1,1243 @@
+{
+  "source": "test/results.json",
+  "source_sha256": "a411225cb42e76a5d61b89ab00cfd6baeae187272975dd389faf3cb6e4897019",
+  "heldout_seeds": [
+    491060,
+    491061,
+    491062,
+    491063,
+    491064,
+    491065
+  ],
+  "video_seed": 491060,
+  "policies_sha256": {
+    "h0": "ee67f39b9496e4e5fc980c027c667f94b7efe675ee13160cbc1b4a5deedc0bf4",
+    "coarse": "3bd8ff355d95c20d334d4076112746136bcaacbd770f9a8a6082fec9bf2932d7",
+    "direct": "69f2182ed1b8922f7a7dd2ced7d8ca22513aee1e0c9218515d066be15918f4d4",
+    "staged": "6f9fef0e3d7d4b5d4f022dfd3f2ddbd1528cb67ca6ccdf862e165fa90f443880"
+  },
+  "official_shoe_window_peak_pct": 19.101123595505616,
+  "conditions": {
+    "mujoco": {
+      "h0": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 8,
+          "0.025": 5,
+          "0.050": 2,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "both": 1,
+          "left_only": 8,
+          "right_only": 3
+        },
+        "peak_qualified": 8,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.08444444444444403,
+        "mean_anchored_after_s": 0.025000000000000282,
+        "anchored_flank_mean_s": 0.020000000000000018,
+        "landing_travel_median_mm": 26.33856115659353,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 2.4150933076442724,
+        "mean_max_drift_mm": 88.30358773889843,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 1
+        },
+        "right_physical": 0,
+        "right_visual": 3,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.16166666666666665,
+        "physical_height_mm_mean": 13.8720008997855,
+        "physical_knee_deg_mean": 26.126906441863667,
+        "shoe_window_peak_pct": {
+          "median": 6.580375611236356,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 14.356428723302365,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 25.460319162096667,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 19.624564484971557,
+          "observed": 8,
+          "left_count": 8
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 7.852994540484135,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 3.0168764488853865,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 11.7123703377749,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.23371895039907736,
+            "observed": 12
+          }
+        }
+      },
+      "coarse": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 8,
+          "0.025": 6,
+          "0.050": 3,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "left_only": 8,
+          "right_only": 4
+        },
+        "peak_qualified": 8,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.03666666666666626,
+        "mean_anchored_after_s": 0.05166666666666697,
+        "anchored_flank_mean_s": 0.027222222222222186,
+        "landing_travel_median_mm": 25.654295965923993,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 1.6883160557609314,
+        "mean_max_drift_mm": 72.47982176965587,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 2,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.15666666666666665,
+        "physical_height_mm_mean": 13.568608881392038,
+        "physical_knee_deg_mean": 28.18542084900487,
+        "shoe_window_peak_pct": {
+          "median": 3.745002692368402,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 11.272770732418998,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 25.193721857311843,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 18.70802210445678,
+          "observed": 8,
+          "left_count": 8
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 5.986373789519707,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 3.0171875918801434,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 8.817219796292543,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.24973470475338308,
+            "observed": 12
+          }
+        }
+      },
+      "direct": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 5,
+          "0.025": 0,
+          "0.050": 0,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "both": 3,
+          "right_only": 4,
+          "left_only": 5
+        },
+        "peak_qualified": 5,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.04777777777777755,
+        "mean_anchored_after_s": 0.0016666666666667052,
+        "anchored_flank_mean_s": 0.0016666666666667052,
+        "landing_travel_median_mm": 15.488156480538297,
+        "landing_observed": 12,
+        "signed_peak_median_pct": -0.6016947337821975,
+        "mean_max_drift_mm": 49.745867415931905,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 3
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.12500000000000003,
+        "physical_height_mm_mean": 8.865503816548975,
+        "physical_knee_deg_mean": 23.029189746159783,
+        "shoe_window_peak_pct": {
+          "median": 3.214508695249711,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 13.600726086665611,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 13.31624852803643,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 18.551255889499267,
+          "observed": 5,
+          "left_count": 5
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 6.519442298105247,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 3.2545521559237875,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 11.274203167734727,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.22119844593862492,
+            "observed": 12
+          }
+        }
+      },
+      "staged": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 4,
+          "0.025": 2,
+          "0.050": 1,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "right_only": 5,
+          "both": 3,
+          "left_only": 4
+        },
+        "peak_qualified": 4,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.013888888888888692,
+        "mean_anchored_after_s": 0.03500000000000029,
+        "anchored_flank_mean_s": 0.009444444444444441,
+        "landing_travel_median_mm": 22.284312876410812,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 0.060163651688893295,
+        "mean_max_drift_mm": 84.32959475889822,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.15666666666666665,
+        "physical_height_mm_mean": 15.38498432668343,
+        "physical_knee_deg_mean": 30.251530822594273,
+        "shoe_window_peak_pct": {
+          "median": 5.796789063297918,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 9.49497999099809,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 18.726507801573707,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 19.230849738836802,
+          "observed": 4,
+          "left_count": 4
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 4.5024466447254365,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 3.2691524270725623,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 7.666367250402961,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.22084160276017065,
+            "observed": 12
+          }
+        }
+      }
+    },
+    "physx": {
+      "h0": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 8,
+          "0.025": 4,
+          "0.050": 1,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "left_only": 9,
+          "neither": 2,
+          "both": 1
+        },
+        "peak_qualified": 8,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.02555555555555526,
+        "mean_anchored_after_s": 0.03555555555555586,
+        "anchored_flank_mean_s": 0.015555555555555841,
+        "landing_travel_median_mm": 22.246381759643555,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 2.110382189203385,
+        "mean_max_drift_mm": 85.16072481870651,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.10000000000000002,
+        "physical_height_mm_mean": 13.307949771558706,
+        "physical_knee_deg_mean": 25.237593332926433,
+        "shoe_window_peak_pct": {
+          "median": 5.823002113721019,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 13.150445938110352,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 20.819084413149078,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 18.271020995432416,
+          "observed": 8,
+          "left_count": 8
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 4.98694372177124,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 4.49285888671875,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 11.281779289245605,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.7790024280548096,
+            "observed": 12
+          }
+        }
+      },
+      "coarse": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 9,
+          "0.025": 5,
+          "0.050": 2,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "left_only": 9,
+          "neither": 2,
+          "right_only": 1
+        },
+        "peak_qualified": 9,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.027777777777777162,
+        "mean_anchored_after_s": 0.0444444444444451,
+        "anchored_flank_mean_s": 0.02055555555555581,
+        "landing_travel_median_mm": 23.353096961975098,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 3.1211692878358486,
+        "mean_max_drift_mm": 82.66946425040562,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.10166666666666668,
+        "physical_height_mm_mean": 13.140413634778445,
+        "physical_knee_deg_mean": 24.932490825653076,
+        "shoe_window_peak_pct": {
+          "median": 5.679063440709239,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 11.277130126953125,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 21.522174860987725,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 17.30861386030928,
+          "observed": 9,
+          "left_count": 9
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 4.4047486782073975,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 3.9581669569015503,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 9.283894062042236,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.7782465815544128,
+            "observed": 12
+          }
+        }
+      },
+      "direct": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 6,
+          "0.025": 1,
+          "0.050": 0,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "left_only": 6,
+          "right_only": 1,
+          "neither": 5
+        },
+        "peak_qualified": 6,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.02777777777777753,
+        "mean_anchored_after_s": 0.03222222222222274,
+        "anchored_flank_mean_s": 0.006666666666666894,
+        "landing_travel_median_mm": 18.700400352478027,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 1.0052287845195318,
+        "mean_max_drift_mm": 43.636553610364594,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.13,
+        "physical_height_mm_mean": 11.245056904900473,
+        "physical_knee_deg_mean": 24.21504275004069,
+        "shoe_window_peak_pct": {
+          "median": 2.3111874095343943,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 13.843620777130127,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 18.304840600497656,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 17.493575228417637,
+          "observed": 6,
+          "left_count": 6
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 4.256039381027222,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 4.462965726852417,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 12.427494525909424,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.7032274901866913,
+            "observed": 12
+          }
+        }
+      },
+      "staged": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 4,
+          "0.025": 1,
+          "0.050": 0,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "left_only": 6,
+          "right_only": 2,
+          "neither": 4
+        },
+        "peak_qualified": 4,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.00277777777777762,
+        "mean_anchored_after_s": 0.032222222222222374,
+        "anchored_flank_mean_s": 0.0022222222222221255,
+        "landing_travel_median_mm": 11.55941915512085,
+        "landing_observed": 12,
+        "signed_peak_median_pct": -0.6140484593774325,
+        "mean_max_drift_mm": 83.72885982195537,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.1583333333333333,
+        "physical_height_mm_mean": 12.98113886078774,
+        "physical_knee_deg_mean": 23.544852415720623,
+        "shoe_window_peak_pct": {
+          "median": 5.822668470801485,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 10.470090389251709,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 7.614385203673777,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 17.890100629681037,
+          "observed": 4,
+          "left_count": 4
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 3.5659279823303223,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 4.083895206451416,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 8.76912260055542,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.8235298991203308,
+            "observed": 12
+          }
+        }
+      }
+    },
+    "board": {
+      "h0": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 8,
+          "0.025": 8,
+          "0.050": 6,
+          "0.075": 3,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "right_only": 2,
+          "left_only": 8,
+          "both": 2
+        },
+        "peak_qualified": 8,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.06388888888888829,
+        "mean_anchored_after_s": 0.057777777777778226,
+        "anchored_flank_mean_s": 0.04722222222222235,
+        "landing_travel_median_mm": 25.2148787779879,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 6.220118630379039,
+        "mean_max_drift_mm": 94.93102095251506,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 1
+        },
+        "right_physical": 0,
+        "right_visual": 2,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.17000000000000004,
+        "physical_height_mm_mean": 12.887702046067384,
+        "physical_knee_deg_mean": 23.87272881285678,
+        "shoe_window_peak_pct": {
+          "median": 6.913125819599142,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 13.214810904587617,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 23.99107922102597,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 17.4346773574825,
+          "observed": 8,
+          "left_count": 8
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 7.049886880902995,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 3.6400459489651107,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 10.703031694659717,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.2041479044099496,
+            "observed": 12
+          }
+        }
+      },
+      "coarse": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 9,
+          "0.025": 9,
+          "0.050": 5,
+          "0.075": 2,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "both": 2,
+          "left_only": 9,
+          "right_only": 1
+        },
+        "peak_qualified": 9,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.075555555555555,
+        "mean_anchored_after_s": 0.05944444444444478,
+        "anchored_flank_mean_s": 0.04666666666666656,
+        "landing_travel_median_mm": 25.60208790495314,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 5.999694274540753,
+        "mean_max_drift_mm": 91.37935131831706,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 4,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.17166666666666666,
+        "physical_height_mm_mean": 13.070284726721283,
+        "physical_knee_deg_mean": 24.12690359152511,
+        "shoe_window_peak_pct": {
+          "median": 6.872107416959887,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 11.18579848933716,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 23.01085207505062,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 15.333884362775397,
+          "observed": 9,
+          "left_count": 9
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 6.512613851797955,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 3.1986780235802392,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 8.54123880603477,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.18949071879690213,
+            "observed": 12
+          }
+        }
+      },
+      "direct": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 11,
+          "0.025": 9,
+          "0.050": 1,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "left_only": 11,
+          "both": 1
+        },
+        "peak_qualified": 11,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.05055555555555472,
+        "mean_anchored_after_s": 0.04833333333333393,
+        "anchored_flank_mean_s": 0.031666666666666586,
+        "landing_travel_median_mm": 21.478728035794063,
+        "landing_observed": 12,
+        "signed_peak_median_pct": 2.791082751758724,
+        "mean_max_drift_mm": 120.93758070945044,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 1
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.11666666666666668,
+        "physical_height_mm_mean": 7.648643394334407,
+        "physical_knee_deg_mean": 18.714001893051257,
+        "shoe_window_peak_pct": {
+          "median": 2.9654573725022866,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 11.98470769240307,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 18.189233082929405,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 14.72107812356716,
+          "observed": 11,
+          "left_count": 11
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 6.163712177801836,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 3.6946249226260726,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 9.694148985494671,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.19772093780242236,
+            "observed": 12
+          }
+        }
+      },
+      "staged": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 2,
+          "0.025": 1,
+          "0.050": 1,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 4,
+        "peak_contacts": {
+          "right_only": 5,
+          "both": 3,
+          "left_only": 2,
+          "unreached": 2
+        },
+        "peak_qualified": 2,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.01055555555555543,
+        "mean_anchored_after_s": 0.015000000000000124,
+        "anchored_flank_mean_s": 0.004444444444444547,
+        "landing_travel_median_mm": 12.178653249350344,
+        "landing_observed": 9,
+        "signed_peak_median_pct": -1.4007490894688694,
+        "mean_max_drift_mm": 113.25952652409228,
+        "mean_duration_s": 14.803333333333335,
+        "head_and_base_both_cycles": {
+          "head_both": 4,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 1,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.13333333333333333,
+        "physical_height_mm_mean": 11.176484458888444,
+        "physical_knee_deg_mean": 22.6037101068636,
+        "shoe_window_peak_pct": {
+          "median": 3.6475868579279265,
+          "observed": 10
+        },
+        "head_range_l2_deg": {
+          "median": 9.193218333805387,
+          "observed": 10
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 9.447258367071973,
+          "observed": 9,
+          "left_count": 8
+        },
+        "touchdown_net_left_mm": {
+          "median": -6.558600912842165,
+          "observed": 2,
+          "left_count": 1
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 5.103768194467859,
+            "observed": 10
+          },
+          "head_pitch": {
+            "median": 3.6205202766385876,
+            "observed": 10
+          },
+          "head_yaw": {
+            "median": 6.5884480574177715,
+            "observed": 10
+          },
+          "head_roll": {
+            "median": 0.17020342487814266,
+            "observed": 10
+          }
+        }
+      }
+    },
+    "delay": {
+      "h0": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 0,
+          "0.025": 0,
+          "0.050": 0,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 0,
+        "peak_contacts": {
+          "right_only": 8,
+          "unreached": 4
+        },
+        "peak_qualified": 0,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.0,
+        "mean_anchored_after_s": 0.0,
+        "anchored_flank_mean_s": 0.0,
+        "landing_travel_median_mm": 11.836253168517242,
+        "landing_observed": 3,
+        "signed_peak_median_pct": -0.6606001832585635,
+        "mean_max_drift_mm": 161.92840333717217,
+        "mean_duration_s": 9.146666666666667,
+        "head_and_base_both_cycles": {
+          "head_both": 2,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.13999999999999999,
+        "physical_height_mm_mean": 11.816247814815332,
+        "physical_knee_deg_mean": 18.305256378242447,
+        "shoe_window_peak_pct": {
+          "median": 6.324178662098831,
+          "observed": 8
+        },
+        "head_range_l2_deg": {
+          "median": 13.869221171355983,
+          "observed": 8
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 8.261905154733826,
+          "observed": 3,
+          "left_count": 2
+        },
+        "touchdown_net_left_mm": {
+          "median": null,
+          "observed": 0,
+          "left_count": 0
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 8.037093499850984,
+            "observed": 8
+          },
+          "head_pitch": {
+            "median": 5.122375245268948,
+            "observed": 8
+          },
+          "head_yaw": {
+            "median": 10.027364599887793,
+            "observed": 8
+          },
+          "head_roll": {
+            "median": 0.18217289414214805,
+            "observed": 8
+          }
+        }
+      },
+      "coarse": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 0,
+          "0.025": 0,
+          "0.050": 0,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 0,
+        "peak_contacts": {
+          "right_only": 7,
+          "unreached": 5
+        },
+        "peak_qualified": 0,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.0,
+        "mean_anchored_after_s": 0.0,
+        "anchored_flank_mean_s": 0.0,
+        "landing_travel_median_mm": 67.85552707765397,
+        "landing_observed": 2,
+        "signed_peak_median_pct": -1.051120719946775,
+        "mean_max_drift_mm": 160.73686543709093,
+        "mean_duration_s": 7.526666666666666,
+        "head_and_base_both_cycles": {
+          "head_both": 1,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.125,
+        "physical_height_mm_mean": 10.758229641686802,
+        "physical_knee_deg_mean": 16.987979561554017,
+        "shoe_window_peak_pct": {
+          "median": 7.586984953847412,
+          "observed": 7
+        },
+        "head_range_l2_deg": {
+          "median": 12.352339185690312,
+          "observed": 7
+        },
+        "fixed_landing_net_left_mm": {
+          "median": -28.305486884485127,
+          "observed": 2,
+          "left_count": 1
+        },
+        "touchdown_net_left_mm": {
+          "median": null,
+          "observed": 0,
+          "left_count": 0
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 8.400435088603503,
+            "observed": 7
+          },
+          "head_pitch": {
+            "median": 4.257553859962206,
+            "observed": 7
+          },
+          "head_yaw": {
+            "median": 7.597935641098053,
+            "observed": 7
+          },
+          "head_roll": {
+            "median": 0.218479124270447,
+            "observed": 7
+          }
+        }
+      },
+      "direct": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 1,
+          "0.025": 1,
+          "0.050": 1,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 6,
+        "peak_contacts": {
+          "right_only": 11,
+          "left_only": 1
+        },
+        "peak_qualified": 1,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.008888888888888799,
+        "mean_anchored_after_s": 0.004444444444444547,
+        "anchored_flank_mean_s": 0.004444444444444547,
+        "landing_travel_median_mm": 23.0306201917321,
+        "landing_observed": 12,
+        "signed_peak_median_pct": -1.9429263452602799,
+        "mean_max_drift_mm": 172.24724356904116,
+        "mean_duration_s": 19.080000000000002,
+        "head_and_base_both_cycles": {
+          "head_both": 6,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.10666666666666667,
+        "physical_height_mm_mean": 6.894149097540194,
+        "physical_knee_deg_mean": 21.10884133543429,
+        "shoe_window_peak_pct": {
+          "median": 2.1738099800705397,
+          "observed": 12
+        },
+        "head_range_l2_deg": {
+          "median": 14.534483710743643,
+          "observed": 12
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 21.01642877536315,
+          "observed": 12,
+          "left_count": 12
+        },
+        "touchdown_net_left_mm": {
+          "median": 19.73434151455835,
+          "observed": 1,
+          "left_count": 1
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 5.719044661211624,
+            "observed": 12
+          },
+          "head_pitch": {
+            "median": 4.114926043038016,
+            "observed": 12
+          },
+          "head_yaw": {
+            "median": 12.828065191403965,
+            "observed": 12
+          },
+          "head_roll": {
+            "median": 0.24900233931926902,
+            "observed": 12
+          }
+        }
+      },
+      "staged": {
+        "planned": 12,
+        "centered_halfwidth_pass_counts": {
+          "0.000": 2,
+          "0.025": 1,
+          "0.050": 0,
+          "0.075": 0,
+          "0.100": 0
+        },
+        "complete_episodes": 0,
+        "peak_contacts": {
+          "left_only": 2,
+          "right_only": 2,
+          "unreached": 7,
+          "both": 1
+        },
+        "peak_qualified": 2,
+        "full_window": 0,
+        "complete_window_and_recover": 0,
+        "distinct_seeds_full": 0,
+        "both_windows": 0,
+        "mean_anchored_before_s": 0.0038888888888887565,
+        "mean_anchored_after_s": 0.016666666666666757,
+        "anchored_flank_mean_s": 0.0038888888888887565,
+        "landing_travel_median_mm": 44.4157766001947,
+        "landing_observed": 2,
+        "signed_peak_median_pct": 3.4396405152965257,
+        "mean_max_drift_mm": 159.90063408871723,
+        "mean_duration_s": 8.443333333333333,
+        "head_and_base_both_cycles": {
+          "head_both": 1,
+          "base_both": 0
+        },
+        "right_physical": 0,
+        "right_visual": 0,
+        "full_body_strict": 0,
+        "joint": 0,
+        "physical_support_s_mean": 0.08666666666666667,
+        "physical_height_mm_mean": 8.878902404894228,
+        "physical_knee_deg_mean": 13.939462906259733,
+        "shoe_window_peak_pct": {
+          "median": 7.669443971537582,
+          "observed": 5
+        },
+        "head_range_l2_deg": {
+          "median": 13.470264545016233,
+          "observed": 5
+        },
+        "fixed_landing_net_left_mm": {
+          "median": 26.732759805647305,
+          "observed": 2,
+          "left_count": 2
+        },
+        "touchdown_net_left_mm": {
+          "median": 25.666574609788487,
+          "observed": 1,
+          "left_count": 1
+        },
+        "head_joint_range_deg": {
+          "neck_pitch": {
+            "median": 9.845669416883805,
+            "observed": 5
+          },
+          "head_pitch": {
+            "median": 4.70064897796887,
+            "observed": 5
+          },
+          "head_yaw": {
+            "median": 8.193195619676409,
+            "observed": 5
+          },
+          "head_roll": {
+            "median": 0.4017950622931737,
+            "observed": 5
+          }
+        }
+      }
+    }
+  }
+}

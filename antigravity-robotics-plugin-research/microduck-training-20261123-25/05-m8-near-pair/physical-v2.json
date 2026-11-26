@@ -1,0 +1,183 @@
+{
+  "successes": 235,
+  "n": 240,
+  "rate": 0.9791666666666666,
+  "wilson_95": [
+    0.9521666228373029,
+    0.9910692038853699
+  ],
+  "initial_actual_distance_mm": {
+    "min": 16.43450421020423,
+    "median": 21.412195451191515,
+    "max": 26.66442234076976
+  },
+  "simultaneous_hold_s": {
+    "min": 2.494999999999969,
+    "median": 2.5149999999999686,
+    "max": 2.599999999999967
+  },
+  "worst_carry_pad_gap_s": 0.0,
+  "observed_carry_external_support": 0,
+  "success_total_s": {
+    "min": 43.78,
+    "median": 53.62,
+    "max": 64.58
+  },
+  "both_supported_at_end_s": {
+    "min": 1.9999999999999685,
+    "median": 4.805000000000051,
+    "max": 6.830000000000368
+  },
+  "final_drift_mm": {
+    "min": 0.3742225230525896,
+    "median": 0.49387746134767824,
+    "max": 1.7917146019667145
+  },
+  "max_pad_penetration_mm": {
+    "min": 0.5522496552107133,
+    "median": 0.8207063166221045,
+    "max": 1.4563937558641589
+  },
+  "successful_route_counts": {
+    "1": 235
+  },
+  "successful_gate_counts": {
+    "6": 235
+  },
+  "success_contact_between_nuts_max_mm": 0.0,
+  "live_mujoco_warnings": 0,
+  "failures": [
+    {
+      "seed": 48531500,
+      "layout": "S0",
+      "delay_ms": 0,
+      "reason": "pickup_failed",
+      "t": 5.08,
+      "simultaneous_hold_s": 0.0,
+      "first_failure": null
+    },
+    {
+      "seed": 48531553,
+      "layout": "S2",
+      "delay_ms": 20,
+      "reason": "pickup_failed",
+      "t": 5.08,
+      "simultaneous_hold_s": 0.0,
+      "first_failure": null
+    },
+    {
+      "seed": 48531647,
+      "layout": "S1",
+      "delay_ms": 20,
+      "reason": "pickup_failed",
+      "t": 5.08,
+      "simultaneous_hold_s": 0.0,
+      "first_failure": null
+    },
+    {
+      "seed": 48531710,
+      "layout": "S0",
+      "delay_ms": 0,
+      "reason": "lost_in_transport",
+      "t": 5.995,
+      "simultaneous_hold_s": 2.499999999999969,
+      "first_failure": {
+        "reason": "lost_in_transport",
+        "item": 0,
+        "t": 5.995
+      }
+    },
+    {
+      "seed": 48531714,
+      "layout": "S2",
+      "delay_ms": 0,
+      "reason": "lost_in_transport",
+      "t": 5.715,
+      "simultaneous_hold_s": 2.499999999999969,
+      "first_failure": {
+        "reason": "lost_in_transport",
+        "item": 0,
+        "t": 5.715
+      }
+    }
+  ],
+  "cells": {
+    "S0/0ms": {
+      "successes": 38,
+      "count": 40,
+      "observed_rate": 0.95,
+      "wilson_95": [
+        0.8349612263085903,
+        0.9861793326138516
+      ],
+      "reasons": {
+        "pickup_failed": 1,
+        "success": 38,
+        "lost_in_transport": 1
+      }
+    },
+    "S0/20ms": {
+      "successes": 40,
+      "count": 40,
+      "observed_rate": 1.0,
+      "wilson_95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "reasons": {
+        "success": 40
+      }
+    },
+    "S1/0ms": {
+      "successes": 40,
+      "count": 40,
+      "observed_rate": 1.0,
+      "wilson_95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "reasons": {
+        "success": 40
+      }
+    },
+    "S1/20ms": {
+      "successes": 39,
+      "count": 40,
+      "observed_rate": 0.975,
+      "wilson_95": [
+        0.8711863103652591,
+        0.9955731684973186
+      ],
+      "reasons": {
+        "success": 39,
+        "pickup_failed": 1
+      }
+    },
+    "S2/0ms": {
+      "successes": 39,
+      "count": 40,
+      "observed_rate": 0.975,
+      "wilson_95": [
+        0.8711863103652591,
+        0.9955731684973186
+      ],
+      "reasons": {
+        "success": 39,
+        "lost_in_transport": 1
+      }
+    },
+    "S2/20ms": {
+      "successes": 39,
+      "count": 40,
+      "observed_rate": 0.975,
+      "wilson_95": [
+        0.8711863103652591,
+        0.9955731684973186
+      ],
+      "reasons": {
+        "success": 39,
+        "pickup_failed": 1
+      }
+    }
+  }
+}

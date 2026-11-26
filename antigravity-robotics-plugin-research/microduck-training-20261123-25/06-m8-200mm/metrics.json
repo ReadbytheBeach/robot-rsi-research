@@ -1,0 +1,400 @@
+{
+  "registered_n": 240,
+  "n": 240,
+  "success": 239,
+  "observed_rate": 0.9958333333333333,
+  "cells": {
+    "S0/0ms": {
+      "success": 39,
+      "n": 40
+    },
+    "S0/20ms": {
+      "success": 40,
+      "n": 40
+    },
+    "S1/0ms": {
+      "success": 40,
+      "n": 40
+    },
+    "S1/20ms": {
+      "success": 40,
+      "n": 40
+    },
+    "S2/0ms": {
+      "success": 40,
+      "n": 40
+    },
+    "S2/20ms": {
+      "success": 40,
+      "n": 40
+    }
+  },
+  "failures_by_reason": {
+    "witness_dual_transport_interrupted": 1
+  },
+  "failures": [
+    {
+      "seed": 67243078,
+      "layout": "S0",
+      "delay_ms": 0,
+      "stage": "finish",
+      "reason": "witness_dual_transport_interrupted",
+      "sim_s": 83.84
+    }
+  ],
+  "episode_sim_s": {
+    "success": {
+      "n": 239,
+      "min": 48.4,
+      "median": 73.78,
+      "p90": 89.224,
+      "max": 103.8
+    },
+    "failure": {
+      "n": 1,
+      "min": 83.84,
+      "median": 83.84,
+      "p90": 83.84,
+      "max": 83.84
+    }
+  },
+  "stage_sim_s_by_reached_stage": {
+    "success": {
+      "settle": {
+        "n": 239,
+        "min": 0.3,
+        "median": 0.3,
+        "p90": 0.3,
+        "max": 0.3
+      },
+      "gather": {
+        "n": 239,
+        "min": 3.74,
+        "median": 10.319999999999999,
+        "p90": 19.552000000000003,
+        "max": 36.52
+      },
+      "align": {
+        "n": 239,
+        "min": 0.5999999999999996,
+        "median": 6.58,
+        "p90": 17.364000000000004,
+        "max": 24.0
+      },
+      "pick": {
+        "n": 239,
+        "min": 5.079999999999998,
+        "median": 5.08,
+        "p90": 5.080000000000002,
+        "max": 5.080000000000005
+      },
+      "cross": {
+        "n": 239,
+        "min": 31.279999999999994,
+        "median": 41.400000000000006,
+        "p90": 50.391999999999996,
+        "max": 53.239999999999995
+      },
+      "dock_plan": {
+        "n": 239,
+        "min": 2.8999999999999915,
+        "median": 3.339999999999989,
+        "p90": 3.5840000000000005,
+        "max": 5.299999999999997
+      },
+      "brake": {
+        "n": 239,
+        "min": 0.8599999999999923,
+        "median": 0.8599999999999994,
+        "p90": 0.8599999999999994,
+        "max": 0.8600000000000136
+      },
+      "finish": {
+        "n": 239,
+        "min": 2.1999999999999886,
+        "median": 2.200000000000003,
+        "p90": 2.200000000000003,
+        "max": 5.020000000000003
+      }
+    },
+    "failure": {
+      "settle": {
+        "n": 1,
+        "min": 0.3,
+        "median": 0.3,
+        "p90": 0.3,
+        "max": 0.3
+      },
+      "gather": {
+        "n": 1,
+        "min": 17.56,
+        "median": 17.56,
+        "p90": 17.56,
+        "max": 17.56
+      },
+      "align": {
+        "n": 1,
+        "min": 4.84,
+        "median": 4.84,
+        "p90": 4.84,
+        "max": 4.84
+      },
+      "pick": {
+        "n": 1,
+        "min": 5.080000000000002,
+        "median": 5.080000000000002,
+        "p90": 5.080000000000002,
+        "max": 5.080000000000002
+      },
+      "cross": {
+        "n": 1,
+        "min": 49.58,
+        "median": 49.58,
+        "p90": 49.58,
+        "max": 49.58
+      },
+      "dock_plan": {
+        "n": 1,
+        "min": 3.4200000000000017,
+        "median": 3.4200000000000017,
+        "p90": 3.4200000000000017,
+        "max": 3.4200000000000017
+      },
+      "brake": {
+        "n": 1,
+        "min": 0.8599999999999994,
+        "median": 0.8599999999999994,
+        "p90": 0.8599999999999994,
+        "max": 0.8599999999999994
+      },
+      "finish": {
+        "n": 1,
+        "min": 2.200000000000003,
+        "median": 2.200000000000003,
+        "p90": 2.200000000000003,
+        "max": 2.200000000000003
+      }
+    }
+  },
+  "physical_witness": {
+    "all": {
+      "episodes": 240,
+      "settled_center_distance_mm": {
+        "n": 240,
+        "min": 199.99996680561318,
+        "median": 199.9999999798979,
+        "p90": 200.00001356870868,
+        "max": 200.00003361042587
+      },
+      "max_pregrasp_airborne_interval_ms": {
+        "n": 240,
+        "min": 0.0,
+        "median": 15.0,
+        "p90": 15.0,
+        "max": 15.0
+      },
+      "max_pregrasp_bottom_height_mm": {
+        "n": 240,
+        "min": 0.6403595830155886,
+        "median": 1.466133099770654,
+        "p90": 2.1742793768598982,
+        "max": 3.687881446966605
+      },
+      "closed_bite_count_histogram": {
+        "1": 240
+      },
+      "dual_hold_qualified": 240,
+      "exited_near_station": 240,
+      "exited_after_both_qualified": 240,
+      "best_joint_hold_before_departure_s": {
+        "n": 240,
+        "min": 2.44499999999997,
+        "median": 2.5099999999999687,
+        "p90": 2.595499999999967,
+        "max": 2.644999999999966
+      },
+      "first_lift_difference_ms": {
+        "n": 240,
+        "min": 0.0,
+        "median": 9.99999999999801,
+        "p90": 15.000000000007674,
+        "max": 20.000000000010232
+      },
+      "first_lift_difference_histogram_ms": {
+        "0.0": 22,
+        "5.0": 62,
+        "10.0": 88,
+        "15.0": 46,
+        "20.0": 22
+      },
+      "min_loaded_nut_bottom_mm": {
+        "n": 240,
+        "min": 146.19283093904923,
+        "median": 188.649986205008,
+        "p90": 200.95383410098236,
+        "max": 206.61858537021644
+      },
+      "max_time_neither_pad_touches_a_nut_ms": {
+        "n": 240,
+        "min": 0.0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      },
+      "external_contact_before_release": 0,
+      "reached_joint_basket_stability": 240,
+      "both_stably_supported_at_end_s": {
+        "n": 240,
+        "min": 1.9999999999999685,
+        "median": 4.833750000000055,
+        "p90": 5.047500000000089,
+        "max": 6.570000000000327
+      }
+    },
+    "success": {
+      "episodes": 239,
+      "settled_center_distance_mm": {
+        "n": 239,
+        "min": 199.99996680561318,
+        "median": 199.9999999895194,
+        "p90": 200.00001358287832,
+        "max": 200.00003361042587
+      },
+      "max_pregrasp_airborne_interval_ms": {
+        "n": 239,
+        "min": 0.0,
+        "median": 15.0,
+        "p90": 15.0,
+        "max": 15.0
+      },
+      "max_pregrasp_bottom_height_mm": {
+        "n": 239,
+        "min": 0.6403595830155886,
+        "median": 1.4667780110386865,
+        "p90": 2.1752944947802577,
+        "max": 3.687881446966605
+      },
+      "closed_bite_count_histogram": {
+        "1": 239
+      },
+      "dual_hold_qualified": 239,
+      "exited_near_station": 239,
+      "exited_after_both_qualified": 239,
+      "best_joint_hold_before_departure_s": {
+        "n": 239,
+        "min": 2.44499999999997,
+        "median": 2.5099999999999687,
+        "p90": 2.595999999999967,
+        "max": 2.644999999999966
+      },
+      "first_lift_difference_ms": {
+        "n": 239,
+        "min": 0.0,
+        "median": 9.99999999999801,
+        "p90": 15.000000000007674,
+        "max": 20.000000000010232
+      },
+      "first_lift_difference_histogram_ms": {
+        "0.0": 22,
+        "5.0": 61,
+        "10.0": 88,
+        "15.0": 46,
+        "20.0": 22
+      },
+      "min_loaded_nut_bottom_mm": {
+        "n": 239,
+        "min": 146.19283093904923,
+        "median": 188.65632518209958,
+        "p90": 200.95631908911264,
+        "max": 206.61858537021644
+      },
+      "max_time_neither_pad_touches_a_nut_ms": {
+        "n": 239,
+        "min": 0.0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      },
+      "external_contact_before_release": 0,
+      "reached_joint_basket_stability": 239,
+      "both_stably_supported_at_end_s": {
+        "n": 239,
+        "min": 1.9999999999999685,
+        "median": 4.8325000000000555,
+        "p90": 5.047500000000089,
+        "max": 6.570000000000327
+      }
+    }
+  },
+  "route_audit": {
+    "valid_six_gate_double_load_single_leg": 240,
+    "successes_missing_route_evidence": [],
+    "max_gate_center_offset_mm_per_completed_route": {
+      "n": 240,
+      "min": 112.95612872435814,
+      "median": 114.60991603892418,
+      "p90": 114.93120725024595,
+      "max": 114.99527548826671
+    },
+    "obstacle_contact_episodes": [],
+    "episodes_with_return_or_recovery_stage_or_loaded_return_leg": [],
+    "episodes_with_repeated_pick_or_cross_stage": [],
+    "trace_only": {
+      "covered": 3,
+      "returned_below_near_exit_line_while_loaded": 0,
+      "details": [
+        {
+          "seed": 67243000,
+          "samples": 9307,
+          "minimum_x_m": 0.5500136487659782,
+          "reentered": false,
+          "first_reentry_s": null
+        },
+        {
+          "seed": 67243001,
+          "samples": 7565,
+          "minimum_x_m": 0.5510130827498607,
+          "reentered": false,
+          "first_reentry_s": null
+        },
+        {
+          "seed": 67243005,
+          "samples": 7661,
+          "minimum_x_m": 0.5508898867501821,
+          "reentered": false,
+          "first_reentry_s": null
+        }
+      ]
+    }
+  },
+  "cpu_s": {
+    "sum": 27641.48218768,
+    "per_episode": {
+      "n": 240,
+      "min": 18.100737792000018,
+      "median": 89.67108441599996,
+      "p90": 218.93363027680002,
+      "max": 486.675503824
+    },
+    "near_station_prediction_per_episode": {
+      "n": 240,
+      "min": 13.889150255999994,
+      "median": 76.32254163199991,
+      "p90": 207.0459205808,
+      "max": 470.34449382399987
+    }
+  },
+  "wall_s_per_episode": {
+    "n": 240,
+    "min": 18.707746236003004,
+    "median": 99.37435544900654,
+    "p90": 240.11882775060076,
+    "max": 487.2006476240058
+  },
+  "notes": [
+    "P90 and median use linear interpolation. Stage statistics condition on reaching the stage.",
+    "Pregrasp airborne requires zero measured floor support and bottom over 1 mm. Height also includes tipped, supported nuts.",
+    "Single-leg and return-stage evidence covers every episode. Physical recrossing of the 0.55 m exit line uses available dense traces only.",
+    "Per-worker CPU time sums can exceed total elapsed wall-clock time."
+  ]
+}

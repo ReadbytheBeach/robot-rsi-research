@@ -1,0 +1,45 @@
+{
+  "success": 49,
+  "n": 60,
+  "observed_rate": 0.8166666666666667,
+  "wilson_95": [
+    0.7008024625353194,
+    0.8944220311080237
+  ],
+  "groups": {
+    "S0/0ms": {
+      "success": 9,
+      "n": 10
+    },
+    "S0/20ms": {
+      "success": 7,
+      "n": 10
+    },
+    "S1/0ms": {
+      "success": 8,
+      "n": 10
+    },
+    "S1/20ms": {
+      "success": 8,
+      "n": 10
+    },
+    "S2/0ms": {
+      "success": 8,
+      "n": 10
+    },
+    "S2/20ms": {
+      "success": 9,
+      "n": 10
+    }
+  },
+  "reasons": {
+    "success": 49,
+    "return_alignment_timeout": 6,
+    "nonfoot_floor": 5
+  },
+  "scope": "MuJoCo engineering asset proxy; known-map teacher; independent full-task assessment; Ropedia scan-derived occupancy (fixed-height boxes); B position estimated from on-robot camera; simulated alpha_mono",
+  "pass_observed": false,
+  "geometry": "official-bom",
+  "threshold_count": 57,
+  "results_sha256": "74c5c6a04ad7c66cd825806798f20911caab2c6aebf72bccba8cef1432083248"
+}

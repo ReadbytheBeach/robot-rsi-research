@@ -1,0 +1,91 @@
+{
+  "format": "pickup-stage-only",
+  "target_min_clearance_mm": 20,
+  "required_joint_hold_s": 2,
+  "fixed_gap_mm": 17.3,
+  "paired_development_by_candidate": [
+    {
+      "candidate": 0,
+      "success": 57,
+      "total": 64,
+      "cells": [
+        {
+          "delay_ms": 0,
+          "success": 30,
+          "total": 32
+        },
+        {
+          "delay_ms": 20,
+          "success": 27,
+          "total": 32
+        }
+      ]
+    },
+    {
+      "candidate": 1,
+      "success": 50,
+      "total": 64,
+      "cells": [
+        {
+          "delay_ms": 0,
+          "success": 32,
+          "total": 32
+        },
+        {
+          "delay_ms": 20,
+          "success": 18,
+          "total": 32
+        }
+      ]
+    },
+    {
+      "candidate": 2,
+      "success": 64,
+      "total": 64,
+      "cells": [
+        {
+          "delay_ms": 0,
+          "success": 32,
+          "total": 32
+        },
+        {
+          "delay_ms": 20,
+          "success": 32,
+          "total": 32
+        }
+      ]
+    },
+    {
+      "candidate": 3,
+      "success": 63,
+      "total": 64,
+      "cells": [
+        {
+          "delay_ms": 0,
+          "success": 31,
+          "total": 32
+        },
+        {
+          "delay_ms": 20,
+          "success": 32,
+          "total": 32
+        }
+      ]
+    }
+  ],
+  "fine_timestep_s": 0.0025,
+  "same_seed_fine_timestep": {
+    "success": 62,
+    "total": 64
+  },
+  "varying_gap_range_mm": [
+    17.3,
+    26.0
+  ],
+  "fresh_pickup_cases": {
+    "success": 192,
+    "total": 192,
+    "first_seed": 22248000,
+    "last_seed": 22248191
+  }
+}

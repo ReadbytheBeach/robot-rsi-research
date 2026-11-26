@@ -1,0 +1,94 @@
+{
+  "successes": 237,
+  "count": 240,
+  "observed_rate": 0.9875,
+  "wilson_95": [
+    0.9638999953789512,
+    0.9957399326780291
+  ],
+  "reasons": {
+    "success": 237,
+    "pickup_failed": 2,
+    "finish_failed": 1
+  },
+  "registration_sha256": "dfd398b7fbda8fe5289ba0d1ea55d00c590ff84ccfc072a5fa4a62a27c9504bd",
+  "threshold_count": 228,
+  "pass_observed": true,
+  "wilson_lower_at_least_95pct": true,
+  "cells": {
+    "S0/0ms": {
+      "successes": 40,
+      "count": 40,
+      "observed_rate": 1.0,
+      "wilson_95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "reasons": {
+        "success": 40
+      }
+    },
+    "S0/20ms": {
+      "successes": 40,
+      "count": 40,
+      "observed_rate": 1.0,
+      "wilson_95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "reasons": {
+        "success": 40
+      }
+    },
+    "S1/0ms": {
+      "successes": 37,
+      "count": 40,
+      "observed_rate": 0.925,
+      "wilson_95": [
+        0.8013576647568946,
+        0.9741639742254119
+      ],
+      "reasons": {
+        "success": 37,
+        "pickup_failed": 2,
+        "finish_failed": 1
+      }
+    },
+    "S1/20ms": {
+      "successes": 40,
+      "count": 40,
+      "observed_rate": 1.0,
+      "wilson_95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "reasons": {
+        "success": 40
+      }
+    },
+    "S2/0ms": {
+      "successes": 40,
+      "count": 40,
+      "observed_rate": 1.0,
+      "wilson_95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "reasons": {
+        "success": 40
+      }
+    },
+    "S2/20ms": {
+      "successes": 40,
+      "count": 40,
+      "observed_rate": 1.0,
+      "wilson_95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "reasons": {
+        "success": 40
+      }
+    }
+  }
+}
