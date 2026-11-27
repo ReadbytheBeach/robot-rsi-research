@@ -1,0 +1,346 @@
+{
+  "source": {
+    "file": "figure4-human-only.mp4",
+    "sha256": "e8ff0c701d93de82ea12b13f87adce35a148fb801f8705ec9911ade720fe2149",
+    "fps": 30,
+    "frames": 281,
+    "local_offset_frames": 2,
+    "human_peak_frames": [
+      100,
+      147,
+      218
+    ],
+    "official_peak_frames": [
+      109,
+      155,
+      226
+    ]
+  },
+  "physics": {
+    "step_hz": 200,
+    "controller_hz": 50,
+    "clock_period_s": 9.533333333333333,
+    "metric_sha256": "b547d86cda1ef852834640dcf5961e4c3b2b9bc85aef40edc9832c77f4f572ff",
+    "thresholds": {
+      "max_tilt_deg": 35.0,
+      "max_horizontal_drift_cm": 10.0,
+      "speed_cap_rad_s": 6.001,
+      "min_joint_margin_deg": -0.001,
+      "min_ground_contact_coverage": 0.75,
+      "max_p95_contact_com_outside_mm": 33.0,
+      "max_fraction_contact_outside_25mm": 0.16,
+      "transfer_com_outside_tolerance_mm": 10.0,
+      "min_transfer_center_fraction": 0.5,
+      "quality_support_min_contiguous_s": 0.06,
+      "quality_amplitude_fraction_leg": 0.1,
+      "full_target_frames": 281,
+      "target_fps": 30,
+      "clock_offset_frames": 2
+    },
+    "servo": "Actual and commanded range within nominal 14-axis XML bounds with .001 degree numeric tolerance; command step and 200 Hz joint speed <=6.001 rad/s; MuJoCo torque capped by model, native effort unavailable.",
+    "score": "38% peak amplitude on correct foot during verified opposite-foot contact and support margin, 30% achieved smoothness scaled by real swing amplitudes, 32% fixed-time human and foot coordination",
+    "friction": [
+      0.8,
+      1.2
+    ],
+    "servo_gain_scale": [
+      0.95,
+      1.05
+    ],
+    "initial_yaw_deg": [
+      -3,
+      3
+    ]
+  },
+  "seed_ranges_inclusive": {
+    "initial_search_pool": [
+      892000,
+      892199
+    ],
+    "first_dev": [
+      892400,
+      892403
+    ],
+    "first_test": [
+      892700,
+      892711
+    ],
+    "landing_training": [
+      892170,
+      892179
+    ],
+    "landing_dev": [
+      892500,
+      892503
+    ],
+    "landing_test": [
+      892800,
+      892811
+    ],
+    "headref_train": [
+      892170,
+      892179
+    ],
+    "headref_dev": [
+      892510,
+      892513
+    ],
+    "headref_test": [
+      892820,
+      892831
+    ],
+    "coordinated_dev": [
+      892550,
+      892553
+    ],
+    "coordinated_test": [
+      892850,
+      892861
+    ],
+    "head_amplitude": [
+      892900,
+      892903
+    ],
+    "extra_mujoco_only": [
+      893200,
+      893259
+    ]
+  },
+  "search_counts": {
+    "main_mujoco_by_family": {
+      "catch": 432,
+      "mix": 576,
+      "guard": 874,
+      "bodyguard": 874,
+      "mirror": 874,
+      "mg": 576,
+      "prior": 432,
+      "human": 432,
+      "fk": 432,
+      "original": 432
+    },
+    "main_mujoco_total": 5934,
+    "landing": {
+      "sampled": 100,
+      "screened_MuJoCo_seed": [
+        892170,
+        892171
+      ],
+      "train_native_seeds": [
+        892172,
+        892173
+      ],
+      "native_training_candidates": 8,
+      "development_candidates": 3,
+      "random_seed": 391702
+    }
+  },
+  "land075": {
+    "export": "models/landing.onnx",
+    "sha256": "ad8e43b1ec2672c2afdc2dc29388414066c631a713f41f21cf51c3bcb6d5f823",
+    "parent": "repeat-left-warm",
+    "parent_sha256": "7cc7fffd00c81efc9f5a6c89f74af6e6c29736e23daf4040a09e9d34a85dfc44",
+    "expert": "original11",
+    "parameters": {
+      "first_gain": 0.9083257288471157,
+      "third_gain": 0.6752922884119601,
+      "first_offset_s": -0.3548417589562865,
+      "third_offset_s": 0.13915245642990998,
+      "release_s": -0.1391323731834149,
+      "floor_weight": 0.8174578952222138,
+      "tilt_gain": 2.5114403252540125,
+      "angular_gain": 0.06506079367587041,
+      "hip_velocity_gain": 0.13589338016312982,
+      "roll_reaction": 0.25889766711092044,
+      "pitch_reaction": 0.05958855477058422
+    },
+    "onnx_parity": {
+      "label": "land075",
+      "model_sha256": "ad8e43b1ec2672c2afdc2dc29388414066c631a713f41f21cf51c3bcb6d5f823",
+      "test_observations": 512,
+      "active_phase_bins": 98,
+      "unchanged_phase_bins": 414,
+      "max_onnx_delta": 0.0,
+      "max_idle_parent_delta": 0.0
+    }
+  },
+  "fork": {
+    "training_seed": 892000,
+    "method": "Complete MuJoCo mj_copyData, software clock, prior issued command and actual last foot contacts. Exact original replay asserts every value of eleven time-series including commands, effort and velocities.",
+    "original": {
+      "reason": "tilt",
+      "stop_s": 3.7,
+      "feasible": 0.0,
+      "drift_cm": 7.568018226315429,
+      "trace_sha256": "7b978da51cae0412eb20e9a0870c12b2a8b3236df179a5a4d7293628a0af240f"
+    },
+    "states": [
+      {
+        "simulation_time_s": 2.24,
+        "source_time_s": 2.1733333333333333,
+        "snapshot_sha256": "a642ed47c443c78fa85220e4035636e17a7680d54fbc5245bf7aad9a35a68dc1",
+        "branches": {
+          "exact_original": {
+            "reason": "tilt",
+            "stop_s": 3.7,
+            "feasible": 0.0,
+            "drift_cm": 7.568018226315429,
+            "trace_sha256": "7b978da51cae0412eb20e9a0870c12b2a8b3236df179a5a4d7293628a0af240f"
+          },
+          "shift_lead_s": {
+            "reason": "tilt",
+            "stop_s": 3.8000000000000003,
+            "feasible": 0.0,
+            "drift_cm": 14.84255075498334,
+            "trace_sha256": "1b0de54629bdd3da9c65ffa9e128ed5b675ea75339bb5c3121d9f8c99adfd1be"
+          },
+          "parent_gain": {
+            "reason": "completed simulator cap",
+            "stop_s": 9.42,
+            "feasible": 0.0,
+            "drift_cm": 17.323830983774993,
+            "trace_sha256": "f99a15925cf496e12891d7013145da008365e1be53e87bcaaf6694e2049007db"
+          },
+          "slew": {
+            "reason": "height",
+            "stop_s": 3.88,
+            "feasible": 0.0,
+            "drift_cm": 23.079935141464077,
+            "trace_sha256": "cab3b51e4df631840e7c70c99b1647ebcc9d0d36ccf40787882cb203c466aa43"
+          },
+          "generation_winner": {
+            "reason": "completed simulator cap",
+            "stop_s": 9.42,
+            "feasible": 1.0,
+            "drift_cm": 9.740621132172667,
+            "trace_sha256": "cefc927d1eb930994d9513fa9b001d09b5122b52adb068f08018596dddd34129"
+          },
+          "exported_generation_winner": {
+            "reason": "completed simulator cap",
+            "stop_s": 9.42,
+            "feasible": 1.0,
+            "drift_cm": 9.740621132172667,
+            "trace_sha256": "cefc927d1eb930994d9513fa9b001d09b5122b52adb068f08018596dddd34129"
+          }
+        }
+      },
+      {
+        "simulation_time_s": 3.2800000000000002,
+        "source_time_s": 3.2133333333333334,
+        "snapshot_sha256": "9798de1271f3eed3cc41fc89c4f46c017a2f9b67967df77e959f025e7129d21c",
+        "branches": {
+          "exact_original": {
+            "reason": "tilt",
+            "stop_s": 3.7,
+            "feasible": 0.0,
+            "drift_cm": 7.568018226315429,
+            "trace_sha256": "7b978da51cae0412eb20e9a0870c12b2a8b3236df179a5a4d7293628a0af240f"
+          },
+          "shift_lead_s": {
+            "reason": "tilt",
+            "stop_s": 3.7,
+            "feasible": 0.0,
+            "drift_cm": 7.568018226315429,
+            "trace_sha256": "7b978da51cae0412eb20e9a0870c12b2a8b3236df179a5a4d7293628a0af240f"
+          },
+          "parent_gain": {
+            "reason": "tilt",
+            "stop_s": 3.72,
+            "feasible": 0.0,
+            "drift_cm": 7.568018226315429,
+            "trace_sha256": "2936aa9e0f28ce8582905d85d12b95bbcb35afc83d00ae0eab976f8ef95f28a1"
+          },
+          "slew": {
+            "reason": "tilt",
+            "stop_s": 3.7,
+            "feasible": 0.0,
+            "drift_cm": 7.568018226315429,
+            "trace_sha256": "ca28159633ec155b2942cf028db9e0be29f5bfc140d7223b2c84b9bf8c3ca288"
+          },
+          "generation_winner": {
+            "reason": "tilt",
+            "stop_s": 3.72,
+            "feasible": 0.0,
+            "drift_cm": 7.568018226315429,
+            "trace_sha256": "ab63f3af899bbf162dabddb83ebb2969f4c1164179b65547018a4fb83e5e5674"
+          },
+          "exported_generation_winner": {
+            "reason": "tilt",
+            "stop_s": 3.72,
+            "feasible": 0.0,
+            "drift_cm": 7.568018226315429,
+            "trace_sha256": "ab63f3af899bbf162dabddb83ebb2969f4c1164179b65547018a4fb83e5e5674"
+          }
+        }
+      }
+    ]
+  },
+  "feedback_ablation": {
+    "training_seed_rows": [
+      {
+        "condition": "frozen",
+        "seed": 892174,
+        "completion": 1.0,
+        "feasible": 1.0,
+        "transfer_beats": 3.0,
+        "utility": 64.47067046783764
+      },
+      {
+        "condition": "frozen",
+        "seed": 892175,
+        "completion": 1.0,
+        "feasible": 1.0,
+        "transfer_beats": 3.0,
+        "utility": 64.08732776265431
+      },
+      {
+        "condition": "frozen",
+        "seed": 892176,
+        "completion": 1.0,
+        "feasible": 1.0,
+        "transfer_beats": 3.0,
+        "utility": 63.37148231686152
+      },
+      {
+        "condition": "frozen",
+        "seed": 892177,
+        "completion": 1.0,
+        "feasible": 1.0,
+        "transfer_beats": 3.0,
+        "utility": 63.401106980747834
+      },
+      {
+        "condition": "phase_only",
+        "seed": 892174,
+        "completion": 0.0,
+        "feasible": 0.0,
+        "transfer_beats": 1.0,
+        "utility": 15.90529368610459
+      },
+      {
+        "condition": "phase_only",
+        "seed": 892175,
+        "completion": 0.0,
+        "feasible": 0.0,
+        "transfer_beats": 1.0,
+        "utility": 15.500143355645363
+      },
+      {
+        "condition": "phase_only",
+        "seed": 892176,
+        "completion": 0.0,
+        "feasible": 0.0,
+        "transfer_beats": 1.0,
+        "utility": 15.291715438692698
+      },
+      {
+        "condition": "phase_only",
+        "seed": 892177,
+        "completion": 0.0,
+        "feasible": 0.0,
+        "transfer_beats": 1.0,
+        "utility": 15.2436414019132
+      }
+    ]
+  }
+}

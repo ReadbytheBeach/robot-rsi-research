@@ -1,0 +1,278 @@
+{
+  "experiment": "MicroDuck Figure 4 — 2026-11-27",
+  "recommended_policy": "land075",
+  "recommended_path": "models/landing.onnx",
+  "scope": "Paths relative to this archive. SHA-256 of unmodified file bytes. Video fingerprints on the entries refer to the public local-simulation edits; source_comparison_sha256 identifies the local master.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9231,
+      "sha256": "368db878d4649bb8360ab0bd48afed8ff8ec35a42d305ea2a32d0308d0472e17"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 5198,
+      "sha256": "83d4ae7a1992096f9ae2a13844b4af1598f13f3a968db2e84e246ff3664a072c"
+    },
+    {
+      "path": "evidence/landing.py",
+      "bytes": 4723,
+      "sha256": "df2a010ed9c034a66d20a79245bd0939b6d4dbcf2862475e02ec271eccd8afce"
+    },
+    {
+      "path": "evidence/protocol.json",
+      "bytes": 10018,
+      "sha256": "ddc93a5bc8fef6207f9ddca20dae8cf920ca19592a25553ecc8d3b32b082d0c2"
+    },
+    {
+      "path": "evidence/results.json",
+      "bytes": 18527,
+      "sha256": "f95f4d5d6e5d9bcbee44179bcd567d8036d4c0b3dfe257891df980d36a915645"
+    },
+    {
+      "path": "evidence/trials.csv",
+      "bytes": 246777,
+      "sha256": "93ac300e46b4670833887277474874d6d84c3809c6fa903b48afc566feab8682"
+    },
+    {
+      "path": "media/01-development.mp4",
+      "bytes": 792782,
+      "sha256": "7578e8bfe73fe24e47a90ec9597fabaec1b004a49c0ede294d21b694466b0dc7",
+      "seed": 892400,
+      "video": {
+        "width": 628,
+        "height": 470,
+        "avg_frame_rate": "30/1",
+        "duration": "9.366667",
+        "nb_read_frames": "281"
+      },
+      "source_comparison_sha256": "89ec9bb20ad93af0e05b0e8710f4462f05301eed0bbea7efdfa2bd7e4e6effed",
+      "physics_traces": [
+        {
+          "label": "yesterday",
+          "engine": "mujoco",
+          "trace_sha256": "926cd425471c166b9d90a221a044e88dd4f6ca53b84b8c6dca055b54d8a100e0",
+          "model_sha256": "fd4fadc98fe1f22f441eb7035054465d66ebfedb8edef95d32ba23a2a74dcfda"
+        },
+        {
+          "label": "early-human",
+          "engine": "mujoco",
+          "trace_sha256": "4b9466ac43d61564af764766498e1d2dbdc0b889af919354cbe2aeec03b743b4",
+          "model_sha256": "51c8ae03db933b473f157e44bb9cce072a26410f62c18cfc32f992ae5ab96b39"
+        }
+      ]
+    },
+    {
+      "path": "media/02-frozen.mp4",
+      "bytes": 1103385,
+      "sha256": "e0cb332a70b5e0622765a61aaaefd3b4013e92faf545a74e675675a57a0a1c84",
+      "seed": 892700,
+      "video": {
+        "width": 942,
+        "height": 470,
+        "avg_frame_rate": "30/1",
+        "duration": "9.366667",
+        "nb_read_frames": "281"
+      },
+      "source_comparison_sha256": "283c03732cc6bd67c3d269f5fa712b3fe181069f876cafce0709da2dcff5ded5",
+      "physics_traces": [
+        {
+          "label": "yesterday",
+          "engine": "mujoco",
+          "trace_sha256": "5233bea8d50a2a6b0aacb5163aa99e9622f4f69e9ba5c38bb361e0cc8388d5d2",
+          "model_sha256": "fd4fadc98fe1f22f441eb7035054465d66ebfedb8edef95d32ba23a2a74dcfda"
+        },
+        {
+          "label": "best",
+          "engine": "mujoco",
+          "trace_sha256": "fc49726aa0941d8dab032c096146a9cbc14e9a67d08467ef12ddf598607fcd42",
+          "model_sha256": "ab0aa351fca63054fb24785772648702302a4b9c1ec8ad928869a4753867160a"
+        },
+        {
+          "label": "best",
+          "engine": "physx",
+          "trace_sha256": "956d890db76de78da15ecfc74e7f54ad0ad25c92a41f692227869ccd4541360b",
+          "model_sha256": "ab0aa351fca63054fb24785772648702302a4b9c1ec8ad928869a4753867160a"
+        }
+      ]
+    },
+    {
+      "path": "media/03-threebeat.mp4",
+      "bytes": 805170,
+      "sha256": "d5012c70e1926476332a3a5c6ccdefdb671d2b67dc948831bd623e3ffbd61bb0",
+      "seed": 892700,
+      "video": {
+        "width": 628,
+        "height": 470,
+        "avg_frame_rate": "30/1",
+        "duration": "9.366667",
+        "nb_read_frames": "281"
+      },
+      "source_comparison_sha256": "5b7edd37087ea0e39c2984de95ebff1b2cae39175559d60f70db5fa4b0232e4e",
+      "physics_traces": [
+        {
+          "label": "threebeat",
+          "engine": "mujoco",
+          "trace_sha256": "61b2552dd7da229df4d73cadc0cd09a460a3058ec96b7a5cb364ed7462de2bee",
+          "model_sha256": "7cc7fffd00c81efc9f5a6c89f74af6e6c29736e23daf4040a09e9d34a85dfc44"
+        },
+        {
+          "label": "threebeat",
+          "engine": "physx",
+          "trace_sha256": "b7aa50c5ea41fe558ece9f8018f343e964932b2c5d70465539b4e10bdd1c8e0b",
+          "model_sha256": "7cc7fffd00c81efc9f5a6c89f74af6e6c29736e23daf4040a09e9d34a85dfc44"
+        }
+      ]
+    },
+    {
+      "path": "media/04-expressive.mp4",
+      "bytes": 1071537,
+      "sha256": "c8367d64b553230252e962ac604757a80719d9473e365ea83d63c81bca3e722d",
+      "seed": 892700,
+      "video": {
+        "width": 628,
+        "height": 470,
+        "avg_frame_rate": "30/1",
+        "duration": "9.366667",
+        "nb_read_frames": "281"
+      },
+      "source_comparison_sha256": "d52c6d8f3370049eb333728d64d4ba036832889a5aabed581866973cc6e96963",
+      "physics_traces": [
+        {
+          "label": "expressive",
+          "engine": "mujoco",
+          "trace_sha256": "9fc44483087a3e2cbd86ae274b64df038a4b46cf7fae27b3147de7efc437323d",
+          "model_sha256": "2006d5d1f3f6bf2996814182bf9e0dd47971160d3358ace92f6b8fef1ff1b315"
+        },
+        {
+          "label": "expressive",
+          "engine": "physx",
+          "trace_sha256": "0a5bbb1c5e42d3e4984173ad8b344037d2adec9992467aed479ff6a1b6dfbf22",
+          "model_sha256": "2006d5d1f3f6bf2996814182bf9e0dd47971160d3358ace92f6b8fef1ff1b315"
+        }
+      ]
+    },
+    {
+      "path": "media/05-landing-frame155.jpg",
+      "bytes": 68777,
+      "sha256": "9553c728883ccdef8f998d6969b27023731e1078c700bf168541fa65087c7e85"
+    },
+    {
+      "path": "media/05-landing.mp4",
+      "bytes": 1739313,
+      "sha256": "b4c1dbcbe35b9d8e18f393a1be39733ee59ba7fe8e1c3ad2a628614e5e20c0c4",
+      "seed": 892800,
+      "video": {
+        "width": 942,
+        "height": 470,
+        "avg_frame_rate": "30/1",
+        "duration": "9.366667",
+        "nb_read_frames": "281"
+      },
+      "source_comparison_sha256": "513438473afcf91baf702000b29162ecef2a23ed943ad30e4cb20b0137fd1c54",
+      "physics_traces": [
+        {
+          "label": "parent",
+          "engine": "mujoco",
+          "trace_sha256": "d9fd170360cbfe4222a72cd1be00b346d7dfedcf4fd462ec3601e34e69f830b4",
+          "model_sha256": "7cc7fffd00c81efc9f5a6c89f74af6e6c29736e23daf4040a09e9d34a85dfc44"
+        },
+        {
+          "label": "best",
+          "engine": "mujoco",
+          "trace_sha256": "0150c2d4b317f57c87c32a9f060c470fe331c97dcbaf0ba1c4d561e6de282164",
+          "model_sha256": "ad8e43b1ec2672c2afdc2dc29388414066c631a713f41f21cf51c3bcb6d5f823"
+        },
+        {
+          "label": "best",
+          "engine": "physx",
+          "trace_sha256": "f3207dddaa87210c0a60e90311888bfe3ec3d4e22b5999dd43229098111b7fec",
+          "model_sha256": "ad8e43b1ec2672c2afdc2dc29388414066c631a713f41f21cf51c3bcb6d5f823"
+        }
+      ]
+    },
+    {
+      "path": "media/06-headref.mp4",
+      "bytes": 1524544,
+      "sha256": "b475796493a1f98f88ad6970bdd081863ee11ea12e127b657fe19303fb7ed511",
+      "seed": 892820,
+      "video": {
+        "width": 942,
+        "height": 470,
+        "avg_frame_rate": "30/1",
+        "duration": "9.366667",
+        "nb_read_frames": "281"
+      },
+      "source_comparison_sha256": "76dd5c927a8842168a900c6faffdbca94bcee11b8e5932232566810ca4c07f94",
+      "physics_traces": [
+        {
+          "label": "parent",
+          "engine": "mujoco",
+          "trace_sha256": "d54762f939b0b2703afaa97c13c595aacba555061722988f3036c5ed72f30713",
+          "model_sha256": "7cc7fffd00c81efc9f5a6c89f74af6e6c29736e23daf4040a09e9d34a85dfc44"
+        },
+        {
+          "label": "new",
+          "engine": "mujoco",
+          "trace_sha256": "ad2afbe3716dd3dad0dc26992cd851d1b598188c13b04e6f2466c3935326509a",
+          "model_sha256": "8269c59b6ef5b612a58b10914280447d21fcb056fa25fbba0b2bb18f0f372154"
+        },
+        {
+          "label": "new",
+          "engine": "physx",
+          "trace_sha256": "e426590de1c3e270464d96d8874847ac4cb72d90a980befd4b14ea0d3f94d58c",
+          "model_sha256": "8269c59b6ef5b612a58b10914280447d21fcb056fa25fbba0b2bb18f0f372154"
+        }
+      ]
+    },
+    {
+      "path": "media/07-coordinated.mp4",
+      "bytes": 1350251,
+      "sha256": "db43f3df88f76bef02f3ae0675e7db7cb745622b346ce0ef85aa4625ff64b4bc",
+      "seed": 892850,
+      "video": {
+        "width": 942,
+        "height": 470,
+        "avg_frame_rate": "30/1",
+        "duration": "9.366667",
+        "nb_read_frames": "281"
+      },
+      "source_comparison_sha256": "c0501e56b71c0aa15e7ddfd34de142e0db8c40944d422f5d57a1116c38d84e26",
+      "physics_traces": [
+        {
+          "label": "parent",
+          "engine": "mujoco",
+          "trace_sha256": "ebb9296717b1984a8d4349db76e5e967e384293b97a7faeee6631240f7caca6b",
+          "model_sha256": "ad8e43b1ec2672c2afdc2dc29388414066c631a713f41f21cf51c3bcb6d5f823"
+        },
+        {
+          "label": "new",
+          "engine": "mujoco",
+          "trace_sha256": "9384ce2fd9850ec4fedd84f8b4e486f421ad876de39b21732dd5c050ea713cdb",
+          "model_sha256": "2193617f8970b27872cbc3e0a381d1042fee402ebc091c01f11b9f446ae6bd9b"
+        },
+        {
+          "label": "new",
+          "engine": "physx",
+          "trace_sha256": "3b22447946f08fca2040f382eb79fee432c0b2745fffd3dc823286c8720a588b",
+          "model_sha256": "2193617f8970b27872cbc3e0a381d1042fee402ebc091c01f11b9f446ae6bd9b"
+        }
+      ]
+    },
+    {
+      "path": "media/feasibility-curves.png",
+      "bytes": 525322,
+      "sha256": "23e122e257afe85fda87d07148b986fb5572be092197868794b359780a52183e"
+    },
+    {
+      "path": "models/interface.json",
+      "bytes": 7342,
+      "sha256": "c40f11fae11b3666e27f751700da5895f8d06918f956e28996984799c0b45b57"
+    },
+    {
+      "path": "models/landing.onnx",
+      "bytes": 29048865,
+      "sha256": "ad8e43b1ec2672c2afdc2dc29388414066c631a713f41f21cf51c3bcb6d5f823"
+    }
+  ]
+}

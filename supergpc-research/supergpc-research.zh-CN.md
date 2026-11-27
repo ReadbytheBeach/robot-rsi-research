@@ -32,6 +32,8 @@ indexed_on: "2026-11-26"
 
 本文依据官方文章、固定版代码与训练规范、官方模型卡，以及原 GPC 和 SuperMimic 项目资料。耗时和任务演示按作者报告保存；本次没有运行训练、下载验证权重或开展 MicroDuck 迁移实验。
 
+**后续实测 · 2026-11-27**　MicroDuck 用本地动作先验和落脚反馈跟跳整段 Figure 4。冻结策略在 24 个配对条件下，MuJoCo 通过完整三拍 24 次，原生 PhysX 跳完 11 次、通过完整三拍 0 次。归档包含单个 ONNX、七段原速回放和逐回合数据。[MicroDuck 全身舞段训练记录](./microduck-dance-20261127/README.md)
+
 ## 1. 项目定位与资料
 
 - SuperGPC 发布文章：[SuperGPC: training a humanoid autoregressive motion policy fast, on one GPU](https://www.dollhouserobots.com/posts/super-gpc)，Carlos Diaz-Padron，2026-11-25。[S1]
