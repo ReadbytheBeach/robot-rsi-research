@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repository": "ReadbytheBeach/robot-rsi-research",
   "primary_language": "zh-CN",
-  "updated_on": "2026-11-26",
+  "updated_on": "2026-11-27",
   "reference_format": "https://github.com/ReadbytheBeach/thousand-brains",
   "categories": [
     {
@@ -103,6 +103,7 @@
       "document_ids": [
         "RSI-002",
         "RSI-012",
+        "RSI-022",
         "RSI-011",
         "RSI-010",
         "RSI-020"
@@ -1103,6 +1104,48 @@
         "RSI-016",
         "RSI-002",
         "RSI-018"
+      ]
+    },
+    {
+      "document_id": "RSI-022",
+      "path": "duck-play-pingpang-rearch/README.md",
+      "title_zh": "MicroDuck 嘴持球拍稳球仿真实验",
+      "title_en": "MicroDuck Ping-Pong Ball Balancing with a Beak-Mounted Paddle",
+      "language": "zh-CN",
+      "kind": "experiment_report",
+      "category": "simulation",
+      "evidence_as_of": "2026-11-27",
+      "indexed_on": "2026-11-27",
+      "topics_zh": [
+        "鸭嘴持拍",
+        "球拍稳球",
+        "MuJoCo 仿真",
+        "PPO 残差控制",
+        "SimReady 资产"
+      ],
+      "topics_en": [
+        "Beak-mounted paddle",
+        "Ball-on-paddle balancing",
+        "MuJoCo simulation",
+        "PPO residual control",
+        "SimReady assets"
+      ],
+      "question_zh": "MicroDuck 能否通过头部俯仰与横滚控制鸭嘴上的球拍，在扰动下稳住乒乓球？PPO 对双轴 PD 有多少帮助？",
+      "reading_summary": [
+        {
+          "tag": "FACT",
+          "text_zh": "NVIDIA SimReady Central 索引包含乒乓球和球拍道具，Pollen Robotics 的 MicroDuck MJCF 提供 mouth_tip 安装点。"
+        },
+        {
+          "tag": "LOCAL_RESULT",
+          "text_zh": "同一组 100 个固定躯干仿真回合中，固定拍面、PD、PD + PPO 的 10 秒稳球结果分别为 0/100、99/100、100/100。PPO 将 PD 的球心径向误差 P95 从 20.05 mm 降至 12.22 mm。"
+        }
+      ],
+      "scope_zh": "固定躯干、刚性鸭嘴安装、参数化道具与带合成噪声和延迟的仿真状态。真机夹持、相机闭环及无支架站立仍需验证。",
+      "related_ids": [
+        "RSI-012",
+        "RSI-018",
+        "RSI-020"
       ]
     }
   ]

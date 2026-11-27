@@ -1,0 +1,7 @@
+mujoco>=3.3,<4
+gymnasium>=1,<2
+numpy>=1.26
+stable-baselines3>=2.5,<3
+imageio>=2.34,<3
+imageio-ffmpeg>=0.5,<1
+Pillow>=10.4
