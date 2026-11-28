@@ -1,0 +1,35 @@
+[
+  {
+    "seed": 15387848,
+    "settle": null,
+    "scale": 0.979,
+    "m": 0.8049805419847837,
+    "s": 9.040000000000001,
+    "flat": false,
+    "slope": false,
+    "finish": false,
+    "why": "ball_edge"
+  },
+  {
+    "seed": 15233602,
+    "settle": 1.18,
+    "scale": 1.0,
+    "m": 0.6080430146971667,
+    "s": 6.28,
+    "flat": false,
+    "slope": false,
+    "finish": false,
+    "why": "ball_edge_b"
+  },
+  {
+    "seed": 15250319,
+    "settle": null,
+    "scale": 1.0,
+    "m": 0.8296624487338012,
+    "s": 7.38,
+    "flat": false,
+    "slope": false,
+    "finish": false,
+    "why": "ball_edge"
+  }
+]

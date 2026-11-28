@@ -1,0 +1,23 @@
+{
+  "mean_delta_m": -0.00036003766761442843,
+  "interval": [
+    -0.0010344156455938478,
+    0.0002372443402456052
+  ],
+  "success": {
+    "gained": 0,
+    "lost": 0
+  },
+  "slope_1m": {
+    "gained": 0,
+    "lost": 0
+  },
+  "quarter": {
+    "gained": 0,
+    "lost": 1
+  },
+  "both_at_2s": {
+    "gained": 0,
+    "lost": 0
+  }
+}

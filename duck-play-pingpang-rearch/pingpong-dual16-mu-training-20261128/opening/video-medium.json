@@ -1,0 +1,11 @@
+{
+  "trace": "film-traces/medium.npz",
+  "sha256": "62e6e781225cac187387fede66e61d9d6f725c265e054cda961b587b1993fbf5",
+  "original_time_s": 1.02,
+  "frames": 27,
+  "rate": 25.0,
+  "track": "combined",
+  "fixed_grid": false,
+  "gates": {},
+  "reason": "ball_edge"
+}

@@ -1,0 +1,35 @@
+{
+  "seeds": [
+    15366428,
+    15314442,
+    15147293,
+    15233602,
+    15292048,
+    15249938,
+    15356258,
+    15387848,
+    15488790,
+    15298490,
+    15273652,
+    15250319,
+    15444750,
+    15262535,
+    15307847,
+    15104231,
+    15122711,
+    15134786
+  ],
+  "basis": "top 18 prior physical records on primary track from the 358 allowed starts",
+  "empty_paddle_stationary_seconds": [
+    0.54,
+    0.82,
+    1.18,
+    1.46,
+    1.76
+  ],
+  "scale": [
+    1.0,
+    1.15
+  ],
+  "release": "preserve original ball release offsets/velocities/latent draws, scored origin established only after empty paddle settles"
+}

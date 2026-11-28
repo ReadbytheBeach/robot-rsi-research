@@ -1,0 +1,62 @@
+{
+  "medium": {
+    "high": {
+      "finish": 0,
+      "slope": 0,
+      "flat": 0,
+      "half": 0,
+      "qtr": 3,
+      "both2": 25,
+      "n": 128,
+      "mean": 0.06421200835710937,
+      "peak": 0.3649632423716907,
+      "slip_samples": 13989,
+      "slip_mean_mm_s": 0.8709691116262681,
+      "slip_over20_freq": 0.0022875116162699265
+    },
+    "nominal": {
+      "finish": 0,
+      "slope": 0,
+      "flat": 0,
+      "half": 0,
+      "qtr": 4,
+      "both2": 24,
+      "n": 128,
+      "mean": 0.06753126945265006,
+      "peak": 0.39933518972656584,
+      "slip_samples": 13699,
+      "slip_mean_mm_s": 1.9678520984427619,
+      "slip_over20_freq": 0.012409664939046645
+    }
+  },
+  "osc_06": {
+    "high": {
+      "finish": 0,
+      "slope": 0,
+      "flat": 0,
+      "half": 0,
+      "qtr": 3,
+      "both2": 20,
+      "n": 128,
+      "mean": 0.06298229919681633,
+      "peak": 0.3910812740676095,
+      "slip_samples": 14090,
+      "slip_mean_mm_s": 0.9273748722790186,
+      "slip_over20_freq": 0.0030518097941802697
+    },
+    "nominal": {
+      "finish": 0,
+      "slope": 0,
+      "flat": 0,
+      "half": 0,
+      "qtr": 4,
+      "both2": 22,
+      "n": 128,
+      "mean": 0.06740570234422037,
+      "peak": 0.43684269012004173,
+      "slip_samples": 13972,
+      "slip_mean_mm_s": 1.8233023008059754,
+      "slip_over20_freq": 0.011594617807042656
+    }
+  }
+}

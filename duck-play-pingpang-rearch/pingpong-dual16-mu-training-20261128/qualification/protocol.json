@@ -1,0 +1,21 @@
+{
+  "arms": [
+    "medium",
+    "opening",
+    "ppo",
+    "decisions",
+    "high_schedule",
+    "record_schedule"
+  ],
+  "development": [
+    17400100,
+    17400179
+  ],
+  "blind": [
+    17410000,
+    17410299
+  ],
+  "objective": "2.5 m with both gates and a one-second terminal stop; 270/300 for empirical 90%",
+  "select": "Combined course at high and native wide, on the same independent development starts. Lexicographic total finish, complete uphill, flat, half, quarter, both at two seconds, mean valid distance. Tie goes to earlier arm.",
+  "final": "Winning policy: 3 tracks at high & wide; combined at low as transfer; also paired medium control on combined high & wide."
+}

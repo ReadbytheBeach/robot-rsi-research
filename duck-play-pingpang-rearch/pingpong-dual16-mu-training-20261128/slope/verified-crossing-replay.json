@@ -1,0 +1,22 @@
+{
+  "trace": "verified-crossing.npz",
+  "sha256": "193643677003fcf6cc1727fd11be8d641a1c414d39a75ab8a4bae83ded4a6357",
+  "original_time_s": 10.98,
+  "frames": 276,
+  "rate": 25.0,
+  "track": "incline",
+  "fixed_grid": false,
+  "gates": {
+    "slope_1m": {
+      "t": 10.120000000000001,
+      "progress_m": 1.0019680855299011,
+      "x_m": 1.0019083712001342,
+      "both_contact": true,
+      "radii_mm": [
+        47.76572267534141,
+        42.95628446854435
+      ]
+    }
+  },
+  "reason": "ball_edge_b"
+}

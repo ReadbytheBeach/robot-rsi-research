@@ -1,0 +1,22 @@
+{
+  "trace": "parked-0416-alt.npz",
+  "sha256": "55210a4c869577bd1e9e5eb3e1add06b51cefa5f18af8eaa27ea29f9ebb59e31",
+  "original_time_s": 11.120000000000001,
+  "frames": 279,
+  "rate": 25.0,
+  "track": "incline",
+  "fixed_grid": false,
+  "gates": {
+    "slope_1m": {
+      "t": 10.14,
+      "progress_m": 1.002249011827319,
+      "x_m": 1.0021892974975521,
+      "both_contact": true,
+      "radii_mm": [
+        39.48776584880479,
+        42.26093699589689
+      ]
+    }
+  },
+  "reason": "completed"
+}

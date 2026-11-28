@@ -1,0 +1,46 @@
+{
+  "combined": {
+    "teacher": {
+      "n": 128,
+      "flat": 0,
+      "slope": 0,
+      "finished": 0,
+      "half": 0,
+      "survived_2s": 22,
+      "mean_m": 0.05171805215278702,
+      "max_m": 0.3641999081569371
+    },
+    "trained": {
+      "n": 128,
+      "flat": 0,
+      "slope": 0,
+      "finished": 0,
+      "half": 0,
+      "survived_2s": 22,
+      "mean_m": 0.05707820952149463,
+      "max_m": 0.3795668598261403
+    }
+  },
+  "fixed": {
+    "teacher": {
+      "n": 128,
+      "flat": 0,
+      "slope": 0,
+      "finished": 0,
+      "half": 0,
+      "survived_2s": 26,
+      "mean_m": 0.06147184009579522,
+      "max_m": 0.44599315001780804
+    },
+    "trained": {
+      "n": 128,
+      "flat": 0,
+      "slope": 0,
+      "finished": 0,
+      "half": 0,
+      "survived_2s": 19,
+      "mean_m": 0.052060372304051056,
+      "max_m": 0.41605844417947613
+    }
+  }
+}

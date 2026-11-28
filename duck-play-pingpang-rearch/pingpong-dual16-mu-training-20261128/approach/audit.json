@@ -1,0 +1,476 @@
+{
+  "record": {
+    "last_dual": {
+      "t": 12.52,
+      "m": 1.4441667279127686,
+      "slope_m": 0.4269410643843725,
+      "radii_mm": [
+        56.720522061318,
+        44.78173938649573
+      ]
+    },
+    "both_centered": {
+      "t": 12.48,
+      "m": 1.440803490413343,
+      "slope_m": 0.42357782688494705,
+      "radii_mm": [
+        53.889006174582676,
+        44.88067011197799
+      ]
+    },
+    "terminal": "ball_edge",
+    "gates": {
+      "flat_1m": {
+        "t": 9.64,
+        "progress_m": 1.00109014956402,
+        "x_m": 1.003864486035624,
+        "both_contact": true,
+        "radii_mm": [
+          6.133636122562412,
+          17.700920816633452
+        ]
+      }
+    },
+    "seconds": 12.540000000000001,
+    "tilt_peak_deg": 26.31428356701078,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 1.4490986202487492,
+    "trials": 728,
+    "rate": {
+      "combined": {
+        "teacher": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 22,
+          "mean_m": 0.05391954417877065,
+          "max_m": 0.4332755153373643
+        },
+        "trained": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 22,
+          "mean_m": 0.05391954417877065,
+          "max_m": 0.4332755153373643
+        }
+      },
+      "fixed": {
+        "teacher": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 27,
+          "mean_m": 0.06139880425734477,
+          "max_m": 0.4339641228231418
+        },
+        "trained": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 27,
+          "mean_m": 0.06139880425734477,
+          "max_m": 0.4339641228231418
+        }
+      }
+    },
+    "initial_m": 1.4344716654053211
+  },
+  "record-continuation": {
+    "last_dual": {
+      "t": 12.52,
+      "m": 1.4441667279127686,
+      "slope_m": 0.4269410643843725,
+      "radii_mm": [
+        56.720522061318,
+        44.78173938649573
+      ]
+    },
+    "both_centered": {
+      "t": 12.48,
+      "m": 1.440803490413343,
+      "slope_m": 0.42357782688494705,
+      "radii_mm": [
+        53.889006174582676,
+        44.88067011197799
+      ]
+    },
+    "terminal": "ball_edge",
+    "gates": {
+      "flat_1m": {
+        "t": 9.64,
+        "progress_m": 1.00109014956402,
+        "x_m": 1.003864486035624,
+        "both_contact": true,
+        "radii_mm": [
+          6.133636122562412,
+          17.700920816633452
+        ]
+      }
+    },
+    "seconds": 12.540000000000001,
+    "tilt_peak_deg": 26.31428356701078,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 1.4490986202487492,
+    "trials": 192,
+    "rate": null,
+    "initial_m": 1.4441667279127686
+  },
+  "high": {
+    "last_dual": {
+      "t": 8.88,
+      "m": 0.9757716379485949,
+      "slope_m": 0.0,
+      "radii_mm": [
+        33.02604301258298,
+        51.2508052902238
+      ]
+    },
+    "both_centered": {
+      "t": 8.88,
+      "m": 0.9757716379485949,
+      "slope_m": 0.0,
+      "radii_mm": [
+        33.02604301258298,
+        51.2508052902238
+      ]
+    },
+    "terminal": "ball_edge_b",
+    "gates": {},
+    "seconds": 8.92,
+    "tilt_peak_deg": 28.492827777057247,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 0.9861327567012392,
+    "trials": 728,
+    "rate": {
+      "combined": {
+        "teacher": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 22,
+          "mean_m": 0.05171805215278702,
+          "max_m": 0.3641999081569371
+        },
+        "trained": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 22,
+          "mean_m": 0.05707820952149463,
+          "max_m": 0.3795668598261403
+        }
+      },
+      "fixed": {
+        "teacher": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 26,
+          "mean_m": 0.06147184009579522,
+          "max_m": 0.44599315001780804
+        },
+        "trained": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 19,
+          "mean_m": 0.052060372304051056,
+          "max_m": 0.41605844417947613
+        }
+      }
+    },
+    "initial_m": 0.22006017984103773
+  },
+  "high-continuation": {
+    "last_dual": {
+      "t": 8.9,
+      "m": 0.9841875541765429,
+      "slope_m": 0.0,
+      "radii_mm": [
+        31.14107689574376,
+        54.233571303350004
+      ]
+    },
+    "both_centered": {
+      "t": 8.9,
+      "m": 0.9841875541765429,
+      "slope_m": 0.0,
+      "radii_mm": [
+        31.14107689574376,
+        54.233571303350004
+      ]
+    },
+    "terminal": "ball_edge_b",
+    "gates": {},
+    "seconds": 8.92,
+    "tilt_peak_deg": 27.97790261044038,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 0.991246377473408,
+    "trials": 432,
+    "rate": null,
+    "initial_m": 0.9757716379485949
+  },
+  "high-catch": {
+    "last_dual": {
+      "t": 8.96,
+      "m": 1.0051864813875226,
+      "slope_m": 0.0,
+      "radii_mm": [
+        38.21627293363145,
+        54.19349489861466
+      ]
+    },
+    "both_centered": {
+      "t": 8.96,
+      "m": 1.0051864813875226,
+      "slope_m": 0.0,
+      "radii_mm": [
+        38.21627293363145,
+        54.19349489861466
+      ]
+    },
+    "terminal": "ball_edge_b",
+    "gates": {
+      "flat_1m": {
+        "t": 8.94,
+        "progress_m": 1.0018149714094595,
+        "x_m": 1.0045893078810635,
+        "both_contact": true,
+        "radii_mm": [
+          41.5412145670669,
+          48.69675261339089
+        ]
+      }
+    },
+    "seconds": 8.98,
+    "tilt_peak_deg": 28.885770131250577,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 1.0115330376983747,
+    "trials": 608,
+    "rate": {
+      "combined": {
+        "teacher": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 22,
+          "mean_m": 0.05171805215278702,
+          "max_m": 0.3641999081569371
+        },
+        "trained": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 22,
+          "mean_m": 0.05707820952149463,
+          "max_m": 0.3795668598261403
+        }
+      },
+      "fixed": {
+        "teacher": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 26,
+          "mean_m": 0.06147184009579522,
+          "max_m": 0.44599315001780804
+        },
+        "trained": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 19,
+          "mean_m": 0.052060372304051056,
+          "max_m": 0.41605844417947613
+        }
+      }
+    },
+    "initial_m": 0.9841875541765429
+  },
+  "orientation": {
+    "last_dual": {
+      "t": 8.84,
+      "m": 0.9700650404980597,
+      "slope_m": 0.0,
+      "radii_mm": [
+        56.70832799342535,
+        52.477263120364
+      ]
+    },
+    "both_centered": {
+      "t": 8.76,
+      "m": 0.9484671359897018,
+      "slope_m": 0.0,
+      "radii_mm": [
+        51.786096050627044,
+        44.54030762599479
+      ]
+    },
+    "terminal": "ball_edge",
+    "gates": {},
+    "seconds": 8.86,
+    "tilt_peak_deg": 25.988873242950763,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 0.9793431331249121,
+    "trials": 546,
+    "rate": null,
+    "initial_m": null
+  },
+  "slope-entry": {
+    "last_dual": {
+      "t": 8.98,
+      "m": 1.0064400150834556,
+      "slope_m": 0.0,
+      "radii_mm": [
+        38.723991842228344,
+        54.44999243608032
+      ]
+    },
+    "both_centered": {
+      "t": 8.98,
+      "m": 1.0064400150834556,
+      "slope_m": 0.0,
+      "radii_mm": [
+        38.723991842228344,
+        54.44999243608032
+      ]
+    },
+    "terminal": "ball_edge_b",
+    "gates": {
+      "flat_1m": {
+        "t": 8.96,
+        "progress_m": 1.0031101261096427,
+        "x_m": 1.0058844625812466,
+        "both_contact": true,
+        "radii_mm": [
+          41.26891190766472,
+          50.00454448204653
+        ]
+      }
+    },
+    "seconds": 9.0,
+    "tilt_peak_deg": 28.340012571415542,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 1.0128628036695997,
+    "trials": 680,
+    "rate": null,
+    "initial_m": 1.0051864813875226
+  },
+  "slope-entry-tilt": {
+    "last_dual": {
+      "t": 8.98,
+      "m": 1.0144855129033483,
+      "slope_m": 0.0,
+      "radii_mm": [
+        41.11166154648756,
+        55.092091793639355
+      ]
+    },
+    "both_centered": {
+      "t": 8.96,
+      "m": 1.0097748128640474,
+      "slope_m": 0.0,
+      "radii_mm": [
+        42.49255535836908,
+        51.73412354850433
+      ]
+    },
+    "terminal": "ball_edge_b",
+    "gates": {
+      "flat_1m": {
+        "t": 8.92,
+        "progress_m": 1.0014512132076985,
+        "x_m": 1.0042255496793024,
+        "both_contact": true,
+        "radii_mm": [
+          46.28446324585323,
+          43.59524124827009
+        ]
+      }
+    },
+    "seconds": 9.0,
+    "tilt_peak_deg": 32.36763751381545,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 1.020985988913663,
+    "trials": 408,
+    "rate": null,
+    "initial_m": 1.0144855129033483
+  },
+  "primary": {
+    "last_dual": {
+      "t": 7.34,
+      "m": 0.8216568205885153,
+      "slope_m": 0.0,
+      "radii_mm": [
+        55.11888964804484,
+        49.9653245548532
+      ]
+    },
+    "both_centered": {
+      "t": 7.32,
+      "m": 0.818423937487623,
+      "slope_m": 0.0,
+      "radii_mm": [
+        53.248152242937955,
+        49.608612381015256
+      ]
+    },
+    "terminal": "ball_edge",
+    "gates": {},
+    "seconds": 7.36,
+    "tilt_peak_deg": 23.56525736802073,
+    "torque_peak_nm": 0.2,
+    "terminal_x": 0.8275296287389124,
+    "trials": 432,
+    "rate": {
+      "combined": {
+        "teacher": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 22,
+          "mean_m": 0.05171805215278702,
+          "max_m": 0.3641999081569371
+        },
+        "trained": {
+          "n": 128,
+          "flat": 0,
+          "slope": 0,
+          "finished": 0,
+          "half": 0,
+          "survived_2s": 22,
+          "mean_m": 0.051783337742428756,
+          "max_m": 0.3576761969479136
+        }
+      }
+    },
+    "initial_m": 0.7310116065125923
+  }
+}

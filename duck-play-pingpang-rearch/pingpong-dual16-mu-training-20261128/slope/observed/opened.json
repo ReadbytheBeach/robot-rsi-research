@@ -1,0 +1,207 @@
+{
+  "timed": {
+    "recipe": "timed",
+    "events": [
+      {
+        "pulse": 1,
+        "source_tick": 147,
+        "tick": 147,
+        "trigger": "time",
+        "progress_m": 0.2217751176266503,
+        "predicted_edge_m": 0.01125388987855653
+      },
+      {
+        "pulse": 0,
+        "source_tick": 164,
+        "tick": 164,
+        "trigger": "time",
+        "progress_m": 0.2538350698923648,
+        "predicted_edge_m": 0.01947570431909309
+      },
+      {
+        "pulse": 2,
+        "source_tick": 195,
+        "tick": 195,
+        "trigger": "time",
+        "progress_m": 0.3112749976575764,
+        "predicted_edge_m": 0.042467999245021655
+      },
+      {
+        "pulse": 3,
+        "source_tick": 359,
+        "tick": 359,
+        "trigger": "time",
+        "progress_m": 0.7144245384531128,
+        "predicted_edge_m": 0.031190154839647165
+      }
+    ],
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "quarter": true,
+    "both_at_2s": true,
+    "flat_1m": false,
+    "slope_1m": true,
+    "finish_2p5": false,
+    "valid_peak_m": 1.0293184088893093,
+    "last_both_m": 1.0285482090628129,
+    "seconds": 10.94,
+    "reason": "completed",
+    "max_tilt_deg": 13.098414115820251,
+    "distance_m": 1.0285482090628129,
+    "success": true,
+    "gates": {
+      "slope_1m": {
+        "t": 9.64,
+        "progress_m": 1.0001896729114121,
+        "x_m": 1.0001299585816452,
+        "both_contact": true,
+        "radii_mm": [
+          36.2018120375943,
+          41.905865674776834
+        ]
+      }
+    },
+    "stable_finish_s": 1.0,
+    "seed": 14552505,
+    "track": "incline",
+    "material": "original",
+    "scale": 1.0241080481236784,
+    "fork_sha": null,
+    "torque_nm": 0.2
+  },
+  "odom-1.0": {
+    "recipe": "odom-1.0",
+    "events": [
+      {
+        "pulse": 1,
+        "source_tick": 147,
+        "tick": 147,
+        "trigger": "distance",
+        "progress_m": 0.2217751176266503,
+        "predicted_edge_m": 0.01125388987855653
+      },
+      {
+        "pulse": 0,
+        "source_tick": 164,
+        "tick": 164,
+        "trigger": "distance",
+        "progress_m": 0.2538350698923648,
+        "predicted_edge_m": 0.01947570431909309
+      },
+      {
+        "pulse": 2,
+        "source_tick": 195,
+        "tick": 195,
+        "trigger": "distance",
+        "progress_m": 0.3112749976575764,
+        "predicted_edge_m": 0.042467999245021655
+      },
+      {
+        "pulse": 3,
+        "source_tick": 359,
+        "tick": 359,
+        "trigger": "distance",
+        "progress_m": 0.7144245384531128,
+        "predicted_edge_m": 0.031190154839647165
+      }
+    ],
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "quarter": true,
+    "both_at_2s": true,
+    "flat_1m": false,
+    "slope_1m": true,
+    "finish_2p5": false,
+    "valid_peak_m": 1.0293184088893093,
+    "last_both_m": 1.0285482090628129,
+    "seconds": 10.94,
+    "reason": "completed",
+    "max_tilt_deg": 13.098414115820251,
+    "distance_m": 1.0285482090628129,
+    "success": true,
+    "gates": {
+      "slope_1m": {
+        "t": 9.64,
+        "progress_m": 1.0001896729114121,
+        "x_m": 1.0001299585816452,
+        "both_contact": true,
+        "radii_mm": [
+          36.2018120375943,
+          41.905865674776834
+        ]
+      }
+    },
+    "stable_finish_s": 1.0,
+    "seed": 14552505,
+    "track": "incline",
+    "material": "original",
+    "scale": 1.0241080481236784,
+    "fork_sha": null,
+    "torque_nm": 0.2
+  },
+  "odom-0.82": {
+    "recipe": "odom-0.82",
+    "events": [
+      {
+        "pulse": 1,
+        "source_tick": 147,
+        "tick": 128,
+        "trigger": "distance",
+        "progress_m": 0.18184663071467475,
+        "predicted_edge_m": 0.014099949124933344
+      },
+      {
+        "pulse": 0,
+        "source_tick": 164,
+        "tick": 140,
+        "trigger": "distance",
+        "progress_m": 0.20790034499783214,
+        "predicted_edge_m": 0.026177534425052235
+      },
+      {
+        "pulse": 2,
+        "source_tick": 195,
+        "tick": 167,
+        "trigger": "distance",
+        "progress_m": 0.2562739353247019,
+        "predicted_edge_m": 0.04850281454717019
+      },
+      {
+        "pulse": 3,
+        "source_tick": 359,
+        "tick": 296,
+        "trigger": "distance",
+        "progress_m": 0.5858574498413347,
+        "predicted_edge_m": 0.02627580384866001
+      }
+    ],
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "quarter": true,
+    "both_at_2s": true,
+    "flat_1m": false,
+    "slope_1m": false,
+    "finish_2p5": false,
+    "valid_peak_m": 0.7995858476092766,
+    "last_both_m": 0.7995858476092766,
+    "seconds": 7.74,
+    "reason": "ball_edge",
+    "max_tilt_deg": 24.801556961303298,
+    "distance_m": 0.8009929648616151,
+    "success": false,
+    "gates": {},
+    "stable_finish_s": 0.0,
+    "seed": 14552505,
+    "track": "incline",
+    "material": "original",
+    "scale": 1.0241080481236784,
+    "fork_sha": null,
+    "torque_nm": 0.2
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "experts": [
+    "medium",
+    "phase_08",
+    "turn_02",
+    "intercept_05",
+    "pressure_11",
+    "phase_24"
+  ],
+  "cues": [
+    "span",
+    "separation_rate",
+    "relative_side_speed",
+    "edge_margin",
+    "projected_edge",
+    "centre_forward",
+    "centre_lateral",
+    "edge_closing_speed",
+    "tilt_forward"
+  ],
+  "release_starts": [
+    17300000,
+    17300167
+  ],
+  "continuation_starts": [
+    17301000,
+    17301191
+  ],
+  "select_starts": [
+    17302000,
+    17302079
+  ],
+  "ticks": [
+    0,
+    35
+  ],
+  "reward": "last both m + .16 both2 + .20 quarter + .45 half + 1.3 flat + 2 slope + 5 finish"
+}

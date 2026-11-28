@@ -1,0 +1,22 @@
+{
+  "mu": 0.416,
+  "seed": 12600381,
+  "starting": [
+    "record",
+    "uphill",
+    "yaw",
+    "fixed",
+    "native",
+    "no_pulses"
+  ],
+  "source_paths": {
+    "record": "../../../pingpong-dual16-short-20261128/replay/fixed-paced-seal.json",
+    "uphill": "../../../pingpong-dual16-short-20261128/diversity/uphill/selected.json",
+    "yaw": "../../../pingpong-dual16-short-20261128/diversity/yaw_approach/selected.json",
+    "fixed": "../../../pingpong-dual16-short-20261128/replay/fixed-selected.json"
+  },
+  "max_stages": 13,
+  "bank": 14,
+  "branches_per_stage": 4,
+  "variant": "Shared-state branching on complete retained teacher or selected prefixes. Time grid from 16%, 28%, 40%, 51%, 61%, 69%, 76%, 82%, 87% of the current longest life, then failure-relative retries. Branch selection includes longest valid progress and alternative contact/relative-speed/edge states."
+}

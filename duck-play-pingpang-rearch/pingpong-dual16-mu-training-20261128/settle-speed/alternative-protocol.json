@@ -1,0 +1,15 @@
+{
+  "action": [
+    0.58,
+    0.44
+  ],
+  "reference": [
+    1.0,
+    0.44
+  ],
+  "independent": [
+    17813000,
+    192
+  ],
+  "reason": "Best nonstandard preparation from the original selection, compared on a new cohort."
+}

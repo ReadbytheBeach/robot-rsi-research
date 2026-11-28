@@ -1,0 +1,11 @@
+{
+  "trace": "gain-timed.npz",
+  "sha256": "7bcff88d90fd2441df95981fe9c7904ef31e03ba33def2f8f03b39fe074e1ec1",
+  "original_time_s": 2.92,
+  "frames": 74,
+  "rate": 25.0,
+  "track": "incline",
+  "fixed_grid": false,
+  "gates": {},
+  "reason": "ball_edge"
+}

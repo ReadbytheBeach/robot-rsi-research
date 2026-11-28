@@ -1,0 +1,35 @@
+{
+  "hashes": {
+    "ppo/frozen.json": "4cce7b9f77ca4c91615a3b00a444677aef97a6a9a759223c890f9c38cf73e5a0",
+    "ppo/ppo-12.npz": "c90c9f8cce69d68f293bc9730e79a4f5df0fbf2dc9dca6796bcb0cdd844304ea",
+    "qualify.py": "c15f2e58911507fe457d0ae178534ebcba87fdbceaceb708ddbaa7fd9ff41bb7",
+    "material.py": "b5ceb557f0b110e497153b6ce15977886e4911e059a822ea1475c49f5ce1b15f",
+    "residual.py": "0d1c35119d6586d20535e0f365852817bacf527e7ecbf232dda4e64da962ab06"
+  },
+  "scores": {
+    "high": {
+      "n": 80,
+      "flat": 0,
+      "slope": 0,
+      "finish": 0,
+      "both2": 19,
+      "half": 0,
+      "quarter": 2,
+      "mean_m": 0.06937800411051737,
+      "max_m": 0.2628589864280436,
+      "best_seed": 17400106
+    },
+    "wide": {
+      "n": 80,
+      "flat": 0,
+      "slope": 0,
+      "finish": 0,
+      "both2": 16,
+      "half": 0,
+      "quarter": 1,
+      "mean_m": 0.06973928230497266,
+      "max_m": 0.2782591622593594,
+      "best_seed": 17400121
+    }
+  }
+}

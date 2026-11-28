@@ -1,0 +1,19 @@
+{
+  "mu": 0.416,
+  "seed": 12600381,
+  "course": "fixed grid, slope foot at world x 1.02 m",
+  "launch_progress_m": [
+    0.7,
+    0.76,
+    0.82,
+    0.87,
+    0.91,
+    0.94,
+    0.98,
+    1.01,
+    1.04,
+    1.08
+  ],
+  "keep": "distance leader plus alternative predicted edge reserve and radial separation states; body tilt constrained under 29 deg for ranking",
+  "runtime_inputs": "camera pair position/velocity, support difference, gait targets, clock; actual progress used to locate the development fork"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "phase_08",
+  "parameters": {
+    "family": "phase",
+    "horizon": 0.32,
+    "duration": 6.0,
+    "speed": -0.18517511973719955,
+    "yaw": -0.19045307092886446,
+    "tilt": 0.029145519172334072,
+    "centre": 0.10609525400667641,
+    "neck": 0.021590445577915826
+  },
+  "holdout_start": 17042000,
+  "n": 160,
+  "comparison": "medium",
+  "selection_score": [
+    0,
+    0,
+    0,
+    0,
+    21.040275959210355
+  ]
+}

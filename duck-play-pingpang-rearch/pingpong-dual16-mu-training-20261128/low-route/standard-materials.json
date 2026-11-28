@@ -1,0 +1,181 @@
+[
+  {
+    "schedule": "best.json",
+    "seed": 15387848,
+    "settle_s": 1.0,
+    "named_material": "low",
+    "pairs": {
+      "ball_geom": [
+        0.3254966833609762,
+        0.224,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ],
+      "ball_geom_b": [
+        0.3254966833609762,
+        0.224,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ]
+    },
+    "low_trained_pulses": false,
+    "flat_1m": false,
+    "last_both_m": 0.48122513032259284,
+    "seconds": 6.1000000000000005,
+    "slope_1m": false,
+    "finish": false,
+    "gates": {},
+    "reason": "ball_edge"
+  },
+  {
+    "schedule": "best.json",
+    "seed": 15387848,
+    "settle_s": 1.0,
+    "named_material": "low",
+    "pairs": {
+      "ball_geom": [
+        0.3254966833609762,
+        0.224,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ],
+      "ball_geom_b": [
+        0.3254966833609762,
+        0.224,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ]
+    },
+    "low_trained_pulses": true,
+    "flat_1m": true,
+    "last_both_m": 1.234882933925239,
+    "seconds": 12.92,
+    "slope_1m": false,
+    "finish": false,
+    "gates": {
+      "flat_1m": {
+        "t": 10.26,
+        "progress_m": 1.0042145357074233,
+        "x_m": 1.0069326276061077,
+        "both_contact": true,
+        "radii_mm": [
+          13.08358670442266,
+          15.269326311124475
+        ]
+      }
+    },
+    "reason": "ball_edge_b"
+  },
+  {
+    "schedule": "best.json",
+    "seed": 15387848,
+    "settle_s": 1.0,
+    "named_material": "nominal",
+    "pairs": {
+      "ball_geom": [
+        0.3254966833609762,
+        0.32,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ],
+      "ball_geom_b": [
+        0.3254966833609762,
+        0.32,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ]
+    },
+    "low_trained_pulses": false,
+    "flat_1m": false,
+    "last_both_m": 0.4267844871995044,
+    "seconds": 5.66,
+    "slope_1m": false,
+    "finish": false,
+    "gates": {},
+    "reason": "ball_edge"
+  },
+  {
+    "schedule": "best.json",
+    "seed": 15387848,
+    "settle_s": 1.0,
+    "named_material": "nominal",
+    "pairs": {
+      "ball_geom": [
+        0.3254966833609762,
+        0.32,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ],
+      "ball_geom_b": [
+        0.3254966833609762,
+        0.32,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ]
+    },
+    "low_trained_pulses": true,
+    "flat_1m": false,
+    "last_both_m": 0.5494507359659402,
+    "seconds": 5.34,
+    "slope_1m": false,
+    "finish": false,
+    "gates": {},
+    "reason": "ball_edge"
+  },
+  {
+    "schedule": "best.json",
+    "seed": 15387848,
+    "settle_s": 1.0,
+    "named_material": "high",
+    "pairs": {
+      "ball_geom": [
+        0.3254966833609762,
+        0.416,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ],
+      "ball_geom_b": [
+        0.3254966833609762,
+        0.416,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ]
+    },
+    "low_trained_pulses": false,
+    "flat_1m": false,
+    "last_both_m": 0.4416416133211704,
+    "seconds": 5.66,
+    "slope_1m": false,
+    "finish": false,
+    "gates": {},
+    "reason": "ball_edge"
+  },
+  {
+    "schedule": "best.json",
+    "seed": 15387848,
+    "settle_s": 1.0,
+    "named_material": "high",
+    "pairs": {
+      "ball_geom": [
+        0.3254966833609762,
+        0.416,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ],
+      "ball_geom_b": [
+        0.3254966833609762,
+        0.416,
+        0.0030515314065091515,
+        2.0343542710061012e-05
+      ]
+    },
+    "low_trained_pulses": true,
+    "flat_1m": false,
+    "last_both_m": 0.642504432454207,
+    "seconds": 7.16,
+    "slope_1m": false,
+    "finish": false,
+    "gates": {},
+    "reason": "ball_edge_b"
+  }
+]

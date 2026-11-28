@@ -1,0 +1,12 @@
+{
+  "name": "osc_06",
+  "policy": {
+    "frequency": 5.8,
+    "yaw": 0.0,
+    "neck": -0.01726246057402271,
+    "tilt": -0.02602395356062101,
+    "duration": 1.7,
+    "shape": 0
+  },
+  "comparison": "medium"
+}

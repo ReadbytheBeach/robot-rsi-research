@@ -1,0 +1,28 @@
+{
+  "material": 0.4153259863445219,
+  "paired_blind_index": 39,
+  "baseline": {
+    "mu": 0.4153259863445219,
+    "park": false,
+    "gate": false,
+    "held": 0.0,
+    "m": 0.432041537626512,
+    "t": 5.08,
+    "why": "ball_edge_b",
+    "gates": {},
+    "tilt": 23.54925985793185,
+    "torque": 0.2
+  },
+  "trained": {
+    "mu": 0.4153259863445219,
+    "park": false,
+    "gate": false,
+    "held": 0.0,
+    "m": 0.6722120454414526,
+    "t": 6.82,
+    "why": "ball_edge",
+    "gates": {},
+    "tilt": 13.01603898812628,
+    "torque": 0.2
+  }
+}

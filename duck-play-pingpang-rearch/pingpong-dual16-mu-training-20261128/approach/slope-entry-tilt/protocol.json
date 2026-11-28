@@ -1,0 +1,15 @@
+{
+  "mu": 0.416,
+  "seed": 12600381,
+  "course": "fixed grid, slope foot at world x 1.02 m",
+  "launch_progress_m": [
+    0.7,
+    0.77,
+    0.84,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "keep": "Original task scorer and actuator limits throughout. No extra 29-degree development preference. Separate from the low-tilt search; compare achieved distance with maximum tilt.",
+  "runtime_inputs": "camera pair position/velocity, support difference, gait targets, clock; actual progress used to locate the development fork"
+}

@@ -1,0 +1,10 @@
+{
+  "source": "../high/result.json",
+  "weights": "Prioritize ordered route gates, then last dual contact below 29 degrees trunk tilt.",
+  "rounds": 12,
+  "parents": 3,
+  "candidates_per_parent": 16,
+  "track": "fixed",
+  "seed": 12600381,
+  "mu": 0.416
+}

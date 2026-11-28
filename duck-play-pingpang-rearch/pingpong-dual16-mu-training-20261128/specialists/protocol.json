@@ -1,0 +1,20 @@
+{
+  "materials": [
+    0.224,
+    0.416
+  ],
+  "screen": [
+    17550000,
+    24
+  ],
+  "select": [
+    17551000,
+    64
+  ],
+  "test": [
+    17552000,
+    300
+  ],
+  "criterion": "Rank finish, slope, flat, half counts, then mean last double-contact distance + 0.12 * P(both contact at 2s) + 0.20 * P(quarter metre)",
+  "comparison": "All 41 identical action recipes in both materials, on identical starts. Cross-test both winners, the historical medium baseline and the phase_08 opening."
+}

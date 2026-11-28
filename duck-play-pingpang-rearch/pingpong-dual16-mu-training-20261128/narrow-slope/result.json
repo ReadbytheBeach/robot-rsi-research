@@ -1,0 +1,46 @@
+{
+  "n_materials": 48,
+  "release_seed": 14552505,
+  "counts": {
+    "candidates": 88,
+    "train_rollouts": 440,
+    "selection_rollouts": 28,
+    "blind_rollouts": 96
+  },
+  "developed": {
+    "park": 1,
+    "gate": 1,
+    "min_m": 0.4367466596716475,
+    "p20_m": 0.44058933765992264,
+    "mean_safe": 0.6100319342738415,
+    "mean_hold": 0.1111111111111111
+  },
+  "baseline_development": {
+    "park": 1,
+    "gate": 1,
+    "min_m": 0.42546888041168657,
+    "p20_m": 0.4344970573152896,
+    "mean_safe": 0.576424684757655,
+    "mean_hold": 0.1111111111111111
+  },
+  "baseline": {
+    "park": 0,
+    "gate": 0,
+    "min_m": 0.3828773892257636,
+    "p20_m": 0.4349147754775189,
+    "mean_safe": 0.5200625530326916,
+    "mean_hold": 0.0
+  },
+  "trained": {
+    "park": 0,
+    "gate": 0,
+    "min_m": 0.38712993843064913,
+    "p20_m": 0.43816007743031826,
+    "mean_safe": 0.5196328098632725,
+    "mean_hold": 0.0
+  },
+  "paired_gain": [],
+  "paired_loss": [],
+  "median_distance_change": 0.0020030492447841997,
+  "freeze_sha": "3d1c1d804fc48d6ea9c04189542a66fe6d65bc82c9235266f41aab35895df49a"
+}

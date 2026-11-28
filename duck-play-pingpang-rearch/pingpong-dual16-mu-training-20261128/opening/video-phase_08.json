@@ -1,0 +1,11 @@
+{
+  "trace": "film-traces/phase_08.npz",
+  "sha256": "99b808e85e598ce9041d59298cfaf9a1263e4117c493181ce3e2897ad1f42dc6",
+  "original_time_s": 2.16,
+  "frames": 55,
+  "rate": 25.0,
+  "track": "combined",
+  "fixed_grid": false,
+  "gates": {},
+  "reason": "ball_edge_b"
+}

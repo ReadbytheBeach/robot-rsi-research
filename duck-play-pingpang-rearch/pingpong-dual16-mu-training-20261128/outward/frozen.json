@@ -1,0 +1,24 @@
+{
+  "winner": "first_step_07",
+  "parameters": {
+    "family": "first_step",
+    "duration": 0.42,
+    "gate": 0.023,
+    "onset": 0.06,
+    "neck": -0.09253968173231762,
+    "yaw": 0.09918538738905602,
+    "tilt": 0.023508594963394164,
+    "speed": 0.22352495251402943,
+    "intercept": 0.11137624565637458,
+    "orientation": 1.0
+  },
+  "parameter_sha": "1a784c5ab8181ae55f7263d0ddfbb0c80919bfede02144b5139c49d861cfdf33",
+  "scores": {
+    "phase_08": 0.10784857035373109,
+    "first_step_07": 0.11089135005357638,
+    "reversal_30": 0.11017069441659523,
+    "neck_roll_08": 0.10680134367974879,
+    "reversal_18": 0.09290370576123479,
+    "reversal_10": 0.10580403600961959
+  }
+}

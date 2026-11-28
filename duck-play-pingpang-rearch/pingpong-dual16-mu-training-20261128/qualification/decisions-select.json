@@ -1,0 +1,35 @@
+{
+  "hashes": {
+    "decisions/frozen.json": "8e328f9c60b60857de78476cc7397d730595c031ca0e8013d447b1eb5133e9d0",
+    "qualify.py": "c15f2e58911507fe457d0ae178534ebcba87fdbceaceb708ddbaa7fd9ff41bb7",
+    "material.py": "b5ceb557f0b110e497153b6ce15977886e4911e059a822ea1475c49f5ce1b15f",
+    "opening/train_opening.py": "fdcd7b6ea6794ece395ddcdbde5ef803a8f3f57bce1cd9befd8bed64cc7f0366",
+    "decision_policy.py": "b0ea139167baffdef1d888f4d6755ef1617dd7b6142b9778f77a39ac131af7d8"
+  },
+  "scores": {
+    "high": {
+      "n": 80,
+      "flat": 0,
+      "slope": 0,
+      "finish": 0,
+      "both2": 29,
+      "half": 0,
+      "quarter": 2,
+      "mean_m": 0.07106584720459645,
+      "max_m": 0.31926382847706186,
+      "best_seed": 17400106
+    },
+    "wide": {
+      "n": 80,
+      "flat": 0,
+      "slope": 0,
+      "finish": 0,
+      "both2": 29,
+      "half": 0,
+      "quarter": 2,
+      "mean_m": 0.07126658056608207,
+      "max_m": 0.3015679915885074,
+      "best_seed": 17400106
+    }
+  }
+}

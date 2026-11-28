@@ -1,0 +1,28 @@
+{
+  "slope-entry": {
+    "minimum_differing_tick": 438,
+    "earliest_future_action_seconds": 8.76,
+    "latest_end_seconds_on_both_tracks": 5.28,
+    "previously_solved_release_rollouts": 256,
+    "per_track": {
+      "combined": 128,
+      "fixed": 128
+    },
+    "flat_passed": 0,
+    "full_passed": 0,
+    "basis": "same actions in same order until the last observed termination; every changed action has onset after every natural release episode already ended in high-catch/fresh.csv"
+  },
+  "slope-entry-tilt": {
+    "minimum_differing_tick": 378,
+    "earliest_future_action_seconds": 7.5600000000000005,
+    "latest_end_seconds_on_both_tracks": 5.28,
+    "previously_solved_release_rollouts": 256,
+    "per_track": {
+      "combined": 128,
+      "fixed": 128
+    },
+    "flat_passed": 0,
+    "full_passed": 0,
+    "basis": "same actions in same order until the last observed termination; every changed action has onset after every natural release episode already ended in high-catch/fresh.csv"
+  }
+}

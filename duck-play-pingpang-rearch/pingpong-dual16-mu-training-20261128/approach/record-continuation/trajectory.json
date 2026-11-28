@@ -1,0 +1,3415 @@
+{
+  "mass_g": 40.0,
+  "motor_cap_nm": 0.2,
+  "mode": "route",
+  "seed": 12600381,
+  "success": false,
+  "reason": "ball_edge",
+  "seconds": 12.540000000000001,
+  "distance_m": 1.4463242837771453,
+  "longitudinal_m": 1.4463242837771453,
+  "lateral_m": -0.0339188584299554,
+  "max_cross_m": 0.07637073761546427,
+  "turn_yaw_deg": null,
+  "pit_crossed": false,
+  "pit_foot_steps": 0,
+  "initial_x_m": 0.0027743364716040653,
+  "final_x_m": 1.4490986202487492,
+  "target_m": 2.5,
+  "path_length_m": 2.11249895636725,
+  "max_xy_displacement_m": 1.446721957668668,
+  "max_lateral_m": 0.0834220915132287,
+  "max_tilt_deg": 26.31428356701078,
+  "min_height_m": 0.10218382681183648,
+  "radius_p95_mm": 48.378077497539905,
+  "radius_max_mm": 59.7279303447795,
+  "terminal_radius_mm": 59.7279303447795,
+  "last_face_contact": false,
+  "no_contact_max_ms": 10.0,
+  "sampled_no_contact_max_ms": 80,
+  "pushes": 5,
+  "observation_delay_ms": 40,
+  "command_delay_ms": 0,
+  "foot_friction": 0.8795931939757664,
+  "leg_gain_scale": 1.0327831845429645,
+  "stable_finish_s": 0.0,
+  "skill_decisions": [],
+  "online_identification": {
+    "friction": 0.8766806827711088,
+    "leg_gain_scale": 1.032369021304023,
+    "head_gain_scale": [
+      0.8937680063595715,
+      1.11650996882229
+    ],
+    "head_damping_scale": [
+      0.8968729222339915,
+      1.0259524224986543
+    ],
+    "samples": 14,
+    "weighted_innovation_rms": 0.012246864030781374,
+    "sensitivity": [
+      1.0230544589203723,
+      1.2559348200568856,
+      0.673726652752902,
+      0.6849177126060879,
+      0.200952699448147,
+      0.3693431478673686
+    ],
+    "fit_compute_s": 0.8100274289608933
+  },
+  "motor": {
+    "joints": [
+      "left_hip_yaw",
+      "left_hip_roll",
+      "left_hip_pitch",
+      "left_knee",
+      "left_ankle",
+      "neck_pitch",
+      "head_pitch",
+      "head_yaw",
+      "head_roll",
+      "right_hip_yaw",
+      "right_hip_roll",
+      "right_hip_pitch",
+      "right_knee",
+      "right_ankle"
+    ],
+    "physics_samples": 6270,
+    "rms_nm": [
+      0.04565297482193793,
+      0.10712588667213234,
+      0.12270620221186095,
+      0.181966090726932,
+      0.11644157403348161,
+      0.03127953645706266,
+      0.0903394045921418,
+      0.02413717028392398,
+      0.0838201149869344,
+      0.05463996306480704,
+      0.10442638734294803,
+      0.13839665171344698,
+      0.1741092371753361,
+      0.12246915812176278
+    ],
+    "peak_nm": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.09444136105402096,
+      0.2,
+      0.1441592249966318,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "speed_peak_rad_s": [
+      2.0536923983306883,
+      2.4643936542085103,
+      3.8486701758486657,
+      3.615543978630452,
+      3.332605379618298,
+      2.2219738319439406,
+      2.6363242866967735,
+      1.6686577668551763,
+      2.323505600617675,
+      2.480832971054632,
+      2.414629371847368,
+      3.8806709478365424,
+      4.4119100167983625,
+      4.205924035107886
+    ],
+    "fraction_above_90pct": [
+      0.003189792663476874,
+      0.07256778309409888,
+      0.17687400318979266,
+      0.7617224880382775,
+      0.11291866028708133,
+      0.0,
+      0.04322169059011164,
+      0.0,
+      0.04832535885167464,
+      0.004625199362041467,
+      0.0696969696969697,
+      0.3237639553429027,
+      0.6521531100478469,
+      0.19617224880382775
+    ],
+    "longest_above_90pct_s": [
+      0.04,
+      0.06,
+      0.22,
+      0.32,
+      0.134,
+      0.0,
+      0.22,
+      0.0,
+      0.018000000000000002,
+      0.04,
+      0.05,
+      0.24,
+      0.36,
+      0.14
+    ],
+    "absolute_mechanical_work_j": [
+      0.2532174426445405,
+      1.1554451053077897,
+      2.354246433393911,
+      4.054269990858967,
+      1.7359556049988112,
+      0.11586949886269347,
+      0.4728121852388184,
+      0.06945009935454305,
+      0.8347446801243117,
+      0.39558666569903456,
+      1.062622552095051,
+      3.0077260241204558,
+      3.5157974193887767,
+      1.880309655166873
+    ]
+  },
+  "contact_audit_500hz": {
+    "physics_samples": 6270,
+    "nonfoot_ground_contact_steps": 0,
+    "ball_pair_contact_steps": 12,
+    "per_ball": [
+      {
+        "ball": 1,
+        "other_contact_steps": 0,
+        "face_contact_steps": 5966,
+        "longest_no_face_contact_s": 0.006,
+        "max_radius_m": 0.059369231199329846,
+        "edge_violation_steps": 8,
+        "below_violation_steps": 0,
+        "last_solver_face_contact": false
+      },
+      {
+        "ball": 2,
+        "other_contact_steps": 0,
+        "face_contact_steps": 5991,
+        "longest_no_face_contact_s": 0.01,
+        "max_radius_m": 0.05384191660086121,
+        "edge_violation_steps": 0,
+        "below_violation_steps": 0,
+        "last_solver_face_contact": true
+      }
+    ],
+    "ball_other_contact_steps": 0,
+    "ball_face_contact_steps": 5762,
+    "longest_no_face_contact_s": 0.01,
+    "ball_edge_steps": 8,
+    "ball_below_steps": 0,
+    "face_ground_clearance_lower_bound_m": 0.16488745400306723,
+    "handle_ground_clearance_lower_bound_m": 0.16543665490382273,
+    "ground_height_upper_bound_m": 0.030000000000000002
+  },
+  "levels": [
+    "fast",
+    "slow",
+    "fast",
+    "slow"
+  ],
+  "segment_mps": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "full_segment_mps": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "segment_ok": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "fast_slow_ratio": null,
+  "pace_ok": false,
+  "first_10m_s": null,
+  "deadline_s": 150.0,
+  "crossing_times_s": {
+    "0.0": 0.0,
+    "0.55": 5.977394523564856
+  },
+  "max_separation_m": 0.10314076345785439,
+  "min_separation_m": 0.01590205019026503,
+  "separation_at_loss_m": 0.10314076345785439,
+  "observation_delays_ms": [
+    40,
+    0
+  ],
+  "push_counts": [
+    3,
+    2
+  ],
+  "ball_count": 2,
+  "ball_diameter_mm": 16.0,
+  "ball_mass_g": 0.4320000000000001,
+  "terminal_radii_mm": [
+    59.7279303447795,
+    45.47276273105225
+  ],
+  "terminal_contacts": [
+    false,
+    true
+  ],
+  "world_x_windows_mps": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "course_completed": false,
+  "on_time": false,
+  "params": {
+    "mass_g": 40.0,
+    "motor_cap_nm": 0.2,
+    "speed": 0.38972185290581324,
+    "ramp_s": 0.4361015074822553,
+    "wait_s": 0.18552822328809485,
+    "neck_mix": 0.5,
+    "brake_m": 0.32,
+    "finish_buffer": 0.09,
+    "ball": {
+      "kp": 3.177909410843416,
+      "kd": 0.5345018957333432,
+      "level": 2.084696072617922,
+      "gyro": 0.030867016115016063,
+      "accel": -0.1792506167987865,
+      "actuator_gain": 3.2,
+      "actuator_damping": 0.075,
+      "velocity_limit": 3.4014813265785593,
+      "angle_limit": 0.62,
+      "slope_limit": 0.2672340338938538,
+      "prediction": 0.04523816556821066,
+      "gravity": 1.0220151764314331,
+      "dual_feedback": {
+        "edge_mix": 0.3480612942723393,
+        "lookahead_s": 0.14858618260183878,
+        "edge_width_m": 0.026622050282487486
+      }
+    },
+    "leg_scale": 1.0184224897810348,
+    "knee_trim": -0.26676763673905507,
+    "hip_trim": -0.3173613992318917,
+    "ankle_trim": 0.2955346547482204,
+    "neck_trim": 0.41510036002481626,
+    "pitch_feedback": 0.8186219321207269,
+    "pitch_rate": 0.03136857083913124,
+    "roll_feedback": -0.2238475806693958,
+    "roll_rate": -0.009281985492156069,
+    "speed_profile": {
+      "slow": 0.405,
+      "fast": 0.55,
+      "transition_m": 0.3,
+      "kp": 1.2,
+      "ki": 0.14,
+      "launch_command": 0.45264375873095275,
+      "launch_until_m": 0.26867765482066597,
+      "launch_blend_m": 0.23110455595811338,
+      "slow_target": 0.078,
+      "fast_target": 0.128,
+      "zones": {
+        "0": {
+          "slow": 0.397,
+          "slow_target": 0.077
+        },
+        "1": {
+          "slow": 0.392,
+          "slow_target": 0.0745
+        }
+      },
+      "approach_command": 0.36,
+      "approach_span_m": 0.44,
+      "window_clock": {
+        "begin": 8.84,
+        "gain": 1.85,
+        "margin": 0.0045,
+        "max_up": 0.055,
+        "max_down": 0.07
+      }
+    },
+    "stop_ramp_s": 0.9,
+    "stop_gate": {
+      "radius": 0.021,
+      "velocity": 0.13,
+      "max_wait_s": 0.8
+    },
+    "stand_pose": {
+      "neck_mix": 0.6160291979168864,
+      "hip_trim": -0.08177570166281417,
+      "ankle_trim": 0.017865586990154017,
+      "neck_trim": 0.22470322331625334
+    },
+    "switch_speed": 0.0630091970734344,
+    "switch_duration": 0.3994256947262032,
+    "ball_observer": {
+      "position_mix": 0.0,
+      "velocity_mix": 0.0,
+      "delay_gains": {
+        "min_total_ms": 60,
+        "min_command_ms": 40,
+        "gains": {
+          "position_mix": 0.7109548584624833,
+          "velocity_mix": 0.7092326836597126,
+          "stride_velocity": 0.4296640510405104,
+          "stride_position": -0.35,
+          "stride_time_constant": 0.1992779091682355
+        }
+      }
+    },
+    "terrain_stance": {
+      "base": [
+        0.04,
+        -0.06,
+        0.05,
+        0.1
+      ],
+      "down": [
+        0.2,
+        0.4,
+        1.2,
+        1.0
+      ],
+      "up": [
+        -0.2,
+        0,
+        -0.8,
+        -0.8
+      ],
+      "catch": [
+        0.15,
+        0.12,
+        0.18,
+        0.18
+      ],
+      "ahead": 0.052
+    },
+    "velocity_catch": {
+      "interval": [
+        7.54,
+        8.4
+      ],
+      "pose": [
+        -0.33259047504711564,
+        0.04901161131916909,
+        0.33885248300247217,
+        0.5092406664177128
+      ],
+      "threshold": 0.12901578501303607,
+      "tilt_gain": 2.553611573674638,
+      "grade_ff": 0.09788447801414514
+    },
+    "pit_speed": {
+      "start": 7.42,
+      "end": 8.13,
+      "cmd": 0.5,
+      "ramp": 0.14
+    },
+    "by_order": {
+      "slow_first": {
+        "velocity_catch": {
+          "interval": [
+            7.576273007514187,
+            8.277065296004052
+          ],
+          "pose": [
+            -0.17060908895711063,
+            0.15768797463529166,
+            0.1820687464199358,
+            0.04079080664957903
+          ],
+          "threshold": 0.10938581071314483,
+          "tilt_gain": 1.0455029604601027,
+          "grade_ff": 0.4735539801723958
+        },
+        "pit_speed": {
+          "start": 7.42,
+          "end": 8.172390306685948,
+          "cmd": 0.543777701577461,
+          "ramp": 0.14,
+          "exit_cmd": 0.5577270762068733,
+          "boost_end": 8.11101246125805,
+          "switch_x": 7.896071648292951
+        },
+        "skill_planner": {
+          "skills": {
+            "e01": {
+              "velocity_catch": {
+                "interval": [
+                  7.576273007514187,
+                  8.277065296004052
+                ],
+                "pose": [
+                  -0.17060908895711063,
+                  0.15768797463529166,
+                  0.1820687464199358,
+                  0.04079080664957903
+                ],
+                "threshold": 0.10938581071314483,
+                "tilt_gain": 1.0455029604601027,
+                "grade_ff": 0.4735539801723958
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.172390306685948,
+                "cmd": 0.543777701577461,
+                "ramp": 0.14,
+                "exit_cmd": 0.5577270762068733,
+                "boost_end": 8.11101246125805,
+                "switch_x": 7.896071648292951
+              }
+            },
+            "e15": {
+              "velocity_catch": {
+                "interval": [
+                  7.565813446063627,
+                  8.313014712372084
+                ],
+                "pose": [
+                  -0.21181250350989536,
+                  0.20669786915235924,
+                  0.31758584398839096,
+                  0.03535416705492772
+                ],
+                "threshold": 0.13432164222725718,
+                "tilt_gain": 0.5694495197374219,
+                "grade_ff": 0.27362004886057123
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.14204428769855,
+                "cmd": 0.5110609851883557,
+                "ramp": 0.14,
+                "exit_cmd": 0.5584379780426171,
+                "boost_end": 8.195032800469084,
+                "switch_x": 7.95327632341792
+              }
+            },
+            "e49": {
+              "velocity_catch": {
+                "interval": [
+                  7.482387677820682,
+                  8.280372172317522
+                ],
+                "pose": [
+                  -0.2899664339333186,
+                  0.013794593615344075,
+                  0.1446968240358273,
+                  0.25535814788524597
+                ],
+                "threshold": 0.10356884071367978,
+                "tilt_gain": 1.5172399036083442,
+                "grade_ff": 0.385520779056243
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.091898510283308,
+                "cmd": 0.5391469671658171,
+                "ramp": 0.14,
+                "exit_cmd": 0.6063558875306596,
+                "boost_end": 8.178627710335592,
+                "switch_x": 7.937974897525894
+              }
+            },
+            "e13": {
+              "velocity_catch": {
+                "interval": [
+                  7.518574938474513,
+                  8.400749560300962
+                ],
+                "pose": [
+                  -0.18899457076154422,
+                  0.21741198920236232,
+                  0.33668355400405325,
+                  -0.114957986830627
+                ],
+                "threshold": 0.10584836760569996,
+                "tilt_gain": 1.3865550576532581,
+                "grade_ff": 0.42422470039088006
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.233638389544202,
+                "cmd": 0.5250645353728122,
+                "ramp": 0.14,
+                "exit_cmd": 0.5110180708449114,
+                "boost_end": 8.127298518606331,
+                "switch_x": 7.836071152027837
+              }
+            },
+            "e04": {
+              "velocity_catch": {
+                "interval": [
+                  7.623509433322936,
+                  8.276754691999697
+                ],
+                "pose": [
+                  -0.2980585104648928,
+                  0.07360753027666568,
+                  0.22766086124427204,
+                  0.37335771506305604
+                ],
+                "threshold": 0.13398822091212828,
+                "tilt_gain": 3.214941376671711,
+                "grade_ff": 0.0
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.201741226463731,
+                "cmd": 0.5026598466117689,
+                "ramp": 0.14,
+                "exit_cmd": 0.5844187675623829,
+                "boost_end": 8.142200488255328,
+                "switch_x": 7.9340511245451095
+              }
+            },
+            "e09": {
+              "velocity_catch": {
+                "interval": [
+                  7.577712894346618,
+                  8.452749428517848
+                ],
+                "pose": [
+                  -0.4849740330606567,
+                  0.18406073949479818,
+                  0.20343908989748688,
+                  0.11288820319961756
+                ],
+                "threshold": 0.1052683779275568,
+                "tilt_gain": 0.748791936442668,
+                "grade_ff": 0.3125079009865017
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.166917342661293,
+                "cmd": 0.5295834306158758,
+                "ramp": 0.14,
+                "exit_cmd": 0.5934642674668683,
+                "boost_end": 8.105430891188306,
+                "switch_x": 7.8756777005844105
+              }
+            },
+            "c02": {
+              "crest_catch": {
+                "interval": [
+                  6.28,
+                  7.42
+                ],
+                "pose": [
+                  -0.20399489678452143,
+                  0.17021722839040937,
+                  0.23509436544246803,
+                  -0.04452314850860842
+                ],
+                "threshold": 0.1449621336775881,
+                "tilt_gain": 1.573655187748055,
+                "grade_ff": 0.11885505661994955
+              }
+            },
+            "c07": {
+              "crest_catch": {
+                "interval": [
+                  6.28,
+                  7.42
+                ],
+                "pose": [
+                  -0.07328892650578929,
+                  -0.16238548470520475,
+                  0.2729546350535348,
+                  0.08796870338235692
+                ],
+                "threshold": 0.18200440367099058,
+                "tilt_gain": 1.3635595133450047,
+                "grade_ff": 0.2003530541510981
+              }
+            },
+            "c11": {
+              "crest_catch": {
+                "interval": [
+                  6.28,
+                  7.42
+                ],
+                "pose": [
+                  -0.18174881674619503,
+                  -0.35430657283437256,
+                  0.15901973727360386,
+                  -0.04633976910364027
+                ],
+                "threshold": 0.16087226719803352,
+                "tilt_gain": 1.3635595133450047,
+                "grade_ff": 0.20582171514342495
+              }
+            },
+            "first46": {
+              "route_params": {
+                "feature_cap": [
+                  [
+                    1.77,
+                    0.14,
+                    0.26,
+                    0.46
+                  ]
+                ]
+              }
+            },
+            "first49": {
+              "route_params": {
+                "feature_cap": [
+                  [
+                    1.77,
+                    0.14,
+                    0.26,
+                    0.49
+                  ]
+                ]
+              }
+            },
+            "first52": {
+              "route_params": {
+                "feature_cap": [
+                  [
+                    1.77,
+                    0.14,
+                    0.26,
+                    0.52
+                  ]
+                ]
+              }
+            },
+            "e01soft": {
+              "velocity_catch": {
+                "interval": [
+                  7.576273007514187,
+                  8.277065296004052
+                ],
+                "pose": [
+                  -0.17060908895711063,
+                  0.15768797463529166,
+                  0.1820687464199358,
+                  0.04079080664957903
+                ],
+                "threshold": 0.10938581071314483,
+                "tilt_gain": 1.0455029604601027,
+                "grade_ff": 0.4735539801723958
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.172390306685948,
+                "cmd": 0.543777701577461,
+                "ramp": 0.14,
+                "exit_cmd": 0.5577270762068733,
+                "boost_end": 8.11101246125805,
+                "switch_x": 7.896071648292951
+              },
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "3": {
+                    "fast": 0.535,
+                    "fast_target": 0.122
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                }
+              }
+            },
+            "e15soft": {
+              "velocity_catch": {
+                "interval": [
+                  7.565813446063627,
+                  8.313014712372084
+                ],
+                "pose": [
+                  -0.21181250350989536,
+                  0.20669786915235924,
+                  0.31758584398839096,
+                  0.03535416705492772
+                ],
+                "threshold": 0.13432164222725718,
+                "tilt_gain": 0.5694495197374219,
+                "grade_ff": 0.27362004886057123
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.14204428769855,
+                "cmd": 0.5110609851883557,
+                "ramp": 0.14,
+                "exit_cmd": 0.5584379780426171,
+                "boost_end": 8.195032800469084,
+                "switch_x": 7.95327632341792
+              },
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "3": {
+                    "fast": 0.535,
+                    "fast_target": 0.122
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                }
+              }
+            },
+            "e04soft": {
+              "velocity_catch": {
+                "interval": [
+                  7.623509433322936,
+                  8.276754691999697
+                ],
+                "pose": [
+                  -0.2980585104648928,
+                  0.07360753027666568,
+                  0.22766086124427204,
+                  0.37335771506305604
+                ],
+                "threshold": 0.13398822091212828,
+                "tilt_gain": 3.214941376671711,
+                "grade_ff": 0.0
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.201741226463731,
+                "cmd": 0.5026598466117689,
+                "ramp": 0.14,
+                "exit_cmd": 0.5844187675623829,
+                "boost_end": 8.142200488255328,
+                "switch_x": 7.9340511245451095
+              },
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "3": {
+                    "fast": 0.535,
+                    "fast_target": 0.122
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                }
+              }
+            },
+            "e49soft": {
+              "velocity_catch": {
+                "interval": [
+                  7.482387677820682,
+                  8.280372172317522
+                ],
+                "pose": [
+                  -0.2899664339333186,
+                  0.013794593615344075,
+                  0.1446968240358273,
+                  0.25535814788524597
+                ],
+                "threshold": 0.10356884071367978,
+                "tilt_gain": 1.5172399036083442,
+                "grade_ff": 0.385520779056243
+              },
+              "pit_speed": {
+                "start": 7.42,
+                "end": 8.091898510283308,
+                "cmd": 0.5391469671658171,
+                "ramp": 0.14,
+                "exit_cmd": 0.6063558875306596,
+                "boost_end": 8.178627710335592,
+                "switch_x": 7.937974897525894
+              },
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "3": {
+                    "fast": 0.535,
+                    "fast_target": 0.122
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                }
+              }
+            },
+            "vxschool": {
+              "route_params": {
+                "measured_cruise": {
+                  "start": 7.58,
+                  "end": 8.12,
+                  "nominal": 0.465,
+                  "fade": 0.12,
+                  "target": 0.06,
+                  "kp": 2.3,
+                  "filter_s": 0.15
+                }
+              }
+            },
+            "protect00": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 8.824,
+                  "end": 9.344,
+                  "cap": 0.53
+                }
+              }
+            },
+            "protect01": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 8.824,
+                  "end": 9.344,
+                  "cap": 0.535
+                }
+              }
+            },
+            "protect02": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 8.824,
+                  "end": 9.344,
+                  "cap": 0.567
+                }
+              }
+            },
+            "protect10": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.043999999999999,
+                  "end": 9.563999999999998,
+                  "cap": 0.53
+                }
+              }
+            },
+            "protect11": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.043999999999999,
+                  "end": 9.563999999999998,
+                  "cap": 0.535
+                }
+              }
+            },
+            "protect12": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.043999999999999,
+                  "end": 9.563999999999998,
+                  "cap": 0.567
+                }
+              }
+            },
+            "protect20": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.244,
+                  "end": 9.764,
+                  "cap": 0.53
+                }
+              }
+            },
+            "protect21": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.244,
+                  "end": 9.764,
+                  "cap": 0.535
+                }
+              }
+            },
+            "protect22": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.244,
+                  "end": 9.764,
+                  "cap": 0.567
+                }
+              }
+            },
+            "protect30": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.453999999999999,
+                  "end": 9.973999999999998,
+                  "cap": 0.53
+                }
+              }
+            },
+            "protect31": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.453999999999999,
+                  "end": 9.973999999999998,
+                  "cap": 0.535
+                }
+              }
+            },
+            "protect32": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.84,
+                  "gain": 1.85,
+                  "margin": 0.0045,
+                  "max_up": 0.055,
+                  "max_down": 0.07
+                },
+                "recovery": {
+                  "start": 9.453999999999999,
+                  "end": 9.973999999999998,
+                  "cap": 0.567
+                }
+              }
+            },
+            "boost0": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.56,
+                  "gain": 2.6,
+                  "margin": 0.007,
+                  "max_up": 0.06,
+                  "max_down": 0.07
+                }
+              },
+              "exit_catch": {
+                "interval": [
+                  8.29,
+                  9.7
+                ],
+                "pose": [
+                  -0.106428952015077,
+                  0.01568371562213411,
+                  0.1084327945607911,
+                  0.1629570132536681
+                ],
+                "threshold": 0.158,
+                "tilt_gain": 2.0,
+                "grade_ff": 0.0
+              }
+            },
+            "boost1": {
+              "speed_profile": {
+                "slow": 0.405,
+                "fast": 0.55,
+                "transition_m": 0.3,
+                "kp": 1.2,
+                "ki": 0.14,
+                "launch_command": 0.3451585337009181,
+                "launch_until_m": 0.23942354842862534,
+                "launch_blend_m": 0.2731040111460666,
+                "slow_target": 0.078,
+                "fast_target": 0.128,
+                "zones": {
+                  "0": {
+                    "slow": 0.397,
+                    "slow_target": 0.077
+                  },
+                  "1": {
+                    "slow": 0.392,
+                    "slow_target": 0.0745
+                  }
+                },
+                "approach_command": 0.36,
+                "approach_span_m": 0.44,
+                "window_clock": {
+                  "begin": 8.56,
+                  "gain": 2.6,
+                  "margin": 0.007,
+                  "max_up": 0.06,
+                  "max_down": 0.07
+                }
+              },
+              "exit_catch": {
+                "interval": [
+                  8.29,
+                  9.7
+                ],
+                "pose": [
+                  -0.21618380878062518,
+                  0.03185754735745991,
+                  0.2202541139516069,
+                  0.33100643317151335
+                ],
+                "threshold": 0.158,
+                "tilt_gain": 2.0,
+                "grade_ff": 0.0
+              }
+            }
+          },
+          "gates": [
+            {
+              "x": 1.63,
+              "choices": [
+                "first46",
+                "first49",
+                "first52"
+              ],
+              "horizon_s": 3.0,
+              "safe_cost": 0.24
+            },
+            {
+              "x": 1.86,
+              "choices": [
+                "first46",
+                "first52"
+              ],
+              "horizon_s": 2.35,
+              "safe_cost": 0.24
+            },
+            {
+              "x": 6.91,
+              "choices": [
+                "c02",
+                "c07",
+                "c11"
+              ],
+              "horizon_s": 2.35,
+              "safe_cost": 0.24
+            },
+            {
+              "x": 7.09,
+              "choices": [
+                "c02",
+                "c07",
+                "c11"
+              ],
+              "horizon_s": 2.15,
+              "safe_cost": 0.24
+            },
+            {
+              "x": 7.28,
+              "choices": [
+                "c02",
+                "c07",
+                "c11"
+              ],
+              "horizon_s": 1.95,
+              "safe_cost": 0.3
+            },
+            {
+              "x": 7.74,
+              "choices": [
+                "e01",
+                "e15",
+                "e49",
+                "e04"
+              ],
+              "horizon_s": 4.0,
+              "safe_cost": 0.22,
+              "schedule_cost": 1.5,
+              "schedule_target": 0.102,
+              "catchup_limit": 0.125,
+              "speed_cost": 4.0,
+              "min_v": 0.095
+            },
+            {
+              "x": 7.88,
+              "choices": [
+                "e01",
+                "e13",
+                "e09",
+                "e15"
+              ],
+              "horizon_s": 4.0,
+              "safe_cost": 0.22,
+              "schedule_cost": 1.5,
+              "schedule_target": 0.102,
+              "catchup_limit": 0.125,
+              "speed_cost": 4.0,
+              "min_v": 0.095
+            },
+            {
+              "x": 7.96,
+              "choices": [
+                "e01",
+                "e15",
+                "e49",
+                "e04"
+              ],
+              "horizon_s": 3.3,
+              "min_v": 0.102,
+              "schedule_cost": 1.5,
+              "schedule_target": 0.102,
+              "catchup_limit": 0.123,
+              "safe_cost": 0.22,
+              "speed_cost": 3.0
+            },
+            {
+              "x": 8.06,
+              "choices": [
+                "e01",
+                "e04",
+                "e15",
+                "e09"
+              ],
+              "horizon_s": 4.0,
+              "safe_cost": 0.22,
+              "schedule_cost": 1.5,
+              "schedule_target": 0.102,
+              "catchup_limit": 0.125,
+              "speed_cost": 4.0,
+              "min_v": 0.095
+            },
+            {
+              "x": 8.33,
+              "choices": [
+                "e01soft",
+                "e15soft",
+                "e04soft",
+                "boost0",
+                "boost1"
+              ],
+              "horizon_s": 2.75,
+              "safe_cost": 0.28,
+              "schedule_cost": 2.2,
+              "schedule_target": 0.101,
+              "catchup_limit": 0.127,
+              "min_v": 0.116
+            },
+            {
+              "x": 8.4,
+              "choices": [
+                "protect00",
+                "protect01",
+                "protect02",
+                "boost0",
+                "boost1"
+              ],
+              "horizon_s": 2.0,
+              "safe_cost": 0.28,
+              "min_gain": 0.022,
+              "min_v": 0.116,
+              "schedule_cost": 2.2,
+              "schedule_target": 0.101,
+              "catchup_limit": 0.127
+            },
+            {
+              "x": 8.62,
+              "choices": [
+                "protect10",
+                "protect11",
+                "protect12",
+                "boost0",
+                "boost1"
+              ],
+              "horizon_s": 2.0,
+              "safe_cost": 0.28,
+              "min_gain": 0.022,
+              "min_v": 0.116,
+              "schedule_cost": 2.2,
+              "schedule_target": 0.101,
+              "catchup_limit": 0.127
+            },
+            {
+              "x": 8.82,
+              "choices": [
+                "protect20",
+                "protect21",
+                "protect22",
+                "boost0",
+                "boost1"
+              ],
+              "horizon_s": 2.0,
+              "safe_cost": 0.28,
+              "min_gain": 0.022,
+              "min_v": 0.116,
+              "schedule_cost": 2.2,
+              "schedule_target": 0.101,
+              "catchup_limit": 0.127
+            },
+            {
+              "x": 9.03,
+              "choices": [
+                "protect30",
+                "protect31",
+                "protect32",
+                "boost0",
+                "boost1"
+              ],
+              "horizon_s": 2.0,
+              "safe_cost": 0.28,
+              "min_gain": 0.022,
+              "min_v": 0.116,
+              "schedule_cost": 2.2,
+              "schedule_target": 0.101,
+              "catchup_limit": 0.127
+            }
+          ],
+          "camera_belief": true
+        }
+      },
+      "fast_first": {
+        "route_params": {
+          "fast_approach": [
+            [
+              5.8,
+              0.45,
+              0.38,
+              0.025
+            ]
+          ]
+        }
+      }
+    },
+    "skill_planner": {
+      "skills": {
+        "e01": {
+          "velocity_catch": {
+            "interval": [
+              7.576273007514187,
+              8.277065296004052
+            ],
+            "pose": [
+              -0.17060908895711063,
+              0.15768797463529166,
+              0.1820687464199358,
+              0.04079080664957903
+            ],
+            "threshold": 0.10938581071314483,
+            "tilt_gain": 1.0455029604601027,
+            "grade_ff": 0.4735539801723958
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.172390306685948,
+            "cmd": 0.543777701577461,
+            "ramp": 0.14,
+            "exit_cmd": 0.5577270762068733,
+            "boost_end": 8.11101246125805,
+            "switch_x": 7.896071648292951
+          }
+        },
+        "e15": {
+          "velocity_catch": {
+            "interval": [
+              7.565813446063627,
+              8.313014712372084
+            ],
+            "pose": [
+              -0.21181250350989536,
+              0.20669786915235924,
+              0.31758584398839096,
+              0.03535416705492772
+            ],
+            "threshold": 0.13432164222725718,
+            "tilt_gain": 0.5694495197374219,
+            "grade_ff": 0.27362004886057123
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.14204428769855,
+            "cmd": 0.5110609851883557,
+            "ramp": 0.14,
+            "exit_cmd": 0.5584379780426171,
+            "boost_end": 8.195032800469084,
+            "switch_x": 7.95327632341792
+          }
+        },
+        "e49": {
+          "velocity_catch": {
+            "interval": [
+              7.482387677820682,
+              8.280372172317522
+            ],
+            "pose": [
+              -0.2899664339333186,
+              0.013794593615344075,
+              0.1446968240358273,
+              0.25535814788524597
+            ],
+            "threshold": 0.10356884071367978,
+            "tilt_gain": 1.5172399036083442,
+            "grade_ff": 0.385520779056243
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.091898510283308,
+            "cmd": 0.5391469671658171,
+            "ramp": 0.14,
+            "exit_cmd": 0.6063558875306596,
+            "boost_end": 8.178627710335592,
+            "switch_x": 7.937974897525894
+          }
+        },
+        "e13": {
+          "velocity_catch": {
+            "interval": [
+              7.518574938474513,
+              8.400749560300962
+            ],
+            "pose": [
+              -0.18899457076154422,
+              0.21741198920236232,
+              0.33668355400405325,
+              -0.114957986830627
+            ],
+            "threshold": 0.10584836760569996,
+            "tilt_gain": 1.3865550576532581,
+            "grade_ff": 0.42422470039088006
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.233638389544202,
+            "cmd": 0.5250645353728122,
+            "ramp": 0.14,
+            "exit_cmd": 0.5110180708449114,
+            "boost_end": 8.127298518606331,
+            "switch_x": 7.836071152027837
+          }
+        },
+        "e04": {
+          "velocity_catch": {
+            "interval": [
+              7.623509433322936,
+              8.276754691999697
+            ],
+            "pose": [
+              -0.2980585104648928,
+              0.07360753027666568,
+              0.22766086124427204,
+              0.37335771506305604
+            ],
+            "threshold": 0.13398822091212828,
+            "tilt_gain": 3.214941376671711,
+            "grade_ff": 0.0
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.201741226463731,
+            "cmd": 0.5026598466117689,
+            "ramp": 0.14,
+            "exit_cmd": 0.5844187675623829,
+            "boost_end": 8.142200488255328,
+            "switch_x": 7.9340511245451095
+          }
+        },
+        "e09": {
+          "velocity_catch": {
+            "interval": [
+              7.577712894346618,
+              8.452749428517848
+            ],
+            "pose": [
+              -0.4849740330606567,
+              0.18406073949479818,
+              0.20343908989748688,
+              0.11288820319961756
+            ],
+            "threshold": 0.1052683779275568,
+            "tilt_gain": 0.748791936442668,
+            "grade_ff": 0.3125079009865017
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.166917342661293,
+            "cmd": 0.5295834306158758,
+            "ramp": 0.14,
+            "exit_cmd": 0.5934642674668683,
+            "boost_end": 8.105430891188306,
+            "switch_x": 7.8756777005844105
+          }
+        },
+        "c02": {
+          "crest_catch": {
+            "interval": [
+              6.28,
+              7.42
+            ],
+            "pose": [
+              -0.20399489678452143,
+              0.17021722839040937,
+              0.23509436544246803,
+              -0.04452314850860842
+            ],
+            "threshold": 0.1449621336775881,
+            "tilt_gain": 1.573655187748055,
+            "grade_ff": 0.11885505661994955
+          }
+        },
+        "c07": {
+          "crest_catch": {
+            "interval": [
+              6.28,
+              7.42
+            ],
+            "pose": [
+              -0.07328892650578929,
+              -0.16238548470520475,
+              0.2729546350535348,
+              0.08796870338235692
+            ],
+            "threshold": 0.18200440367099058,
+            "tilt_gain": 1.3635595133450047,
+            "grade_ff": 0.2003530541510981
+          }
+        },
+        "c11": {
+          "crest_catch": {
+            "interval": [
+              6.28,
+              7.42
+            ],
+            "pose": [
+              -0.18174881674619503,
+              -0.35430657283437256,
+              0.15901973727360386,
+              -0.04633976910364027
+            ],
+            "threshold": 0.16087226719803352,
+            "tilt_gain": 1.3635595133450047,
+            "grade_ff": 0.20582171514342495
+          }
+        },
+        "first46": {
+          "route_params": {
+            "feature_cap": [
+              [
+                1.77,
+                0.14,
+                0.26,
+                0.46
+              ]
+            ]
+          }
+        },
+        "first49": {
+          "route_params": {
+            "feature_cap": [
+              [
+                1.77,
+                0.14,
+                0.26,
+                0.49
+              ]
+            ]
+          }
+        },
+        "first52": {
+          "route_params": {
+            "feature_cap": [
+              [
+                1.77,
+                0.14,
+                0.26,
+                0.52
+              ]
+            ]
+          }
+        },
+        "e01soft": {
+          "velocity_catch": {
+            "interval": [
+              7.576273007514187,
+              8.277065296004052
+            ],
+            "pose": [
+              -0.17060908895711063,
+              0.15768797463529166,
+              0.1820687464199358,
+              0.04079080664957903
+            ],
+            "threshold": 0.10938581071314483,
+            "tilt_gain": 1.0455029604601027,
+            "grade_ff": 0.4735539801723958
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.172390306685948,
+            "cmd": 0.543777701577461,
+            "ramp": 0.14,
+            "exit_cmd": 0.5577270762068733,
+            "boost_end": 8.11101246125805,
+            "switch_x": 7.896071648292951
+          },
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "3": {
+                "fast": 0.535,
+                "fast_target": 0.122
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            }
+          }
+        },
+        "e15soft": {
+          "velocity_catch": {
+            "interval": [
+              7.565813446063627,
+              8.313014712372084
+            ],
+            "pose": [
+              -0.21181250350989536,
+              0.20669786915235924,
+              0.31758584398839096,
+              0.03535416705492772
+            ],
+            "threshold": 0.13432164222725718,
+            "tilt_gain": 0.5694495197374219,
+            "grade_ff": 0.27362004886057123
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.14204428769855,
+            "cmd": 0.5110609851883557,
+            "ramp": 0.14,
+            "exit_cmd": 0.5584379780426171,
+            "boost_end": 8.195032800469084,
+            "switch_x": 7.95327632341792
+          },
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "3": {
+                "fast": 0.535,
+                "fast_target": 0.122
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            }
+          }
+        },
+        "e04soft": {
+          "velocity_catch": {
+            "interval": [
+              7.623509433322936,
+              8.276754691999697
+            ],
+            "pose": [
+              -0.2980585104648928,
+              0.07360753027666568,
+              0.22766086124427204,
+              0.37335771506305604
+            ],
+            "threshold": 0.13398822091212828,
+            "tilt_gain": 3.214941376671711,
+            "grade_ff": 0.0
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.201741226463731,
+            "cmd": 0.5026598466117689,
+            "ramp": 0.14,
+            "exit_cmd": 0.5844187675623829,
+            "boost_end": 8.142200488255328,
+            "switch_x": 7.9340511245451095
+          },
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "3": {
+                "fast": 0.535,
+                "fast_target": 0.122
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            }
+          }
+        },
+        "e49soft": {
+          "velocity_catch": {
+            "interval": [
+              7.482387677820682,
+              8.280372172317522
+            ],
+            "pose": [
+              -0.2899664339333186,
+              0.013794593615344075,
+              0.1446968240358273,
+              0.25535814788524597
+            ],
+            "threshold": 0.10356884071367978,
+            "tilt_gain": 1.5172399036083442,
+            "grade_ff": 0.385520779056243
+          },
+          "pit_speed": {
+            "start": 7.42,
+            "end": 8.091898510283308,
+            "cmd": 0.5391469671658171,
+            "ramp": 0.14,
+            "exit_cmd": 0.6063558875306596,
+            "boost_end": 8.178627710335592,
+            "switch_x": 7.937974897525894
+          },
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "3": {
+                "fast": 0.535,
+                "fast_target": 0.122
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            }
+          }
+        },
+        "vxschool": {
+          "route_params": {
+            "measured_cruise": {
+              "start": 7.58,
+              "end": 8.12,
+              "nominal": 0.465,
+              "fade": 0.12,
+              "target": 0.06,
+              "kp": 2.3,
+              "filter_s": 0.15
+            }
+          }
+        },
+        "protect00": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 8.824,
+              "end": 9.344,
+              "cap": 0.48
+            }
+          }
+        },
+        "protect01": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 8.824,
+              "end": 9.344,
+              "cap": 0.535
+            }
+          }
+        },
+        "protect02": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 8.824,
+              "end": 9.344,
+              "cap": 0.567
+            }
+          }
+        },
+        "protect10": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.043999999999999,
+              "end": 9.563999999999998,
+              "cap": 0.48
+            }
+          }
+        },
+        "protect11": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.043999999999999,
+              "end": 9.563999999999998,
+              "cap": 0.535
+            }
+          }
+        },
+        "protect12": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.043999999999999,
+              "end": 9.563999999999998,
+              "cap": 0.567
+            }
+          }
+        },
+        "protect20": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.244,
+              "end": 9.764,
+              "cap": 0.48
+            }
+          }
+        },
+        "protect21": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.244,
+              "end": 9.764,
+              "cap": 0.535
+            }
+          }
+        },
+        "protect22": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.244,
+              "end": 9.764,
+              "cap": 0.567
+            }
+          }
+        },
+        "protect30": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.453999999999999,
+              "end": 9.973999999999998,
+              "cap": 0.48
+            }
+          }
+        },
+        "protect31": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.453999999999999,
+              "end": 9.973999999999998,
+              "cap": 0.535
+            }
+          }
+        },
+        "protect32": {
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.397,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.392,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44,
+            "window_clock": {
+              "begin": 8.84,
+              "gain": 1.85,
+              "margin": 0.0045,
+              "max_up": 0.055,
+              "max_down": 0.07
+            },
+            "recovery": {
+              "start": 9.453999999999999,
+              "end": 9.973999999999998,
+              "cap": 0.567
+            }
+          }
+        }
+      },
+      "gates": [
+        {
+          "x": 1.63,
+          "choices": [
+            "first46",
+            "first49",
+            "first52"
+          ],
+          "horizon_s": 3.0,
+          "safe_cost": 0.24
+        },
+        {
+          "x": 1.86,
+          "choices": [
+            "first46",
+            "first52"
+          ],
+          "horizon_s": 2.35,
+          "safe_cost": 0.24
+        },
+        {
+          "x": 6.91,
+          "choices": [
+            "c02",
+            "c07",
+            "c11"
+          ],
+          "horizon_s": 2.35,
+          "safe_cost": 0.24
+        },
+        {
+          "x": 7.09,
+          "choices": [
+            "c02",
+            "c07",
+            "c11"
+          ],
+          "horizon_s": 2.15,
+          "safe_cost": 0.24
+        },
+        {
+          "x": 7.28,
+          "choices": [
+            "c02",
+            "c07",
+            "c11"
+          ],
+          "horizon_s": 1.95,
+          "safe_cost": 0.3
+        },
+        {
+          "x": 7.74,
+          "choices": [
+            "e01",
+            "e15",
+            "e49",
+            "e04",
+            "vxschool"
+          ],
+          "horizon_s": 2.45,
+          "safe_cost": 0.24
+        },
+        {
+          "x": 7.88,
+          "choices": [
+            "e01",
+            "e13",
+            "e09",
+            "e15",
+            "vxschool"
+          ],
+          "horizon_s": 2.05,
+          "safe_cost": 0.24
+        },
+        {
+          "x": 8.06,
+          "choices": [
+            "e01",
+            "e04",
+            "e15",
+            "e09"
+          ],
+          "horizon_s": 2.05,
+          "safe_cost": 0.24
+        },
+        {
+          "x": 8.33,
+          "choices": [
+            "e01soft",
+            "e15soft",
+            "e04soft"
+          ],
+          "horizon_s": 2.75,
+          "safe_cost": 0.24
+        },
+        {
+          "x": 8.4,
+          "choices": [
+            "protect00",
+            "protect01",
+            "protect02"
+          ],
+          "horizon_s": 2.0,
+          "safe_cost": 0.32,
+          "min_gain": 0.022,
+          "min_v": 0.115,
+          "schedule_cost": 0.8
+        },
+        {
+          "x": 8.62,
+          "choices": [
+            "protect10",
+            "protect11",
+            "protect12"
+          ],
+          "horizon_s": 2.0,
+          "safe_cost": 0.32,
+          "min_gain": 0.022,
+          "min_v": 0.115,
+          "schedule_cost": 0.8
+        },
+        {
+          "x": 8.82,
+          "choices": [
+            "protect20",
+            "protect21",
+            "protect22"
+          ],
+          "horizon_s": 2.0,
+          "safe_cost": 0.32,
+          "min_gain": 0.022,
+          "min_v": 0.115,
+          "schedule_cost": 0.8
+        },
+        {
+          "x": 9.03,
+          "choices": [
+            "protect30",
+            "protect31",
+            "protect32"
+          ],
+          "horizon_s": 2.0,
+          "safe_cost": 0.32,
+          "min_gain": 0.022,
+          "min_v": 0.115,
+          "schedule_cost": 0.8
+        }
+      ],
+      "camera_belief": true
+    },
+    "observer_id": true,
+    "plant_id": {
+      "max_samples": 14,
+      "sample_period_s": 0.16,
+      "linear_steps": [
+        0.28,
+        0.14
+      ]
+    },
+    "latency_profiles": [
+      {
+        "order": "fast_first",
+        "min_act_ms": 40,
+        "min_obs_ms": 20,
+        "overrides": {
+          "route_params": {
+            "fast_approach": [
+              [
+                5.8,
+                0.45,
+                0.38,
+                0.025
+              ]
+            ],
+            "measured_cruise": {
+              "start": 7.58,
+              "end": 8.12,
+              "nominal": 0.465,
+              "fade": 0.12,
+              "target": 0.06,
+              "kp": 2.3,
+              "filter_s": 0.15
+            }
+          },
+          "skill_planner": {
+            "skills": {
+              "e01": {
+                "velocity_catch": {
+                  "interval": [
+                    7.576273007514187,
+                    8.277065296004052
+                  ],
+                  "pose": [
+                    -0.17060908895711063,
+                    0.15768797463529166,
+                    0.1820687464199358,
+                    0.04079080664957903
+                  ],
+                  "threshold": 0.10938581071314483,
+                  "tilt_gain": 1.0455029604601027,
+                  "grade_ff": 0.4735539801723958
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.172390306685948,
+                  "cmd": 0.543777701577461,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.5577270762068733,
+                  "boost_end": 8.11101246125805,
+                  "switch_x": 7.896071648292951
+                }
+              },
+              "e15": {
+                "velocity_catch": {
+                  "interval": [
+                    7.565813446063627,
+                    8.313014712372084
+                  ],
+                  "pose": [
+                    -0.21181250350989536,
+                    0.20669786915235924,
+                    0.31758584398839096,
+                    0.03535416705492772
+                  ],
+                  "threshold": 0.13432164222725718,
+                  "tilt_gain": 0.5694495197374219,
+                  "grade_ff": 0.27362004886057123
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.14204428769855,
+                  "cmd": 0.5110609851883557,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.5584379780426171,
+                  "boost_end": 8.195032800469084,
+                  "switch_x": 7.95327632341792
+                }
+              },
+              "e49": {
+                "velocity_catch": {
+                  "interval": [
+                    7.482387677820682,
+                    8.280372172317522
+                  ],
+                  "pose": [
+                    -0.2899664339333186,
+                    0.013794593615344075,
+                    0.1446968240358273,
+                    0.25535814788524597
+                  ],
+                  "threshold": 0.10356884071367978,
+                  "tilt_gain": 1.5172399036083442,
+                  "grade_ff": 0.385520779056243
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.091898510283308,
+                  "cmd": 0.5391469671658171,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.6063558875306596,
+                  "boost_end": 8.178627710335592,
+                  "switch_x": 7.937974897525894
+                }
+              },
+              "e13": {
+                "velocity_catch": {
+                  "interval": [
+                    7.518574938474513,
+                    8.400749560300962
+                  ],
+                  "pose": [
+                    -0.18899457076154422,
+                    0.21741198920236232,
+                    0.33668355400405325,
+                    -0.114957986830627
+                  ],
+                  "threshold": 0.10584836760569996,
+                  "tilt_gain": 1.3865550576532581,
+                  "grade_ff": 0.42422470039088006
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.233638389544202,
+                  "cmd": 0.5250645353728122,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.5110180708449114,
+                  "boost_end": 8.127298518606331,
+                  "switch_x": 7.836071152027837
+                }
+              },
+              "e04": {
+                "velocity_catch": {
+                  "interval": [
+                    7.623509433322936,
+                    8.276754691999697
+                  ],
+                  "pose": [
+                    -0.2980585104648928,
+                    0.07360753027666568,
+                    0.22766086124427204,
+                    0.37335771506305604
+                  ],
+                  "threshold": 0.13398822091212828,
+                  "tilt_gain": 3.214941376671711,
+                  "grade_ff": 0.0
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.201741226463731,
+                  "cmd": 0.5026598466117689,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.5844187675623829,
+                  "boost_end": 8.142200488255328,
+                  "switch_x": 7.9340511245451095
+                }
+              },
+              "e09": {
+                "velocity_catch": {
+                  "interval": [
+                    7.577712894346618,
+                    8.452749428517848
+                  ],
+                  "pose": [
+                    -0.4849740330606567,
+                    0.18406073949479818,
+                    0.20343908989748688,
+                    0.11288820319961756
+                  ],
+                  "threshold": 0.1052683779275568,
+                  "tilt_gain": 0.748791936442668,
+                  "grade_ff": 0.3125079009865017
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.166917342661293,
+                  "cmd": 0.5295834306158758,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.5934642674668683,
+                  "boost_end": 8.105430891188306,
+                  "switch_x": 7.8756777005844105
+                }
+              },
+              "c02": {
+                "crest_catch": {
+                  "interval": [
+                    6.28,
+                    7.42
+                  ],
+                  "pose": [
+                    -0.20399489678452143,
+                    0.17021722839040937,
+                    0.23509436544246803,
+                    -0.04452314850860842
+                  ],
+                  "threshold": 0.1449621336775881,
+                  "tilt_gain": 1.573655187748055,
+                  "grade_ff": 0.11885505661994955
+                }
+              },
+              "c07": {
+                "crest_catch": {
+                  "interval": [
+                    6.28,
+                    7.42
+                  ],
+                  "pose": [
+                    -0.07328892650578929,
+                    -0.16238548470520475,
+                    0.2729546350535348,
+                    0.08796870338235692
+                  ],
+                  "threshold": 0.18200440367099058,
+                  "tilt_gain": 1.3635595133450047,
+                  "grade_ff": 0.2003530541510981
+                }
+              },
+              "c11": {
+                "crest_catch": {
+                  "interval": [
+                    6.28,
+                    7.42
+                  ],
+                  "pose": [
+                    -0.18174881674619503,
+                    -0.35430657283437256,
+                    0.15901973727360386,
+                    -0.04633976910364027
+                  ],
+                  "threshold": 0.16087226719803352,
+                  "tilt_gain": 1.3635595133450047,
+                  "grade_ff": 0.20582171514342495
+                }
+              },
+              "first46": {
+                "route_params": {
+                  "feature_cap": [
+                    [
+                      1.77,
+                      0.14,
+                      0.26,
+                      0.46
+                    ]
+                  ]
+                }
+              },
+              "first49": {
+                "route_params": {
+                  "feature_cap": [
+                    [
+                      1.77,
+                      0.14,
+                      0.26,
+                      0.49
+                    ]
+                  ]
+                }
+              },
+              "first52": {
+                "route_params": {
+                  "feature_cap": [
+                    [
+                      1.77,
+                      0.14,
+                      0.26,
+                      0.52
+                    ]
+                  ]
+                }
+              },
+              "e01soft": {
+                "velocity_catch": {
+                  "interval": [
+                    7.576273007514187,
+                    8.277065296004052
+                  ],
+                  "pose": [
+                    -0.17060908895711063,
+                    0.15768797463529166,
+                    0.1820687464199358,
+                    0.04079080664957903
+                  ],
+                  "threshold": 0.10938581071314483,
+                  "tilt_gain": 1.0455029604601027,
+                  "grade_ff": 0.4735539801723958
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.172390306685948,
+                  "cmd": 0.543777701577461,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.5577270762068733,
+                  "boost_end": 8.11101246125805,
+                  "switch_x": 7.896071648292951
+                },
+                "speed_profile": {
+                  "slow": 0.405,
+                  "fast": 0.55,
+                  "transition_m": 0.3,
+                  "kp": 1.2,
+                  "ki": 0.14,
+                  "launch_command": 0.3451585337009181,
+                  "launch_until_m": 0.23942354842862534,
+                  "launch_blend_m": 0.2731040111460666,
+                  "slow_target": 0.078,
+                  "fast_target": 0.128,
+                  "zones": {
+                    "3": {
+                      "fast": 0.535,
+                      "fast_target": 0.122
+                    }
+                  },
+                  "approach_command": 0.36,
+                  "approach_span_m": 0.44
+                }
+              },
+              "e15soft": {
+                "velocity_catch": {
+                  "interval": [
+                    7.565813446063627,
+                    8.313014712372084
+                  ],
+                  "pose": [
+                    -0.21181250350989536,
+                    0.20669786915235924,
+                    0.31758584398839096,
+                    0.03535416705492772
+                  ],
+                  "threshold": 0.13432164222725718,
+                  "tilt_gain": 0.5694495197374219,
+                  "grade_ff": 0.27362004886057123
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.14204428769855,
+                  "cmd": 0.5110609851883557,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.5584379780426171,
+                  "boost_end": 8.195032800469084,
+                  "switch_x": 7.95327632341792
+                },
+                "speed_profile": {
+                  "slow": 0.405,
+                  "fast": 0.55,
+                  "transition_m": 0.3,
+                  "kp": 1.2,
+                  "ki": 0.14,
+                  "launch_command": 0.3451585337009181,
+                  "launch_until_m": 0.23942354842862534,
+                  "launch_blend_m": 0.2731040111460666,
+                  "slow_target": 0.078,
+                  "fast_target": 0.128,
+                  "zones": {
+                    "3": {
+                      "fast": 0.535,
+                      "fast_target": 0.122
+                    }
+                  },
+                  "approach_command": 0.36,
+                  "approach_span_m": 0.44
+                }
+              },
+              "e04soft": {
+                "velocity_catch": {
+                  "interval": [
+                    7.623509433322936,
+                    8.276754691999697
+                  ],
+                  "pose": [
+                    -0.2980585104648928,
+                    0.07360753027666568,
+                    0.22766086124427204,
+                    0.37335771506305604
+                  ],
+                  "threshold": 0.13398822091212828,
+                  "tilt_gain": 3.214941376671711,
+                  "grade_ff": 0.0
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.201741226463731,
+                  "cmd": 0.5026598466117689,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.5844187675623829,
+                  "boost_end": 8.142200488255328,
+                  "switch_x": 7.9340511245451095
+                },
+                "speed_profile": {
+                  "slow": 0.405,
+                  "fast": 0.55,
+                  "transition_m": 0.3,
+                  "kp": 1.2,
+                  "ki": 0.14,
+                  "launch_command": 0.3451585337009181,
+                  "launch_until_m": 0.23942354842862534,
+                  "launch_blend_m": 0.2731040111460666,
+                  "slow_target": 0.078,
+                  "fast_target": 0.128,
+                  "zones": {
+                    "3": {
+                      "fast": 0.535,
+                      "fast_target": 0.122
+                    }
+                  },
+                  "approach_command": 0.36,
+                  "approach_span_m": 0.44
+                }
+              },
+              "e49soft": {
+                "velocity_catch": {
+                  "interval": [
+                    7.482387677820682,
+                    8.280372172317522
+                  ],
+                  "pose": [
+                    -0.2899664339333186,
+                    0.013794593615344075,
+                    0.1446968240358273,
+                    0.25535814788524597
+                  ],
+                  "threshold": 0.10356884071367978,
+                  "tilt_gain": 1.5172399036083442,
+                  "grade_ff": 0.385520779056243
+                },
+                "pit_speed": {
+                  "start": 7.42,
+                  "end": 8.091898510283308,
+                  "cmd": 0.5391469671658171,
+                  "ramp": 0.14,
+                  "exit_cmd": 0.6063558875306596,
+                  "boost_end": 8.178627710335592,
+                  "switch_x": 7.937974897525894
+                },
+                "speed_profile": {
+                  "slow": 0.405,
+                  "fast": 0.55,
+                  "transition_m": 0.3,
+                  "kp": 1.2,
+                  "ki": 0.14,
+                  "launch_command": 0.3451585337009181,
+                  "launch_until_m": 0.23942354842862534,
+                  "launch_blend_m": 0.2731040111460666,
+                  "slow_target": 0.078,
+                  "fast_target": 0.128,
+                  "zones": {
+                    "3": {
+                      "fast": 0.535,
+                      "fast_target": 0.122
+                    }
+                  },
+                  "approach_command": 0.36,
+                  "approach_span_m": 0.44
+                }
+              },
+              "pit46-0": {
+                "route_params": {
+                  "feature_cap": [
+                    [
+                      7.83,
+                      0.12,
+                      0.09,
+                      0.46
+                    ]
+                  ]
+                }
+              },
+              "pit46-1": {
+                "route_params": {
+                  "feature_cap": [
+                    [
+                      7.9,
+                      0.23,
+                      0.13,
+                      0.46
+                    ]
+                  ]
+                }
+              }
+            },
+            "gates": [
+              {
+                "x": 1.63,
+                "choices": [
+                  "first46",
+                  "first49",
+                  "first52"
+                ],
+                "horizon_s": 3.0,
+                "safe_cost": 0.24
+              },
+              {
+                "x": 1.86,
+                "choices": [
+                  "first46",
+                  "first52"
+                ],
+                "horizon_s": 2.35,
+                "safe_cost": 0.24
+              },
+              {
+                "x": 6.91,
+                "choices": [
+                  "c02",
+                  "c07",
+                  "c11"
+                ],
+                "horizon_s": 2.35,
+                "safe_cost": 0.24
+              },
+              {
+                "x": 7.09,
+                "choices": [
+                  "c02",
+                  "c07",
+                  "c11"
+                ],
+                "horizon_s": 2.15,
+                "safe_cost": 0.24
+              },
+              {
+                "x": 7.28,
+                "choices": [
+                  "c02",
+                  "c07",
+                  "c11"
+                ],
+                "horizon_s": 1.95,
+                "safe_cost": 0.3
+              },
+              {
+                "x": 7.74,
+                "choices": [
+                  "e01",
+                  "e15",
+                  "e49",
+                  "e04",
+                  "pit46-0",
+                  "pit46-1"
+                ],
+                "horizon_s": 2.45,
+                "safe_cost": 0.24
+              },
+              {
+                "x": 7.88,
+                "choices": [
+                  "e01",
+                  "e13",
+                  "e09",
+                  "e15",
+                  "pit46-0",
+                  "pit46-1"
+                ],
+                "horizon_s": 2.05,
+                "safe_cost": 0.24
+              },
+              {
+                "x": 8.06,
+                "choices": [
+                  "e01",
+                  "e04",
+                  "e15",
+                  "e09"
+                ],
+                "horizon_s": 2.05,
+                "safe_cost": 0.24
+              },
+              {
+                "x": 8.33,
+                "choices": [
+                  "e01soft",
+                  "e15soft",
+                  "e04soft"
+                ],
+                "horizon_s": 2.75,
+                "safe_cost": 0.24
+              }
+            ]
+          },
+          "speed_profile": {
+            "slow": 0.405,
+            "fast": 0.55,
+            "transition_m": 0.3,
+            "kp": 1.2,
+            "ki": 0.14,
+            "launch_command": 0.3451585337009181,
+            "launch_until_m": 0.23942354842862534,
+            "launch_blend_m": 0.2731040111460666,
+            "slow_target": 0.078,
+            "fast_target": 0.128,
+            "zones": {
+              "0": {
+                "slow": 0.395,
+                "slow_target": 0.077
+              },
+              "1": {
+                "slow": 0.389,
+                "slow_target": 0.0745
+              }
+            },
+            "approach_command": 0.36,
+            "approach_span_m": 0.44
+          }
+        }
+      }
+    ],
+    "dock_steer": {
+      "start_s": 9.35,
+      "margin": 0.035,
+      "gain": 2.5,
+      "gate": 0.08
+    },
+    "ball_count": 2,
+    "ball_diameter_mm": 16,
+    "route_params": {
+      "fast_approach": [
+        [
+          5.8,
+          0.45,
+          0.38,
+          0.025
+        ]
+      ]
+    }
+  },
+  "terrain": true,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "track": "combined",
+  "track_origin_x_m": 0.0027743364716040653,
+  "valid_peak_m": 1.4441667279127686,
+  "both_peak_m": 1.4441667279127686,
+  "last_both_m": 1.4441667279127686,
+  "slope_progress_m": 0.4269410643843725,
+  "flat_1m": true,
+  "slope_1m": false,
+  "finish_2p5": false,
+  "gates": {
+    "flat_1m": {
+      "t": 9.64,
+      "progress_m": 1.00109014956402,
+      "x_m": 1.003864486035624,
+      "both_contact": true,
+      "radii_mm": [
+        6.133636122562412,
+        17.700920816633452
+      ]
+    }
+  }
+}

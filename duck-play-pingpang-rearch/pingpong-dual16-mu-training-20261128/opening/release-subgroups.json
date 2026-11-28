@@ -1,0 +1,112 @@
+{
+  "historical_cutoffs_mm_s": [
+    -33.22579636048211,
+    -0.024163073268005684,
+    36.91722297052689
+  ],
+  "rows": {
+    "high": [
+      {
+        "group": 0,
+        "n": 39,
+        "base_both2": 15,
+        "trained_both2": 25,
+        "base_mean": 0.11168120629763366,
+        "trained_mean": 0.12333622939640378
+      },
+      {
+        "group": 1,
+        "n": 40,
+        "base_both2": 11,
+        "trained_both2": 19,
+        "base_mean": 0.09525725489042369,
+        "trained_mean": 0.0978963914360704
+      },
+      {
+        "group": 2,
+        "n": 47,
+        "base_both2": 1,
+        "trained_both2": 5,
+        "base_mean": 0.029987736027735412,
+        "trained_mean": 0.038394659632482626
+      },
+      {
+        "group": 3,
+        "n": 34,
+        "base_both2": 0,
+        "trained_both2": 0,
+        "base_mean": 0.011621506164660634,
+        "trained_mean": 0.009342203215657745
+      }
+    ],
+    "wide": [
+      {
+        "group": 0,
+        "n": 39,
+        "base_both2": 13,
+        "trained_both2": 25,
+        "base_mean": 0.10766287861229135,
+        "trained_mean": 0.1223663094374529
+      },
+      {
+        "group": 1,
+        "n": 40,
+        "base_both2": 10,
+        "trained_both2": 20,
+        "base_mean": 0.09349123901474161,
+        "trained_mean": 0.0977135628642489
+      },
+      {
+        "group": 2,
+        "n": 47,
+        "base_both2": 2,
+        "trained_both2": 5,
+        "base_mean": 0.030522102464804617,
+        "trained_mean": 0.04019062490471327
+      },
+      {
+        "group": 3,
+        "n": 34,
+        "base_both2": 0,
+        "trained_both2": 0,
+        "base_mean": 0.011522003208233772,
+        "trained_mean": 0.009650977942203258
+      }
+    ],
+    "nominal": [
+      {
+        "group": 0,
+        "n": 39,
+        "base_both2": 15,
+        "trained_both2": 24,
+        "base_mean": 0.11673824432257554,
+        "trained_mean": 0.13372635685074788
+      },
+      {
+        "group": 1,
+        "n": 40,
+        "base_both2": 11,
+        "trained_both2": 21,
+        "base_mean": 0.08689334712564376,
+        "trained_mean": 0.09260090040878799
+      },
+      {
+        "group": 2,
+        "n": 47,
+        "base_both2": 2,
+        "trained_both2": 6,
+        "base_mean": 0.0311245213762773,
+        "trained_mean": 0.0411919722042779
+      },
+      {
+        "group": 3,
+        "n": 34,
+        "base_both2": 0,
+        "trained_both2": 0,
+        "base_mean": 0.011623264573076822,
+        "trained_mean": 0.009565436866855103
+      }
+    ]
+  },
+  "definition": "fixed previous 768-start radial speed quartile cutoffs; true release used only for retrospective subgroup audit"
+}

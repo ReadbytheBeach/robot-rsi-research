@@ -1,0 +1,16 @@
+{
+  "selected": {
+    "name": "predict-3-0",
+    "distance": 1.0,
+    "risk": 0.056,
+    "lookahead": 0.14,
+    "orient": 0.0,
+    "launch_ticks": 4,
+    "refractory_ticks": 11
+  },
+  "range": [
+    17843000,
+    17843191
+  ],
+  "selection": "highest validation score among the vision-risk variants, locked before opening this blind comparison"
+}

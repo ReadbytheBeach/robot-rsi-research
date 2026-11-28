@@ -1,0 +1,22 @@
+{
+  "trace": "first-high-metre/trajectory.npz",
+  "sha256": "265d8a5b415d633f7a3362b286c73892034127803477608b8cbee1d90daa73d0",
+  "original_time_s": 8.98,
+  "frames": 450,
+  "rate": 50.0,
+  "track": "combined",
+  "fixed_grid": true,
+  "gates": {
+    "flat_1m": {
+      "t": 8.94,
+      "progress_m": 1.000241224903858,
+      "x_m": 1.0030155613754619,
+      "both_contact": true,
+      "radii_mm": [
+        40.22750730429248,
+        49.598329813433985
+      ]
+    }
+  },
+  "reason": "ball_edge_b"
+}

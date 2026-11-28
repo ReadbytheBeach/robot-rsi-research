@@ -1,0 +1,12 @@
+{
+  "chosen": {
+    "0.224": "phase_24",
+    "0.416": "phase_24"
+  },
+  "arms": [
+    "medium",
+    "phase_08",
+    "phase_24"
+  ],
+  "independent_n": 300
+}

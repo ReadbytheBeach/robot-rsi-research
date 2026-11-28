@@ -1,0 +1,257 @@
+{
+  "actions": [
+    null,
+    {
+      "amplitude_m": 0.003674446128558246,
+      "frequency_hz": 2.403474871680007,
+      "phase": -1.5202334433222684,
+      "stance_only": false,
+      "differential": 0.3978329548905696,
+      "early": true,
+      "pace": 0.03597003318665917,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.0035433093800522897,
+      "frequency_hz": 1.595477584337862,
+      "phase": 0.1250180547137254,
+      "stance_only": true,
+      "differential": -0.3326654344204075,
+      "early": false,
+      "pace": -0.18408039596834072,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.009321158032366763,
+      "frequency_hz": 2.5768265767433793,
+      "phase": 0.757524728782828,
+      "stance_only": true,
+      "differential": 0.16297523372429457,
+      "early": true,
+      "pace": 0.2158007423922659,
+      "follow": 0.8
+    },
+    {
+      "amplitude_m": 0.006153158547211039,
+      "frequency_hz": 1.6629310748017616,
+      "phase": 0.10641153087482547,
+      "stance_only": false,
+      "differential": 0.3432901843444881,
+      "early": false,
+      "pace": -0.09438249426245776,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.00981624573357318,
+      "frequency_hz": 2.1976787874703794,
+      "phase": 0.7662961867017781,
+      "stance_only": true,
+      "differential": 0.33446374271839796,
+      "early": true,
+      "pace": -0.1666026578202321,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.004001272366825376,
+      "frequency_hz": 2.7589028276479852,
+      "phase": -2.1728298798885546,
+      "stance_only": true,
+      "differential": -0.7796961398203947,
+      "early": false,
+      "pace": 0.09710340785311264,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.005637219913502264,
+      "frequency_hz": 2.5400162956291124,
+      "phase": -0.5057579141392949,
+      "stance_only": false,
+      "differential": -0.551755744005275,
+      "early": true,
+      "pace": -0.21474378927145393,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.008577567852555408,
+      "frequency_hz": 0.8800915822494285,
+      "phase": 1.2315269852410644,
+      "stance_only": true,
+      "differential": -0.47998014134526784,
+      "early": false,
+      "pace": -0.20001547488558089,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.009467799721013727,
+      "frequency_hz": 1.820379504138641,
+      "phase": 0.563942494495802,
+      "stance_only": true,
+      "differential": -0.5251876071655879,
+      "early": true,
+      "pace": 0.06272993666422413,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.0028314138962539036,
+      "frequency_hz": 2.439025290616112,
+      "phase": -1.6762883946500646,
+      "stance_only": false,
+      "differential": 0.19957664330602498,
+      "early": false,
+      "pace": -0.19597348303741852,
+      "follow": 0.8
+    },
+    {
+      "amplitude_m": 0.004691534734319895,
+      "frequency_hz": 1.992466148815066,
+      "phase": -1.1842857798508715,
+      "stance_only": true,
+      "differential": 0.6817802046804703,
+      "early": true,
+      "pace": 0.03913637978822196,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.00809989626480711,
+      "frequency_hz": 1.7863311043808823,
+      "phase": 1.4323599716429634,
+      "stance_only": true,
+      "differential": 0.1776970218695889,
+      "early": false,
+      "pace": 0.20063711877019633,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.0028590870487917143,
+      "frequency_hz": 2.603170320292465,
+      "phase": 0.5023621910418608,
+      "stance_only": false,
+      "differential": -0.0727254820003308,
+      "early": true,
+      "pace": 0.012708417350918183,
+      "follow": 0.8
+    },
+    {
+      "amplitude_m": 0.0068525552606074295,
+      "frequency_hz": 1.7058093414422137,
+      "phase": 1.7889582882683142,
+      "stance_only": true,
+      "differential": 0.7576955211821129,
+      "early": false,
+      "pace": 0.17765108149797545,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.004273469750751417,
+      "frequency_hz": 3.0213753102602383,
+      "phase": -1.6544760387204271,
+      "stance_only": true,
+      "differential": 0.531048455254388,
+      "early": true,
+      "pace": 0.1076552133671956,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.007394034539621935,
+      "frequency_hz": 1.2018661102416206,
+      "phase": -2.4304452181706955,
+      "stance_only": false,
+      "differential": -0.24382775020593606,
+      "early": false,
+      "pace": -0.10664996524753677,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.008996375352583385,
+      "frequency_hz": 3.01781345973086,
+      "phase": -2.821117034687939,
+      "stance_only": true,
+      "differential": -0.7662688685224521,
+      "early": true,
+      "pace": 0.15672966352135678,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.009409347693018833,
+      "frequency_hz": 2.5162852541273635,
+      "phase": -2.8410853975687553,
+      "stance_only": true,
+      "differential": 0.22799634477656927,
+      "early": false,
+      "pace": -0.12759075126111813,
+      "follow": 0.0
+    },
+    {
+      "amplitude_m": 0.005722643622506386,
+      "frequency_hz": 1.239409383069124,
+      "phase": 0.9609208484703284,
+      "stance_only": false,
+      "differential": -0.7776679544774344,
+      "early": true,
+      "pace": 0.21657577758952115,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.0025398572890921703,
+      "frequency_hz": 3.093275212352868,
+      "phase": -1.1429284893284692,
+      "stance_only": true,
+      "differential": 0.4631729107281507,
+      "early": false,
+      "pace": 0.033553551887052474,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.0028744031376295135,
+      "frequency_hz": 2.8432644856603435,
+      "phase": -2.3355502998168607,
+      "stance_only": true,
+      "differential": 0.2444146196830389,
+      "early": true,
+      "pace": -0.1370970343383494,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.007839751859522038,
+      "frequency_hz": 2.2596485422788777,
+      "phase": 2.3002788616753493,
+      "stance_only": false,
+      "differential": 0.5580436929471596,
+      "early": false,
+      "pace": 0.07239465855981378,
+      "follow": 0.8
+    },
+    {
+      "amplitude_m": 0.005799628406258408,
+      "frequency_hz": 2.507739616787211,
+      "phase": 2.8695682703373127,
+      "stance_only": true,
+      "differential": 0.020499699725376685,
+      "early": true,
+      "pace": 0.19024140339681925,
+      "follow": -0.8
+    },
+    {
+      "amplitude_m": 0.004075857831413893,
+      "frequency_hz": 3.0378596952152783,
+      "phase": 1.9617698861400141,
+      "stance_only": true,
+      "differential": 0.792477848936947,
+      "early": false,
+      "pace": -0.20877489710205985,
+      "follow": 0.8
+    }
+  ],
+  "screen": [
+    17701000,
+    24
+  ],
+  "select": [
+    17702000,
+    64
+  ],
+  "heldout": [
+    17703000,
+    192
+  ]
+}

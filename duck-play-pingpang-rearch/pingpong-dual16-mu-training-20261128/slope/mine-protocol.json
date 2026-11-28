@@ -1,0 +1,12 @@
+{
+  "range": [
+    18240000,
+    18389999
+  ],
+  "purpose": "development teachers only; selection uses latent natural perturbations, zero ability to infer any success rate",
+  "nominal_count": 144,
+  "materials": [
+    0.416
+  ],
+  "physics": "identical release, independent impulses, no changes to randomized physics"
+}

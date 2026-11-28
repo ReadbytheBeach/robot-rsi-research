@@ -1,0 +1,211 @@
+{
+  "screen": [
+    17047000,
+    24
+  ],
+  "select": [
+    17047500,
+    48
+  ],
+  "independent": [
+    17048000,
+    128
+  ],
+  "candidates": {
+    "medium": null,
+    "osc_00": {
+      "frequency": 3.2,
+      "yaw": -0.5177669194759111,
+      "neck": -0.0920531759683632,
+      "tilt": -0.185291439830811,
+      "duration": 0.85,
+      "shape": 0
+    },
+    "osc_01": {
+      "frequency": 1.4,
+      "yaw": 0.1664142409513943,
+      "neck": 0.057939227877668614,
+      "tilt": 0.02302357817341505,
+      "duration": 1.7,
+      "shape": 1
+    },
+    "osc_02": {
+      "frequency": 4.5,
+      "yaw": 0.29829298409159694,
+      "neck": 0.08898420833508983,
+      "tilt": 0.01485019708234045,
+      "duration": 0.85,
+      "shape": 2
+    },
+    "osc_03": {
+      "frequency": 2.1,
+      "yaw": 0.0,
+      "neck": -0.09762468621345766,
+      "tilt": 0.13053923601901424,
+      "duration": 1.7,
+      "shape": 0
+    },
+    "osc_04": {
+      "frequency": 1.4,
+      "yaw": 0.5004727020870438,
+      "neck": 0.13565362670705722,
+      "tilt": -0.07986792675881532,
+      "duration": 1.7,
+      "shape": 1
+    },
+    "osc_05": {
+      "frequency": 1.4,
+      "yaw": -0.2147527151433874,
+      "neck": -0.07528758367726535,
+      "tilt": 0.12187670537622053,
+      "duration": 1.7,
+      "shape": 2
+    },
+    "osc_06": {
+      "frequency": 5.8,
+      "yaw": 0.0,
+      "neck": -0.01726246057402271,
+      "tilt": -0.02602395356062101,
+      "duration": 1.7,
+      "shape": 0
+    },
+    "osc_07": {
+      "frequency": 2.1,
+      "yaw": 0.0,
+      "neck": -0.12393560720838,
+      "tilt": 0.03340959862279971,
+      "duration": 1.7,
+      "shape": 1
+    },
+    "osc_08": {
+      "frequency": 2.1,
+      "yaw": 0.4685793383448299,
+      "neck": 0.019452912671823502,
+      "tilt": -0.01148813256680109,
+      "duration": 3.5,
+      "shape": 2
+    },
+    "osc_09": {
+      "frequency": 2.1,
+      "yaw": -0.565330717065057,
+      "neck": -0.05280702388752069,
+      "tilt": 0.1304134048111354,
+      "duration": 0.85,
+      "shape": 0
+    },
+    "osc_10": {
+      "frequency": 1.4,
+      "yaw": 0.4643139513408693,
+      "neck": 0.0279677837586548,
+      "tilt": 0.03419949971947628,
+      "duration": 3.5,
+      "shape": 1
+    },
+    "osc_11": {
+      "frequency": 4.5,
+      "yaw": -0.1575000782720608,
+      "neck": 0.08018325935946771,
+      "tilt": 0.14152670205132006,
+      "duration": 1.7,
+      "shape": 2
+    },
+    "osc_12": {
+      "frequency": 4.5,
+      "yaw": 0.3561517351592409,
+      "neck": -0.06308872378531627,
+      "tilt": 0.10007694938232609,
+      "duration": 1.7,
+      "shape": 0
+    },
+    "osc_13": {
+      "frequency": 2.1,
+      "yaw": 0.0,
+      "neck": 0.04024434540876809,
+      "tilt": -0.019453946756679635,
+      "duration": 3.5,
+      "shape": 1
+    },
+    "osc_14": {
+      "frequency": 4.5,
+      "yaw": -0.33190808227669566,
+      "neck": -0.027646879310381317,
+      "tilt": -0.08645952776857671,
+      "duration": 3.5,
+      "shape": 2
+    },
+    "osc_15": {
+      "frequency": 5.8,
+      "yaw": 0.2750689886740164,
+      "neck": -0.08531585841361035,
+      "tilt": 0.039317556617199545,
+      "duration": 3.5,
+      "shape": 0
+    },
+    "osc_16": {
+      "frequency": 5.8,
+      "yaw": 0.2990819074247769,
+      "neck": 0.11734482745789548,
+      "tilt": 0.18117323904428118,
+      "duration": 0.85,
+      "shape": 1
+    },
+    "osc_17": {
+      "frequency": 4.5,
+      "yaw": -0.43189628942548974,
+      "neck": 0.04932163953375629,
+      "tilt": -0.01523764951037776,
+      "duration": 0.85,
+      "shape": 2
+    },
+    "osc_18": {
+      "frequency": 3.2,
+      "yaw": 0.5036899636663549,
+      "neck": 0.013415227267011998,
+      "tilt": 0.018661207493889442,
+      "duration": 1.7,
+      "shape": 0
+    },
+    "osc_19": {
+      "frequency": 1.4,
+      "yaw": -0.2686467264316163,
+      "neck": -0.13713939632931968,
+      "tilt": -0.18754236043296138,
+      "duration": 1.7,
+      "shape": 1
+    },
+    "osc_20": {
+      "frequency": 3.2,
+      "yaw": 0.0,
+      "neck": -0.10372017552663547,
+      "tilt": -0.11366343946592124,
+      "duration": 1.7,
+      "shape": 2
+    },
+    "osc_21": {
+      "frequency": 5.8,
+      "yaw": 0.1710775285039825,
+      "neck": -0.1013092975261981,
+      "tilt": -0.1855833770566429,
+      "duration": 1.7,
+      "shape": 0
+    },
+    "osc_22": {
+      "frequency": 5.8,
+      "yaw": 0.47031395727060177,
+      "neck": 0.11669474928800733,
+      "tilt": 0.08972941252258415,
+      "duration": 0.85,
+      "shape": 1
+    },
+    "osc_23": {
+      "frequency": 3.2,
+      "yaw": 0.0,
+      "neck": -0.039331399409154894,
+      "tilt": -0.022595699651045714,
+      "duration": 0.85,
+      "shape": 2
+    }
+  },
+  "rank": "same as train_opening.order; select experimental arm against separately reported original",
+  "diagnostic": "relative tangential contact point velocities sampled at 50Hz at solver-confirmed face contacts in first 2s, pooled by actual contact samples"
+}

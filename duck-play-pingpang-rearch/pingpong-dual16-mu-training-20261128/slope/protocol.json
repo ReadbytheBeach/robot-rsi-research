@@ -1,0 +1,4910 @@
+{
+  "target": "isolated physical 1 degree uphill ramp from release, both contacting at 1 horizontal metre and parked a full second; no ball reset",
+  "mu": 0.416,
+  "full_width": "original effective ball-paddle distribution as archive control",
+  "screen": [
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.04487535199052968,
+          "neck": 0.02643261120025471,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.13010362883018356,
+          "duration": 0.96,
+          "tick": 354
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06520239844030001,
+          "neck": 0.04280470686035415,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4803090633894287,
+          "duration": 2.6,
+          "tick": 488
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06829042608051503,
+          "neck": -0.0027758260550743846,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.25703496886482446,
+          "duration": 0.96,
+          "tick": 374
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.07873532142982712,
+          "neck": 0.013409810689935187,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.46357191231186645,
+          "duration": 2.6,
+          "tick": 553
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.030193992178721818,
+          "neck": 0.011100398188063458,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4919743983468903,
+          "duration": 2.6,
+          "tick": 473
+        }
+      ],
+      "brake": [
+        0.0,
+        0.04,
+        0.12
+      ]
+    },
+    {
+      "seed": 14402734,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": [
+        0.76,
+        0.2488341678026578,
+        0.2702698136393472,
+        -0.09509606583891725,
+        0.02204493781759938,
+        0.2290679736371409,
+        0.43363902403707705
+      ],
+      "actions": [
+        {
+          "tick": 262,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.111641,
+          "neck": -0.118997,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.009823,
+          "span": -0.188899,
+          "duration": 0.22
+        },
+        {
+          "tick": 350,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.79439,
+          "speed": -0.09774,
+          "neck": -0.027053,
+          "hip": 0.0342372,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 572,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.304961,
+          "speed": 0.068273,
+          "neck": -0.021172,
+          "hip": 0.039039,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.34
+        },
+        {
+          "tick": 467,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402572,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [
+        {
+          "tick": 160,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.155644,
+          "speed": -0.041693,
+          "neck": -0.012658,
+          "hip": 0.010139999999999998,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.22
+        },
+        {
+          "tick": 265,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.084326,
+          "neck": 0.064617,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.220171,
+          "span": 0.006607,
+          "duration": 0.52
+        },
+        {
+          "tick": 305,
+          "pitch": 0.0,
+          "roll": -0.126773,
+          "damp": -0.10317,
+          "speed": 0.129356,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 308,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.234659,
+          "speed": 4.5e-05,
+          "neck": -0.013633,
+          "hip": -0.0186336,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 509,
+          "pitch": 0.069767,
+          "roll": 0.0,
+          "damp": 0.510599,
+          "speed": 0.15943,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.18,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        },
+        {
+          "tick": 511,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551037,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551994,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551779,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550424,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551292,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552542,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551182,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552060,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552228,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552463,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550806,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551382,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550781,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550401,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551739,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550764,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551322,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550864,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550411,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551412,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550518,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552217,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551185,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550095,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550256,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550355,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550719,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550065,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550322,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551572,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550195,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550014,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550020,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551092,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551904,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550273,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552126,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550230,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551111,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552028,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551442,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550238,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550527,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550909,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550665,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550283,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552134,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551877,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551574,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551068,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551544,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550395,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551033,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550529,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551569,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550826,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550212,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550785,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551532,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552430,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551531,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551278,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551176,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551341,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550328,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550232,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551073,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551296,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551061,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550618,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551614,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551162,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551001,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551840,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550382,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550336,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551391,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551714,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552555,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551044,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552193,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550319,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550006,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552112,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551613,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551900,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552164,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552122,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552521,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551928,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550459,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550157,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14550553,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14552400,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402572,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402734,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401396,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402913,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401279,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402269,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401322,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403205,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401027,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401413,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403108,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403215,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402647,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401473,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401732,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401341,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403324,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401661,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403278,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401505,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401735,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402681,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403206,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402476,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402157,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402207,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402613,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403164,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401434,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401487,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402508,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401567,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401014,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402493,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402609,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403156,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401360,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403105,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402960,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402024,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402646,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402560,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402475,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402014,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402946,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402484,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401179,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402545,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403190,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402862,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402188,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402198,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402697,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402142,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401141,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402492,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401871,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402028,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401998,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402146,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401996,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401236,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402996,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402407,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401373,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401887,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401552,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401724,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401748,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401829,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401873,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402893,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403280,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403213,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401589,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402488,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401420,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401920,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402497,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402369,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402569,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401916,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402404,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401949,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402221,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402468,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401961,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402976,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402954,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14403265,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401468,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401400,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402086,
+      "mode": "settle_short",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401869,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14401140,
+      "mode": "settle_long",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14402555,
+      "mode": "quiet_then_walk",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15134786,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15241118,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15485372,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15357847,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15249938,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15387848,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15488790,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15444750,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15166997,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15233602,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15305931,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15113473,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15214414,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15356258,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15190962,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15273652,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15340201,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15137329,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15313947,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15314442,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15210299,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15250319,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15353255,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15268765,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15427025,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15298490,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15377192,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15292048,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15378586,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15458032,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15295639,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15270676,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15489293,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15147293,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15317135,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15305973,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15104231,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15122044,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15467901,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15366428,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15105248,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15187351,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15122711,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15159160,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15457657,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15479713,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15499856,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15174260,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15300587,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15118572,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15240669,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15262535,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15239527,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15200618,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15210667,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15312408,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15133770,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15151981,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15485328,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15189988,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15374846,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15289860,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15344899,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15435205,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15498986,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15390704,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15370650,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15248194,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15322007,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15307847,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15487367,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15302499,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15453465,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15306800,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15122586,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15185816,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15459125,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15308503,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15494493,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15348629,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15137796,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15183260,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15397461,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15177510,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15395976,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15277023,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15101980,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15182073,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15438511,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15328766,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15458196,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15285333,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15133001,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15315335,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15209243,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15330825,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15408271,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15129162,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15474469,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15279180,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15284628,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15387531,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15494492,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15421124,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15334914,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15324096,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15245280,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15204313,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15474670,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15191201,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15119183,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15201239,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15210127,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15281598,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15172492,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15129072,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15264436,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15447312,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15195725,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15376848,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15101534,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15464477,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15288875,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15290390,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15389827,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15293232,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15434197,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 15432057,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 0.85,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.04487535199052968,
+          "neck": 0.02643261120025471,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.13010362883018356,
+          "duration": 0.96,
+          "tick": 354
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06520239844030001,
+          "neck": 0.04280470686035415,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4803090633894287,
+          "duration": 2.6,
+          "tick": 488
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 0.95,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.04487535199052968,
+          "neck": 0.02643261120025471,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.13010362883018356,
+          "duration": 0.96,
+          "tick": 354
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06520239844030001,
+          "neck": 0.04280470686035415,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4803090633894287,
+          "duration": 2.6,
+          "tick": 488
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.06,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.04487535199052968,
+          "neck": 0.02643261120025471,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.13010362883018356,
+          "duration": 0.96,
+          "tick": 354
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06520239844030001,
+          "neck": 0.04280470686035415,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4803090633894287,
+          "duration": 2.6,
+          "tick": 488
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.15,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.04487535199052968,
+          "neck": 0.02643261120025471,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.13010362883018356,
+          "duration": 0.96,
+          "tick": 354
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06520239844030001,
+          "neck": 0.04280470686035415,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4803090633894287,
+          "duration": 2.6,
+          "tick": 488
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.25,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.04487535199052968,
+          "neck": 0.02643261120025471,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.13010362883018356,
+          "duration": 0.96,
+          "tick": 354
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06520239844030001,
+          "neck": 0.04280470686035415,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4803090633894287,
+          "duration": 2.6,
+          "tick": 488
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.4,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.04487535199052968,
+          "neck": 0.02643261120025471,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.13010362883018356,
+          "duration": 0.96,
+          "tick": 354
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06520239844030001,
+          "neck": 0.04280470686035415,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4803090633894287,
+          "duration": 2.6,
+          "tick": 488
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 0.85,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06829042608051503,
+          "neck": -0.0027758260550743846,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.25703496886482446,
+          "duration": 0.96,
+          "tick": 374
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.07873532142982712,
+          "neck": 0.013409810689935187,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.46357191231186645,
+          "duration": 2.6,
+          "tick": 553
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.030193992178721818,
+          "neck": 0.011100398188063458,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4919743983468903,
+          "duration": 2.6,
+          "tick": 473
+        }
+      ],
+      "brake": [
+        0.0,
+        0.04,
+        0.12
+      ]
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 0.95,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06829042608051503,
+          "neck": -0.0027758260550743846,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.25703496886482446,
+          "duration": 0.96,
+          "tick": 374
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.07873532142982712,
+          "neck": 0.013409810689935187,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.46357191231186645,
+          "duration": 2.6,
+          "tick": 553
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.030193992178721818,
+          "neck": 0.011100398188063458,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4919743983468903,
+          "duration": 2.6,
+          "tick": 473
+        }
+      ],
+      "brake": [
+        0.0,
+        0.04,
+        0.12
+      ]
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.06,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06829042608051503,
+          "neck": -0.0027758260550743846,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.25703496886482446,
+          "duration": 0.96,
+          "tick": 374
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.07873532142982712,
+          "neck": 0.013409810689935187,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.46357191231186645,
+          "duration": 2.6,
+          "tick": 553
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.030193992178721818,
+          "neck": 0.011100398188063458,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4919743983468903,
+          "duration": 2.6,
+          "tick": 473
+        }
+      ],
+      "brake": [
+        0.0,
+        0.04,
+        0.12
+      ]
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.15,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06829042608051503,
+          "neck": -0.0027758260550743846,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.25703496886482446,
+          "duration": 0.96,
+          "tick": 374
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.07873532142982712,
+          "neck": 0.013409810689935187,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.46357191231186645,
+          "duration": 2.6,
+          "tick": 553
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.030193992178721818,
+          "neck": 0.011100398188063458,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4919743983468903,
+          "duration": 2.6,
+          "tick": 473
+        }
+      ],
+      "brake": [
+        0.0,
+        0.04,
+        0.12
+      ]
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.25,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06829042608051503,
+          "neck": -0.0027758260550743846,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.25703496886482446,
+          "duration": 0.96,
+          "tick": 374
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.07873532142982712,
+          "neck": 0.013409810689935187,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.46357191231186645,
+          "duration": 2.6,
+          "tick": 553
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.030193992178721818,
+          "neck": 0.011100398188063458,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4919743983468903,
+          "duration": 2.6,
+          "tick": 473
+        }
+      ],
+      "brake": [
+        0.0,
+        0.04,
+        0.12
+      ]
+    },
+    {
+      "seed": 14551262,
+      "mode": "original",
+      "scale": 1.4,
+      "values": null,
+      "actions": [
+        {
+          "tick": 209,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.980238,
+          "speed": -0.151764,
+          "neck": -0.013907,
+          "hip": 0.0349074,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.8
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.104298,
+          "neck": 0.033184,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.014833,
+          "span": -0.180313,
+          "duration": 0.1
+        },
+        {
+          "tick": 315,
+          "pitch": 0.035474,
+          "roll": -0.121835,
+          "damp": 0.595276,
+          "speed": -0.070666,
+          "neck": -0.048449,
+          "hip": -0.029285399999999996,
+          "lateral": -0.0049434,
+          "yaw": -0.137507,
+          "span": -0.107422,
+          "duration": 0.52
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.06829042608051503,
+          "neck": -0.0027758260550743846,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.25703496886482446,
+          "duration": 0.96,
+          "tick": 374
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.07873532142982712,
+          "neck": 0.013409810689935187,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.46357191231186645,
+          "duration": 2.6,
+          "tick": 553
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.030193992178721818,
+          "neck": 0.011100398188063458,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "speed": 0.4919743983468903,
+          "duration": 2.6,
+          "tick": 473
+        }
+      ],
+      "brake": [
+        0.0,
+        0.04,
+        0.12
+      ]
+    },
+    {
+      "seed": 14402734,
+      "mode": "settle_short",
+      "scale": 0.85,
+      "values": [
+        0.76,
+        0.2488341678026578,
+        0.2702698136393472,
+        -0.09509606583891725,
+        0.02204493781759938,
+        0.2290679736371409,
+        0.43363902403707705
+      ],
+      "actions": [
+        {
+          "tick": 262,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.111641,
+          "neck": -0.118997,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.009823,
+          "span": -0.188899,
+          "duration": 0.22
+        },
+        {
+          "tick": 350,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.79439,
+          "speed": -0.09774,
+          "neck": -0.027053,
+          "hip": 0.0342372,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 572,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.304961,
+          "speed": 0.068273,
+          "neck": -0.021172,
+          "hip": 0.039039,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.34
+        },
+        {
+          "tick": 467,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402734,
+      "mode": "settle_short",
+      "scale": 0.95,
+      "values": [
+        0.76,
+        0.2488341678026578,
+        0.2702698136393472,
+        -0.09509606583891725,
+        0.02204493781759938,
+        0.2290679736371409,
+        0.43363902403707705
+      ],
+      "actions": [
+        {
+          "tick": 262,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.111641,
+          "neck": -0.118997,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.009823,
+          "span": -0.188899,
+          "duration": 0.22
+        },
+        {
+          "tick": 350,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.79439,
+          "speed": -0.09774,
+          "neck": -0.027053,
+          "hip": 0.0342372,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 572,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.304961,
+          "speed": 0.068273,
+          "neck": -0.021172,
+          "hip": 0.039039,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.34
+        },
+        {
+          "tick": 467,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402734,
+      "mode": "settle_short",
+      "scale": 1.06,
+      "values": [
+        0.76,
+        0.2488341678026578,
+        0.2702698136393472,
+        -0.09509606583891725,
+        0.02204493781759938,
+        0.2290679736371409,
+        0.43363902403707705
+      ],
+      "actions": [
+        {
+          "tick": 262,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.111641,
+          "neck": -0.118997,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.009823,
+          "span": -0.188899,
+          "duration": 0.22
+        },
+        {
+          "tick": 350,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.79439,
+          "speed": -0.09774,
+          "neck": -0.027053,
+          "hip": 0.0342372,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 572,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.304961,
+          "speed": 0.068273,
+          "neck": -0.021172,
+          "hip": 0.039039,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.34
+        },
+        {
+          "tick": 467,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402734,
+      "mode": "settle_short",
+      "scale": 1.15,
+      "values": [
+        0.76,
+        0.2488341678026578,
+        0.2702698136393472,
+        -0.09509606583891725,
+        0.02204493781759938,
+        0.2290679736371409,
+        0.43363902403707705
+      ],
+      "actions": [
+        {
+          "tick": 262,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.111641,
+          "neck": -0.118997,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.009823,
+          "span": -0.188899,
+          "duration": 0.22
+        },
+        {
+          "tick": 350,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.79439,
+          "speed": -0.09774,
+          "neck": -0.027053,
+          "hip": 0.0342372,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 572,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.304961,
+          "speed": 0.068273,
+          "neck": -0.021172,
+          "hip": 0.039039,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.34
+        },
+        {
+          "tick": 467,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402734,
+      "mode": "settle_short",
+      "scale": 1.25,
+      "values": [
+        0.76,
+        0.2488341678026578,
+        0.2702698136393472,
+        -0.09509606583891725,
+        0.02204493781759938,
+        0.2290679736371409,
+        0.43363902403707705
+      ],
+      "actions": [
+        {
+          "tick": 262,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.111641,
+          "neck": -0.118997,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.009823,
+          "span": -0.188899,
+          "duration": 0.22
+        },
+        {
+          "tick": 350,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.79439,
+          "speed": -0.09774,
+          "neck": -0.027053,
+          "hip": 0.0342372,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 572,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.304961,
+          "speed": 0.068273,
+          "neck": -0.021172,
+          "hip": 0.039039,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.34
+        },
+        {
+          "tick": 467,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402734,
+      "mode": "settle_short",
+      "scale": 1.4,
+      "values": [
+        0.76,
+        0.2488341678026578,
+        0.2702698136393472,
+        -0.09509606583891725,
+        0.02204493781759938,
+        0.2290679736371409,
+        0.43363902403707705
+      ],
+      "actions": [
+        {
+          "tick": 262,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": -0.111641,
+          "neck": -0.118997,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.009823,
+          "span": -0.188899,
+          "duration": 0.22
+        },
+        {
+          "tick": 350,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.79439,
+          "speed": -0.09774,
+          "neck": -0.027053,
+          "hip": 0.0342372,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 572,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.304961,
+          "speed": 0.068273,
+          "neck": -0.021172,
+          "hip": 0.039039,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.34
+        },
+        {
+          "tick": 467,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402572,
+      "mode": "settle_long",
+      "scale": 0.85,
+      "values": null,
+      "actions": [
+        {
+          "tick": 160,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.155644,
+          "speed": -0.041693,
+          "neck": -0.012658,
+          "hip": 0.010139999999999998,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.22
+        },
+        {
+          "tick": 265,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.084326,
+          "neck": 0.064617,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.220171,
+          "span": 0.006607,
+          "duration": 0.52
+        },
+        {
+          "tick": 305,
+          "pitch": 0.0,
+          "roll": -0.126773,
+          "damp": -0.10317,
+          "speed": 0.129356,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 308,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.234659,
+          "speed": 4.5e-05,
+          "neck": -0.013633,
+          "hip": -0.0186336,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 509,
+          "pitch": 0.069767,
+          "roll": 0.0,
+          "damp": 0.510599,
+          "speed": 0.15943,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.18,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        },
+        {
+          "tick": 511,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402572,
+      "mode": "settle_long",
+      "scale": 0.95,
+      "values": null,
+      "actions": [
+        {
+          "tick": 160,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.155644,
+          "speed": -0.041693,
+          "neck": -0.012658,
+          "hip": 0.010139999999999998,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.22
+        },
+        {
+          "tick": 265,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.084326,
+          "neck": 0.064617,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.220171,
+          "span": 0.006607,
+          "duration": 0.52
+        },
+        {
+          "tick": 305,
+          "pitch": 0.0,
+          "roll": -0.126773,
+          "damp": -0.10317,
+          "speed": 0.129356,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 308,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.234659,
+          "speed": 4.5e-05,
+          "neck": -0.013633,
+          "hip": -0.0186336,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 509,
+          "pitch": 0.069767,
+          "roll": 0.0,
+          "damp": 0.510599,
+          "speed": 0.15943,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.18,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        },
+        {
+          "tick": 511,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402572,
+      "mode": "settle_long",
+      "scale": 1.06,
+      "values": null,
+      "actions": [
+        {
+          "tick": 160,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.155644,
+          "speed": -0.041693,
+          "neck": -0.012658,
+          "hip": 0.010139999999999998,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.22
+        },
+        {
+          "tick": 265,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.084326,
+          "neck": 0.064617,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.220171,
+          "span": 0.006607,
+          "duration": 0.52
+        },
+        {
+          "tick": 305,
+          "pitch": 0.0,
+          "roll": -0.126773,
+          "damp": -0.10317,
+          "speed": 0.129356,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 308,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.234659,
+          "speed": 4.5e-05,
+          "neck": -0.013633,
+          "hip": -0.0186336,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 509,
+          "pitch": 0.069767,
+          "roll": 0.0,
+          "damp": 0.510599,
+          "speed": 0.15943,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.18,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        },
+        {
+          "tick": 511,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402572,
+      "mode": "settle_long",
+      "scale": 1.15,
+      "values": null,
+      "actions": [
+        {
+          "tick": 160,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.155644,
+          "speed": -0.041693,
+          "neck": -0.012658,
+          "hip": 0.010139999999999998,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.22
+        },
+        {
+          "tick": 265,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.084326,
+          "neck": 0.064617,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.220171,
+          "span": 0.006607,
+          "duration": 0.52
+        },
+        {
+          "tick": 305,
+          "pitch": 0.0,
+          "roll": -0.126773,
+          "damp": -0.10317,
+          "speed": 0.129356,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 308,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.234659,
+          "speed": 4.5e-05,
+          "neck": -0.013633,
+          "hip": -0.0186336,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 509,
+          "pitch": 0.069767,
+          "roll": 0.0,
+          "damp": 0.510599,
+          "speed": 0.15943,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.18,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        },
+        {
+          "tick": 511,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402572,
+      "mode": "settle_long",
+      "scale": 1.25,
+      "values": null,
+      "actions": [
+        {
+          "tick": 160,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.155644,
+          "speed": -0.041693,
+          "neck": -0.012658,
+          "hip": 0.010139999999999998,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.22
+        },
+        {
+          "tick": 265,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.084326,
+          "neck": 0.064617,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.220171,
+          "span": 0.006607,
+          "duration": 0.52
+        },
+        {
+          "tick": 305,
+          "pitch": 0.0,
+          "roll": -0.126773,
+          "damp": -0.10317,
+          "speed": 0.129356,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 308,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.234659,
+          "speed": 4.5e-05,
+          "neck": -0.013633,
+          "hip": -0.0186336,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 509,
+          "pitch": 0.069767,
+          "roll": 0.0,
+          "damp": 0.510599,
+          "speed": 0.15943,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.18,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        },
+        {
+          "tick": 511,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    },
+    {
+      "seed": 14402572,
+      "mode": "settle_long",
+      "scale": 1.4,
+      "values": null,
+      "actions": [
+        {
+          "tick": 160,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.155644,
+          "speed": -0.041693,
+          "neck": -0.012658,
+          "hip": 0.010139999999999998,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.22
+        },
+        {
+          "tick": 265,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.084326,
+          "neck": 0.064617,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": -0.220171,
+          "span": 0.006607,
+          "duration": 0.52
+        },
+        {
+          "tick": 305,
+          "pitch": 0.0,
+          "roll": -0.126773,
+          "damp": -0.10317,
+          "speed": 0.129356,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 308,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.234659,
+          "speed": 4.5e-05,
+          "neck": -0.013633,
+          "hip": -0.0186336,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 1.1
+        },
+        {
+          "tick": 509,
+          "pitch": 0.069767,
+          "roll": 0.0,
+          "damp": 0.510599,
+          "speed": 0.15943,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 0.1
+        },
+        {
+          "tick": 264,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.18,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        },
+        {
+          "tick": 511,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.48,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "duration": 2.65
+        }
+      ],
+      "brake": null
+    }
+  ],
+  "rate_seed": [
+    17781000,
+    17781127
+  ],
+  "use": "screen deliberately uses previously opened development starts; never count these as independent holdout"
+}

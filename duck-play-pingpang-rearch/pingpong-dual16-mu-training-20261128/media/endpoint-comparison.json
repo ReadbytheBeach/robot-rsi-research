@@ -1,0 +1,36 @@
+{
+  "protocol": "opposite extremes from same 144 paired seeds, examples only",
+  "panels": [
+    {
+      "seed": 17640097,
+      "mu": 0.224,
+      "last_m": 0.35633147317606245,
+      "seconds": 4.28,
+      "trace": "medium-17640097-low.npz"
+    },
+    {
+      "seed": 17640097,
+      "mu": 0.416,
+      "last_m": 0.1459160556075565,
+      "seconds": 2.34,
+      "trace": "medium-17640097-high.npz"
+    },
+    {
+      "seed": 17640126,
+      "mu": 0.224,
+      "last_m": 0.11045249580108793,
+      "seconds": 2.56,
+      "trace": "medium-17640126-low.npz"
+    },
+    {
+      "seed": 17640126,
+      "mu": 0.416,
+      "last_m": 0.24787140917574133,
+      "seconds": 3.3200000000000003,
+      "trace": "medium-17640126-high.npz"
+    }
+  ],
+  "fps": 25,
+  "frames": 108,
+  "sha": "8b112488625fcd47da7638409bf5fba348a6ab4b6a310ed7d18316eb66fb4c94"
+}

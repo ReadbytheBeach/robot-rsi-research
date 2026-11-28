@@ -1,0 +1,1407 @@
+[
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.224000",
+    "mu": [
+      0.224,
+      0.224
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.2584963735338493,
+      "last_both_m": 0.2563842984056876,
+      "seconds": 3.38,
+      "reason": "ball_edge",
+      "max_tilt_deg": 13.075171374023613,
+      "distance_m": 0.2598793054068721,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.272000",
+    "mu": [
+      0.272,
+      0.272
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.296561184014979,
+      "last_both_m": 0.29523641352826585,
+      "seconds": 3.7600000000000002,
+      "reason": "ball_edge",
+      "max_tilt_deg": 12.93600993177601,
+      "distance_m": 0.2971051505214216,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.320000",
+    "mu": [
+      0.32,
+      0.32
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.6680564695984487,
+      "last_both_m": 0.6656545071665657,
+      "seconds": 7.4,
+      "reason": "ball_edge",
+      "max_tilt_deg": 13.189239035787038,
+      "distance_m": 0.6705070499165007,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.364467",
+    "mu": [
+      0.36446746630925014,
+      0.36446746630925014
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.5546895565809535,
+      "last_both_m": 0.5546895565809535,
+      "seconds": 6.42,
+      "reason": "ball_edge_b",
+      "max_tilt_deg": 13.198065553640307,
+      "distance_m": 0.5565886896075115,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.392000",
+    "mu": [
+      0.392,
+      0.392
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.3774559723863351,
+      "last_both_m": 0.37504465742680676,
+      "seconds": 4.5,
+      "reason": "ball_edge",
+      "max_tilt_deg": 13.493961238233721,
+      "distance_m": 0.38012861408805737,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.404000",
+    "mu": [
+      0.404,
+      0.404
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.6494866434107992,
+      "last_both_m": 0.648482691701029,
+      "seconds": 7.0600000000000005,
+      "reason": "ball_edge_b",
+      "max_tilt_deg": 13.403724152115227,
+      "distance_m": 0.6509977753825249,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.416000",
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": true,
+      "finish_2p5": false,
+      "valid_peak_m": 1.0293184088893093,
+      "last_both_m": 1.0285482090628129,
+      "seconds": 10.94,
+      "reason": "completed",
+      "max_tilt_deg": 13.098414115820251,
+      "distance_m": 1.0285482090628129,
+      "success": true,
+      "gates": {
+        "slope_1m": {
+          "t": 9.64,
+          "progress_m": 1.0001896729114121,
+          "x_m": 1.0001299585816452,
+          "both_contact": true,
+          "radii_mm": [
+            36.2018120375943,
+            41.905865674776834
+          ]
+        }
+      },
+      "stable_finish_s": 1.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "wide",
+    "mu": [
+      0.41026126817443753,
+      0.41026126817443753
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.5484118735247892,
+      "last_both_m": 0.5484118735247892,
+      "seconds": 6.38,
+      "reason": "ball_edge_b",
+      "max_tilt_deg": 13.450135607650545,
+      "distance_m": 0.5495629373405677,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "fixed-recipe",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "top_band",
+    "mu": [
+      0.4157011077174186,
+      0.4157011077174186
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.6387017925622283,
+      "last_both_m": 0.6387017925622283,
+      "seconds": 7.1000000000000005,
+      "reason": "ball_edge_b",
+      "max_tilt_deg": 13.202950736835529,
+      "distance_m": 0.6409288836765759,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "remove-brake-override",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": null
+    },
+    "arm": "fixed-0.416000",
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": true,
+      "finish_2p5": false,
+      "valid_peak_m": 1.1757621459634708,
+      "last_both_m": 1.1757621459634708,
+      "seconds": 11.08,
+      "reason": "ball_other_contact",
+      "max_tilt_deg": 13.098414115820251,
+      "distance_m": 1.1792014527031005,
+      "success": false,
+      "gates": {
+        "slope_1m": {
+          "t": 9.58,
+          "progress_m": 1.0021288470885736,
+          "x_m": 1.0020691327588067,
+          "both_contact": true,
+          "radii_mm": [
+            41.02688102290859,
+            34.697696353169
+          ]
+        }
+      },
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "remove-final-pulse",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.416000",
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": true,
+      "finish_2p5": false,
+      "valid_peak_m": 1.0028675104480014,
+      "last_both_m": 1.0021067335100362,
+      "seconds": 10.5,
+      "reason": "ball_edge",
+      "max_tilt_deg": 13.098414115820251,
+      "distance_m": 1.0034961133219618,
+      "success": false,
+      "gates": {
+        "slope_1m": {
+          "t": 10.44,
+          "progress_m": 1.0011650715986629,
+          "x_m": 1.001105357268896,
+          "both_contact": true,
+          "radii_mm": [
+            50.76446491877959,
+            38.9667689303488
+          ]
+        }
+      },
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "remove-all-pulses",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.416000",
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.817583317428336,
+      "last_both_m": 0.817583317428336,
+      "seconds": 8.92,
+      "reason": "ball_edge_b",
+      "max_tilt_deg": 13.098414115820251,
+      "distance_m": 0.8195788049297035,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "restore-preparation",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0241080481236784,
+      "values": null,
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.416000",
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.7188616501777587,
+      "last_both_m": 0.7167374351658514,
+      "seconds": 8.32,
+      "reason": "ball_edge",
+      "max_tilt_deg": 11.595872263217112,
+      "distance_m": 0.7205075168330314,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0241080481236784,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "restore-nominal-gait-scale",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0,
+      "values": [
+        1.0233466402954987,
+        0.21245587943631206,
+        0.40384477225541215,
+        -0.08134193386991279,
+        0.017897397459018957,
+        0.22163203627265096,
+        0.4523920730087839
+      ],
+      "actions": [
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12855925910020957,
+          "speed": -0.09407362917933529,
+          "neck": 0.017791570176660262,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 164,
+          "duration": 0.18
+        },
+        {
+          "pitch": -0.06355412679479563,
+          "roll": -0.08500364343958766,
+          "damp": 0.10691604683993067,
+          "speed": 0.0,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 147,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": -0.12145478829352019,
+          "speed": 0.4335911428168548,
+          "neck": 0.015654064248471017,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.0,
+          "span": 0.0,
+          "tick": 195,
+          "duration": 0.42
+        },
+        {
+          "pitch": 0.0,
+          "roll": 0.0,
+          "damp": 0.0,
+          "speed": 0.05369868289210744,
+          "neck": 0.0,
+          "hip": 0.0,
+          "lateral": 0.0,
+          "yaw": 0.018244188973592618,
+          "span": 0.036644988113541194,
+          "duration": 3.6,
+          "tick": 359
+        }
+      ],
+      "brake": [
+        -0.06,
+        0.16,
+        0.2
+      ]
+    },
+    "arm": "fixed-0.416000",
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.2495475707308415,
+      "last_both_m": 0.2495475707308415,
+      "seconds": 3.66,
+      "reason": "ball_edge",
+      "max_tilt_deg": 11.444665444314179,
+      "distance_m": 0.2510875352243195,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  },
+  {
+    "name": "restore-all-controls",
+    "config": {
+      "seed": 14552505,
+      "mode": "original",
+      "scale": 1.0,
+      "values": null,
+      "actions": [],
+      "brake": null
+    },
+    "arm": "fixed-0.416000",
+    "mu": [
+      0.416,
+      0.416
+    ],
+    "row": {
+      "flat_1m": false,
+      "slope_1m": false,
+      "finish_2p5": false,
+      "valid_peak_m": 0.47746762835259293,
+      "last_both_m": 0.47746762835259293,
+      "seconds": 6.5,
+      "reason": "ball_edge_b",
+      "max_tilt_deg": 11.133946549014865,
+      "distance_m": 0.48021267600533274,
+      "success": false,
+      "gates": {},
+      "stable_finish_s": 0.0,
+      "seed": 14552505,
+      "track": "incline",
+      "material": "original",
+      "scale": 1.0,
+      "fork_sha": null,
+      "torque_nm": 0.2
+    }
+  }
+]

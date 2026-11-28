@@ -1,0 +1,7 @@
+{
+  "mu": 0.416,
+  "seed": 12600381,
+  "control_period": 0.02,
+  "objective": "First flat metre against the unmodified scorer, then continue the same episode safely toward the physical slope.",
+  "grid": "Four timed subsecond directional actions. Six equally spaced orientations about the paddle, both feed-forward tilt and feedback relative to the two ball centres. Widest windows precede the observed terminal air ticks. Eight adaptive stages maximum."
+}

@@ -1,0 +1,85 @@
+{
+  "results": {
+    "hard": {
+      "phase_08": {
+        "n": 80,
+        "both2": 0,
+        "qtr": 0,
+        "flat": 0,
+        "slope": 0,
+        "finish": 0,
+        "mean_m": 0.007683399343873208,
+        "max_m": 0.036353667732614024,
+        "mean_s": 0.85625,
+        "triggered": 0
+      },
+      "first_step_07": {
+        "n": 80,
+        "both2": 0,
+        "qtr": 0,
+        "flat": 0,
+        "slope": 0,
+        "finish": 0,
+        "mean_m": 0.01212554379114113,
+        "max_m": 0.036089907247801305,
+        "mean_s": 0.8405000000000001,
+        "triggered": 80
+      },
+      "paired": {
+        "both2": {
+          "gain": 0,
+          "loss": 0
+        },
+        "qtr": {
+          "gain": 0,
+          "loss": 0
+        },
+        "flat": {
+          "gain": 0,
+          "loss": 0
+        }
+      }
+    },
+    "ordinary": {
+      "phase_08": {
+        "n": 96,
+        "both2": 25,
+        "qtr": 4,
+        "flat": 0,
+        "slope": 0,
+        "finish": 0,
+        "mean_m": 0.06301745458333681,
+        "max_m": 0.34626925992248003,
+        "mean_s": 1.5658333333333332,
+        "triggered": 0
+      },
+      "first_step_07": {
+        "n": 96,
+        "both2": 25,
+        "qtr": 4,
+        "flat": 0,
+        "slope": 0,
+        "finish": 0,
+        "mean_m": 0.06373420035293816,
+        "max_m": 0.34626925992248003,
+        "mean_s": 1.555416666666667,
+        "triggered": 33
+      },
+      "paired": {
+        "both2": {
+          "gain": 0,
+          "loss": 0
+        },
+        "qtr": {
+          "gain": 0,
+          "loss": 0
+        },
+        "flat": {
+          "gain": 0,
+          "loss": 0
+        }
+      }
+    }
+  },
+  "elapsed_s": 33.26702494203346
+}

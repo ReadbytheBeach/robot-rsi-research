@@ -1,0 +1,450 @@
+{
+  "mass_g": 40.0,
+  "motor_cap_nm": 0.2,
+  "mode": "route",
+  "seed": 17640126,
+  "success": false,
+  "reason": "ball_edge",
+  "seconds": 3.3200000000000003,
+  "distance_m": 0.2529365356529907,
+  "longitudinal_m": 0.2529365356529907,
+  "lateral_m": 0.023422998404783946,
+  "max_cross_m": 0.035997038547692664,
+  "turn_yaw_deg": null,
+  "pit_crossed": false,
+  "pit_foot_steps": 0,
+  "initial_x_m": 0.002789778840135577,
+  "final_x_m": 0.25572631449312627,
+  "target_m": 2.5,
+  "path_length_m": 0.3856883731089795,
+  "max_xy_displacement_m": 0.2540187550603442,
+  "max_lateral_m": 0.036448882143564565,
+  "max_tilt_deg": 14.242704901078934,
+  "min_height_m": 0.10389640493412852,
+  "radius_p95_mm": 50.90848889925032,
+  "radius_max_mm": 59.07304489325978,
+  "terminal_radius_mm": 59.07304489325978,
+  "last_face_contact": true,
+  "no_contact_max_ms": 6.0,
+  "sampled_no_contact_max_ms": 80,
+  "pushes": 2,
+  "observation_delay_ms": 40,
+  "command_delay_ms": 20,
+  "foot_friction": 1.0372693788628846,
+  "leg_gain_scale": 0.97561436558467,
+  "stable_finish_s": 0.0,
+  "motor": {
+    "joints": [
+      "left_hip_yaw",
+      "left_hip_roll",
+      "left_hip_pitch",
+      "left_knee",
+      "left_ankle",
+      "neck_pitch",
+      "head_pitch",
+      "head_yaw",
+      "head_roll",
+      "right_hip_yaw",
+      "right_hip_roll",
+      "right_hip_pitch",
+      "right_knee",
+      "right_ankle"
+    ],
+    "physics_samples": 1660,
+    "rms_nm": [
+      0.05981782809828422,
+      0.10318782459573596,
+      0.12931217218901805,
+      0.17320925943566978,
+      0.08453092536067544,
+      0.03983474595911405,
+      0.08709946239470809,
+      0.0255678649557115,
+      0.09131131101715914,
+      0.0705643739189574,
+      0.11089736048104058,
+      0.1469785526401549,
+      0.1664046823540989,
+      0.1004484345959655
+    ],
+    "peak_nm": [
+      0.17083380688041783,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.12189628622004955,
+      0.2,
+      0.06501395952159449,
+      0.2,
+      0.1827062062272795,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "speed_peak_rad_s": [
+      1.5432945275019132,
+      2.3121464678136636,
+      3.400245813835336,
+      3.307143024517239,
+      3.138691353339386,
+      1.1535151298839723,
+      1.762466590906828,
+      1.3196521241068755,
+      2.4988742606375043,
+      2.205430807989844,
+      2.1690138293865413,
+      3.64099945514991,
+      3.016690278747156,
+      2.988424268336204
+    ],
+    "fraction_above_90pct": [
+      0.0,
+      0.09457831325301205,
+      0.25180722891566265,
+      0.653012048192771,
+      0.04156626506024096,
+      0.0,
+      0.03072289156626506,
+      0.0,
+      0.08132530120481928,
+      0.0018072289156626507,
+      0.14337349397590363,
+      0.4271084337349398,
+      0.5692771084337349,
+      0.07409638554216867
+    ],
+    "longest_above_90pct_s": [
+      0.0,
+      0.06,
+      0.18,
+      0.26,
+      0.058,
+      0.0,
+      0.05,
+      0.0,
+      0.018000000000000002,
+      0.006,
+      0.048,
+      0.186,
+      0.26,
+      0.06
+    ],
+    "absolute_mechanical_work_j": [
+      0.11716129935086125,
+      0.22447170262857521,
+      0.5601593334614781,
+      0.5436572574538444,
+      0.1941012698679067,
+      0.04038184946409883,
+      0.1268024066810569,
+      0.03035210409440072,
+      0.23200249426105957,
+      0.18163207618759808,
+      0.2533600641206057,
+      0.7189771077003785,
+      0.4452982031879745,
+      0.3652277071329527
+    ]
+  },
+  "contact_audit_500hz": {
+    "physics_samples": 1660,
+    "nonfoot_ground_contact_steps": 0,
+    "ball_pair_contact_steps": 1,
+    "per_ball": [
+      {
+        "ball": 1,
+        "other_contact_steps": 0,
+        "face_contact_steps": 1580,
+        "longest_no_face_contact_s": 0.006,
+        "max_radius_m": 0.05877277398239925,
+        "edge_violation_steps": 6,
+        "below_violation_steps": 0,
+        "last_solver_face_contact": false
+      },
+      {
+        "ball": 2,
+        "other_contact_steps": 0,
+        "face_contact_steps": 1575,
+        "longest_no_face_contact_s": 0.006,
+        "max_radius_m": 0.0548521425115275,
+        "edge_violation_steps": 0,
+        "below_violation_steps": 0,
+        "last_solver_face_contact": true
+      }
+    ],
+    "ball_other_contact_steps": 0,
+    "ball_face_contact_steps": 1520,
+    "longest_no_face_contact_s": 0.006,
+    "ball_edge_steps": 6,
+    "ball_below_steps": 0,
+    "face_ground_clearance_lower_bound_m": 0.16291120284862048,
+    "handle_ground_clearance_lower_bound_m": 0.16733989520162262,
+    "ground_height_upper_bound_m": 0.030000000000000002
+  },
+  "levels": [
+    "slow",
+    "fast",
+    "slow",
+    "fast"
+  ],
+  "segment_mps": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "full_segment_mps": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "segment_ok": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "fast_slow_ratio": null,
+  "pace_ok": false,
+  "first_10m_s": null,
+  "deadline_s": 150.0,
+  "crossing_times_s": {
+    "0.0": 0.0
+  },
+  "max_separation_m": 0.08832619320432764,
+  "min_separation_m": 0.016053960440562228,
+  "separation_at_loss_m": 0.08832619320432764,
+  "observation_delays_ms": [
+    40,
+    0
+  ],
+  "push_counts": [
+    1,
+    1
+  ],
+  "ball_count": 2,
+  "ball_diameter_mm": 16.0,
+  "ball_mass_g": 0.4320000000000001,
+  "terminal_radii_mm": [
+    59.07304489325978,
+    45.45357360161399
+  ],
+  "terminal_contacts": [
+    true,
+    true
+  ],
+  "world_x_windows_mps": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "course_completed": false,
+  "on_time": false,
+  "params": {
+    "mass_g": 40.0,
+    "motor_cap_nm": 0.2,
+    "speed": 0.44,
+    "ramp_s": 0.44,
+    "wait_s": 0.18,
+    "neck_mix": 0.5,
+    "brake_m": 0.32,
+    "finish_buffer": 0.09,
+    "ball": {
+      "kp": 3.177909410843416,
+      "kd": 0.5345018957333432,
+      "level": 2.084696072617922,
+      "gyro": 0.030867016115016063,
+      "accel": -0.1792506167987865,
+      "actuator_gain": 3.2,
+      "actuator_damping": 0.075,
+      "velocity_limit": 3.4014813265785593,
+      "angle_limit": 0.62,
+      "slope_limit": 0.2672340338938538,
+      "prediction": 0.04523816556821066,
+      "gravity": 1.0220151764314331,
+      "dual_feedback": {
+        "edge_mix": 0.3480612942723393,
+        "lookahead_s": 0.14858618260183878,
+        "edge_width_m": 0.026622050282487486
+      }
+    },
+    "leg_scale": 1.0184224897810348,
+    "knee_trim": -0.26676763673905507,
+    "hip_trim": -0.3173613992318917,
+    "ankle_trim": 0.2955346547482204,
+    "neck_trim": 0.41510036002481626,
+    "pitch_feedback": 0.8186219321207269,
+    "pitch_rate": 0.03136857083913124,
+    "roll_feedback": -0.2238475806693958,
+    "roll_rate": -0.009281985492156069,
+    "speed_profile": {
+      "slow": 0.44,
+      "fast": 0.44,
+      "kp": 0.0,
+      "ki": 0.0
+    },
+    "stop_ramp_s": 0.9,
+    "stop_gate": {
+      "radius": 0.021,
+      "velocity": 0.13,
+      "max_wait_s": 0.8
+    },
+    "stand_pose": {
+      "neck_mix": 0.6160291979168864,
+      "hip_trim": -0.08177570166281417,
+      "ankle_trim": 0.017865586990154017,
+      "neck_trim": 0.22470322331625334
+    },
+    "switch_speed": 0.0630091970734344,
+    "switch_duration": 0.3994256947262032,
+    "ball_observer": {
+      "position_mix": 0.0,
+      "velocity_mix": 0.0,
+      "delay_gains": {
+        "min_total_ms": 60,
+        "min_command_ms": 40,
+        "gains": {
+          "position_mix": 0.7109548584624833,
+          "velocity_mix": 0.7092326836597126,
+          "stride_velocity": 0.4296640510405104,
+          "stride_position": -0.35,
+          "stride_time_constant": 0.1992779091682355
+        }
+      }
+    },
+    "terrain_stance": {
+      "base": [
+        0.04,
+        -0.06,
+        0.05,
+        0.1
+      ],
+      "down": [
+        0.2,
+        0.4,
+        1.2,
+        1.0
+      ],
+      "up": [
+        -0.2,
+        0,
+        -0.8,
+        -0.8
+      ],
+      "catch": [
+        0.15,
+        0.12,
+        0.18,
+        0.18
+      ],
+      "ahead": 0.052
+    },
+    "velocity_catch": {
+      "interval": [
+        7.576273007514187,
+        8.277065296004052
+      ],
+      "pose": [
+        -0.17060908895711063,
+        0.15768797463529166,
+        0.1820687464199358,
+        0.04079080664957903
+      ],
+      "threshold": 0.10938581071314483,
+      "tilt_gain": 1.0455029604601027,
+      "grade_ff": 0.4735539801723958
+    },
+    "by_order": {
+      "slow_first": {
+        "velocity_catch": {
+          "interval": [
+            7.576273007514187,
+            8.277065296004052
+          ],
+          "pose": [
+            -0.17060908895711063,
+            0.15768797463529166,
+            0.1820687464199358,
+            0.04079080664957903
+          ],
+          "threshold": 0.10938581071314483,
+          "tilt_gain": 1.0455029604601027,
+          "grade_ff": 0.4735539801723958
+        }
+      },
+      "fast_first": {
+        "route_params": {
+          "fast_approach": [
+            [
+              5.8,
+              0.45,
+              0.38,
+              0.025
+            ]
+          ]
+        }
+      }
+    },
+    "plant_id": {
+      "max_samples": 14,
+      "sample_period_s": 0.16,
+      "linear_steps": [
+        0.28,
+        0.14
+      ]
+    },
+    "latency_profiles": [
+      {
+        "order": "fast_first",
+        "min_act_ms": 40,
+        "min_obs_ms": 20,
+        "overrides": {
+          "route_params": {
+            "fast_approach": [
+              [
+                5.8,
+                0.45,
+                0.38,
+                0.025
+              ]
+            ],
+            "measured_cruise": {
+              "start": 7.58,
+              "end": 8.12,
+              "nominal": 0.465,
+              "fade": 0.12,
+              "target": 0.06,
+              "kp": 2.3,
+              "filter_s": 0.15
+            }
+          },
+          "speed_profile": {
+            "slow": 0.44,
+            "fast": 0.44,
+            "kp": 0.0,
+            "ki": 0.0
+          }
+        }
+      }
+    ],
+    "ball_count": 2,
+    "ball_diameter_mm": 16
+  },
+  "terrain": true,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "track": "combined",
+  "track_origin_x_m": 0.002789778840135577,
+  "valid_peak_m": 0.2507761401301917,
+  "both_peak_m": 0.24787140917574133,
+  "last_both_m": 0.24787140917574133,
+  "slope_progress_m": 0.0,
+  "flat_1m": false,
+  "slope_1m": false,
+  "finish_2p5": false,
+  "gates": {}
+}

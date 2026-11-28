@@ -1,0 +1,22 @@
+{
+  "trace": "best-low.npz",
+  "sha256": "5d9a70e2200e9b09b00a57a17e04f889f7c914a48bb44df917edc0242e0ca2a3",
+  "original_time_s": 12.92,
+  "frames": 324,
+  "rate": 25.0,
+  "track": "combined",
+  "fixed_grid": false,
+  "gates": {
+    "flat_1m": {
+      "t": 10.26,
+      "progress_m": 1.0042145357074233,
+      "x_m": 1.0069326276061077,
+      "both_contact": true,
+      "radii_mm": [
+        13.08358670442266,
+        15.269326311124475
+      ]
+    }
+  },
+  "reason": "ball_edge_b"
+}

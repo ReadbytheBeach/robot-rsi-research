@@ -1,0 +1,31 @@
+{
+  "seed_start": 17640000,
+  "n": 144,
+  "opened": 12600381,
+  "arms": {
+    "fixed-0.224000": 0.224,
+    "fixed-0.272000": 0.272,
+    "fixed-0.320000": 0.32,
+    "fixed-0.364467": 0.36446746630925014,
+    "fixed-0.392000": 0.392,
+    "fixed-0.404000": 0.404,
+    "fixed-0.416000": 0.416,
+    "wide": null,
+    "top_band": null
+  },
+  "policies": [
+    "teacher",
+    "medium"
+  ],
+  "primary": "strict release-aligned combined 2.5 m, independent random starts",
+  "comparison": "one shared seed per arm and policy; paired bootstrap percentile 95% for mean last simultaneous contact progress",
+  "band": "top_band affinely maps original effective [0.224,0.416] onto [0.406,0.416]",
+  "endpoints": "2.00 seconds with both touching and no veto; >2s survival separate; half metre requires contact on that step; 2.5m finish requires 1s parked",
+  "frozen_teacher_sha256": "fc74bd1267560daf0deb4229acff6b78c751dc548596e1c03b2a1d0770275328",
+  "medium": {
+    "mode": "fixed",
+    "cruise": 0.44,
+    "ramp": 0.44,
+    "wait": 0.18
+  }
+}

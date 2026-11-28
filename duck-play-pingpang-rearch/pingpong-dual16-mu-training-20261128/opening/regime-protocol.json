@@ -1,0 +1,32 @@
+{
+  "development": "same 64 selection states and the same 9 candidates as the base study",
+  "features": [
+    "bias",
+    "span",
+    "radial velocity",
+    "cross velocity",
+    "predicted worst radius",
+    "centroid x",
+    "centroid y",
+    "predicted span"
+  ],
+  "objective": "quarter + 0.35 * both2 + 1.3*metres + 3*half + 10*flat + 100*finish; held-out-fold prediction",
+  "folds": 4,
+  "alphas": [
+    4,
+    16,
+    48,
+    128,
+    512,
+    100000000.0
+  ],
+  "holdout": [
+    17046000,
+    128
+  ],
+  "materials": [
+    "high",
+    "wide"
+  ],
+  "sha": "79461f9818a705450a2263b1b4052fdfe43b36d4553ebb4881c7d808ee0abf42"
+}

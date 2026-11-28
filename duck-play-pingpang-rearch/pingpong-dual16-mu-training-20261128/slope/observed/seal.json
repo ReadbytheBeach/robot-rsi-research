@@ -1,0 +1,14 @@
+{
+  "selected": {
+    "name": "odom-0.82",
+    "distance": 0.82,
+    "lookahead": 0.0,
+    "risk": null,
+    "orient": 0.0
+  },
+  "linked_primary": "paired primary against original timed; pure odometry also included as fixed reference",
+  "range": [
+    17843000,
+    17843191
+  ]
+}

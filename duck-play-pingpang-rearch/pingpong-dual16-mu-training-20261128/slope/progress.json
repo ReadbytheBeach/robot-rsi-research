@@ -1,0 +1,128 @@
+[
+  {
+    "layer": 0,
+    "n": 65,
+    "seed": 14402913,
+    "m": 0.5829684244022061,
+    "gate": false,
+    "hold": 0.0,
+    "park": false
+  },
+  {
+    "layer": 1,
+    "n": 65,
+    "seed": 14402913,
+    "m": 0.669131475246251,
+    "gate": false,
+    "hold": 0.0,
+    "park": false
+  },
+  {
+    "layer": 2,
+    "n": 65,
+    "seed": 14552505,
+    "m": 0.8148454051636705,
+    "gate": false,
+    "hold": 0.0,
+    "park": false
+  },
+  {
+    "layer": 3,
+    "n": 65,
+    "seed": 14552505,
+    "m": 0.8304267754545935,
+    "gate": false,
+    "hold": 0.0,
+    "park": false
+  },
+  {
+    "layer": 4,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.0903791695580427,
+    "gate": true,
+    "hold": 0.0,
+    "park": false
+  },
+  {
+    "layer": 5,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.08368070543166,
+    "gate": true,
+    "hold": 0.24,
+    "park": false
+  },
+  {
+    "layer": 6,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.017162806778327,
+    "gate": true,
+    "hold": 0.44,
+    "park": false
+  },
+  {
+    "layer": 7,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.0084801908314986,
+    "gate": true,
+    "hold": 0.56,
+    "park": false
+  },
+  {
+    "layer": 8,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.0084801908314986,
+    "gate": true,
+    "hold": 0.56,
+    "park": false
+  },
+  {
+    "layer": 9,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.0084801908314986,
+    "gate": true,
+    "hold": 0.56,
+    "park": false
+  },
+  {
+    "layer": 10,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.002393830633501,
+    "gate": true,
+    "hold": 0.6,
+    "park": false
+  },
+  {
+    "layer": 11,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.002393830633501,
+    "gate": true,
+    "hold": 0.6,
+    "park": false
+  },
+  {
+    "layer": 12,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.002393830633501,
+    "gate": true,
+    "hold": 0.6,
+    "park": false
+  },
+  {
+    "layer": 13,
+    "n": 65,
+    "seed": 14552505,
+    "m": 1.0031791232719218,
+    "gate": true,
+    "hold": 1.0,
+    "park": true
+  }
+]

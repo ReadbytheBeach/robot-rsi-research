@@ -1,0 +1,16 @@
+{
+  "mu": 0.416,
+  "seeds": [
+    15387848,
+    15233602,
+    15250319
+  ],
+  "track": "combined",
+  "source": "three opened developer seeds, human-specified after preceding experiments",
+  "scoring": "physical simultaneous contact to valid gate; no extra body tilt filtering",
+  "new_starts": {
+    "start": 17280000,
+    "count": 128
+  },
+  "actions": "camera spread, support-phase movement and targeted paddle tilts; 12 adaptive stages maximum, selected from fresh-release pilot incl variable empty paddle settle and gait scale"
+}

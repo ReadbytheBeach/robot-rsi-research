@@ -1,0 +1,33 @@
+{
+  "hashes": {
+    "qualify.py": "c15f2e58911507fe457d0ae178534ebcba87fdbceaceb708ddbaa7fd9ff41bb7",
+    "material.py": "b5ceb557f0b110e497153b6ce15977886e4911e059a822ea1475c49f5ce1b15f",
+    "opening/train_opening.py": "fdcd7b6ea6794ece395ddcdbde5ef803a8f3f57bce1cd9befd8bed64cc7f0366"
+  },
+  "scores": {
+    "high": {
+      "n": 80,
+      "flat": 0,
+      "slope": 0,
+      "finish": 0,
+      "both2": 16,
+      "half": 0,
+      "quarter": 2,
+      "mean_m": 0.06451951850934719,
+      "max_m": 0.2649998397720102,
+      "best_seed": 17400106
+    },
+    "wide": {
+      "n": 80,
+      "flat": 0,
+      "slope": 0,
+      "finish": 0,
+      "both2": 15,
+      "half": 0,
+      "quarter": 3,
+      "mean_m": 0.0669946930552198,
+      "max_m": 0.2872931972999489,
+      "best_seed": 17400121
+    }
+  }
+}

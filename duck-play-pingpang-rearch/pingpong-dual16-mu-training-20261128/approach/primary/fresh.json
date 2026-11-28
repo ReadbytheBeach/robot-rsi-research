@@ -1,0 +1,24 @@
+{
+  "combined": {
+    "teacher": {
+      "n": 128,
+      "flat": 0,
+      "slope": 0,
+      "finished": 0,
+      "half": 0,
+      "survived_2s": 22,
+      "mean_m": 0.05171805215278702,
+      "max_m": 0.3641999081569371
+    },
+    "trained": {
+      "n": 128,
+      "flat": 0,
+      "slope": 0,
+      "finished": 0,
+      "half": 0,
+      "survived_2s": 22,
+      "mean_m": 0.051783337742428756,
+      "max_m": 0.3576761969479136
+    }
+  }
+}

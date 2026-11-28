@@ -1,0 +1,11 @@
+{
+  "trace": "paired-trained.npz",
+  "sha256": "e09ca36a946ed86718a1edaf3ce5fac77a57e6e3684ce7e660d206db88fecfc9",
+  "original_time_s": 6.82,
+  "frames": 172,
+  "rate": 25.0,
+  "track": "incline",
+  "fixed_grid": false,
+  "gates": {},
+  "reason": "ball_edge"
+}

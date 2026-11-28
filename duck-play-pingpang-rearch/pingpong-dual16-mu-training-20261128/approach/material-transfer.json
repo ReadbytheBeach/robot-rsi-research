@@ -1,0 +1,227 @@
+{
+  "mu_grid": [
+    0.224,
+    0.272,
+    0.32,
+    0.36446746630925014,
+    0.392,
+    0.416
+  ],
+  "seed": 12600381,
+  "high_source": "high-catch",
+  "rows": [
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.45611109674890443,
+      "seconds": 5.28,
+      "max_tilt_deg": 12.258182918576878,
+      "reason": "ball_edge_b",
+      "name": "old_teacher",
+      "mu": 0.224
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.3734348420543779,
+      "seconds": 4.44,
+      "max_tilt_deg": 12.15367764232897,
+      "reason": "ball_edge",
+      "name": "old_teacher",
+      "mu": 0.272
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.43582517142720756,
+      "seconds": 5.1000000000000005,
+      "max_tilt_deg": 12.067338575518045,
+      "reason": "ball_other_contact_b",
+      "name": "old_teacher",
+      "mu": 0.32
+    },
+    {
+      "seed": 12600381,
+      "gates": {
+        "flat_1m": {
+          "t": 9.64,
+          "progress_m": 1.00109014956402,
+          "x_m": 1.003864486035624,
+          "both_contact": true,
+          "radii_mm": [
+            6.133636122562412,
+            17.700920816633452
+          ]
+        }
+      },
+      "last_both_m": 1.4344716654053211,
+      "seconds": 12.56,
+      "max_tilt_deg": 20.262436765726804,
+      "reason": "ball_edge",
+      "name": "old_teacher",
+      "mu": 0.36446746630925014
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.2171699940094098,
+      "seconds": 2.7600000000000002,
+      "max_tilt_deg": 12.288810801030149,
+      "reason": "ball_edge_b",
+      "name": "old_teacher",
+      "mu": 0.392
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.22006017984103773,
+      "seconds": 2.7600000000000002,
+      "max_tilt_deg": 12.273948138595214,
+      "reason": "ball_edge_b",
+      "name": "old_teacher",
+      "mu": 0.416
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.45611109674890443,
+      "seconds": 5.28,
+      "max_tilt_deg": 12.258182918576878,
+      "reason": "ball_edge_b",
+      "name": "record_trained",
+      "mu": 0.224
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.3734348420543779,
+      "seconds": 4.44,
+      "max_tilt_deg": 12.15367764232897,
+      "reason": "ball_edge",
+      "name": "record_trained",
+      "mu": 0.272
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.43582517142720756,
+      "seconds": 5.1000000000000005,
+      "max_tilt_deg": 12.067338575518045,
+      "reason": "ball_other_contact_b",
+      "name": "record_trained",
+      "mu": 0.32
+    },
+    {
+      "seed": 12600381,
+      "gates": {
+        "flat_1m": {
+          "t": 9.64,
+          "progress_m": 1.00109014956402,
+          "x_m": 1.003864486035624,
+          "both_contact": true,
+          "radii_mm": [
+            6.133636122562412,
+            17.700920816633452
+          ]
+        }
+      },
+      "last_both_m": 1.4441667279127686,
+      "seconds": 12.540000000000001,
+      "max_tilt_deg": 26.31428356701078,
+      "reason": "ball_edge",
+      "name": "record_trained",
+      "mu": 0.36446746630925014
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.2171699940094098,
+      "seconds": 2.7600000000000002,
+      "max_tilt_deg": 12.288810801030149,
+      "reason": "ball_edge_b",
+      "name": "record_trained",
+      "mu": 0.392
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.22006017984103773,
+      "seconds": 2.7600000000000002,
+      "max_tilt_deg": 12.273948138595214,
+      "reason": "ball_edge_b",
+      "name": "record_trained",
+      "mu": 0.416
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.43111984507068535,
+      "seconds": 4.54,
+      "max_tilt_deg": 16.66040270400467,
+      "reason": "ball_edge",
+      "name": "high_trained",
+      "mu": 0.224
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.3908301521437181,
+      "seconds": 4.32,
+      "max_tilt_deg": 11.613361065227044,
+      "reason": "ball_edge",
+      "name": "high_trained",
+      "mu": 0.272
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.4133608431580634,
+      "seconds": 4.38,
+      "max_tilt_deg": 12.632909781943152,
+      "reason": "ball_edge",
+      "name": "high_trained",
+      "mu": 0.32
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.4048649647522393,
+      "seconds": 4.54,
+      "max_tilt_deg": 21.951415511744322,
+      "reason": "ball_edge",
+      "name": "high_trained",
+      "mu": 0.36446746630925014
+    },
+    {
+      "seed": 12600381,
+      "gates": {},
+      "last_both_m": 0.3843350702893261,
+      "seconds": 4.22,
+      "max_tilt_deg": 11.876044030292308,
+      "reason": "ball_edge",
+      "name": "high_trained",
+      "mu": 0.392
+    },
+    {
+      "seed": 12600381,
+      "gates": {
+        "flat_1m": {
+          "t": 8.94,
+          "progress_m": 1.0018149714094595,
+          "x_m": 1.0045893078810635,
+          "both_contact": true,
+          "radii_mm": [
+            41.5412145670669,
+            48.69675261339089
+          ]
+        }
+      },
+      "last_both_m": 1.0051864813875226,
+      "seconds": 8.98,
+      "max_tilt_deg": 28.885770131250577,
+      "reason": "ball_edge_b",
+      "name": "high_trained",
+      "mu": 0.416
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "natural_starts": 358,
+  "conditional": true,
+  "initial_sims": 1074,
+  "branches": 1284,
+  "best_initial": {
+    "seed": 15122711,
+    "base": "clear",
+    "scale": 1.0,
+    "extra": [],
+    "flat": false,
+    "slope": false,
+    "finish": false,
+    "m": 0.48950423455480646,
+    "s": 5.0600000000000005,
+    "why": "ball_edge_b",
+    "tilt": 13.438407501366862,
+    "torque": 0.2
+  },
+  "same_start_base": {
+    "flat_1m": false,
+    "slope_1m": false,
+    "finish_2p5": false,
+    "valid_peak_m": 0.48122513032259284,
+    "last_both_m": 0.48122513032259284,
+    "seconds": 6.1000000000000005,
+    "reason": "ball_edge",
+    "max_tilt_deg": 13.840006612216778,
+    "distance_m": 0.48291073883803687,
+    "success": false,
+    "gates": {},
+    "stable_finish_s": 0.0,
+    "seed": 15387848,
+    "track": "combined",
+    "material": "original",
+    "scale": 1.0,
+    "fork_sha": null,
+    "torque_nm": 0.2
+  },
+  "selected": {
+    "flat_1m": true,
+    "slope_1m": false,
+    "finish_2p5": false,
+    "valid_peak_m": 1.234882933925239,
+    "last_both_m": 1.234882933925239,
+    "seconds": 12.92,
+    "reason": "ball_edge_b",
+    "max_tilt_deg": 13.840006612216778,
+    "distance_m": 1.2357169607379577,
+    "success": false,
+    "gates": {
+      "flat_1m": {
+        "t": 10.26,
+        "progress_m": 1.0042145357074233,
+        "x_m": 1.0069326276061077,
+        "both_contact": true,
+        "radii_mm": [
+          13.08358670442266,
+          15.269326311124475
+        ]
+      }
+    },
+    "stable_finish_s": 0.0,
+    "seed": 15387848,
+    "track": "combined",
+    "material": "original",
+    "scale": 1.0,
+    "fork_sha": null,
+    "torque_nm": 0.2
+  },
+  "first_changed_tick": 87,
+  "identical_prefix_last_tick": 87,
+  "prefix_pose_sha": "c7b503daf121fc0d79aa66a0a45b8ea4f240cdc63863f63da41e50f4f6b16337",
+  "gates": {
+    "flat_1m": {
+      "t": 10.26,
+      "progress_m": 1.0042145357074233,
+      "x_m": 1.0069326276061077,
+      "both_contact": true,
+      "radii_mm": [
+        13.08358670442266,
+        15.269326311124475
+      ]
+    }
+  },
+  "material": 0.224
+}

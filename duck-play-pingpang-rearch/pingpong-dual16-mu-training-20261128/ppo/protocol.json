@@ -1,0 +1,29 @@
+{
+  "epochs": 24,
+  "episodes_per_epoch": 48,
+  "extra_features": [
+    "separation_speed",
+    "edge_margin",
+    "projected_margin",
+    "gait_sine",
+    "gait_cosine"
+  ],
+  "conditions": [
+    "high",
+    "wide",
+    "nominal"
+  ],
+  "dev_start": 17200000,
+  "checkpoint_start": 17210000,
+  "checkpoint_n": 96,
+  "ranking": [
+    "finish",
+    "slope",
+    "flat",
+    "half",
+    "quarter",
+    "both2",
+    "mean"
+  ],
+  "warm_parent": "../../pingpong-dual16-antigravity-20261128/rl_route/selected.json"
+}

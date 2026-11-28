@@ -1,0 +1,139 @@
+{
+  "trees": {
+    "0": {
+      "feature": 4,
+      "threshold": 0.020141026448882854,
+      "left": {
+        "action": 5,
+        "examples": 34
+      },
+      "right": {
+        "action": 1,
+        "examples": 134
+      }
+    }
+  },
+  "history": {
+    "0": {
+      "trained_states": 168,
+      "scores": [
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 22,
+          "mean_score": 0.10451949626625054
+        },
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 22,
+          "mean_score": 0.10451949626625054
+        },
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 22,
+          "mean_score": 0.10696884698504364
+        },
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 22,
+          "mean_score": 0.10548917190151694
+        },
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 22,
+          "mean_score": 0.10539779161335386
+        }
+      ],
+      "selected": 2
+    },
+    "35": {
+      "trained_states": 185,
+      "scores": [
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 22,
+          "mean_score": 0.10696884698504364
+        },
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 22,
+          "mean_score": 0.1067583994312378
+        },
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 21,
+          "mean_score": 0.10371852976095375
+        },
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 19,
+          "mean_score": 0.09894567092707274
+        },
+        {
+          "n": 80,
+          "finish": 0,
+          "slope": 0,
+          "flat": 0,
+          "half": 0,
+          "both2": 17,
+          "mean_score": 0.09428333199474118
+        }
+      ],
+      "selected": 0
+    }
+  },
+  "experts": [
+    "medium",
+    "phase_08",
+    "turn_02",
+    "intercept_05",
+    "pressure_11",
+    "phase_24"
+  ],
+  "cues": [
+    "span",
+    "separation_rate",
+    "relative_side_speed",
+    "edge_margin",
+    "projected_edge",
+    "centre_forward",
+    "centre_lateral",
+    "edge_closing_speed",
+    "tilt_forward"
+  ]
+}

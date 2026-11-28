@@ -1,0 +1,11 @@
+{
+  "n": 126,
+  "seed": 17048023,
+  "actors": [
+    "medium",
+    "osc_06"
+  ],
+  "max_diff_m_s": 5.811323644522304e-17,
+  "reference": "MuJoCo real contact-point translational Jacobian × full generalized velocities on each participating body",
+  "material": "high"
+}

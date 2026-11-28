@@ -1,0 +1,366 @@
+[
+  {
+    "layer": 0,
+    "branches": 75,
+    "best": 1.2119240184485012,
+    "s": 13.18,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 627,
+        "sha": "f74b9d5346ce5eab6e4e77faa581c6985aa40868d2afc70157eaddcc431d116f"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 593,
+        "sha": "95f8cf179d95e25fcbbeae3eac0105d3e2d01f498f8a0172da7a6766b59a9969"
+      },
+      {
+        "slot": 2,
+        "seed": 15233602,
+        "tick": 415,
+        "sha": "71c032ef1ddcda0c180e37ca768d3e8d58ffa5094151c631aa329f8a6a01d44d"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "branches": 75,
+    "best": 1.2133904931618011,
+    "s": 13.200000000000001,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 630,
+        "sha": "c2e8ec6232c3325546eee73a914acbf307ed50c1ea070616798886b1296102f3"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 596,
+        "sha": "064d5d58537995631a8e40f64a4759823043aa3ea49a568d9bf60b37ff50b905"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 533,
+        "sha": "12c3e84ae782898eaa141a19aef5dcf5e8f5e4d93dd21a37b6823f791c51081a"
+      }
+    ]
+  },
+  {
+    "layer": 2,
+    "branches": 75,
+    "best": 1.2265237934045954,
+    "s": 13.32,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 613,
+        "sha": "d15f87864a5ba43ec5b6e425451e642858348a5dd0a40175ddf61d4445a46e58"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 562,
+        "sha": "d3c8f13e37b390c9e13667a2967f117f99a821efe33328241eaa76170ef5e9f7"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 461,
+        "sha": "07963cc38bb91ad11e793116996ec11afbc5ed919721d2254bd9be7d1ecb214b"
+      }
+    ]
+  },
+  {
+    "layer": 3,
+    "branches": 75,
+    "best": 1.2266347051584425,
+    "s": 13.32,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 637,
+        "sha": "8f7ee2bd48c91e95c51b6ba6b1cd54764bc8822b1287b5a2d9aaa7bc8b6572f3"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 597,
+        "sha": "78cb77ce362f4fa9e9a57ea27aa55c96d31b7875d30a2dfe0bcfca23fefe557f"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 537,
+        "sha": "4c83ccc2151eb68fd951c12e3e337742348929878c4616822d1b47489f9c5482"
+      }
+    ]
+  },
+  {
+    "layer": 4,
+    "branches": 75,
+    "best": 1.234735418090021,
+    "s": 13.34,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 619,
+        "sha": "79edb6fe6e1e10a72624590dcdfcce70ee57339c54193e36e425c0880a9ba416"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 568,
+        "sha": "d28334d2836ae721cda35caae5b2764d59b20acb6a33d13644fc0a49d057f8a6"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 469,
+        "sha": "51bc6104b9bcecb1779bce1b865f062d6c6be058e3df5ab7ba4fd02842e7075e"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "branches": 75,
+    "best": 1.2387234511348273,
+    "s": 13.38,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 638,
+        "sha": "1ee2addff27feecbec381105a2d7482fcfb9584fbd79671423aa8f3c7e6e7295"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 602,
+        "sha": "db94f872ef2a8cc5aa7938693690434d25a72a96225b2d0248882dd08053e7af"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 540,
+        "sha": "8412dda346ed10a8a7a1b413bd2fe8dbc4de5905c3b7eb46b66b74ff45711134"
+      }
+    ]
+  },
+  {
+    "layer": 6,
+    "branches": 75,
+    "best": 1.2421842675487824,
+    "s": 13.32,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 640,
+        "sha": "481e9f283b5319da826e6a2360c3b54eb085d3ac4e554a6000ece3f793a234d1"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 604,
+        "sha": "79b8ac8e4be668a7241410b9f8623aa13c374a73c98ebb6165ea0b2fcba205ff"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 540,
+        "sha": "8412dda346ed10a8a7a1b413bd2fe8dbc4de5905c3b7eb46b66b74ff45711134"
+      }
+    ]
+  },
+  {
+    "layer": 7,
+    "branches": 75,
+    "best": 1.2437188520062619,
+    "s": 13.34,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 637,
+        "sha": "77ac0d3483566d561f256687ecbd22d17ae80572410dba96f5b91d006ae23734"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 606,
+        "sha": "85aae36bd96d7b81f210c03a9cf5737f20bd6b35cc8953b7a9617fc0d89fbc9a"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 542,
+        "sha": "cfb9efd788df406fda30afee519233c4d671cdaca58033068105e55faf60f119"
+      }
+    ]
+  },
+  {
+    "layer": 8,
+    "branches": 75,
+    "best": 1.2470710013070252,
+    "s": 13.26,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 620,
+        "sha": "17c3e6bc58bc9d8565a13a00bf6c744759155551ff82a5355c0f11df0ceb48c5"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 570,
+        "sha": "4dbefa4c70f7020dbdad5e0150cb6a41ef6fe63b393702add0c30c31faef588c"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 466,
+        "sha": "5e05083196a11a71c454938196bdcb976fa36b27c95e8c95f6fe5fd3de4e2202"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "branches": 75,
+    "best": 1.2470710013070252,
+    "s": 13.26,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 634,
+        "sha": "7754c913dba84f9090c741d856b8aeae4758f94d07c66d10d264a03595f69d8f"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 604,
+        "sha": "5fc06fa2f2aaeeefd96e3eef32e3fe4cbe07fbd158709e1d6099a3e50a692ee2"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 539,
+        "sha": "9b62e6aeecb00ada06ef7c5dafc4f76bfd51aa0b1490c20d3ee830297acef8ba"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "branches": 75,
+    "best": 1.2476141813724952,
+    "s": 13.280000000000001,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 616,
+        "sha": "0bab3233d8fa203fdd16a0fc02ad7e5362c4164cab2bb817c4acfed4fcdfaa3c"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 570,
+        "sha": "4dbefa4c70f7020dbdad5e0150cb6a41ef6fe63b393702add0c30c31faef588c"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 463,
+        "sha": "07dc7bb6ffb0f8b2b18d92a2aa809b6992393509cfe4b1fdd995c93e0674a898"
+      }
+    ]
+  },
+  {
+    "layer": 11,
+    "branches": 75,
+    "best": 1.2481824452225958,
+    "s": 13.36,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 617,
+        "sha": "ce704b9b1b28fb7ce26eaa0cc1b86561649033c69f43f213e6f30cbd0fcd3981"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 570,
+        "sha": "4dbefa4c70f7020dbdad5e0150cb6a41ef6fe63b393702add0c30c31faef588c"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 463,
+        "sha": "07dc7bb6ffb0f8b2b18d92a2aa809b6992393509cfe4b1fdd995c93e0674a898"
+      }
+    ]
+  },
+  {
+    "layer": 12,
+    "branches": 75,
+    "best": 1.249519739036862,
+    "s": 13.34,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 621,
+        "sha": "d19273239fa25c60b6f6e33b056b7aaf2a37d6121391ed3d1f9282cd509bbb49"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 570,
+        "sha": "4dbefa4c70f7020dbdad5e0150cb6a41ef6fe63b393702add0c30c31faef588c"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 466,
+        "sha": "5e05083196a11a71c454938196bdcb976fa36b27c95e8c95f6fe5fd3de4e2202"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "branches": 75,
+    "best": 1.2500622719477126,
+    "s": 13.38,
+    "proofs": [
+      {
+        "slot": 0,
+        "seed": 15387848,
+        "tick": 620,
+        "sha": "b762596cac54c0e45619d7da3c148c8d10286c447f8602f2904a3829e37f6910"
+      },
+      {
+        "slot": 1,
+        "seed": 15387848,
+        "tick": 570,
+        "sha": "4dbefa4c70f7020dbdad5e0150cb6a41ef6fe63b393702add0c30c31faef588c"
+      },
+      {
+        "slot": 2,
+        "seed": 15387848,
+        "tick": 468,
+        "sha": "c7c1d2321e907d8e9e8c5cf0a88ad20d5e3bf28ed457d1542dfcb53c03512448"
+      }
+    ]
+  }
+]

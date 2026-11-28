@@ -1,0 +1,33 @@
+{
+  "hashes": {
+    "approach/high/result.json": "b8de315ebc6261ec146cc1ebbf2039202721ab3fa016a79489a5215c33ebb3a6",
+    "qualify.py": "c15f2e58911507fe457d0ae178534ebcba87fdbceaceb708ddbaa7fd9ff41bb7",
+    "material.py": "b5ceb557f0b110e497153b6ce15977886e4911e059a822ea1475c49f5ce1b15f"
+  },
+  "scores": {
+    "high": {
+      "n": 80,
+      "flat": 0,
+      "slope": 0,
+      "finish": 0,
+      "both2": 14,
+      "half": 0,
+      "quarter": 3,
+      "mean_m": 0.05812242573552112,
+      "max_m": 0.26137737366117847,
+      "best_seed": 17400106
+    },
+    "wide": {
+      "n": 80,
+      "flat": 0,
+      "slope": 0,
+      "finish": 0,
+      "both2": 14,
+      "half": 0,
+      "quarter": 2,
+      "mean_m": 0.06058441551617422,
+      "max_m": 0.2966025567787283,
+      "best_seed": 17400106
+    }
+  }
+}

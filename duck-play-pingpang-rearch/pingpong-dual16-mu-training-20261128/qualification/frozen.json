@@ -1,0 +1,74 @@
+{
+  "winner": "medium",
+  "hashes": {
+    "qualify.py": "c15f2e58911507fe457d0ae178534ebcba87fdbceaceb708ddbaa7fd9ff41bb7",
+    "material.py": "b5ceb557f0b110e497153b6ce15977886e4911e059a822ea1475c49f5ce1b15f",
+    "opening/train_opening.py": "fdcd7b6ea6794ece395ddcdbde5ef803a8f3f57bce1cd9befd8bed64cc7f0366"
+  },
+  "comparison": [
+    "medium",
+    "opening",
+    "ppo",
+    "decisions",
+    "high_schedule",
+    "record_schedule"
+  ],
+  "score": {
+    "medium": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      31,
+      0.131514211564567
+    ],
+    "opening": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      58,
+      0.1406740329524143
+    ],
+    "ppo": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      35,
+      0.13911728641549004
+    ],
+    "decisions": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      58,
+      0.1423324277706785
+    ],
+    "high_schedule": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      28,
+      0.11870684125169534
+    ],
+    "record_schedule": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      29,
+      0.11965612939168567
+    ]
+  },
+  "first_seed": 17410000,
+  "n": 300
+}

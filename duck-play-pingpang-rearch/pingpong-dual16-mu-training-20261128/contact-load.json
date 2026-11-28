@@ -1,0 +1,371 @@
+{
+  "arms": {
+    "nominal": {
+      "n": 16,
+      "samples": 16055,
+      "fraction_near_limit": 0.02447835565244472,
+      "median_of_run_medians": 0.055889083937753464
+    },
+    "high": {
+      "n": 16,
+      "samples": 16035,
+      "fraction_near_limit": 0.01216089803554724,
+      "median_of_run_medians": 0.03896737044172028
+    }
+  },
+  "rows": [
+    {
+      "seed": 17276000,
+      "material": "nominal",
+      "points": 831,
+      "near_limit": 1,
+      "median_ratio": 0.025955845341278934,
+      "p90_ratio": 0.5493257221953277,
+      "distance": 0.019283839120832914,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276000,
+      "material": "high",
+      "points": 849,
+      "near_limit": 0,
+      "median_ratio": 0.02067038136284017,
+      "p90_ratio": 0.41331194439575275,
+      "distance": 0.017234223020535365,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276001,
+      "material": "nominal",
+      "points": 698,
+      "near_limit": 0,
+      "median_ratio": 0.053770665353373714,
+      "p90_ratio": 0.30779531277283567,
+      "distance": 0.010778000018133286,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276001,
+      "material": "high",
+      "points": 711,
+      "near_limit": 0,
+      "median_ratio": 0.04110220622704015,
+      "p90_ratio": 0.2322524037296137,
+      "distance": 0.010762310359230545,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276002,
+      "material": "nominal",
+      "points": 662,
+      "near_limit": 0,
+      "median_ratio": 0.045992546803554274,
+      "p90_ratio": 0.313147670740891,
+      "distance": 0.006821290859017528,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276002,
+      "material": "high",
+      "points": 678,
+      "near_limit": 0,
+      "median_ratio": 0.03529640184518863,
+      "p90_ratio": 0.24001005429780775,
+      "distance": 0.0075729192217476645,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276003,
+      "material": "nominal",
+      "points": 1578,
+      "near_limit": 31,
+      "median_ratio": 0.2447496745520945,
+      "p90_ratio": 0.7251444214974182,
+      "distance": 0.08704262031268839,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276003,
+      "material": "high",
+      "points": 1348,
+      "near_limit": 7,
+      "median_ratio": 0.15810787310017804,
+      "p90_ratio": 0.5313299274343581,
+      "distance": 0.06598915608367541,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276004,
+      "material": "nominal",
+      "points": 1211,
+      "near_limit": 2,
+      "median_ratio": 0.20466949195436196,
+      "p90_ratio": 0.6549713659718184,
+      "distance": 0.05434805888510554,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276004,
+      "material": "high",
+      "points": 1239,
+      "near_limit": 0,
+      "median_ratio": 0.16090197425677613,
+      "p90_ratio": 0.504861819108574,
+      "distance": 0.054406331270603105,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276005,
+      "material": "nominal",
+      "points": 831,
+      "near_limit": 0,
+      "median_ratio": 0.02825706906415925,
+      "p90_ratio": 0.5780473094815876,
+      "distance": 0.018472291786289355,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276005,
+      "material": "high",
+      "points": 847,
+      "near_limit": 0,
+      "median_ratio": 0.02194465913877928,
+      "p90_ratio": 0.43060797989819777,
+      "distance": 0.017941297132248846,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276006,
+      "material": "nominal",
+      "points": 2134,
+      "near_limit": 282,
+      "median_ratio": 0.35036812846304105,
+      "p90_ratio": 0.9738899786168562,
+      "distance": 0.08445587716147811,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276006,
+      "material": "high",
+      "points": 2170,
+      "near_limit": 175,
+      "median_ratio": 0.26628781718404254,
+      "p90_ratio": 0.8313498817964404,
+      "distance": 0.08486528247942174,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276007,
+      "material": "nominal",
+      "points": 676,
+      "near_limit": 1,
+      "median_ratio": 0.036389277835550043,
+      "p90_ratio": 0.29506308612486165,
+      "distance": 0.0073435999785817566,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276007,
+      "material": "high",
+      "points": 692,
+      "near_limit": 1,
+      "median_ratio": 0.02797995533989322,
+      "p90_ratio": 0.22341847397930706,
+      "distance": 0.0073391911051220015,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276008,
+      "material": "nominal",
+      "points": 745,
+      "near_limit": 0,
+      "median_ratio": 0.05800750252213321,
+      "p90_ratio": 0.3585739942320538,
+      "distance": 0.011019540409843629,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276008,
+      "material": "high",
+      "points": 758,
+      "near_limit": 0,
+      "median_ratio": 0.04481713894627564,
+      "p90_ratio": 0.2754860583524752,
+      "distance": 0.011024313434607014,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276009,
+      "material": "nominal",
+      "points": 902,
+      "near_limit": 0,
+      "median_ratio": 0.06634711457672138,
+      "p90_ratio": 0.5066839816813312,
+      "distance": 0.02973924577755881,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276009,
+      "material": "high",
+      "points": 927,
+      "near_limit": 0,
+      "median_ratio": 0.036832534656400406,
+      "p90_ratio": 0.39383095452063915,
+      "distance": 0.029134807476342017,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276010,
+      "material": "nominal",
+      "points": 720,
+      "near_limit": 0,
+      "median_ratio": 0.04058776667246255,
+      "p90_ratio": 0.30998303804092137,
+      "distance": 0.009536146452781936,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276010,
+      "material": "high",
+      "points": 733,
+      "near_limit": 0,
+      "median_ratio": 0.03159171603294535,
+      "p90_ratio": 0.2441752132826896,
+      "distance": 0.009541650894411263,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276011,
+      "material": "nominal",
+      "points": 968,
+      "near_limit": 0,
+      "median_ratio": 0.09578567554630753,
+      "p90_ratio": 0.6022578323615077,
+      "distance": 0.03515590391950177,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276011,
+      "material": "high",
+      "points": 982,
+      "near_limit": 0,
+      "median_ratio": 0.07864168899153219,
+      "p90_ratio": 0.471439351632767,
+      "distance": 0.03521258530932192,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276012,
+      "material": "nominal",
+      "points": 567,
+      "near_limit": 0,
+      "median_ratio": 0.03938655768972106,
+      "p90_ratio": 0.09021713144174937,
+      "distance": 0.004924641347241087,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276012,
+      "material": "high",
+      "points": 574,
+      "near_limit": 0,
+      "median_ratio": 0.03145787303223713,
+      "p90_ratio": 0.07010172838788725,
+      "distance": 0.0030923619569271405,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276013,
+      "material": "nominal",
+      "points": 1990,
+      "near_limit": 76,
+      "median_ratio": 0.28804829133268306,
+      "p90_ratio": 0.7784481599069804,
+      "distance": 0.14514563500578323,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276013,
+      "material": "high",
+      "points": 1942,
+      "near_limit": 12,
+      "median_ratio": 0.2073470010036781,
+      "p90_ratio": 0.5736070797812659,
+      "distance": 0.13616666089557763,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276014,
+      "material": "nominal",
+      "points": 910,
+      "near_limit": 0,
+      "median_ratio": 0.16266169764900806,
+      "p90_ratio": 0.47182928397888313,
+      "distance": 0.028999775060361832,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276014,
+      "material": "high",
+      "points": 931,
+      "near_limit": 0,
+      "median_ratio": 0.12528160988534498,
+      "p90_ratio": 0.36524582242116543,
+      "distance": 0.028986066059851108,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276015,
+      "material": "nominal",
+      "points": 632,
+      "near_limit": 0,
+      "median_ratio": 0.028540864022101067,
+      "p90_ratio": 0.2911608801248488,
+      "distance": 0.006116933971942943,
+      "flat": false,
+      "finish": false
+    },
+    {
+      "seed": 17276015,
+      "material": "high",
+      "points": 654,
+      "near_limit": 0,
+      "median_ratio": 0.021927160629570397,
+      "p90_ratio": 0.22442928591825453,
+      "distance": 0.006732478320710091,
+      "flat": false,
+      "finish": false
+    }
+  ],
+  "normal_force_filter_N": 1e-05
+}

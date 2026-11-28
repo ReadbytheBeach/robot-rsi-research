@@ -1,0 +1,40 @@
+{
+  "mu": [
+    0.416,
+    0.416
+  ],
+  "row": {
+    "flat_1m": false,
+    "slope_1m": true,
+    "finish_2p5": false,
+    "valid_peak_m": 1.0293184088893093,
+    "last_both_m": 1.0285482090628129,
+    "seconds": 10.94,
+    "reason": "completed",
+    "max_tilt_deg": 13.098414115820251,
+    "distance_m": 1.0285482090628129,
+    "success": true,
+    "gates": {
+      "slope_1m": {
+        "t": 9.64,
+        "progress_m": 1.0001896729114121,
+        "x_m": 1.0001299585816452,
+        "both_contact": true,
+        "radii_mm": [
+          36.2018120375943,
+          41.905865674776834
+        ]
+      }
+    },
+    "stable_finish_s": 1.0,
+    "seed": 14552505,
+    "track": "incline",
+    "material": "original",
+    "scale": 1.0241080481236784,
+    "fork_sha": null,
+    "torque_nm": 0.2
+  },
+  "source": "sprint-best.json",
+  "trace_sha256": "68af0c74ca31dc99a29f9246eda5ed6a1a8559aac0e10715de927979b506bcd0",
+  "video_sha256": "d4b96c43964a178eceff255bbca57cff87852fccbe84bf03cdc50c4e3e311c62"
+}

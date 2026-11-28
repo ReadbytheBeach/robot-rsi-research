@@ -25,6 +25,11 @@ indexed_on: "2026-11-27"
 [返回总目录 · Research Index](../README.md)
 <!-- END GENERATED READING SUMMARY -->
 
+## 2026-11-28 · 双球全身步行与坡道停车
+
+40 克平拍同时承载两颗 16 毫米自由球。最高滑动摩擦系数 0.416 在一个开发起点完成独立 1° 坡道一米并停车；低摩擦组在连续赛道的开发起点走到 1.250 米。正式 2.5 米路线的全新起点验收为 0/300，目标为 90%。[训练记录、原速视频与验收数据](pingpong-dual16-mu-training-20261128/README.md)
+
+
 MicroDuck 用鸭嘴固定轻型球拍，通过头部俯仰和侧倾，把滚动的乒乓球拉回拍心。这个 MuJoCo 原型使用 Pollen Robotics 的 MicroDuck 模型，可在 CPU 上运行固定躯干的稳球实验、训练 PPO 并导出演示视频。
 
 - [10 秒 PD + PPO 仿真回放](media/microduck-pingpong-ppo.mp4)

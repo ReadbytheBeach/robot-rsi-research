@@ -1,0 +1,14 @@
+{
+  "index": 24,
+  "spec": {
+    "amplitude_m": 0.004075857831413893,
+    "frequency_hz": 3.0378596952152783,
+    "phase": 1.9617698861400141,
+    "stance_only": true,
+    "differential": 0.792477848936947,
+    "early": false,
+    "pace": -0.20877489710205985,
+    "follow": 0.8
+  },
+  "comparison": 0
+}

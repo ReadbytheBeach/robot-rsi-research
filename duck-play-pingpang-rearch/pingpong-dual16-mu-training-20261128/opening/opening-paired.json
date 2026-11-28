@@ -1,0 +1,48 @@
+{
+  "seed": 17042149,
+  "selection": "median distance change among holdout high-mu pairs gaining simultaneous contact at 2 s",
+  "n_gain_cases": 23,
+  "runs": {
+    "medium": {
+      "name": "medium",
+      "material": "high",
+      "track": "combined",
+      "seed": 17042149,
+      "flat": false,
+      "slope": false,
+      "finish": false,
+      "both2": false,
+      "qtr": false,
+      "half": false,
+      "m": 0.03545344270483437,
+      "both_peak": 0.03545344270483437,
+      "t": 1.02,
+      "reason": "ball_edge",
+      "mu_a": 0.416,
+      "mu_b": 0.416,
+      "torque": 0.2,
+      "active": 0
+    },
+    "phase_08": {
+      "name": "phase_08",
+      "material": "high",
+      "track": "combined",
+      "seed": 17042149,
+      "flat": false,
+      "slope": false,
+      "finish": false,
+      "both2": true,
+      "qtr": false,
+      "half": false,
+      "m": 0.09338732607735431,
+      "both_peak": 0.09338732607735431,
+      "t": 2.16,
+      "reason": "ball_edge_b",
+      "mu_a": 0.416,
+      "mu_b": 0.416,
+      "torque": 0.2,
+      "active": 101
+    }
+  },
+  "sha256": "972c4c358a4ef7d7e25980a1eef64dc4c5acba15e5b732289a4fedb3e55bb009"
+}

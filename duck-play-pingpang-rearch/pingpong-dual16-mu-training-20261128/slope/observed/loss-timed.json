@@ -1,0 +1,11 @@
+{
+  "trace": "loss-timed.npz",
+  "sha256": "b3ba5f5a921159e5bb53c599353f5e737b875a2b0763cdb3a6f9770a0ad5bc43",
+  "original_time_s": 4.74,
+  "frames": 120,
+  "rate": 25.0,
+  "track": "incline",
+  "fixed_grid": false,
+  "gates": {},
+  "reason": "ball_edge_b"
+}

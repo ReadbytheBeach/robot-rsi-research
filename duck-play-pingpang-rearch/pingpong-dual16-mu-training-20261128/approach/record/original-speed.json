@@ -1,0 +1,22 @@
+{
+  "trace": "record/trajectory.npz",
+  "sha256": "13c20fd61d6f497b2220191665081c2aefa35c53fbdc226cce11d086572bc97a",
+  "original_time_s": 12.540000000000001,
+  "frames": 315,
+  "rate": 25.0,
+  "track": "combined",
+  "fixed_grid": true,
+  "gates": {
+    "flat_1m": {
+      "t": 9.64,
+      "progress_m": 1.00109014956402,
+      "x_m": 1.003864486035624,
+      "both_contact": true,
+      "radii_mm": [
+        6.133636122562412,
+        17.700920816633452
+      ]
+    }
+  },
+  "reason": "ball_edge"
+}

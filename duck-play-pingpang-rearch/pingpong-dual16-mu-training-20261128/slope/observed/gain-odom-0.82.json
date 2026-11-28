@@ -1,0 +1,11 @@
+{
+  "trace": "gain-odom-0.82.npz",
+  "sha256": "e1093fc3e989a3563af33b1dbcc6c7a79e233d66be62151323a3eba03c45b5d5",
+  "original_time_s": 3.08,
+  "frames": 78,
+  "rate": 25.0,
+  "track": "incline",
+  "fixed_grid": false,
+  "gates": {},
+  "reason": "ball_edge_b"
+}
